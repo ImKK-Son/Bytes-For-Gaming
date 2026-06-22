@@ -143,7 +143,7 @@
           '</div>' +
           '<p class="card-desc">' + p.highlight + '</p>' +
           '<div class="card-price">' +
-            '<div><span class="price-from">from</span> <span class="price">' + money(p.bestPrice) + '</span></div>' +
+            '<div><span class="price-from">from</span> <span class="price" title="Estimated lowest price — open to compare stores">≈ ' + money(p.bestPrice) + '</span></div>' +
             '<button class="btn btn-primary btn-sm js-compare">Compare &amp; Buy</button>' +
           '</div>' +
         '</div>' +
@@ -162,8 +162,13 @@
     var badges = '';
     if (o.isLowest) badges += '<span class="tag tag-green">Lowest price</span>';
     if (o.isMostTrusted) badges += '<span class="tag tag-blue">Most trusted</span>';
+    if (o.exact) badges += '<span class="tag tag-exact" title="Links to the exact product at this exact price">exact</span>';
     var prot = '';
     for (var i = 0; i < 5; i++) { prot += i < o.consumerScore ? '🛡️' : '·'; }
+    // estimated prices get a "≈" so shoppers know it is not a live quote
+    var priceHtml = o.exact
+      ? money(o.price)
+      : '<span title="Estimated price — click through for the live price, or enable Live Prices for exact figures">≈ ' + money(o.price) + '</span>';
     return '<div class="offer' + (o.isOurPick ? ' offer-pick' : '') + '">' +
         '<div class="offer-main">' +
           '<div class="offer-name">' + escapeAttr(o.name) + ' ' + badges + '</div>' +
@@ -174,9 +179,9 @@
           '<div class="offer-blurb muted small">' + o.blurb + '</div>' +
         '</div>' +
         '<div class="offer-cta">' +
-          '<div class="offer-price">' + money(o.price) + '</div>' +
+          '<div class="offer-price">' + priceHtml + '</div>' +
           '<a class="btn btn-primary btn-sm" href="' + o.url + '" target="_blank" rel="noopener noreferrer">' +
-            (o.key === 'manufacturer' ? 'Buy Direct' : 'View Deal') + ' ↗</a>' +
+            (o.key === 'manufacturer' ? 'Buy Direct' : (o.exact ? 'Buy Now' : 'Find It')) + ' ↗</a>' +
         '</div>' +
       '</div>';
   }
@@ -202,7 +207,7 @@
       ? (source === 'affiliate'
           ? 'Live prices from our affiliate partners — some links are affiliate links and we may earn a commission at no extra cost to you. Prices and availability change fast; confirm the final total at checkout.'
           : 'Live results from a shopping API. Prices and availability change fast — always confirm the seller and final total at checkout.')
-      : 'Prices are typical estimates for comparison. Tap a store for live pricing and current deals, or enable Live Prices on the “How We Protect You” page. Always confirm the item is sold by the retailer (not a third-party reseller) before buying.';
+      : 'A “≈” marks an estimated price for comparison — tap that store to find the live price. The manufacturer “Buy Direct” link (marked <em>exact</em>) goes straight to the product at its real price. For exact prices on every store, enable Live Prices / affiliate feeds (see “How We Protect You”). Always confirm the item is sold by the retailer, not a third-party reseller.';
     return modeBadge + savingsLine + pickLine +
       '<div class="offers">' + offers.map(offerRow).join('') + '</div>' +
       '<p class="muted small modal-disclaimer">' + disclaimer + '</p>';

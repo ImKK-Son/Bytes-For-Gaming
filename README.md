@@ -137,6 +137,7 @@ Everything lives in `js/data.js` → the `PRODUCTS` array:
   features: ['Feature 1', 'Feature 2'],
   tags: ['mechanical', 'tkl', 'wired'],   // used by the quiz matcher
   valueNote: 'Buyer-focused note shown in the compare modal.',
+  url: 'https://www.razer.com/.../exact-product',  // OPTIONAL: exact "Buy Direct" page
   image: 'images/your-photo.jpg'          // OPTIONAL real photo (else illustration)
 }
 ```
@@ -145,6 +146,14 @@ Pricing, store offers, the lowest/most-trusted badges, the "Our Pick"
 recommendation, and the deal score are computed automatically. The live API
 path reuses the **same** `decorateOffers()` scoring, so estimated and live
 results behave identically.
+
+**On price/link specificity:** a static catalog can't show each store's exact
+live price, so in estimate mode retailer prices are marked with a **≈** and link
+to a precise product search. When you set a product's `url`, the **Manufacturer
+"Buy Direct"** offer links to that exact page at its real MSRP and is labeled
+**exact**. For exact prices *and* product-specific links on **every** store, turn
+on **affiliate feeds** (or the price API) — those carry the real per-retailer URL
+and price for each item.
 
 ### Images, in priority order
 1. **Live photo** from the price API (when live prices are on),

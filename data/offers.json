@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T15:45:52.789Z",
+  "generatedAt": "2026-06-22T19:48:35.025Z",
   "source": "affiliate-feeds",
   "products": {
     "razer-deathadder-v3": {
@@ -12,7 +12,7 @@
           "url": "https://www.amazon.com/s?k=Razer+DeathAdder+V3+Pro",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         },
         {
           "name": "Best Buy",
@@ -21,7 +21,7 @@
           "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+DeathAdder+V3+Pro",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         }
       ]
     },
@@ -35,7 +35,7 @@
           "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech+Pro+X+Superlight+2",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         },
         {
           "name": "Amazon",
@@ -44,7 +44,7 @@
           "url": "https://www.amazon.com/s?k=Logitech+G+Pro+X+Superlight+2",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         }
       ]
     },
@@ -58,7 +58,7 @@
           "url": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         },
         {
           "name": "Best Buy",
@@ -67,7 +67,7 @@
           "url": "https://www.bestbuy.com/site/searchpage.jsp?st=8BitDo+Ultimate+Controller",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         }
       ]
     },
@@ -81,7 +81,7 @@
           "url": "https://www.bestbuy.com/site/searchpage.jsp?st=HyperX+Cloud+II",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         },
         {
           "name": "Amazon",
@@ -90,7 +90,7 @@
           "url": "https://www.amazon.com/s?k=HyperX+Cloud+II",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         }
       ]
     },
@@ -104,7 +104,7 @@
           "url": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         },
         {
           "name": "Best Buy",
@@ -113,7 +113,7 @@
           "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Secretlab+Titan+Evo",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         }
       ]
     },
@@ -127,7 +127,7 @@
           "url": "https://www.bestbuy.com/site/searchpage.jsp?st=SteelSeries+QcK+XXL",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         },
         {
           "name": "Amazon",
@@ -136,7 +136,7 @@
           "url": "https://www.amazon.com/s?k=SteelSeries+QcK+XXL",
           "image": null,
           "inStock": true,
-          "updatedAt": "2026-06-22T15:45:52.789Z"
+          "updatedAt": "2026-06-22T19:48:35.025Z"
         }
       ]
     }

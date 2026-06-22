@@ -216,6 +216,31 @@
           { label: '$130+', max: 9999 }
         ]}
       ]
+    },
+
+    webcam: {
+      title: 'Webcam Finder', icon: '📷',
+      intro: 'Sharp, well-lit video for streams and calls — find your match.',
+      questions: [
+        { q: 'What resolution do you need?', options: [
+          { label: '1080p is plenty', tags: { '1080p': 3 } },
+          { label: 'I want 4K', tags: { '4k': 3, premium: 1 } }
+        ]},
+        { q: 'Mainly for…', options: [
+          { label: 'Streaming / content', tags: { streaming: 3 } },
+          { label: 'Video calls / meetings', tags: { calls: 3 } }
+        ]},
+        { q: 'What matters most?', options: [
+          { label: 'Looking good in dim light', tags: { lowlight: 3 } },
+          { label: 'Sharp, reliable autofocus', tags: { autofocus: 3 } },
+          { label: 'A privacy shutter', tags: { privacy: 3 } }
+        ]},
+        { q: 'Your budget?', budget: true, options: [
+          { label: 'Under $80', max: 80 },
+          { label: '$80 – $150', max: 150 },
+          { label: '$150+', max: 9999 }
+        ]}
+      ]
     }
   };
 

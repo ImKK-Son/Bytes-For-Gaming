@@ -183,6 +183,7 @@ section { padding: 56px 0; }
 .tag { display: inline-block; font-size: .68rem; font-weight: 800; padding: .15em .55em; border-radius: 999px; margin-left: 6px; vertical-align: middle; }
 .tag-green { background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.4); }
 .tag-blue { background: rgba(56,189,248,.15); color: var(--blue); border: 1px solid rgba(56,189,248,.4); }
+.tag-exact { background: rgba(139,92,246,.15); color: #c4b5fd; border: 1px solid rgba(139,92,246,.4); }
 
 /* ----------------------------- value props ----------------------------- */
 .value-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }

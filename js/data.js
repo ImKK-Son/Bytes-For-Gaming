@@ -76,7 +76,8 @@
     headset:    { label: 'Headsets',    icon: '🎧', blurb: 'Immersive audio and crystal-clear comms for long sessions.' },
     chair:      { label: 'Chairs',      icon: '🪑', blurb: 'Ergonomic seating that protects your back, not just your K/D.' },
     mousepad:   { label: 'Mousepads',   icon: '🟪', blurb: 'Speed, control, and desk-sized surfaces for pixel-perfect aim.' },
-    mic:        { label: 'Microphones', icon: '🎙️', blurb: 'Stream and chat with studio-grade clarity.' }
+    mic:        { label: 'Microphones', icon: '🎙️', blurb: 'Stream and chat with studio-grade clarity.' },
+    webcam:     { label: 'Webcams',     icon: '📷', blurb: 'Sharp, well-lit video for streaming and team calls.' }
   };
 
   /* ---------------------------------------------------------
@@ -379,6 +380,313 @@
       features: ['Four polar patterns', 'Onboard gain + mute', 'Plug-and-play USB', 'Sturdy desktop stand'],
       tags: ['usb', 'cardioid', 'streaming', 'podcast', 'plugplay', 'gain', 'budget'],
       valueNote: 'Frequently on sale; a versatile workhorse for streams and calls.'
+    },
+
+    /* ---------------- CONTROLLERS (more) ---------------- */
+    {
+      id: 'sony-dualsense-edge', name: 'Sony DualSense Edge Wireless Controller', brand: 'Sony', category: 'controller',
+      price: 199.99, msrp: 199.99, rating: 4.3,
+      url: 'https://www.playstation.com/en-us/accessories/dualsense-edge-wireless-controller/',
+      highlight: 'The pro PS5 pad: swappable sticks, back buttons, and on-the-fly tuning.',
+      features: ['Replaceable stick modules', 'Mappable back buttons', 'Adjustable triggers', 'Carry case + braided cable'],
+      tags: ['playstation', 'pc', 'wireless', 'premium', 'pro', 'customizable', 'comfortGrip'],
+      valueNote: 'Expensive, but the only first-party pro controller for PS5 with replaceable sticks.'
+    },
+    {
+      id: 'xbox-elite-2-core', name: 'Xbox Elite Wireless Controller Series 2 Core', brand: 'Xbox', category: 'controller',
+      price: 129.99, msrp: 139.99, rating: 4.4,
+      url: 'https://www.xbox.com/en-US/accessories/controllers/elite-controller-series-2-core',
+      highlight: 'The Elite 2 experience for less — adjustable triggers and tension, paddles sold separately.',
+      features: ['Adjustable-tension sticks', 'Hair-trigger locks', 'Wrap-around grip', 'Rechargeable battery'],
+      tags: ['pc', 'xbox', 'wireless', 'premium', 'pro', 'customizable', 'comfortGrip'],
+      valueNote: 'Great if you want the Elite feel and will add the components pack later.'
+    },
+    {
+      id: 'razer-kishi-v2', name: 'Razer Kishi V2 Mobile Controller', brand: 'Razer', category: 'controller',
+      price: 99.99, msrp: 99.99, rating: 4.2,
+      url: 'https://www.razer.com/mobile-controllers/razer-kishi-v2',
+      highlight: 'Turns your phone into a real handheld with low-latency console-grade controls.',
+      features: ['Extendable bridge for most phones', 'Microswitch buttons', 'Passthrough charging', 'Razer Nexus app'],
+      tags: ['mobile', 'pc', 'wired', 'premium', 'comfortGrip'],
+      valueNote: 'The best pick for mobile and cloud gaming on a phone.'
+    },
+    {
+      id: '8bitdo-sn30-pro', name: '8BitDo SN30 Pro Bluetooth Controller', brand: '8BitDo', category: 'controller',
+      price: 44.99, msrp: 49.99, rating: 4.5,
+      highlight: 'Pocketable retro pad ideal for emulation, indies, and Switch on the go.',
+      features: ['Compact retro design', 'Bluetooth + USB-C', 'Rumble + motion', 'Custom profiles via app'],
+      tags: ['switch', 'pc', 'mobile', 'wireless', 'retro', 'budget', 'customizable', 'comfortGrip'],
+      valueNote: 'Tiny and cheap, but skip it for big-handed players or AAA console gaming.'
+    },
+
+    /* ---------------- KEYBOARDS (more) ---------------- */
+    {
+      id: 'razer-blackwidow-v4-pro', name: 'Razer BlackWidow V4 Pro', brand: 'Razer', category: 'keyboard',
+      price: 199.99, msrp: 229.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-pro',
+      highlight: 'Loaded full-size board with a command dial, macro keys, and plush wrist rest.',
+      features: ['Full-size + command dial', 'Razer mechanical switches', '8 macro keys', 'Magnetic wrist rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'tactile', 'clicky', 'premium'],
+      valueNote: 'For people who want every extra key and dial; overkill if you crave a clean desk.'
+    },
+    {
+      id: 'keychron-q1', name: 'Keychron Q1 (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 169.99, msrp: 199.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q1-qmk-custom-mechanical-keyboard',
+      highlight: 'A gasket-mounted, fully customizable enthusiast board with a premium typing feel.',
+      features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
+      tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
+      price: 139.99, msrp: 139.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
+      highlight: 'Slim low-profile wireless TKL that nails the basics for less than the G915.',
+      features: ['Low-profile switches', 'Lightspeed + Bluetooth', 'TKL layout', 'Long RGB battery life'],
+      tags: ['mechanical', 'lowprofile', 'tkl', 'wireless', 'rgb', 'linear', 'quiet', 'premium'],
+      valueNote: 'The smart-value low-profile wireless pick if the G915 is out of budget.'
+    },
+    {
+      id: 'corsair-k65-mini', name: 'Corsair K65 RGB Mini', brand: 'Corsair', category: 'keyboard',
+      price: 99.99, msrp: 109.99, rating: 4.4,
+      highlight: 'A 60% board that frees huge desk space for low-sensitivity FPS players.',
+      features: ['60% compact layout', 'Cherry MX switches', 'PBT keycaps', 'Detachable USB-C'],
+      tags: ['mechanical', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'Tiny footprint for aimers; the missing arrow/function keys take adjustment.'
+    },
+
+    /* ---------------- MICE (more) ---------------- */
+    {
+      id: 'razer-basilisk-v3', name: 'Razer Basilisk V3', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3',
+      highlight: 'Feature-packed ergonomic mouse with a tilt-scroll smart wheel — superb value.',
+      features: ['11 programmable buttons', 'Smart-reel free-spin wheel', 'Focus+ 26K sensor', 'Underglow RGB'],
+      tags: ['wired', 'ergonomic', 'mmo', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'One of the best all-round wired mice you can buy under $70.'
+    },
+    {
+      id: 'logi-g305', name: 'Logitech G305 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 39.99, msrp: 49.99, rating: 4.7,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g305-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'The budget wireless king — flawless sensor, AA battery, plays for months.',
+      features: ['HERO sensor', 'Lightspeed wireless', '~250h on one AA', 'Lightweight ~99g'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
+      valueNote: 'Unbeatable value for a reliable wireless gaming mouse.'
+    },
+    {
+      id: 'glorious-model-o2-wireless', name: 'Glorious Model O 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-o-2-wireless',
+      highlight: 'A refined ~68g wireless ultralight with a top-tier sensor at a fair price.',
+      features: ['~68g, no honeycomb', 'BAMF 2.0 sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Great mid-price ultralight that undercuts the big esports brands.'
+    },
+    {
+      id: 'razer-naga-v2-pro', name: 'Razer Naga V2 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 179.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-naga-v2-pro',
+      highlight: 'The ultimate MMO/MOBA mouse with swappable side plates (2, 6, or 12 buttons).',
+      features: ['Swappable side plates', 'Up to 19 programmable buttons', 'Focus Pro 30K sensor', 'HyperScroll wheel'],
+      tags: ['wireless', 'mmo', 'ergonomic', 'palmgrip', 'highdpi', 'premium', 'customizable'],
+      valueNote: 'Essential for serious MMO players; overkill (and pricey) for pure FPS.'
+    },
+
+    /* ---------------- HEADSETS (more) ---------------- */
+    {
+      id: 'hyperx-cloud-alpha', name: 'HyperX Cloud Alpha', brand: 'HyperX', category: 'headset',
+      price: 79.99, msrp: 99.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-gaming-headset',
+      highlight: 'Dual-chamber drivers and legendary comfort make this a wired value champ.',
+      features: ['Dual-chamber drivers', 'Detachable mic', 'Memory-foam + leatherette', 'Durable aluminum frame'],
+      tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'If you want wired sound quality on a budget, this is the one.'
+    },
+    {
+      id: 'steelseries-arctis-nova-7', name: 'SteelSeries Arctis Nova 7 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 149.99, msrp: 179.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-7-wireless',
+      highlight: 'The do-everything wireless headset: 2.4GHz + Bluetooth at once, great comfort.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.4,
+      highlight: 'Spatial-audio wireless headset with a broadcast-grade omni mic and floating headband.',
+      features: ['Dolby Atmos spatial audio', 'Broadcast omni mic', 'Floating-suspension headband', 'USB + Slipstream wireless'],
+      tags: ['wireless', 'hifi', 'surround', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Excellent mic quality for the price; best on PC/PS5.'
+    },
+    {
+      id: 'logi-g535', name: 'Logitech G535 Lightspeed', brand: 'Logitech G', category: 'headset',
+      price: 99.99, msrp: 119.99, rating: 4.4,
+      url: 'https://www.logitechg.com/en-us/products/gaming-audio/g535-wireless-gaming-headset.html',
+      highlight: 'A genuinely light wireless headset that disappears during long sessions.',
+      features: ['Only ~236g', 'Lightspeed wireless', 'Flip-to-mute mic', '~33h battery'],
+      tags: ['wireless', 'lightweight', 'comfortLongSession', 'detachableMic', 'budget'],
+      valueNote: 'Best for smaller heads and anyone who hates headset weight.'
+    },
+
+    /* ---------------- CHAIRS (more) ---------------- */
+    {
+      id: 'razer-enki', name: 'Razer Enki', brand: 'Razer', category: 'chair',
+      price: 299.99, msrp: 379.99, rating: 4.4,
+      url: 'https://www.razer.com/gaming-chairs/razer-enki',
+      highlight: 'Built for all-day comfort with a wide seat and built-in lumbar arch.',
+      features: ['Wide 110-degree seat edge', 'Built-in lumbar arch', 'Reactive head support', '152-degree recline'],
+      tags: ['ergonomic', 'lumbar', 'leather', 'recline', 'premium', 'bigtall'],
+      valueNote: 'A comfort-first alternative to the firmer Iskur.'
+    },
+    {
+      id: 'corsair-tc200', name: 'Corsair TC200', brand: 'Corsair', category: 'chair',
+      price: 369.99, msrp: 399.99, rating: 4.3,
+      highlight: 'Sturdy full-size chair in soft fabric or leatherette with 4D armrests.',
+      features: ['Fabric or leatherette', 'Memory-foam neck pillow', '4D armrests', '180-degree recline'],
+      tags: ['ergonomic', 'lumbar', 'fabric', 'leather', 'recline', 'premium'],
+      valueNote: 'A solid mid-premium option; compare against the Secretlab when on sale.'
+    },
+    {
+      id: 'herman-miller-vantum', name: 'Herman Miller Vantum Gaming Chair', brand: 'Herman Miller', category: 'chair',
+      price: 995.00, msrp: 1095.00, rating: 4.5,
+      url: 'https://www.hermanmiller.com/products/seating/gaming-chairs/vantum-gaming-chair/',
+      highlight: 'Ergonomic-first gaming chair tuned for a forward, leaned-in playing posture.',
+      features: ['Dynamic tilt + recline', 'Adjustable lumbar', 'Breathable suspension back', '12-year warranty'],
+      tags: ['ergonomic', 'lumbar', 'mesh', 'recline', 'premium', 'bigtall'],
+      valueNote: 'A true ergonomic chair; the 12-year warranty is the real value.'
+    },
+
+    /* ---------------- MOUSEPADS (more) ---------------- */
+    {
+      id: 'razer-goliathus-chroma', name: 'Razer Goliathus Extended Chroma', brand: 'Razer', category: 'mousepad',
+      price: 49.99, msrp: 59.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mouse-mats/razer-goliathus-extended-chroma',
+      highlight: 'A desk-sized cloth deskmat with a bright RGB border to tie a setup together.',
+      features: ['920 x 294 mm', 'Micro-textured cloth', 'RGB edge lighting', 'Non-slip base'],
+      tags: ['xl', 'desk', 'control', 'cloth', 'rgb', 'premium'],
+      valueNote: 'Pick this if you want RGB flair; cheaper plain pads perform the same.'
+    },
+    {
+      id: 'corsair-mm700-rgb', name: 'Corsair MM700 RGB Extended', brand: 'Corsair', category: 'mousepad',
+      price: 49.99, msrp: 59.99, rating: 4.6,
+      highlight: 'Extended RGB deskmat with a built-in USB hub for charging and dongles.',
+      features: ['930 x 400 mm', 'Three-zone RGB', 'Built-in 2-port USB hub', 'Spill-resistant surface'],
+      tags: ['xl', 'desk', 'control', 'cloth', 'rgb', 'premium', 'waterproof'],
+      valueNote: 'The USB pass-through hub is the standout feature here.'
+    },
+    {
+      id: 'hyperx-pulsefire-mat-xl', name: 'HyperX Pulsefire Mat XL', brand: 'HyperX', category: 'mousepad',
+      price: 24.99, msrp: 29.99, rating: 4.7,
+      highlight: 'A no-nonsense, great-value desk-sized control pad with stitched edges.',
+      features: ['Desk-sized coverage', 'Densely woven cloth', 'Anti-fray stitched edges', 'Non-slip rubber base'],
+      tags: ['xl', 'desk', 'control', 'cloth', 'budget'],
+      valueNote: 'All the pad most people need for under $30.'
+    },
+
+    /* ---------------- MICROPHONES (more) ---------------- */
+    {
+      id: 'hyperx-solocast', name: 'HyperX SoloCast', brand: 'HyperX', category: 'mic',
+      price: 49.99, msrp: 59.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-solocast-usb-microphone',
+      highlight: 'A tiny, no-fuss USB mic with tap-to-mute that punches above its price.',
+      features: ['USB plug-and-play', 'Tap-to-mute sensor', 'Cardioid pattern', 'Flexible swivel stand'],
+      tags: ['usb', 'cardioid', 'streaming', 'plugplay', 'budget'],
+      valueNote: 'The best cheap USB mic for new streamers and meetings.'
+    },
+    {
+      id: 'razer-seiren-v3-mini', name: 'Razer Seiren V3 Mini', brand: 'Razer', category: 'mic',
+      price: 44.99, msrp: 49.99, rating: 4.5,
+      url: 'https://www.razer.com/streaming-microphones/razer-seiren-v3-mini',
+      highlight: 'Compact supercardioid USB mic that rejects background noise on a budget.',
+      features: ['Supercardioid pickup', 'Tap-to-mute', 'Built-in shock absorption', 'Compact desk footprint'],
+      tags: ['usb', 'cardioid', 'streaming', 'plugplay', 'budget'],
+      valueNote: 'A clean upgrade from a headset mic for small desks.'
+    },
+    {
+      id: 'logi-yeti-gx', name: 'Logitech for Creators Yeti GX', brand: 'Logitech G', category: 'mic',
+      price: 149.99, msrp: 169.99, rating: 4.3,
+      url: 'https://www.logitechg.com/en-us/products/streaming-gear/yeti-gx-dynamic-microphone.html',
+      highlight: 'Dynamic RGB streaming mic with smart software gain and a rich broadcast tone.',
+      features: ['Dynamic cardioid capsule', 'LIGHTSYNC RGB', 'Smart gain in G HUB', 'USB-C'],
+      tags: ['usb', 'cardioid', 'streaming', 'podcast', 'gain', 'plugplay', 'premium'],
+      valueNote: 'A modern dynamic mic that fights room echo better than condensers.'
+    },
+
+    /* ---------------- WEBCAMS ---------------- */
+    {
+      id: 'logi-c920', name: 'Logitech C920 HD Pro Webcam', brand: 'Logitech G', category: 'webcam',
+      price: 59.99, msrp: 79.99, rating: 4.7,
+      url: 'https://www.logitech.com/en-us/products/webcams/c920-pro-hd-webcam.html',
+      highlight: 'The reliable 1080p workhorse that has anchored desks and streams for years.',
+      features: ['1080p/30 video', 'Dual stereo mics', 'Autofocus', 'Universal clip mount'],
+      tags: ['1080p', 'autofocus', 'calls', 'streaming', 'wired', 'budget'],
+      valueNote: 'Still the safe, affordable default for calls and starter streaming.'
+    },
+    {
+      id: 'razer-kiyo', name: 'Razer Kiyo', brand: 'Razer', category: 'webcam',
+      price: 69.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.razer.com/streaming-cameras/razer-kiyo',
+      highlight: 'A 1080p cam with a built-in ring light so you look good in any room.',
+      features: ['1080p/30 (720p/60)', 'Built-in adjustable ring light', 'Autofocus', 'Foldable design'],
+      tags: ['1080p', 'lowlight', 'autofocus', 'streaming', 'wired', 'budget'],
+      valueNote: 'The integrated ring light is a genuine win for dim setups.'
+    },
+    {
+      id: 'logi-brio-500', name: 'Logitech Brio 500', brand: 'Logitech G', category: 'webcam',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      url: 'https://www.logitech.com/en-us/products/webcams/brio-500-hd-webcam.html',
+      highlight: 'A sleek 1080p cam with auto light correction, framing, and a privacy shutter.',
+      features: ['1080p/30 with RightLight 4', 'Auto-framing Show Mode', 'Privacy shutter', 'USB-C magnetic mount'],
+      tags: ['1080p', 'autofocus', 'privacy', 'calls', 'wideangle', 'wired', 'budget'],
+      valueNote: 'A great modern upgrade over the C920 for hybrid work and casual streams.'
+    },
+    {
+      id: 'logi-streamcam', name: 'Logitech StreamCam', brand: 'Logitech G', category: 'webcam',
+      price: 129.99, msrp: 169.99, rating: 4.5,
+      url: 'https://www.logitech.com/en-us/products/webcams/streamcam.html',
+      highlight: 'Creator-focused 1080p/60 cam with smart auto-focus and vertical video.',
+      features: ['1080p/60 video', 'AI face-tracking autofocus', 'Portrait (vertical) mode', 'USB-C'],
+      tags: ['1080p', 'autofocus', 'streaming', 'wideangle', 'wired', 'premium'],
+      valueNote: 'The smooth 60fps and vertical mode make it a content-creator favorite.'
+    },
+    {
+      id: 'elgato-facecam', name: 'Elgato Facecam', brand: 'Corsair', category: 'webcam',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.elgato.com/us/en/p/facecam',
+      highlight: 'A true streaming cam with a premium Sony sensor and pro-grade software control.',
+      features: ['1080p/60, Sony STARVIS sensor', 'Studio-quality glass lens', 'Camera Hub manual controls', 'No autofocus hunting (fixed focus)'],
+      tags: ['1080p', 'lowlight', 'streaming', 'wired', 'premium'],
+      valueNote: 'Best image quality at 1080p for serious streamers who want manual control.'
+    },
+    {
+      id: 'razer-kiyo-pro', name: 'Razer Kiyo Pro', brand: 'Razer', category: 'webcam',
+      price: 99.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.razer.com/streaming-cameras/razer-kiyo-pro',
+      highlight: 'Adaptive-light-sensor 1080p/60 cam that stays sharp in tricky lighting.',
+      features: ['1080p/60 with HDR', 'Adaptive light sensor', 'Wide/standard FOV options', 'Uncompressed video support'],
+      tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wideangle', 'wired', 'premium'],
+      valueNote: 'Frequently discounted well below MSRP — a strong deal when it drops.'
+    },
+    {
+      id: 'logi-brio-4k', name: 'Logitech Brio 4K Pro Webcam', brand: 'Logitech G', category: 'webcam',
+      price: 169.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.html',
+      highlight: 'Premium 4K HDR webcam with excellent detail for streams and pro calls.',
+      features: ['4K Ultra HD + HDR', 'RightLight 3 low-light', 'Autofocus + 5x zoom', 'Privacy shutter included'],
+      tags: ['4k', 'autofocus', 'lowlight', 'calls', 'streaming', 'wideangle', 'wired', 'premium'],
+      valueNote: 'Choose 4K only if your upload and platform actually use it; otherwise 1080p saves money.'
+    },
+    {
+      id: 'razer-kiyo-pro-ultra', name: 'Razer Kiyo Pro Ultra', brand: 'Razer', category: 'webcam',
+      price: 249.99, msrp: 299.99, rating: 4.3,
+      url: 'https://www.razer.com/streaming-cameras/razer-kiyo-pro-ultra',
+      highlight: 'A large-sensor 4K webcam that rivals a mirrorless camera for depth and low light.',
+      features: ['Huge 1/1.2" Sony STARVIS 2 sensor', '4K/30 or 1080p/60', 'Stunning low-light depth', 'AI autofocus'],
+      tags: ['4k', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
+      valueNote: 'The best-looking webcam available — but premium-priced; overkill for calls.'
     }
   ];
 
@@ -483,22 +791,65 @@
     var offers = plan.map(function (row) {
       var r = RETAILERS[row.key];
       var price = tidyPrice(base * row.mult);
-      var url = row.key === 'manufacturer' ? brand.site : r.search(query);
+      // Manufacturer-direct links straight to the exact product page (when we
+      // have it), so its price (MSRP) matches what the brand actually charges.
+      // Other retailers use a precise product search in estimate mode; turning
+      // on affiliate feeds / the price API replaces these with exact links.
+      var isMfr = row.key === 'manufacturer';
+      var url = isMfr ? (product.url || brand.site) : r.search(query);
       return {
         key: row.key,
         name: r.name,
         consumerScore: r.consumerScore,
         blurb: r.blurb,
         price: price,
-        url: url
+        url: url,
+        exact: isMfr && !!product.url   // exact product + exact price
       };
     });
 
     return decorateOffers(offers);
   }
 
+  // Official manufacturer product pages for existing catalog items, so the
+  // "Buy Direct" link lands on the exact product (and its MSRP matches what
+  // the brand charges). New products above set `url` inline. Anything without
+  // a URL falls back to the brand homepage and is labeled an estimate.
+  var PRODUCT_URLS = {
+    '8bitdo-ultimate-bt': 'https://www.8bitdo.com/ultimate-bluetooth-controller/',
+    '8bitdo-pro2': 'https://www.8bitdo.com/pro2/',
+    'xbox-core': 'https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller',
+    'xbox-elite-2': 'https://www.xbox.com/en-US/accessories/controllers/elite-wireless-controller-series-2',
+    'sony-dualsense': 'https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/',
+    'razer-wolverine-v2': 'https://www.razer.com/console-controllers/razer-wolverine-v2-chroma',
+    'keychron-k2': 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
+    'logi-g915-tkl': 'https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless-keyboard.html',
+    'razer-huntsman-mini': 'https://www.razer.com/gaming-keyboards/razer-huntsman-mini',
+    'steelseries-apex-pro': 'https://steelseries.com/products/apex-pro-tkl',
+    'hyperx-alloy-origins': 'https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard',
+    'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
+    'razer-deathadder-v3': 'https://www.razer.com/gaming-mice/razer-deathadder-v3-pro',
+    'razer-viper-v2': 'https://www.razer.com/gaming-mice/razer-viper-v2-pro',
+    'logi-g502x': 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-gaming-mouse.html',
+    'steelseries-aerox-3': 'https://steelseries.com/products/aerox-3-wireless-2022',
+    'hyperx-cloud-2': 'https://hyperx.com/products/hyperx-cloud-ii-gaming-headset',
+    'razer-blackshark-v2-pro': 'https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro',
+    'steelseries-arctis-nova-pro': 'https://steelseries.com/products/arctis-nova-pro-wireless',
+    'logi-pro-x-2': 'https://www.logitechg.com/en-us/products/gaming-audio/pro-x-2-lightspeed-headset.html',
+    'secretlab-titan-evo': 'https://secretlab.co/products/titan-evo-2022-series',
+    'razer-iskur': 'https://www.razer.com/gaming-chairs/razer-iskur',
+    'herman-miller-embody': 'https://www.hermanmiller.com/products/seating/gaming-chairs/embody-gaming-chair/',
+    'steelseries-qck-xxl': 'https://steelseries.com/products/qck-xxl',
+    'logi-g840': 'https://www.logitechg.com/en-us/products/gaming-mouse-pads/g840-cloth-gaming-mousepad.html',
+    'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
+    'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
+    'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+  };
+
   // attach computed pricing to every product once
   PRODUCTS.forEach(function (p) {
+    if (!p.url && PRODUCT_URLS[p.id]) p.url = PRODUCT_URLS[p.id];
     p.pricing = buildOffers(p);
     p.bestPrice = p.pricing.lowest;
     // value rating: bigger spread + lower price vs msrp = better deal
@@ -520,7 +871,8 @@
     headset: 'images/headset.svg',
     chair: 'images/chair.svg',
     mousepad: 'images/mousepad.svg',
-    mic: 'images/mic.svg'
+    mic: 'images/mic.svg',
+    webcam: 'images/webcam.svg'
   };
 
   // Consistent search query for a product (used by links + the price API).

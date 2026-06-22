@@ -72,7 +72,8 @@
         consumerScore: meta.consumerScore,
         blurb: meta.blurb,
         price: price,
-        url: o.url || o.link || '#'
+        url: o.url || o.link || '#',
+        exact: true   // live/affiliate data points at the exact product + price
       };
     }).filter(function (o) { return typeof o.price === 'number' && o.price > 0 && /^https?:/.test(o.url); });
   }
