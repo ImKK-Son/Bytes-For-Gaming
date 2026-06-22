@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-06-22T15:45:52.789Z",
+  "source": "affiliate-feeds",
+  "products": {
+    "razer-deathadder-v3": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 149.99,
+          "salePrice": 119.99,
+          "url": "https://www.amazon.com/s?k=Razer+DeathAdder+V3+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 124.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+DeathAdder+V3+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        }
+      ]
+    },
+    "logi-superlight-2": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Best Buy",
+          "price": 124.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech+Pro+X+Superlight+2",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        },
+        {
+          "name": "Amazon",
+          "price": 159.99,
+          "salePrice": 129.99,
+          "url": "https://www.amazon.com/s?k=Logitech+G+Pro+X+Superlight+2",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        }
+      ]
+    },
+    "8bitdo-ultimate-bt": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 69.99,
+          "salePrice": 49.99,
+          "url": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 54.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=8BitDo+Ultimate+Controller",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        }
+      ]
+    },
+    "hyperx-cloud-2": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Best Buy",
+          "price": 79.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=HyperX+Cloud+II",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        },
+        {
+          "name": "Amazon",
+          "price": 99.99,
+          "salePrice": 84.99,
+          "url": "https://www.amazon.com/s?k=HyperX+Cloud+II",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        }
+      ]
+    },
+    "secretlab-titan-evo": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 619,
+          "salePrice": 549,
+          "url": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 564,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Secretlab+Titan+Evo",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        }
+      ]
+    },
+    "steelseries-qck-xxl": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Best Buy",
+          "price": 27.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=SteelSeries+QcK+XXL",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        },
+        {
+          "name": "Amazon",
+          "price": 34.99,
+          "salePrice": 29.99,
+          "url": "https://www.amazon.com/s?k=SteelSeries+QcK+XXL",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-06-22T15:45:52.789Z"
+        }
+      ]
+    }
+  }
+}

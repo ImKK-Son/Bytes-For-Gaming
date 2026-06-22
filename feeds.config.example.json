@@ -1,0 +1,69 @@
+{
+  "_help": "Copy this file to feeds.config.json, edit it, then run: node server/ingest-feeds.js  (writes data/offers.json). Any value may contain ${ENV_VARS} so credentials never live in the repo. A feed 'source' is { \"file\": \"...\" } or { \"url\": \"...\" }. Each 'map' value is a COLUMN name from the feed, or a literal value if prefixed with '='. Set offersFile: 'data/offers.json' in config.js to use the result on the site.",
+  "matchThreshold": 0.45,
+  "_overridesHelp": "Optional: pin a feed UPC/GTIN or SKU to an exact catalog product id for perfect matching.",
+  "overrides": {
+    "840031234567": "razer-deathadder-v3"
+  },
+  "feeds": [
+    {
+      "name": "Amazon (sample)",
+      "enabled": true,
+      "format": "csv",
+      "source": { "file": "feeds/sample/retailer-a.csv" },
+      "map": {
+        "retailer": "=Amazon",
+        "name": "product_name",
+        "brand": "brand",
+        "category": "category",
+        "price": "price",
+        "salePrice": "sale_price",
+        "url": "link",
+        "image": "image_url",
+        "upc": "upc",
+        "inStock": "availability"
+      }
+    },
+    {
+      "name": "Best Buy (sample)",
+      "enabled": true,
+      "format": "tsv",
+      "source": { "file": "feeds/sample/retailer-b.tsv" },
+      "map": {
+        "retailer": "=Best Buy",
+        "name": "title",
+        "brand": "manufacturer",
+        "category": "cat",
+        "price": "current_price",
+        "url": "buy_url",
+        "image": "img",
+        "upc": "gtin",
+        "inStock": "in_stock"
+      }
+    },
+    {
+      "_docs": "DISABLED EXAMPLE of a real affiliate-network feed (Impact / CJ / Rakuten / Awin / brand program). Set enabled:true, fill the URL + creds via env vars, and adjust the column map to the network's feed columns. 'deeplinkTemplate' wraps each product URL into your tracking link; {url} is URL-encoded and {keys} pull from 'params'.",
+      "name": "My Network Feed",
+      "enabled": false,
+      "format": "csv",
+      "source": {
+        "url": "${AFFILIATE_FEED_URL}",
+        "headers": { "Authorization": "Bearer ${AFFILIATE_TOKEN}" }
+      },
+      "deeplinkTemplate": "https://www.example-network.com/click?pid={pubId}&aid={advId}&url={url}",
+      "params": { "pubId": "${MY_PUBLISHER_ID}", "advId": "${ADVERTISER_ID}" },
+      "map": {
+        "retailer": "advertiser_name",
+        "name": "product_name",
+        "brand": "brand",
+        "category": "product_type",
+        "price": "retail_price",
+        "salePrice": "sale_price",
+        "url": "buy_url",
+        "image": "image_url",
+        "upc": "gtin",
+        "inStock": "availability"
+      }
+    }
+  ]
+}

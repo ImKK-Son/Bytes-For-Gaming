@@ -89,7 +89,8 @@
           '</div>' +
         '</div>' +
         '<div class="container footer-legal">' +
-          '<p class="muted small">Prices shown are typical estimates to illustrate comparisons — tap any retailer for live pricing and current deals. Bytes For Gaming is an independent buying guide and is not affiliated with the brands listed. Always confirm price, warranty, and seller before purchasing.</p>' +
+          '<p class="muted small">Prices shown are typical estimates to illustrate comparisons (or live data when enabled) — tap any retailer for current pricing and deals. Bytes For Gaming is an independent buying guide and is not affiliated with the brands listed. Always confirm price, warranty, and seller before purchasing.</p>' +
+          '<p class="muted small"><strong>Affiliate disclosure:</strong> Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you — it helps keep our recommendations free and independent.</p>' +
           '<p class="muted small">© ' + new Date().getFullYear() + ' Bytes For Gaming. Built for gamers, by gamers.</p>' +
         '</div>';
     }
@@ -182,11 +183,12 @@
 
   // The whole offers panel (banners + rows + disclaimer), reused for both the
   // initial estimate render and the live-price re-render.
-  function offersBodyHTML(pr, isLive) {
+  function offersBodyHTML(pr, isLive, source) {
     if (!pr || !pr.offers.length) return '<p class="muted small">No offers available.</p>';
     var offers = pr.offers.slice().sort(function (a, b) { return a.price - b.price; });
+    var liveLabel = source === 'affiliate' ? '● LIVE prices · affiliate' : '● LIVE prices';
     var modeBadge = isLive
-      ? '<span class="badge badge-live">● LIVE prices</span>'
+      ? '<span class="badge badge-live">' + liveLabel + '</span>'
       : '<span class="badge badge-est">Estimated prices</span>';
     var savingsLine = pr.savings > 0
       ? '<div class="savings-banner">💰 Prices range ' + money(pr.lowest) + ' – ' + money(pr.highest) +
@@ -197,7 +199,9 @@
         ' at ' + money(pr.pick.price) + ' — the best balance of a fair price and strong buyer protection.</div>'
       : '';
     var disclaimer = isLive
-      ? 'Live results from a shopping API. Prices and availability change fast — always confirm the seller and final total at checkout.'
+      ? (source === 'affiliate'
+          ? 'Live prices from our affiliate partners — some links are affiliate links and we may earn a commission at no extra cost to you. Prices and availability change fast; confirm the final total at checkout.'
+          : 'Live results from a shopping API. Prices and availability change fast — always confirm the seller and final total at checkout.')
       : 'Prices are typical estimates for comparison. Tap a store for live pricing and current deals, or enable Live Prices on the “How We Protect You” page. Always confirm the item is sold by the retailer (not a third-party reseller) before buying.';
     return modeBadge + savingsLine + pickLine +
       '<div class="offers">' + offers.map(offerRow).join('') + '</div>' +
@@ -261,7 +265,7 @@
     if (liveOn) {
       BFG.prices.fetchFor(p).then(function (live) {
         var body = overlay.querySelector('#modal-offers-body');
-        if (body) body.innerHTML = offersBodyHTML(live.pricing, true);
+        if (body) body.innerHTML = offersBodyHTML(live.pricing, true, live.source);
         var status = overlay.querySelector('#price-status');
         if (status) status.parentNode.removeChild(status);
         if (live.image) {

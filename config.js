@@ -3,16 +3,22 @@
    -------------------------------------------------------------
    LIVE PRICES + PRODUCT PHOTOS
    The site works out of the box with built-in price estimates.
-   To switch on real, live prices and real product photos, deploy
-   the price API (see /server + README "Live prices") and paste
-   its public URL below — or enable it in the UI on the
-   "How We Protect You" page (saved to your browser).
+   Turn on real prices + photos with EITHER of these:
 
-   Examples:
-     priceApi: 'https://your-app.vercel.app/api/prices'
-     priceApi: 'http://localhost:8787/prices'   (local proxy)
+   1) AFFILIATE FEEDS (recommended for a commercial site —
+      free, commercial-OK, and your buy links earn commission):
+      Generate data/offers.json with `node server/ingest-feeds.js`
+      then point offersFile at it. See README "Affiliate feeds".
+        offersFile: 'data/offers.json'
+
+   2) PRICE API (per-query live data; e.g. a paid shopping API):
+        priceApi: 'https://your-app.vercel.app/api/prices'
+      (Also settable in the UI on "How We Protect You".)
+
+   If both are set, the affiliate offers file wins.
    ============================================================= */
 window.BFG_CONFIG = {
-  priceApi: '',     // empty = use built-in estimates
+  offersFile: '',   // e.g. 'data/offers.json' (affiliate feed output)
+  priceApi: '',     // e.g. 'https://your-app.vercel.app/api/prices'
   cacheTtlMin: 30   // how long to cache a product's live prices in the browser
 };

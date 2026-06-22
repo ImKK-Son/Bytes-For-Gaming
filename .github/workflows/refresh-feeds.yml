@@ -1,0 +1,50 @@
+name: Refresh affiliate offers
+
+# Regenerates data/offers.json from your affiliate datafeeds on a schedule.
+# To enable: (1) commit a feeds.config.json that points at your feeds using
+# ${ENV_VARS} for any secrets, (2) add those secrets in the repo settings,
+# (3) reference them in the `env:` block below. Until then this safely no-ops.
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ingest affiliate feeds
+        env:
+          # Map your repo secrets to the ${ENV_VARS} used in feeds.config.json
+          AFFILIATE_FEED_URL: ${{ secrets.AFFILIATE_FEED_URL }}
+          AFFILIATE_TOKEN: ${{ secrets.AFFILIATE_TOKEN }}
+          MY_PUBLISHER_ID: ${{ secrets.MY_PUBLISHER_ID }}
+          ADVERTISER_ID: ${{ secrets.ADVERTISER_ID }}
+        run: |
+          if [ -f feeds.config.json ]; then
+            node server/ingest-feeds.js
+          else
+            echo "No feeds.config.json committed — skipping. See README 'Affiliate feeds' to enable."
+          fi
+
+      - name: Commit refreshed offers
+        run: |
+          if git diff --quiet -- data/offers.json 2>/dev/null; then
+            echo "No changes to data/offers.json."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/offers.json
+            git commit -m "chore: refresh affiliate offers [skip ci]"
+            git push
+          fi

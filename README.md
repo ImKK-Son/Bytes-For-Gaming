@@ -35,76 +35,91 @@ python3 -m http.server 8000      # then open http://localhost:8000
 ```
 
 Out of the box it shows realistic **price estimates** and built-in illustrations.
-To get **live prices + real photos**, set up the price API below.
+For real prices + photos you have two paths: **affiliate feeds** (recommended
+for a commercial site) or a **price API**. Both gracefully fall back to estimates
+if not configured — the site never breaks.
 
-## ⚡ Live prices & real product photos
+## 💸 Affiliate feeds (recommended, commercial-OK)
 
-Live prices need an API key, and that key must stay **server-side** (browsers
-can't safely call shopping APIs directly — the key would leak and most block
-CORS). So this repo ships a tiny **price API** you can deploy, plus a frontend
-that talks to it and **gracefully falls back to estimates** if it's missing or
-fails. The site never breaks.
+Affiliate product datafeeds are **free, allowed for commercial use, and your buy
+links earn commission**. You join affiliate networks/brand programs (Impact, CJ,
+Rakuten, Awin, Amazon Associates, Best Buy, …), they give you **product feeds**
+(CSV/TSV/XML with prices, links, images), and this repo turns those into the
+site's live prices.
 
-The included provider is **[SerpApi Google Shopping](https://serpapi.com)** — one
-key returns prices from many retailers *and* product photos. It has a **free tier
-(100 searches/month)**. There's also a **`mock` provider** that returns synthetic
-data with **no key**, so you can try the whole live pipeline instantly.
+How it works: `server/ingest-feeds.js` reads `feeds.config.json`, downloads each
+feed, **normalizes + matches** rows to the catalog, wraps URLs as your affiliate
+links, and writes **`data/offers.json`**. The site reads that file — no per-visit
+API calls, no key in the browser.
 
-### 1. Run the price API
-
-**Option A — standalone server (anywhere):**
+### 1. Try it with the bundled sample (no accounts needed)
 
 ```bash
-# mock mode (no key) — great for trying it out
-npm start                       # -> http://localhost:8787/prices
-
-# real prices
-SERPAPI_KEY=your_key npm start
+npm run ingest:sample      # parses feeds/sample/* -> data/offers.json
 ```
 
-**Option B — Vercel:** push the repo, import it, set `SERPAPI_KEY` in the project
-env. The function is auto-deployed at `https://<you>.vercel.app/api/prices`.
+Then set in **`config.js`**: `offersFile: 'data/offers.json'`, serve the site,
+and open any covered product's **Compare & Buy** — you'll see a **LIVE · affiliate**
+badge with offers. (Products not in the feed fall back to estimates.)
 
-**Option C — Netlify:** connect the repo (config is in `netlify.toml`), set
-`SERPAPI_KEY` in site env. Endpoint: `https://<you>.netlify.app/api/prices`.
+### 2. Wire up your real feeds
 
-See `.env.example` for all settings (`SERPAPI_KEY`, `PRICE_PROVIDER`, `PORT`,
-`CACHE_TTL_MIN`, `CORS_ORIGIN`).
+1. Join your affiliate networks and grab each advertiser's **datafeed** (a file or
+   a feed URL) plus your **publisher/tracking IDs**.
+2. `cp feeds.config.example.json feeds.config.json` and edit it:
+   - one block per feed: `format` (csv/tsv/xml), `source` (`{file}` or `{url}`),
+     and a `map` from the feed's columns to our fields,
+   - put secrets in env vars and reference them as `${MY_VAR}` (never commit keys),
+   - optional `deeplinkTemplate` wraps each product URL into your tracking link,
+   - optional `overrides` pin a UPC/GTIN to an exact product id for perfect matches.
+3. Run `npm run ingest` → regenerates `data/offers.json`.
+4. Keep it fresh automatically with the included **GitHub Action**
+   (`.github/workflows/refresh-feeds.yml`, daily) or a host build step.
 
-### 2. Point the site at it
+> Improve matching by adding `upc`/`gtin` values to products in `js/data.js` (or
+> `overrides` in the feed config). The ingester prints matched/unmatched counts.
 
-Either edit **`config.js`**:
+## ⚡ Price API (alternative: per-query live data)
 
-```js
-window.BFG_CONFIG = { priceApi: 'https://your-app.vercel.app/api/prices' };
-```
+If you'd rather pull live prices per product from a shopping API, this repo also
+ships a small server-side API (key stays server-side). The bundled provider is
+**[SerpApi Google Shopping](https://serpapi.com)** (note: its **free** tier is
+**non-commercial** — use a paid tier or another provider for a commercial site;
+swapping providers is a localized change in `server/lib/price-core.js`). A keyless
+**`mock`** provider lets you test the pipeline instantly.
 
-…or just open the **"How We Protect You"** page and paste the URL into
-**"Turn on live prices"** (saved in your browser). Open any product's
-**Compare & Buy** — it shows estimates instantly, then upgrades to a **LIVE**
-badge with real prices and a real photo.
+- **Local:** `npm start` (mock) or `SERPAPI_KEY=xxx npm start` → `http://localhost:8787/prices`
+- **Vercel:** import repo, set `SERPAPI_KEY` → `/api/prices`
+- **Netlify:** connect repo (`netlify.toml` included), set `SERPAPI_KEY` → `/api/prices`
 
-> Live prices are fetched **on demand** (when a product's compare modal opens)
-> and cached in the browser, to be gentle on your API quota.
+Then set `priceApi` in `config.js`, or use the **"Turn on live prices"** box on the
+*How We Protect You* page. Results are fetched on demand and cached in the browser.
+See `.env.example` for all settings.
 
 ## 🗂️ Project structure
 
 ```
 .
 ├── index.html / quiz.html / browse.html / deals.html / about.html
-├── config.js              # front-end config (live price endpoint)
+├── config.js              # front-end config (offersFile / priceApi)
 ├── css/styles.css         # dark, neon gaming theme (responsive)
 ├── images/                # built-in category product illustrations (SVG)
 ├── js/
 │   ├── data.js            # catalog, retailers, pricing/decorate engine, images
 │   ├── components.js      # nav/footer, product cards, compare modal (live-aware)
-│   ├── prices.js          # live price client (fetch + cache + fallback)
+│   ├── prices.js          # live price client: affiliate-feed + API modes + fallback
 │   ├── home.js / quiz.js / browse.js / deals.js
+├── data/offers.json       # generated affiliate offers the site reads (npm run ingest)
+├── feeds/sample/          # sample CSV/TSV datafeeds (for the demo)
+├── feeds.config.example.json      # affiliate feed config template
 ├── server/
-│   ├── lib/price-core.js  # provider-agnostic price logic (serpapi + mock)
+│   ├── lib/price-core.js  # provider-agnostic price API logic (serpapi + mock)
+│   ├── lib/feed-core.js   # feed parsing / mapping / affiliate links / matching
+│   ├── ingest-feeds.js    # builds data/offers.json from your feeds
 │   └── price-proxy.js     # standalone zero-dependency price server
-├── api/prices.js          # Vercel serverless function
-├── netlify/functions/prices.js   # Netlify function
+├── api/prices.js          # Vercel serverless function (price API)
+├── netlify/functions/prices.js    # Netlify function (price API)
+├── .github/workflows/refresh-feeds.yml   # daily feed refresh (optional)
 ├── vercel.json / netlify.toml / .env.example / package.json
 ```
 

@@ -11,6 +11,13 @@ node_modules/
 .netlify/
 dist/
 
+# affiliate feeds: keep the example + sample feeds, ignore your active config
+# (which may reference your accounts) and any raw feeds you download locally.
+feeds.config.json
+/feeds/*
+!/feeds/sample
+!/feeds/sample/**
+
 # os / editor
 .DS_Store
 *.log

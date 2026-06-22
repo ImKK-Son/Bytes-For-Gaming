@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server/price-proxy.js",
     "serve": "python3 -m http.server 8000",
-    "price-api": "node server/price-proxy.js"
+    "price-api": "node server/price-proxy.js",
+    "ingest": "node server/ingest-feeds.js",
+    "ingest:sample": "node server/ingest-feeds.js feeds.config.example.json"
   },
   "engines": {
     "node": ">=18"
