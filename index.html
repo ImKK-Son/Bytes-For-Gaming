@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bytes For Gaming — Find the perfect gaming gear at the best price</title>
+  <meta name="description" content="An independent buying guide for gaming accessories. Compare 8BitDo, Razer, Logitech G, SteelSeries and more across major stores, take a quiz to find your perfect gear, and never get ripped off." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">⚡ Independent &amp; consumer-first</span>
+          <h1>Find the <span class="accent">perfect gaming gear</span> — without getting ripped off.</h1>
+          <p class="lead">We compile the biggest brands like 8BitDo, Razer, and Logitech G, then compare prices across every major store so you buy the right accessory at a fair price. Not sure what you need? Take the quiz.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="quiz.html">🎯 Find My Gear</a>
+            <a class="btn btn-secondary btn-lg" href="browse.html">Browse all gear</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><strong id="stat-products">—</strong><span>products compared</span></div>
+            <div class="stat"><strong id="stat-brands">—</strong><span>top brands</span></div>
+            <div class="stat"><strong>5</strong><span>stores per item</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <h4>🔍 Same product, 5 stores — here is how we save you money:</h4>
+          <div class="hero-compare-row"><span class="r-name">🛡️ Manufacturer Direct</span><span class="r-price">$69.99</span></div>
+          <div class="hero-compare-row"><span class="r-name">Best Buy</span><span class="r-price">$64.99</span></div>
+          <div class="hero-compare-row"><span class="r-name">Amazon</span><span class="r-price">$59.99</span></div>
+          <div class="hero-compare-row best"><span class="r-name">✅ Walmart (best deal)</span><span class="r-price best">$49.99</span></div>
+          <p class="hero-note muted small">Real example layout. We highlight the lowest price <em>and</em> the most trusted seller, then recommend the smartest buy.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUE PROPS -->
+    <section class="container">
+      <div class="value-grid">
+        <div class="value-item card">
+          <div class="v-icon">🏷️</div>
+          <h3>Compare every store</h3>
+          <p>We line up Amazon, Best Buy, Walmart, Newegg, and buying direct — so you instantly see the lowest price.</p>
+        </div>
+        <div class="value-item card">
+          <div class="v-icon">🛡️</div>
+          <h3>Anti-rip-off scoring</h3>
+          <p>Every store gets a buyer-protection score for returns, warranty, and authenticity — cheapest is not always safest.</p>
+        </div>
+        <div class="value-item card">
+          <div class="v-icon">🎯</div>
+          <h3>A quiz that actually helps</h3>
+          <p>Categorized quizzes for keyboards, chairs, controllers, headsets, and more match gear to how <em>you</em> play.</p>
+        </div>
+        <div class="value-item card">
+          <div class="v-icon">🤝</div>
+          <h3>Independent &amp; honest</h3>
+          <p>We are not owned by any brand. We rank by fit, value, and review scores — not who pays the most.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="container">
+      <div class="section-head">
+        <h2>Shop by category</h2>
+        <p class="muted">Jump straight into a quiz tuned for that type of gear.</p>
+      </div>
+      <div class="tiles" id="home-categories"></div>
+    </section>
+
+    <!-- DEALS TEASER -->
+    <section class="container">
+      <div class="section-head" style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:12px;">
+        <div>
+          <h2>🔥 Today's best value</h2>
+          <p class="muted">The biggest savings off MSRP right now.</p>
+        </div>
+        <a class="btn btn-secondary" href="deals.html">See all deals →</a>
+      </div>
+      <div id="home-deals"></div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="container">
+      <div class="section-head">
+        <h2>Top-rated gear</h2>
+        <p class="muted">Highest review scores across all brands and categories. Click any card to compare prices and buy.</p>
+      </div>
+      <div class="grid" id="home-featured"></div>
+    </section>
+
+    <!-- CTA -->
+    <section class="container">
+      <div class="cta-band">
+        <h2>Not sure what to buy?</h2>
+        <p class="lead" style="margin:0 auto 20px;">Take the 2-minute quiz and get matched with gear that fits your setup, your hands, and your budget.</p>
+        <a class="btn btn-primary btn-lg" href="quiz.html">Start the quiz →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/home.js"></script>
+  <script>
+    BFG.ui.renderChrome('home');
+    document.getElementById('stat-products').textContent = BFG.PRODUCTS.length + '+';
+    document.getElementById('stat-brands').textContent = BFG.brands().length;
+  </script>
+</body>
+</html>

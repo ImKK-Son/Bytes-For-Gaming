@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Gaming Gear Deals — Bytes For Gaming</title>
+  <meta name="description" content="The biggest savings on gaming accessories right now, ranked by how much you save off MSRP. We highlight the lowest price and the most trusted seller for each." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="container page-head">
+      <h1>🔥 Best deals right now</h1>
+      <p class="lead">We rank gear by how much it saves you off the manufacturer's list price — then point you to the lowest price <em>and</em> the most trusted store. <strong id="deals-count">0</strong> deals worth your money below.</p>
+    </section>
+
+    <section class="container">
+      <div class="card" style="padding:16px 18px;margin-bottom:24px;background:rgba(34,197,94,.08);border-color:rgba(34,197,94,.3);">
+        <p class="small" style="margin:0;">💡 <strong>How to read these:</strong> "Save" is the gap between MSRP and the best price we found. Click any deal to compare all 5 stores. Watch the buyer-protection shields — the very cheapest seller is not always the safest, so we always flag our balanced pick.</p>
+      </div>
+      <div id="deals-list"></div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/deals.js"></script>
+  <script>BFG.ui.renderChrome('deals');</script>
+</body>
+</html>
