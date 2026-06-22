@@ -79,21 +79,7 @@
         <h2>Affiliate disclosure</h2>
         <p>Some of the store links on this site are <strong>affiliate links</strong>. If you buy through one, we may earn a small commission <strong>at no extra cost to you</strong>. This never changes our rankings or which retailer we recommend — we still surface the lowest price and the most trusted seller. Commissions simply help keep Bytes For Gaming free and independent.</p>
         <h2>A note on prices</h2>
-        <p>Out of the box, prices shown across the site are <strong>typical estimates</strong> used to illustrate how comparisons work and roughly what you should expect to pay. Every "View Deal" button links straight to the store's current listing — always confirm the real-time price, seller, and warranty there before you buy. Want exact, real-time numbers and live product photos in every comparison? Turn on Live Prices below. 👇</p>
-      </div>
-    </section>
-
-    <!-- LIVE PRICES SETUP -->
-    <section class="container">
-      <div class="card live-setup">
-        <h3>⚡ Turn on live prices &amp; real photos <span class="muted small">(optional)</span></h3>
-        <p class="muted small" style="margin:0;">By default the site uses stable price estimates and built-in illustrations — no setup needed. Deploy the included price API (there is a free SerpApi tier — see the project README) and paste its public URL here to pull <strong>real-time prices and real product photos</strong> from across the major stores into every comparison. Your endpoint is saved only in this browser.</p>
-        <div class="live-row">
-          <input type="url" id="live-endpoint" placeholder="https://your-app.vercel.app/api/prices" aria-label="Price API endpoint URL" />
-          <button class="btn btn-primary" id="live-save">Enable</button>
-          <button class="btn btn-ghost" id="live-disable">Disable</button>
-        </div>
-        <div class="live-status off" id="live-status"><span class="live-dot"></span><span id="live-status-text">Live prices are off — using estimates.</span></div>
+        <p>Prices shown across the site are <strong>typical estimates</strong> (marked with a “≈”) used to illustrate how comparisons work and roughly what you should expect to pay. Each store button takes you to that retailer so you can see the current price, and the manufacturer "Buy Direct" link goes to the exact product. Always confirm the price, seller, and warranty there before you buy.</p>
       </div>
     </section>
 
@@ -116,36 +102,6 @@
   <script src="js/data.js"></script>
   <script src="js/prices.js"></script>
   <script src="js/components.js"></script>
-  <script>
-    BFG.ui.renderChrome('about');
-    (function () {
-      var input = document.getElementById('live-endpoint');
-      var statusEl = document.getElementById('live-status');
-      var statusText = document.getElementById('live-status-text');
-      function refresh() {
-        var ep = BFG.prices.getEndpoint();
-        if (ep) {
-          input.value = ep;
-          statusEl.className = 'live-status on';
-          statusText.textContent = 'Live prices are ON — comparisons use real-time data.';
-        } else {
-          statusEl.className = 'live-status off';
-          statusText.textContent = 'Live prices are off — using estimates.';
-        }
-      }
-      document.getElementById('live-save').addEventListener('click', function () {
-        var v = input.value.trim();
-        if (!v) { statusText.textContent = 'Please paste your price API URL first.'; return; }
-        BFG.prices.setEndpoint(v);
-        refresh();
-      });
-      document.getElementById('live-disable').addEventListener('click', function () {
-        BFG.prices.clearEndpoint();
-        input.value = '';
-        refresh();
-      });
-      refresh();
-    })();
-  </script>
+  <script>BFG.ui.renderChrome('about');</script>
 </body>
 </html>

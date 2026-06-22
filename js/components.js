@@ -98,21 +98,34 @@
 
   /* --------------------------- product card --------------------------- */
   // Layered visual: brand-tinted gradient + committed category illustration
-  // (always loads). If a real photo is supplied (manual product.image or a
-  // live API thumbnail) it covers the illustration, and hides itself on error.
+  // (always loads). A real photo covers it when available. Photo sources, in
+  // order: an explicit override, the product's `image` field, or — when
+  // autoProductImages is on — images/products/<id>.jpg (then .png). If none
+  // load, it falls back to the illustration automatically.
+  function autoImagesOn() {
+    var c = window.BFG_CONFIG || {};
+    return c.autoProductImages !== false; // default ON
+  }
   function thumb(p, opts) {
     opts = opts || {};
     var c = brandColor(p.brand);
     var illus = BFG.catImage(p.category);
-    var photo = opts.image || p.image || '';
     var illusLayer = illus
-      ? '<img class="thumb-illus" src="' + illus + '" alt="" aria-hidden="true" ' +
-        'onerror="this.style.display=&quot;none&quot;;this.nextElementSibling&amp;&amp;0">'
+      ? '<img class="thumb-illus" src="' + illus + '" alt="" aria-hidden="true">'
       : '<span class="thumb-icon">' + catIcon(p.category) + '</span>';
-    var photoLayer = photo
-      ? '<img class="thumb-photo" src="' + escapeAttr(photo) + '" alt="' + escapeAttr(p.name) +
-        '" loading="lazy" onerror="this.style.display=&quot;none&quot;">'
-      : '';
+
+    var photoLayer = '';
+    var explicit = opts.image || p.image || '';
+    if (explicit) {
+      photoLayer = '<img class="thumb-photo" src="' + escapeAttr(explicit) + '" alt="' + escapeAttr(p.name) +
+        '" loading="lazy" onerror="this.style.display=&quot;none&quot;">';
+    } else if (autoImagesOn()) {
+      // try /<id>.jpg, then /<id>.png, then reveal the illustration
+      var jpg = 'images/products/' + p.id + '.jpg';
+      var png = 'images/products/' + p.id + '.png';
+      photoLayer = '<img class="thumb-photo" src="' + jpg + '" alt="' + escapeAttr(p.name) + '" loading="lazy" ' +
+        'onerror="if(this.dataset.t){this.style.display=&quot;none&quot;}else{this.dataset.t=1;this.src=&quot;' + png + '&quot;}">';
+    }
     return '<div class="thumb" style="--bc:' + c + '">' +
         illusLayer + photoLayer +
         '<span class="thumb-brand">' + p.brand + '</span>' +
