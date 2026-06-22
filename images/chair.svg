@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Gaming chair">
+  <rect x="42" y="18" width="44" height="56" rx="13" fill="#eef2f7" fill-opacity=".94"/>
+  <rect x="52" y="26" width="24" height="13" rx="6" fill="#16202e" fill-opacity=".3"/>
+  <rect x="56" y="45" width="16" height="22" rx="5" fill="#16202e" fill-opacity=".18"/>
+  <rect x="38" y="72" width="52" height="16" rx="8" fill="#eef2f7" fill-opacity=".94"/>
+  <rect x="61" y="86" width="6" height="16" fill="#eef2f7" fill-opacity=".7"/>
+  <ellipse cx="64" cy="106" rx="28" ry="5" fill="#eef2f7" fill-opacity=".5"/>
+  <circle cx="40" cy="110" r="4" fill="#16202e" fill-opacity=".6"/>
+  <circle cx="64" cy="112" r="4" fill="#16202e" fill-opacity=".6"/>
+  <circle cx="88" cy="110" r="4" fill="#16202e" fill-opacity=".6"/>
+</svg>

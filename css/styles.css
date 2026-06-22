@@ -150,6 +150,11 @@ section { padding: 56px 0; }
   border-bottom: 1px solid var(--border);
 }
 .thumb-icon { font-size: 3.4rem; filter: drop-shadow(0 6px 14px rgba(0,0,0,.5)); }
+.thumb-illus { width: 56%; height: 56%; object-fit: contain; filter: drop-shadow(0 8px 16px rgba(0,0,0,.45)); }
+.thumb-photo {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 10px;
+  background: radial-gradient(circle at 50% 38%, #1b2434, #0b0f17);
+}
 .thumb-brand {
   position: absolute; left: 12px; top: 12px; font-size: .72rem; font-weight: 800; letter-spacing: .04em;
   text-transform: uppercase; color: var(--bc); background: rgba(0,0,0,.4); padding: .3em .7em; border-radius: 999px;
@@ -170,6 +175,11 @@ section { padding: 56px 0; }
 .badge { font-size: .72rem; font-weight: 800; padding: .25em .65em; border-radius: 999px; letter-spacing: .02em; }
 .badge-deal { background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.4); }
 .badge-match { background: rgba(139,92,246,.18); color: #c4b5fd; border: 1px solid rgba(139,92,246,.45); }
+.badge-live { background: rgba(34,197,94,.16); color: var(--green); border: 1px solid rgba(34,197,94,.5); display: inline-block; margin-bottom: 10px; animation: livepulse 1.8s ease-in-out infinite; }
+.badge-est { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); display: inline-block; margin-bottom: 10px; }
+@keyframes livepulse { 0%, 100% { opacity: 1; } 50% { opacity: .55; } }
+.price-status { font-size: .78rem; font-weight: 700; color: var(--accent-2); margin-left: 8px; letter-spacing: 0; text-transform: none; }
+.price-status-warn { color: var(--amber); }
 .tag { display: inline-block; font-size: .68rem; font-weight: 800; padding: .15em .55em; border-radius: 999px; margin-left: 6px; vertical-align: middle; }
 .tag-green { background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.4); }
 .tag-blue { background: rgba(56,189,248,.15); color: var(--blue); border: 1px solid rgba(56,189,248,.4); }
@@ -357,6 +367,20 @@ section { padding: 56px 0; }
   display: grid; place-items: center; width: 38px; height: 38px; border-radius: 10px;
   background: var(--grad); color: #0a0d14; font-weight: 900; margin-bottom: 12px;
 }
+
+/* ----------------------------- live price setup ----------------------------- */
+.live-setup { padding: 22px; }
+.live-setup h3 { margin: 0 0 6px; }
+.live-setup .live-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 14px; }
+.live-setup input[type="url"] {
+  flex: 1; min-width: 240px; padding: .75em 1em; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--bg-2); color: var(--text); font-family: inherit; font-size: .95rem;
+}
+.live-setup input[type="url"]:focus { outline: none; border-color: var(--accent); }
+.live-status { margin-top: 12px; font-weight: 700; font-size: .92rem; display: inline-flex; align-items: center; gap: 8px; }
+.live-status.on { color: var(--green); }
+.live-status.off { color: var(--muted); }
+.live-dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; box-shadow: 0 0 8px currentColor; }
 
 /* ----------------------------- cta band ----------------------------- */
 .cta-band {

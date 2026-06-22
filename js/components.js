@@ -29,6 +29,9 @@
   function catIcon(cat) {
     return (BFG.CATEGORIES[cat] && BFG.CATEGORIES[cat].icon) || '🎮';
   }
+  function escapeAttr(s) {
+    return String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+  }
 
   /* --------------------------- chrome (nav/footer) --------------------------- */
   var NAV = [
@@ -93,10 +96,24 @@
   }
 
   /* --------------------------- product card --------------------------- */
-  function thumb(p) {
+  // Layered visual: brand-tinted gradient + committed category illustration
+  // (always loads). If a real photo is supplied (manual product.image or a
+  // live API thumbnail) it covers the illustration, and hides itself on error.
+  function thumb(p, opts) {
+    opts = opts || {};
     var c = brandColor(p.brand);
+    var illus = BFG.catImage(p.category);
+    var photo = opts.image || p.image || '';
+    var illusLayer = illus
+      ? '<img class="thumb-illus" src="' + illus + '" alt="" aria-hidden="true" ' +
+        'onerror="this.style.display=&quot;none&quot;;this.nextElementSibling&amp;&amp;0">'
+      : '<span class="thumb-icon">' + catIcon(p.category) + '</span>';
+    var photoLayer = photo
+      ? '<img class="thumb-photo" src="' + escapeAttr(photo) + '" alt="' + escapeAttr(p.name) +
+        '" loading="lazy" onerror="this.style.display=&quot;none&quot;">'
+      : '';
     return '<div class="thumb" style="--bc:' + c + '">' +
-        '<span class="thumb-icon">' + catIcon(p.category) + '</span>' +
+        illusLayer + photoLayer +
         '<span class="thumb-brand">' + p.brand + '</span>' +
       '</div>';
   }
@@ -148,7 +165,7 @@
     for (var i = 0; i < 5; i++) { prot += i < o.consumerScore ? '🛡️' : '·'; }
     return '<div class="offer' + (o.isOurPick ? ' offer-pick' : '') + '">' +
         '<div class="offer-main">' +
-          '<div class="offer-name">' + o.name + ' ' + badges + '</div>' +
+          '<div class="offer-name">' + escapeAttr(o.name) + ' ' + badges + '</div>' +
           '<div class="offer-prot" title="Buyer-protection score">' +
             '<span class="prot-dots">' + prot + '</span>' +
             '<span class="muted small">' + o.consumerScore + '/5 buyer protection</span>' +
@@ -163,31 +180,46 @@
       '</div>';
   }
 
-  function openCompare(id) {
-    var p = BFG.getById(id);
-    if (!p) return;
-    var pr = p.pricing;
-
-    // sort offers cheapest first for the table
+  // The whole offers panel (banners + rows + disclaimer), reused for both the
+  // initial estimate render and the live-price re-render.
+  function offersBodyHTML(pr, isLive) {
+    if (!pr || !pr.offers.length) return '<p class="muted small">No offers available.</p>';
     var offers = pr.offers.slice().sort(function (a, b) { return a.price - b.price; });
-
-    var features = p.features.map(function (f) { return '<li>' + f + '</li>'; }).join('');
-
+    var modeBadge = isLive
+      ? '<span class="badge badge-live">● LIVE prices</span>'
+      : '<span class="badge badge-est">Estimated prices</span>';
     var savingsLine = pr.savings > 0
       ? '<div class="savings-banner">💰 Prices range ' + money(pr.lowest) + ' – ' + money(pr.highest) +
         '. Buying smart saves you up to <strong>' + money(pr.savings) + ' (' + pr.savingsPct + '%)</strong> on the same product.</div>'
       : '';
+    var pickLine = pr.pick
+      ? '<div class="pick-banner">✅ <strong>Our anti-rip-off pick:</strong> ' + escapeAttr(pr.pick.name) +
+        ' at ' + money(pr.pick.price) + ' — the best balance of a fair price and strong buyer protection.</div>'
+      : '';
+    var disclaimer = isLive
+      ? 'Live results from a shopping API. Prices and availability change fast — always confirm the seller and final total at checkout.'
+      : 'Prices are typical estimates for comparison. Tap a store for live pricing and current deals, or enable Live Prices on the “How We Protect You” page. Always confirm the item is sold by the retailer (not a third-party reseller) before buying.';
+    return modeBadge + savingsLine + pickLine +
+      '<div class="offers">' + offers.map(offerRow).join('') + '</div>' +
+      '<p class="muted small modal-disclaimer">' + disclaimer + '</p>';
+  }
 
-    var pickLine =
-      '<div class="pick-banner">✅ <strong>Our anti-rip-off pick:</strong> ' + pr.pick.name +
-      ' at ' + money(pr.pick.price) + ' — the best balance of a fair price and strong buyer protection.</div>';
+  function openCompare(id) {
+    var p = BFG.getById(id);
+    if (!p) return;
+
+    var features = p.features.map(function (f) { return '<li>' + f + '</li>'; }).join('');
+    var liveOn = BFG.prices && BFG.prices.isEnabled();
+    var statusLine = liveOn
+      ? '<span id="price-status" class="price-status">⏳ checking live prices…</span>'
+      : '';
 
     var overlay = el(
-      '<div class="modal-overlay" role="dialog" aria-modal="true" aria-label="Compare prices for ' + p.name + '">' +
+      '<div class="modal-overlay" role="dialog" aria-modal="true" aria-label="Compare prices for ' + escapeAttr(p.name) + '">' +
         '<div class="modal">' +
           '<button class="modal-close" aria-label="Close">✕</button>' +
           '<div class="modal-head">' +
-            thumb(p) +
+            '<span id="modal-thumb">' + thumb(p) + '</span>' +
             '<div>' +
               '<h2 id="modal-title">' + p.name + '</h2>' +
               '<div class="card-meta">' + stars(p.rating) +
@@ -203,10 +235,8 @@
               '<h4>Buyer\'s note</h4><p class="muted small">' + p.valueNote + '</p>' +
             '</div>' +
             '<div class="modal-offers">' +
-              '<h4>Compare prices &amp; buy</h4>' +
-              savingsLine + pickLine +
-              '<div class="offers">' + offers.map(offerRow).join('') + '</div>' +
-              '<p class="muted small modal-disclaimer">Prices are typical estimates for comparison. Tap a store for live pricing and current deals. Always confirm the item is sold by the retailer (not a third-party reseller) before buying.</p>' +
+              '<h4>Compare prices &amp; buy ' + statusLine + '</h4>' +
+              '<div id="modal-offers-body">' + offersBodyHTML(p.pricing, false) + '</div>' +
             '</div>' +
           '</div>' +
         '</div>' +
@@ -226,6 +256,26 @@
 
     document.body.appendChild(overlay);
     document.body.classList.add('modal-open');
+
+    // upgrade to live prices + real photo if configured
+    if (liveOn) {
+      BFG.prices.fetchFor(p).then(function (live) {
+        var body = overlay.querySelector('#modal-offers-body');
+        if (body) body.innerHTML = offersBodyHTML(live.pricing, true);
+        var status = overlay.querySelector('#price-status');
+        if (status) status.parentNode.removeChild(status);
+        if (live.image) {
+          var t = overlay.querySelector('#modal-thumb');
+          if (t) t.innerHTML = thumb(p, { image: live.image });
+        }
+      }).catch(function () {
+        var status = overlay.querySelector('#price-status');
+        if (status) {
+          status.className = 'price-status price-status-warn';
+          status.textContent = 'live prices unavailable — showing estimates';
+        }
+      });
+    }
   }
 
   /* --------------------------- expose --------------------------- */

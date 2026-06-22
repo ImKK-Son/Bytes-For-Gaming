@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Microphone">
+  <rect x="50" y="20" width="28" height="48" rx="14" fill="#eef2f7" fill-opacity=".94"/>
+  <g fill="#16202e" fill-opacity=".3">
+    <rect x="54" y="30" width="20" height="2.6" rx="1.3"/>
+    <rect x="54" y="38" width="20" height="2.6" rx="1.3"/>
+    <rect x="54" y="46" width="20" height="2.6" rx="1.3"/>
+    <rect x="54" y="54" width="20" height="2.6" rx="1.3"/>
+  </g>
+  <path d="M40 60c0 13 11 22 24 22s24-9 24-22" stroke="#eef2f7" stroke-opacity=".9" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="61" y="82" width="6" height="18" fill="#eef2f7" fill-opacity=".8"/>
+  <rect x="44" y="100" width="40" height="7" rx="3.5" fill="#eef2f7" fill-opacity=".8"/>
+</svg>

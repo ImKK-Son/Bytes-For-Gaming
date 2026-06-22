@@ -405,6 +405,66 @@
     return Math.max(0, rounded - 1 + cents);
   }
 
+  // Map a free-text retailer name (e.g. from a live API "source") to our
+  // known retailer meta so live offers get the same buyer-protection scoring.
+  function retailerMeta(name) {
+    var n = String(name || '').toLowerCase();
+    var keys = Object.keys(RETAILERS);
+    for (var i = 0; i < keys.length; i++) {
+      var r = RETAILERS[keys[i]];
+      var token = r.name.toLowerCase().split(' ')[0]; // amazon / best / walmart / newegg
+      if (n.indexOf(token) !== -1) return { key: keys[i], name: r.name, consumerScore: r.consumerScore, blurb: r.blurb };
+    }
+    // unknown third-party seller: treat with caution
+    return {
+      key: 'other', name: name || 'Other store', consumerScore: 3,
+      blurb: 'Third-party seller — confirm the return policy, warranty, and seller reputation before buying.'
+    };
+  }
+
+  // Pure: take raw offers [{key?,name,consumerScore,blurb,price,url}] and add
+  // the lowest / most-trusted / our-pick badges + savings summary. Shared by
+  // the estimate engine AND the live price path so behavior is identical.
+  function decorateOffers(rawOffers) {
+    var offers = rawOffers.filter(function (o) { return typeof o.price === 'number' && o.price > 0; });
+    if (!offers.length) return { offers: [], lowest: 0, highest: 0, savings: 0, savingsPct: 0, pick: null };
+
+    var prices = offers.map(function (o) { return o.price; });
+    var min = Math.min.apply(null, prices);
+    var max = Math.max.apply(null, prices);
+
+    offers.forEach(function (o) {
+      o.isLowest = (o.price === min);
+      o.isMostTrusted = false;
+      o.isOurPick = false;
+    });
+
+    // most trusted = highest consumerScore, tie broken by lowest price
+    var trusted = offers.slice().sort(function (a, b) {
+      if (b.consumerScore !== a.consumerScore) return b.consumerScore - a.consumerScore;
+      return a.price - b.price;
+    })[0];
+    trusted.isMostTrusted = true;
+
+    // "Our Pick" = best blend of buyer protection (50%) and price (50%)
+    offers.forEach(function (o) {
+      var protScore = o.consumerScore / 5;
+      var priceScore = max === min ? 1 : (1 - (o.price - min) / (max - min));
+      o.value = protScore * 0.5 + priceScore * 0.5;
+    });
+    var pick = offers.slice().sort(function (a, b) { return b.value - a.value; })[0];
+    pick.isOurPick = true;
+
+    return {
+      offers: offers,
+      lowest: min,
+      highest: max,
+      savings: +(max - min).toFixed(2),
+      savingsPct: max > 0 ? Math.round(((max - min) / max) * 100) : 0,
+      pick: pick
+    };
+  }
+
   function buildOffers(product) {
     var h = hashId(product.id);
     var base = product.price;
@@ -434,40 +494,7 @@
       };
     });
 
-    // compute price extremes for badges + savings
-    var prices = offers.map(function (o) { return o.price; });
-    var min = Math.min.apply(null, prices);
-    var max = Math.max.apply(null, prices);
-
-    offers.forEach(function (o) {
-      o.isLowest = (o.price === min);
-      o.isMostTrusted = false; // set below (single winner)
-    });
-
-    // most trusted = highest consumerScore, tie broken by lowest price
-    var trusted = offers.slice().sort(function (a, b) {
-      if (b.consumerScore !== a.consumerScore) return b.consumerScore - a.consumerScore;
-      return a.price - b.price;
-    })[0];
-    trusted.isMostTrusted = true;
-
-    // "Our Pick" = best blend of buyer protection (50%) and price (50%)
-    offers.forEach(function (o) {
-      var protScore = o.consumerScore / 5;
-      var priceScore = max === min ? 1 : (1 - (o.price - min) / (max - min));
-      o.value = protScore * 0.5 + priceScore * 0.5;
-    });
-    var pick = offers.slice().sort(function (a, b) { return b.value - a.value; })[0];
-    offers.forEach(function (o) { o.isOurPick = (o === pick); });
-
-    return {
-      offers: offers,
-      lowest: min,
-      highest: max,
-      savings: +(max - min).toFixed(2),
-      savingsPct: max > 0 ? Math.round(((max - min) / max) * 100) : 0,
-      pick: pick
-    };
+    return decorateOffers(offers);
   }
 
   // attach computed pricing to every product once
@@ -480,6 +507,28 @@
   });
 
   /* ---------------------------------------------------------
+     IMAGES
+     Each category ships a committed SVG illustration that always
+     loads (no network). Products may also define an `image` URL
+     (a real photo); the live price API can supply one too. The UI
+     falls back illustration -> emoji if a photo fails to load.
+     --------------------------------------------------------- */
+  var CAT_IMAGE = {
+    controller: 'images/controller.svg',
+    keyboard: 'images/keyboard.svg',
+    mouse: 'images/mouse.svg',
+    headset: 'images/headset.svg',
+    chair: 'images/chair.svg',
+    mousepad: 'images/mousepad.svg',
+    mic: 'images/mic.svg'
+  };
+
+  // Consistent search query for a product (used by links + the price API).
+  function searchQuery(product) {
+    return product.brand.replace(' G', '') + ' ' + product.name;
+  }
+
+  /* ---------------------------------------------------------
      PUBLIC API
      --------------------------------------------------------- */
   window.BFG = window.BFG || {};
@@ -487,6 +536,10 @@
   window.BFG.BRANDS = BRANDS;
   window.BFG.CATEGORIES = CATEGORIES;
   window.BFG.PRODUCTS = PRODUCTS;
+  window.BFG.decorateOffers = decorateOffers;
+  window.BFG.retailerMeta = retailerMeta;
+  window.BFG.searchQuery = searchQuery;
+  window.BFG.catImage = function (cat) { return CAT_IMAGE[cat] || ''; };
 
   window.BFG.getById = function (id) {
     return PRODUCTS.filter(function (p) { return p.id === id; })[0] || null;

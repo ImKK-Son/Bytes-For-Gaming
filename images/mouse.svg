@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Mouse">
+  <path d="M64 26c-17 0-26 13-26 32v17c0 14 11 25 26 25s26-11 26-25V58c0-19-9-32-26-32Z" fill="#eef2f7" fill-opacity=".94"/>
+  <path d="M64 28v34" stroke="#16202e" stroke-width="3" stroke-linecap="round"/>
+  <rect x="61" y="40" width="6" height="13" rx="3" fill="#16202e"/>
+</svg>

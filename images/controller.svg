@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Controller">
+  <path d="M41 46h46c15 0 25 12 27 29 2 13-3 23-13 25-9 2-14-5-19-13-2-4-6-6-9-6H55c-3 0-7 2-9 6-5 8-10 15-19 13-10-2-15-12-13-25 2-17 12-29 27-29Z" fill="#eef2f7" fill-opacity=".94"/>
+  <rect x="45" y="67" width="16" height="6" rx="3" fill="#16202e"/>
+  <rect x="50" y="62" width="6" height="16" rx="3" fill="#16202e"/>
+  <circle cx="88" cy="62" r="3.4" fill="#16202e"/>
+  <circle cx="88" cy="78" r="3.4" fill="#16202e"/>
+  <circle cx="80" cy="70" r="3.4" fill="#16202e"/>
+  <circle cx="96" cy="70" r="3.4" fill="#16202e"/>
+  <circle cx="60" cy="86" r="6" fill="#16202e"/>
+  <circle cx="78" cy="86" r="6" fill="#16202e"/>
+  <circle cx="60" cy="86" r="2.6" fill="#eef2f7" fill-opacity=".5"/>
+  <circle cx="78" cy="86" r="2.6" fill="#eef2f7" fill-opacity=".5"/>
+</svg>

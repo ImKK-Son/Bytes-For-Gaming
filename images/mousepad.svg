@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Mousepad">
+  <path d="M22 88 44 48h62L84 88Z" fill="#eef2f7" fill-opacity=".92"/>
+  <path d="M32 82 50 54h46L78 82Z" fill="#16202e" fill-opacity=".12"/>
+  <ellipse cx="70" cy="66" rx="8" ry="11" fill="#16202e" fill-opacity=".82"/>
+  <path d="M70 57v9" stroke="#eef2f7" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+</svg>
