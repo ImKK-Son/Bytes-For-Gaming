@@ -17,7 +17,6 @@ without getting ripped off**.
   exact product; estimated prices are clearly marked with a “≈”.
 - **🛡️ Anti-rip-off scoring** — each retailer gets a buyer-protection score and we
   recommend an "Our Pick" balancing price and safety.
-- **🖼️ Product photos** — drop a photo in a folder and it shows up (see below).
 - **🔥 Deals page**, **🛒 browse & filter**, and a **consumer-protection guide**.
 
 No accounts, no API keys, no build step.
@@ -30,25 +29,6 @@ Just open `index.html` in your browser. Or serve it locally:
 npm start          # serves at http://localhost:8000
 # (or)  python3 -m http.server 8000
 ```
-
-## 📸 Adding product photos (no coding)
-
-Out of the box, each product shows a clean built-in icon. To show a **real
-photo**, do this:
-
-1. **Get the photo** — the brand's official website or press kit is easiest
-   (right-click the product image → *Save Image As…*). Use images you have the
-   right to use.
-2. **Rename it** to the product's ID + `.jpg` (or `.png`). The full list of
-   names is in **`images/products/README.md`**. Example: the Razer DeathAdder V3
-   Pro → `razer-deathadder-v3.jpg`.
-3. **Put it in the `images/products/` folder** and refresh. The photo appears
-   automatically. 🎉
-
-That's it. Products without a photo just keep their built-in icon.
-
-> Want a different filename or format (e.g. `.webp`)? Add an `image:` line to the
-> product in `js/data.js` instead — see below.
 
 ## 🔧 Adding or editing products
 
@@ -85,7 +65,7 @@ exact product at its real price when a product `url` is set.
 ├── config.js              # simple settings (product photos on/off)
 ├── css/styles.css         # dark, neon gaming theme (responsive)
 ├── images/                # built-in category illustrations (SVG)
-│   └── products/          # 📸 drop your product photos here (see its README)
+│   └── products/          # optional product photos
 ├── js/
 │   ├── data.js            # the catalog + pricing engine (edit products here)
 │   ├── components.js      # nav/footer, product cards, compare modal
