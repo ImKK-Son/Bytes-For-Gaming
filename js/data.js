@@ -63,7 +63,15 @@
     'Secretlab':    { site: 'https://secretlab.co/',                        color: '#c8a45c' },
     'Sony':         { site: 'https://www.playstation.com/accessories/',     color: '#0070d1' },
     'Xbox':         { site: 'https://www.xbox.com/accessories',             color: '#107c10' },
-    'Herman Miller':{ site: 'https://www.hermanmiller.com/gaming/',         color: '#d8412f' }
+    'Herman Miller':{ site: 'https://www.hermanmiller.com/gaming/',         color: '#d8412f' },
+    'Turtle Beach': { site: 'https://www.turtlebeach.com/',                 color: '#00a5e0' },
+    'ASUS ROG':     { site: 'https://rog.asus.com/',                        color: '#ff1f2d' },
+    'Cooler Master':{ site: 'https://www.coolermaster.com/',                color: '#8b3fe0' },
+    'Pulsar':       { site: 'https://www.pulsar.gg/',                       color: '#ff5a1f' },
+    'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
+    'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
+    'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
   };
 
   /* ---------------------------------------------------------
@@ -72,7 +80,7 @@
   var CATEGORIES = {
     controller: { label: 'Controllers', icon: '🎮', blurb: 'Gamepads for PC, console, and retro — wired, wireless, and pro.' },
     keyboard:   { label: 'Keyboards',   icon: '⌨️', blurb: 'Mechanical, optical, and low-profile boards for every desk.' },
-    mouse:      { label: 'Mice',        icon: '🖱️', blurb: 'Featherweight FPS mice to button-loaded MMO rigs.' },
+    mouse:      { label: 'Mice',        icon: '🖱️', blurb: 'Featherweight FPS mice to MMO rigs — right-handed, left-handed, and ambidextrous.' },
     headset:    { label: 'Headsets',    icon: '🎧', blurb: 'Immersive audio and crystal-clear comms for long sessions.' },
     chair:      { label: 'Chairs',      icon: '🪑', blurb: 'Ergonomic seating that protects your back, not just your K/D.' },
     mousepad:   { label: 'Mousepads',   icon: '🟪', blurb: 'Speed, control, and desk-sized surfaces for pixel-perfect aim.' },
@@ -202,8 +210,8 @@
       price: 119.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
-      tags: ['wireless', 'lightweight', 'ergonomic', 'fps', 'palmgrip', 'highdpi', 'premium'],
-      valueNote: 'The most comfortable ultralight for larger hands and palm-grippers.'
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The most comfortable ultralight for larger hands and palm-grippers. (Right-handed; lefties — see the DeathAdder Left-Handed Edition or an ambidextrous pick.)'
     },
     {
       id: 'razer-viper-v2', name: 'Razer Viper V2 Pro', brand: 'Razer', category: 'mouse',
@@ -218,8 +226,8 @@
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
       features: ['13 programmable controls', 'Hybrid optical-mechanical switches', 'HERO 25K sensor', 'Sniper button'],
-      tags: ['wired', 'ergonomic', 'mmo', 'palmgrip', 'highdpi', 'budget'],
-      valueNote: 'Best for players who want lots of buttons without going full MMO.'
+      tags: ['wired', 'ergonomic', 'righthanded', 'mmo', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Best for right-handed players who want lots of buttons without going full MMO.'
     },
     {
       id: 'steelseries-aerox-3', name: 'SteelSeries Aerox 3 Wireless', brand: 'SteelSeries', category: 'mouse',
@@ -463,8 +471,8 @@
       url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3',
       highlight: 'Feature-packed ergonomic mouse with a tilt-scroll smart wheel — superb value.',
       features: ['11 programmable buttons', 'Smart-reel free-spin wheel', 'Focus+ 26K sensor', 'Underglow RGB'],
-      tags: ['wired', 'ergonomic', 'mmo', 'palmgrip', 'highdpi', 'budget'],
-      valueNote: 'One of the best all-round wired mice you can buy under $70.'
+      tags: ['wired', 'ergonomic', 'righthanded', 'mmo', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'One of the best all-round wired (right-handed) mice you can buy under $70.'
     },
     {
       id: 'logi-g305', name: 'Logitech G305 Lightspeed', brand: 'Logitech G', category: 'mouse',
@@ -490,8 +498,8 @@
       url: 'https://www.razer.com/gaming-mice/razer-naga-v2-pro',
       highlight: 'The ultimate MMO/MOBA mouse with swappable side plates (2, 6, or 12 buttons).',
       features: ['Swappable side plates', 'Up to 19 programmable buttons', 'Focus Pro 30K sensor', 'HyperScroll wheel'],
-      tags: ['wireless', 'mmo', 'ergonomic', 'palmgrip', 'highdpi', 'premium', 'customizable'],
-      valueNote: 'Essential for serious MMO players; overkill (and pricey) for pure FPS.'
+      tags: ['wireless', 'mmo', 'ergonomic', 'righthanded', 'palmgrip', 'highdpi', 'premium', 'customizable'],
+      valueNote: 'Essential for serious right-handed MMO players; overkill (and pricey) for pure FPS.'
     },
 
     /* ---------------- HEADSETS (more) ---------------- */
@@ -687,6 +695,359 @@
       features: ['Huge 1/1.2" Sony STARVIS 2 sensor', '4K/30 or 1080p/60', 'Stunning low-light depth', 'AI autofocus'],
       tags: ['4k', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'The best-looking webcam available — but premium-priced; overkill for calls.'
+    },
+
+    /* ============ EXPANSION — more gear for every kind of gamer ============ */
+
+    /* ---- CONTROLLERS ---- */
+    {
+      id: 'turtle-beach-stealth-ultra', name: 'Turtle Beach Stealth Ultra', brand: 'Turtle Beach', category: 'controller',
+      price: 159.99, msrp: 199.99, rating: 4.3,
+      highlight: 'Pro Xbox/PC controller with a built-in command display and rear paddles.',
+      features: ['Built-in command display', '4 mappable rear buttons', 'Anti-drift sticks', 'Fast-charging dock'],
+      tags: ['xbox', 'pc', 'wireless', 'premium', 'pro', 'customizable', 'comfortGrip'],
+      valueNote: 'A loaded pro pad if you want tuning and an on-controller display without a PC app.'
+    },
+    {
+      id: '8bitdo-ultimate-2-wireless', name: '8BitDo Ultimate 2 Wireless', brand: '8BitDo', category: 'controller',
+      price: 59.99, msrp: 59.99, rating: 4.6,
+      highlight: 'TMR + Hall-effect sticks and triggers for drift-free precision on a budget.',
+      features: ['TMR drift-free sticks', 'Hall-effect triggers', 'Back buttons + profiles', '2.4G + Bluetooth + dock'],
+      tags: ['pc', 'switch', 'wireless', 'pro', 'hallEffect', 'customizable', 'comfortGrip', 'budget'],
+      valueNote: 'An incredible feature set for the price; a top budget-pro pick.'
+    },
+    {
+      id: 'razer-wolverine-v3-pro', name: 'Razer Wolverine V3 Pro', brand: 'Razer', category: 'controller',
+      price: 199.99, msrp: 199.99, rating: 4.3,
+      url: 'https://www.razer.com/console-controllers/razer-wolverine-v3-pro',
+      highlight: 'Tournament-grade wireless Xbox/PC controller with mecha-tactile buttons.',
+      features: ['6 remappable buttons', 'Mecha-tactile face buttons', 'Hall-effect triggers + sticks', 'Wireless or wired'],
+      tags: ['xbox', 'pc', 'wireless', 'premium', 'pro', 'customizable', 'hallEffect'],
+      valueNote: 'For competitive players who want every edge; premium price to match.'
+    },
+    {
+      id: 'logi-f710', name: 'Logitech G F710 Wireless Gamepad', brand: 'Logitech G', category: 'controller',
+      price: 39.99, msrp: 59.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gamepads/f710-wireless-gamepad.html',
+      highlight: 'A simple, reliable plug-and-play wireless gamepad for PC.',
+      features: ['2.4GHz wireless', 'Dual vibration', 'Familiar layout', 'Broad PC game support'],
+      tags: ['pc', 'wireless', 'budget', 'comfortGrip'],
+      valueNote: 'A no-fuss budget pad for PC couch play and emulation.'
+    },
+    {
+      id: '8bitdo-arcade-stick', name: '8BitDo Arcade Stick', brand: '8BitDo', category: 'controller',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      highlight: 'A customizable fight stick for Switch and PC, built for fighting games.',
+      features: ['Bluetooth / 2.4G / USB-C', 'Mod-friendly internals', 'Programmable macros', 'Large arcade buttons'],
+      tags: ['pc', 'switch', 'wireless', 'wired', 'retro', 'customizable', 'budget'],
+      valueNote: 'The accessible way into arcade-stick fighting games.'
+    },
+    {
+      id: 'turtle-beach-recon-controller', name: 'Turtle Beach Recon Controller', brand: 'Turtle Beach', category: 'controller',
+      price: 59.99, msrp: 59.99, rating: 4.4,
+      highlight: 'Wired Xbox/PC pad with built-in audio controls and pro-aim buttons.',
+      features: ['Audio presets on the controller', 'Pro-Aim trigger lock', 'Mappable buttons', 'Wired low latency'],
+      tags: ['xbox', 'pc', 'wired', 'budget', 'pro', 'comfortGrip'],
+      valueNote: 'Great budget pad for headset users who tweak audio mid-game.'
+    },
+
+    /* ---- KEYBOARDS ---- */
+    {
+      id: 'asus-rog-azoth', name: 'ASUS ROG Azoth', brand: 'ASUS ROG', category: 'keyboard',
+      price: 249.99, msrp: 279.99, rating: 4.6,
+      highlight: 'A 75% wireless enthusiast board with gasket mount, OLED, and hot-swap.',
+      features: ['Gasket-mounted build', 'Tri-mode wireless', 'OLED display + control knob', 'Hot-swap, pre-lubed switches'],
+      tags: ['mechanical', 'tkl', 'compact60', 'wireless', 'rgb', 'hotswap', 'linear', 'premium'],
+      valueNote: 'A premium out-of-box enthusiast feel without building one yourself.'
+    },
+    {
+      id: 'razer-huntsman-v3-pro-tkl', name: 'Razer Huntsman V3 Pro TKL', brand: 'Razer', category: 'keyboard',
+      price: 199.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro',
+      highlight: 'Analog optical board with adjustable actuation and rapid trigger for FPS.',
+      features: ['Analog optical switches', 'Rapid trigger', 'Adjustable actuation point', 'Doubleshot PBT keycaps'],
+      tags: ['optical', 'tkl', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'A top competitive board if you want adjustable, rapid-fire keys.'
+    },
+    {
+      id: 'logi-pro-x-tkl-rapid', name: 'Logitech G Pro X TKL Rapid', brand: 'Logitech G', category: 'keyboard',
+      price: 179.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-rapid-gaming-keyboard.html',
+      highlight: 'Wireless analog TKL tuned with pros for fast, adjustable inputs.',
+      features: ['Analog Hall-effect switches', 'Rapid trigger', 'Lightspeed wireless', 'Compact TKL layout'],
+      tags: ['mechanical', 'tkl', 'wireless', 'rgb', 'linear', 'premium'],
+      valueNote: 'A wireless rival to the Huntsman and Apex analog boards.'
+    },
+    {
+      id: 'keychron-v6', name: 'Keychron V6 (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 89.99, rating: 4.6,
+      highlight: 'A full-size, fully customizable QMK/VIA board at a bargain price.',
+      features: ['Full-size + optional knob', 'Hot-swap', 'QMK/VIA programmable', 'Gasket mount'],
+      tags: ['mechanical', 'fullsize', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'Outstanding value for a full-size, custom-ready keyboard.'
+    },
+    {
+      id: 'steelseries-apex-9-tkl', name: 'SteelSeries Apex 9 TKL', brand: 'SteelSeries', category: 'keyboard',
+      price: 119.99, msrp: 139.99, rating: 4.4,
+      highlight: 'A hot-swappable optical TKL with fast, durable switches.',
+      features: ['OptiPoint optical switches', 'Hot-swap sockets', 'PBT keycaps', 'Compact TKL'],
+      tags: ['optical', 'tkl', 'wired', 'rgb', 'linear', 'hotswap', 'premium'],
+      valueNote: 'A solid optical alternative to the pricier Apex Pro.'
+    },
+    {
+      id: 'coolermaster-ck721', name: 'Cooler Master CK721', brand: 'Cooler Master', category: 'keyboard',
+      price: 99.99, msrp: 119.99, rating: 4.4,
+      highlight: 'A stylish 65% wireless board with a control dial and hot-swap switches.',
+      features: ['65% layout + dial', 'Tri-mode wireless', 'Hot-swap switches', 'South-facing RGB'],
+      tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Compact wireless with enthusiast touches at a fair price.'
+    },
+
+    /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
+    {
+      id: 'razer-deathadder-lefthand', name: 'Razer DeathAdder V2 Left-Handed Edition', brand: 'Razer', category: 'mouse',
+      price: 69.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v2-left-handed-edition',
+      highlight: 'A true LEFT-HANDED version of the iconic DeathAdder — real ergonomics for lefties.',
+      features: ['Genuine left-handed ergonomic shape', 'Thumb buttons on the right side', 'Focus+ 20K sensor', 'Optical switches'],
+      tags: ['lefthanded', 'ergonomic', 'fps', 'palmgrip', 'wired', 'highdpi', 'premium'],
+      valueNote: 'One of the only mainstream TRUE left-handed ergonomic gaming mice — a rare find for southpaws.'
+    },
+    {
+      id: 'logi-g903', name: 'Logitech G903 LIGHTSPEED', brand: 'Logitech G', category: 'mouse',
+      price: 99.99, msrp: 149.99, rating: 4.6,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g903-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A truly ambidextrous wireless mouse with buttons on BOTH sides — excellent for lefties.',
+      features: ['Removable side buttons on both sides', 'HERO 25K sensor', 'Lightspeed + POWERPLAY ready', '~140h battery'],
+      tags: ['ambidextrous', 'wireless', 'fps', 'mmo', 'palmgrip', 'premium', 'highdpi'],
+      valueNote: 'Left- or right-handed, you keep your thumb buttons either way — rare and great for southpaws.'
+    },
+    {
+      id: 'razer-cobra', name: 'Razer Cobra', brand: 'Razer', category: 'mouse',
+      price: 39.99, msrp: 39.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-cobra',
+      highlight: 'A lightweight ambidextrous wired mouse at an excellent entry price.',
+      features: ['~58g symmetric shape', 'Gen-3 optical switches', '8500 DPI optical sensor', 'Chroma underglow'],
+      tags: ['ambidextrous', 'lightweight', 'wired', 'fps', 'clawgrip', 'budget'],
+      valueNote: 'A cheap, light, symmetric shape that suits left or right hands.'
+    },
+    {
+      id: 'pulsar-x2v3', name: 'Pulsar X2 V3', brand: 'Pulsar', category: 'mouse',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      highlight: 'A symmetrical ultralight wireless mouse loved for its neutral, lefty-friendly shape.',
+      features: ['~54g symmetric shell', 'Up to 4K polling', 'XS-1 / 26K sensor', 'Long battery life'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'premium', 'highdpi'],
+      valueNote: 'A favorite ambidextrous ultralight that performs equally well in either hand.'
+    },
+    {
+      id: 'endgame-xm2we', name: 'Endgame Gear XM2we', brand: 'Endgame Gear', category: 'mouse',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      highlight: 'A symmetric wireless mouse with a beloved shape and a rock-solid sensor.',
+      features: ['~63g symmetric shape', 'PixArt 3370 sensor', 'Kailh GM 8.0 switches', '2.4GHz wireless'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'premium'],
+      valueNote: 'A comfy ambidextrous shape that fits left- and right-handers alike.'
+    },
+    {
+      id: 'coolermaster-mm712', name: 'Cooler Master MM712', brand: 'Cooler Master', category: 'mouse',
+      price: 59.99, msrp: 79.99, rating: 4.5,
+      highlight: 'A 59g ambidextrous wireless mouse — symmetric and friendly for either hand.',
+      features: ['~59g symmetric shell', 'Hybrid 2.4G / Bluetooth', 'Optical micro switches', 'PTFE feet'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'budget'],
+      valueNote: 'Affordable ambidextrous ultralight; a solid lefty-friendly option.'
+    },
+    {
+      id: 'razer-basilisk-v3-pro', name: 'Razer Basilisk V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 139.99, msrp: 159.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-pro',
+      highlight: 'A premium right-handed ergonomic mouse with tilt-scroll and wireless charging.',
+      features: ['Focus Pro 30K sensor', '13 controls + tilt wheel', 'HyperScroll free-spin', 'Wireless charging (with dock)'],
+      tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'palmgrip', 'premium', 'highdpi'],
+      valueNote: 'The do-it-all right-handed ergonomic flagship.'
+    },
+    {
+      id: 'logi-g502x-plus', name: 'Logitech G502 X PLUS', brand: 'Logitech G', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.6,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-plus-wireless-gaming-mouse.html',
+      highlight: 'The classic G502 ergonomic shape, now wireless with LIGHTSYNC RGB.',
+      features: ['13 controls', 'HERO 25K sensor', 'Hybrid optical-mechanical switches', 'Lightspeed wireless + RGB'],
+      tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'palmgrip', 'premium', 'highdpi'],
+      valueNote: 'For right-handed players who love buttons and a slightly heftier mouse.'
+    },
+    {
+      id: 'steelseries-prime', name: 'SteelSeries Prime', brand: 'SteelSeries', category: 'mouse',
+      price: 39.99, msrp: 49.99, rating: 4.4,
+      highlight: 'A clean right-handed ergonomic FPS mouse built around pro feedback.',
+      features: ['~69g ergonomic shape', 'TrueMove Air sensor', 'Magnetic optical switches', 'Wired'],
+      tags: ['righthanded', 'ergonomic', 'fps', 'wired', 'palmgrip', 'budget'],
+      valueNote: 'A no-frills, well-shaped right-handed FPS mouse on a budget.'
+    },
+    {
+      id: 'roccat-kone-xp-air', name: 'Roccat Kone XP Air', brand: 'Roccat', category: 'mouse',
+      price: 129.99, msrp: 169.99, rating: 4.3,
+      highlight: 'A flashy right-handed ergonomic wireless mouse with 29 programmable inputs.',
+      features: ['Owl-Eye 19K sensor', '29 programmable inputs', 'AIMO RGB', 'Charging dock included'],
+      tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
+      valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
+    },
+
+    /* ---- HEADSETS ---- */
+    {
+      id: 'turtle-beach-stealth-700', name: 'Turtle Beach Stealth 700 Gen 3', brand: 'Turtle Beach', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      highlight: 'Comfortable multi-platform wireless headset with simultaneous Bluetooth.',
+      features: ['2.4GHz + Bluetooth at once', 'Flip-to-mute mic', '~80h battery', 'Cooling-gel earpads'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Great battery life and comfort across Xbox, PlayStation, and PC.'
+    },
+    {
+      id: 'astro-a50-x', name: 'Logitech G ASTRO A50 X', brand: 'Logitech G', category: 'headset',
+      price: 379.99, msrp: 379.99, rating: 4.2,
+      highlight: 'A flagship wireless headset and base station that switches between PC, Xbox, and PS.',
+      features: ['Base-station charging dock', 'PLAYSYNC HDMI switching', 'Hi-res 40mm drivers', 'Multi-system'],
+      tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A luxury all-in-one; only worth it if you juggle multiple systems.'
+    },
+    {
+      id: 'hyperx-cloud-3', name: 'HyperX Cloud III', brand: 'HyperX', category: 'headset',
+      price: 99.99, msrp: 99.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-gaming-headset',
+      highlight: 'The comfort legend, refined — superb wired sound and mic for the money.',
+      features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
+      tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
+      price: 129.99, msrp: 159.99, rating: 4.3,
+      url: 'https://www.razer.com/gaming-headsets/razer-kraken-v4',
+      highlight: 'A comfy RGB wireless headset with a detachable mic and full surround.',
+      features: ['TriForce drivers', 'Detachable HyperClear mic', 'THX Spatial Audio', 'USB-C dongle'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'A good-looking all-rounder; compare against the BlackShark on sale.'
+    },
+    {
+      id: 'steelseries-arctis-nova-1', name: 'SteelSeries Arctis Nova 1', brand: 'SteelSeries', category: 'headset',
+      price: 59.99, msrp: 59.99, rating: 4.4,
+      highlight: 'A lightweight wired headset with Nova comfort and a retractable mic.',
+      features: ['Nova acoustic drivers', 'Retractable ClearCast mic', 'Lightweight build', '3.5mm multi-platform'],
+      tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A great-value entry into the Arctis Nova lineup.'
+    },
+    {
+      id: 'audeze-maxwell', name: 'Audeze Maxwell', brand: 'Audeze', category: 'headset',
+      price: 299.99, msrp: 329.99, rating: 4.7,
+      highlight: 'A planar-magnetic wireless headset with audiophile-grade sound for gaming.',
+      features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+
+    /* ---- CHAIRS ---- */
+    {
+      id: 'andaseat-kaiser-3', name: 'AndaSeat Kaiser 3', brand: 'AndaSeat', category: 'chair',
+      price: 549.99, msrp: 599.99, rating: 4.5,
+      highlight: 'A big-and-tall favorite with magnetic lumbar support and plush padding.',
+      features: ['4D magnetic lumbar', 'Cold-cure foam', 'Supports larger frames', 'Wide seat base'],
+      tags: ['ergonomic', 'lumbar', 'leather', 'recline', 'premium', 'bigtall'],
+      valueNote: 'A top choice for larger players who want firm support.'
+    },
+    {
+      id: 'asus-rog-destrier-ergo', name: 'ASUS ROG Destrier Ergo', brand: 'ASUS ROG', category: 'chair',
+      price: 1299.99, msrp: 1499.99, rating: 4.4,
+      highlight: 'A high-end ergonomic gaming chair with a unique floating-back design.',
+      features: ['Acewing floating backrest', 'Highly adjustable', 'Breathable mesh', 'Aluminum base'],
+      tags: ['ergonomic', 'lumbar', 'mesh', 'recline', 'premium', 'bigtall'],
+      valueNote: 'Investment-grade ergonomics; only if budget is no concern.'
+    },
+    {
+      id: 'razer-fujin-pro', name: 'Razer Fujin Pro', brand: 'Razer', category: 'chair',
+      price: 1049.99, msrp: 1049.99, rating: 4.3,
+      url: 'https://www.razer.com/gaming-chairs/razer-fujin-pro',
+      highlight: 'A fully mesh ergonomic chair built for hot rooms and long sessions.',
+      features: ['All-mesh breathable build', 'Adjustable lumbar', '6D armrests', 'Deep recline'],
+      tags: ['ergonomic', 'lumbar', 'mesh', 'recline', 'premium'],
+      valueNote: 'Great if you run hot and prefer mesh over a padded chair.'
+    },
+    {
+      id: 'andaseat-phantom-3', name: 'AndaSeat Phantom 3', brand: 'AndaSeat', category: 'chair',
+      price: 399.99, msrp: 469.99, rating: 4.4,
+      highlight: 'A versatile mid-range chair with adaptive lumbar and comfy padding.',
+      features: ['Adaptive lumbar support', 'Linen or PVC leather', '4D armrests', '160-degree recline'],
+      tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium'],
+      valueNote: 'A well-rounded mid-premium chair, especially on sale.'
+    },
+
+    /* ---- MOUSEPADS ---- */
+    {
+      id: 'razer-gigantus-v2-3xl', name: 'Razer Gigantus V2 3XL', brand: 'Razer', category: 'mousepad',
+      price: 39.99, msrp: 49.99, rating: 4.6,
+      highlight: 'A massive full-desk cloth mat with a smooth, balanced surface.',
+      features: ['1200 x 550 mm', 'Textured micro-weave', 'Thick anti-slip base', 'Durable edges'],
+      tags: ['xl', 'desk', 'control', 'cloth', 'budget'],
+      valueNote: 'Cover the whole desk without spending much.'
+    },
+    {
+      id: 'coolermaster-mp510-xl', name: 'Cooler Master MP510 XL', brand: 'Cooler Master', category: 'mousepad',
+      price: 24.99, msrp: 29.99, rating: 4.6,
+      highlight: 'A durable, splash-resistant cloth deskmat with crisp stitched borders.',
+      features: ['Water-repellent coating', 'Anti-fray stitching', 'Control-focused weave', 'Non-slip base'],
+      tags: ['xl', 'desk', 'control', 'cloth', 'budget', 'waterproof'],
+      valueNote: 'Tough, spill-resistant, and very affordable.'
+    },
+    {
+      id: 'logi-g740', name: 'Logitech G740', brand: 'Logitech G', category: 'mousepad',
+      price: 29.99, msrp: 39.99, rating: 4.6,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mouse-pads/g740-large-thick-gaming-mousepad.html',
+      highlight: 'A thick, cushioned cloth pad tuned for low-DPI control play.',
+      features: ['5mm thick foam', 'Control-tuned surface', 'Stable rubber base', 'Large size'],
+      tags: ['desk', 'control', 'cloth', 'budget'],
+      valueNote: 'The extra thickness is comfy for wrists and low-sensitivity players.'
+    },
+
+    /* ---- MICROPHONES ---- */
+    {
+      id: 'elgato-wave-dx', name: 'Elgato Wave DX', brand: 'Corsair', category: 'mic',
+      price: 99.99, msrp: 99.99, rating: 4.5,
+      highlight: 'An XLR dynamic mic that rejects room noise — a real streamer upgrade path.',
+      features: ['Cardioid dynamic capsule', 'XLR connection', 'Strong background rejection', 'Pairs with Wave XLR'],
+      tags: ['xlr', 'cardioid', 'streaming', 'podcast', 'premium'],
+      valueNote: 'Choose XLR when you are ready for an interface and cleaner audio.'
+    },
+    {
+      id: 'roccat-torch', name: 'Roccat Torch', brand: 'Roccat', category: 'mic',
+      price: 89.99, msrp: 99.99, rating: 4.3,
+      highlight: 'A USB studio mic with multiple patterns and handy on-mic controls.',
+      features: ['USB plug-and-play', 'Multiple polar patterns', 'On-mic gain and mute dial', 'Shock mount included'],
+      tags: ['usb', 'cardioid', 'streaming', 'podcast', 'gain', 'plugplay', 'budget'],
+      valueNote: 'A feature-rich USB mic for newer streamers.'
+    },
+
+    /* ---- WEBCAMS ---- */
+    {
+      id: 'razer-kiyo-x', name: 'Razer Kiyo X', brand: 'Razer', category: 'webcam',
+      price: 49.99, msrp: 69.99, rating: 4.4,
+      url: 'https://www.razer.com/streaming-cameras/razer-kiyo-x',
+      highlight: 'An affordable 1080p/30 webcam with full autofocus for streams and calls.',
+      features: ['1080p/30 or 720p/60', 'Autofocus', 'Wide app compatibility', 'USB plug-and-play'],
+      tags: ['1080p', 'autofocus', 'streaming', 'calls', 'wired', 'budget'],
+      valueNote: 'Simple, cheap, and reliable for starting out.'
+    },
+    {
+      id: 'logi-mx-brio', name: 'Logitech MX Brio', brand: 'Logitech G', category: 'webcam',
+      price: 199.99, msrp: 229.99, rating: 4.4,
+      url: 'https://www.logitech.com/en-us/products/webcams/mx-brio-4k-webcam.html',
+      highlight: 'A premium 4K webcam with excellent detail and smart low-light handling.',
+      features: ['4K Ultra HD', 'Large Sony sensor', 'Show Mode + AI tuning', 'Privacy shutter'],
+      tags: ['4k', 'autofocus', 'lowlight', 'calls', 'streaming', 'wideangle', 'wired', 'premium'],
+      valueNote: 'Top-tier for hybrid work and high-quality streams.'
+    },
+    {
+      id: 'elgato-facecam-mk2', name: 'Elgato Facecam MK.2', brand: 'Corsair', category: 'webcam',
+      price: 149.99, msrp: 149.99, rating: 4.4,
+      highlight: 'A streamer-grade 1080p/60 cam with a sharp lens and manual controls.',
+      features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
+      tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
+      valueNote: 'Excellent 1080p streaming image with pro software control.'
     }
   ];
 

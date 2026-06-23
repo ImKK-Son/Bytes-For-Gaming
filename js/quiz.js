@@ -89,6 +89,11 @@
           { label: 'MMO / lots of abilities', tags: { mmo: 3 } },
           { label: 'A bit of everything', tags: { fps: 1, ergonomic: 1 } }
         ]},
+        { q: 'Which hand do you game with?', options: [
+          { label: 'Right-handed', tags: { righthanded: 3, ambidextrous: 1 } },
+          { label: 'Left-handed', tags: { lefthanded: 3, ambidextrous: 2 } },
+          { label: 'Either / ambidextrous', tags: { ambidextrous: 3 } }
+        ]},
         { q: 'How do you hold a mouse?', options: [
           { label: 'Palm (whole hand rests)', tags: { palmgrip: 3, ergonomic: 2 } },
           { label: 'Claw / fingertip', tags: { clawgrip: 3, lightweight: 1 } },
