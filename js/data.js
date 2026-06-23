@@ -687,6 +687,35 @@
       features: ['Huge 1/1.2" Sony STARVIS 2 sensor', '4K/30 or 1080p/60', 'Stunning low-light depth', 'AI autofocus'],
       tags: ['4k', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'The best-looking webcam available — but premium-priced; overkill for calls.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'hyperx-cloud-3', name: 'HyperX Cloud III', brand: 'HyperX', category: 'headset',
+      price: 79.99, msrp: 99.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-gaming-headset',
+      highlight: 'The comfort-king Cloud line, reworked with bigger 53mm drivers and DTS spatial audio.',
+      features: ['53mm angled drivers', 'DTS Headphone:X spatial audio', '10mm detachable noise-cancel mic', 'USB-C and 3.5mm, multi-platform'],
+      tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A safe, comfortable all-rounder that often sells below MSRP — the new value pick.'
+    },
+    {
+      id: 'razer-cobra', name: 'Razer Cobra', brand: 'Razer', category: 'mouse',
+      price: 39.99, msrp: 39.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-cobra',
+      highlight: 'A true 58g symmetrical lightweight for players who do not want to spend big.',
+      features: ['~58g symmetrical shell', '8,500 DPI optical sensor', 'Razer optical switches Gen-3', 'Underglow + Chroma RGB'],
+      tags: ['wired', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
+      valueNote: 'One of the lightest wired mice at this price — a standout budget FPS option.'
+    },
+    {
+      id: 'keychron-v6', name: 'Keychron V6 (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 74.99, msrp: 84.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard',
+      highlight: 'A full-size hot-swap board with gasket mount and QMK/VIA at a wallet-friendly price.',
+      features: ['Full-size 100% layout', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'South-facing RGB, knob option'],
+      tags: ['mechanical', 'fullsize', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'The cheapest way into a customizable full-size enthusiast board — usually under MSRP.'
     }
   ];
 
