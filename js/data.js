@@ -222,6 +222,15 @@
       valueNote: 'Frequently discounted to a great price for its tier.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The pro-circuit favorite: 54g symmetrical shape with 8K wireless polling.',
+      features: ['~54g ultralight shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', '8000Hz HyperSpeed wireless', 'Up to 95hr battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'The current esports benchmark mouse; regularly drops near $100 on sale.'
+    },
+    {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
@@ -291,7 +300,7 @@
     /* ---------------- CHAIRS ---------------- */
     {
       id: 'secretlab-titan-evo', name: 'Secretlab TITAN Evo', brand: 'Secretlab', category: 'chair',
-      price: 549.00, msrp: 619.00, rating: 4.7,
+      price: 529.00, msrp: 549.00, rating: 4.7,
       highlight: 'The gold-standard gaming chair: integrated lumbar, magnetic memory-foam pillow.',
       features: ['4-way L-ADAPT lumbar support', 'Magnetic head pillow', 'NEO Hybrid Leatherette or fabric', 'Three sizes (S/R/XL)'],
       tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium', 'bigtall', 'compact'],
@@ -761,6 +770,15 @@
       valueNote: 'A premium out-of-box enthusiast feel without building one yourself.'
     },
     {
+      id: 'asus-rog-strix-scope-ii-96', name: 'ASUS ROG Strix Scope II 96 Wireless', brand: 'ASUS ROG', category: 'keyboard',
+      price: 179.99, msrp: 209.99, rating: 4.5,
+      url: 'https://rog.asus.com/keyboards/keyboards/compact/rog-strix-scope-ii-96-wireless/',
+      highlight: 'A 96% tri-mode board that keeps the numpad while staying compact.',
+      features: ['96% layout with numpad', 'Tri-mode wireless (2.4G/BT/USB)', 'Hot-swap pre-lubed ROG NX switches', 'PBT keycaps', 'Sound-dampening foam'],
+      tags: ['mechanical', 'fullsize', 'wireless', 'rgb', 'hotswap', 'linear', 'premium'],
+      valueNote: 'Numpad-inclusive yet space-saving; frequently discounted well below list.'
+    },
+    {
       id: 'razer-huntsman-v3-pro-tkl', name: 'Razer Huntsman V3 Pro TKL', brand: 'Razer', category: 'keyboard',
       price: 199.99, msrp: 199.99, rating: 4.5,
       url: 'https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro',
@@ -915,6 +933,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The Cloud III comfort and sound, now cable-free with marathon battery.',
+      features: ['Up to 120hr battery', '2.4GHz wireless', 'Angled 53mm drivers', 'DTS spatial audio', 'Detachable 10mm mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'longBattery'],
+      valueNote: 'Best-in-class battery life and comfort for its wireless price tier.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
