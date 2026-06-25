@@ -222,6 +222,15 @@
       valueNote: 'Frequently discounted to a great price for its tier.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-favorite ultralight, now with 8K polling and an even lighter shell.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K sensor', '8000Hz polling (HyperPolling)', 'Gen-3 optical switches, ~95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'The most-used mouse in pro play; often drops below MSRP at major retailers.'
+    },
+    {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
@@ -445,6 +454,15 @@
       features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
       tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'asus-rog-azoth', name: 'ASUS ROG Azoth', brand: 'ASUS ROG', category: 'keyboard',
+      price: 219.99, msrp: 249.99, rating: 4.6,
+      url: 'https://rog.asus.com/keyboards/keyboards/compact/rog-azoth-model/',
+      highlight: 'A 75% wireless enthusiast board with a gasket mount, OLED display, and a built-in switch lube kit.',
+      features: ['Tri-mode (2.4GHz / Bluetooth / wired)', 'Gasket mount + pre-lubed ROG NX switches', '2-inch OLED info display', 'Hot-swap PBT keycaps'],
+      tags: ['mechanical', 'compact60', 'tkl', 'wireless', 'wired', 'hotswap', 'linear', 'premium'],
+      valueNote: 'Bundles enthusiast features most boards charge extra for; increasingly discounted below its $250 launch price.'
     },
     {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
@@ -898,6 +916,15 @@
       features: ['2.4GHz + Bluetooth at once', 'Flip-to-mute mic', '~80h battery', 'Cooling-gel earpads'],
       tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Great battery life and comfort across Xbox, PlayStation, and PC.'
+    },
+    {
+      id: 'turtle-beach-stealth-600', name: 'Turtle Beach Stealth 600 Gen 3', brand: 'Turtle Beach', category: 'headset',
+      price: 84.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.turtlebeach.com/products/stealth-600-headset',
+      highlight: 'Big, punchy wireless sound for under $100 — a standout budget multiplatform pick.',
+      features: ['2.4GHz wireless + Bluetooth', '~80h battery life', 'AI noise-cancelling flip-up mic', '50mm Nanoclear speakers'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Punches well above its price; routinely sells below MSRP at major retailers.'
     },
     {
       id: 'astro-a50-x', name: 'Logitech G ASTRO A50 X', brand: 'Logitech G', category: 'headset',
