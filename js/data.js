@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- RECENTLY ADDED (prices checked Jun 2026) ---------------- */
+    {
+      id: 'sony-pulse-elite', name: 'Sony PULSE Elite Wireless Headset', brand: 'Sony', category: 'headset',
+      price: 139.99, msrp: 149.99, rating: 4.4,
+      url: 'https://www.playstation.com/en-us/accessories/pulse-elite-wireless-headset/',
+      highlight: 'Planar magnetic drivers and a retractable boom mic, tuned for PS5 immersion.',
+      features: ['Planar magnetic drivers', 'Retractable hideaway boom mic', 'PS Link lossless wireless', 'Charging hanger included'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'playstation', 'multiplatform', 'premium'],
+      valueNote: 'Price has dropped — held at the $149.99 MSRP since launch but now regularly discounted, hitting an all-time-low ~$109 in the Days of Play 2026 sale.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Companion-app audio presets and 60h battery in a light, affordable wireless headset.',
+      features: ['100+ in-app audio presets', '2.4GHz + Bluetooth', '~60h battery', 'ClearCast Gen2.X mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Price roughly flat — still anchored at its $129.99 launch MSRP, with street prices dipping toward $119 and occasional sales near $99.'
+    },
+    {
+      id: 'glorious-model-o2-pro', name: 'Glorious Model O 2 PRO', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-o-2-pro-wireless-mouse-1k',
+      highlight: 'A 57g ambidextrous ultralight with optical switches and the 26K BAMF 2.0 sensor.',
+      features: ['~57g ultralight', 'Optical switches (100M clicks)', 'BAMF 2.0 26K sensor', '2.4GHz wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium'],
+      valueNote: 'Price has dropped — the 1K edition launched at $99.99 but now sells around $79.99, with retailers like Best Buy going as low as $69.99.'
     }
   ];
 
