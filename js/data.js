@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS (price-checked Jun 2026) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports flagship — ~54g, 8K polling, and a 35K sensor.',
+      features: ['~54g ultralight', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Street price has dropped below the $159.99 MSRP (≈$129.99) — a rare discount on the newest pro mouse.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A QMK/VIA TKL wireless board with hot-swap sockets and a gasket mount.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C', 'PBT keycaps, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'Frequently discounted to ≈$59.99 (from $79.99 MSRP) — outstanding value for a programmable board.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Multi-system wireless with 100+ audio presets and a 60-hour battery.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast Gen2.X mic', '~60h battery + fast charge', '100+ in-app audio presets'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Often sells around ≈$99.99, below the $129.99 MSRP — a strong mid-range wireless pick.'
     }
   ];
 
