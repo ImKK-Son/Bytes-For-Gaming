@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- RECENTLY ADDED (2026-06) ---- */
+    {
+      id: 'razer-basilisk-v3-x-hyperspeed', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 48.99, msrp: 69.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'A feature-packed wireless ergo mouse with a tilt-scroll wheel and huge battery life.',
+      features: ['18K optical sensor', 'HyperSpeed Wireless + Bluetooth', '9 programmable controls', 'Up to 285-hour battery'],
+      tags: ['wireless', 'ergonomic', 'righthanded', 'mmo', 'fps', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Street price has dropped well below its $69.99 MSRP (often ~$49, clearance lows near $38) — strong value right now.'
+    },
+    {
+      id: 'hyperx-cloud-iii-s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 179.99, msrp: 179.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The refreshed Cloud III wireless flagship — adds Bluetooth and even longer battery.',
+      features: ['53mm angled drivers', '2.4GHz + Bluetooth', 'Up to 120h (2.4GHz) / 200h (BT)', 'Detachable 10mm mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Sells at its $179.99 MSRP — about $10 above the discontinued Cloud III Wireless it replaces ($170).'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 94.00, rating: 4.5,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL QMK/VIA board with hot-swap switches and double-shot PBT keycaps.',
+      features: ['QMK/VIA programmable', 'Hot-swappable switches', 'Bluetooth + wired (USB-C)', 'Mac + Windows layouts'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Frequently discounted under its $94 MSRP (often ~$85, sale events lower) — best value when on promo.'
     }
   ];
 
