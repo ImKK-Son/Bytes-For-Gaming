@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ 2026 REFRESH — new arrivals (prices verified June 2026) ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: ~54g symmetrical ultralight with true 8K polling.',
+      features: ['~54g symmetric shape', 'Focus Pro 35K sensor', '8000Hz true polling', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The most-used mouse on pro FPS rosters; regularly discounted toward $120 from its $160 MSRP.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 109.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable, fully programmable TKL wireless board with an aluminum frame.',
+      features: ['TKL aluminum frame', 'Hot-swap + QMK/VIA', 'Bluetooth + USB-C', 'Pre-lubed Gateron G Pro switches'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'linear', 'budget'],
+      valueNote: 'A customizable, QMK/VIA-ready TKL without paying enthusiast prices.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Dual-wireless multi-system headset with a companion app of 100+ game audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Neodymium magnetic drivers', '100+ in-app audio presets', '~60h battery'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A feature-packed mid-range wireless headset; the preset app is the standout for tuning each game.'
     }
   ];
 
