@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      highlight: 'QMK/VIA hot-swap TKL with double-gasket mounting for a soft, quiet typing feel.',
+      features: ['TKL (87-key) layout', 'QMK/VIA fully remappable', 'Hot-swap + double-gasket mount', 'Bluetooth 5.1 + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'budget'],
+      valueNote: 'Open-source firmware and a gasket mount at this price is rare value.',
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 139.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current esports benchmark: ~54g symmetrical shape with an 8K polling dongle.',
+      features: ['~54g ultralight', 'Focus Pro 35K sensor', 'HyperPolling 8000Hz wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium'],
+      valueNote: 'Dominant on pro FPS rosters; the lightest flagship Razer has shipped.',
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro'
+    },
+    {
+      id: 'steelseries-arctis-nova-5x', name: 'SteelSeries Arctis Nova 5X', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 119.99, rating: 4.4,
+      highlight: 'Wireless multi-platform headset with a companion app full of game-tuned EQ presets.',
+      features: ['2.4GHz + Bluetooth dual wireless', '60h battery, fast charge', 'Nova Acoustic System drivers', 'App with 100+ game presets'],
+      tags: ['wireless', 'multiplatform', 'longbattery', 'bluetooth', 'comfort', 'premium'],
+      valueNote: 'Demand has pushed street prices above MSRP; watch for restocks at list price.',
+      url: 'https://steelseries.com/products/arctis-nova-5x'
     }
   ];
 
