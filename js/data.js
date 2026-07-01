@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS (price-checked 2026-07) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      highlight: 'A 54g esports flagship with an 8K polling rate and a 95-hour battery.',
+      features: ['54g ultralight symmetrical shape', 'Focus Pro 35K optical sensor', '8000Hz wireless polling', 'Up to 95-hour battery'],
+      tags: ['fps', 'wireless', 'lightweight', 'ambidextrous', 'premium', 'pro', '8khz'],
+      valueNote: 'Now street-priced around $130, roughly $30 under MSRP — discounts have deepened as a V4 Pro is rumored, so this is a good time to buy.'
+    },
+    {
+      id: 'logi-gpro-x-60', name: 'Logitech G PRO X 60 Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 149.99, msrp: 179.99, rating: 4.4,
+      highlight: 'A wireless 60% board with GX optical switches and KEYCONTROL remapping.',
+      features: ['Ultra-compact 60% layout', 'GX optical tactile switches', 'Lightspeed + Bluetooth wireless', 'Dual-shot PBT keycaps'],
+      tags: ['mechanical', '60', 'wireless', 'optical', 'compact', 'premium', 'pro'],
+      valueNote: 'MSRP is $179.99 but it now regularly sells near $150 (and has dipped under $120 on sale), so the effective price has trended down.'
+    },
+    {
+      id: 'hyperx-cloud-iii-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 169.99, rating: 4.6,
+      highlight: 'A comfy 2.4GHz headset with a huge 120-hour battery and DTS spatial audio.',
+      features: ['Up to 120-hour battery life', '53mm angled drivers', 'DTS Headphone:X spatial audio', '10mm detachable mic'],
+      tags: ['wireless', 'comfort', 'longbattery', 'spatial', 'pc', 'playstation', 'value'],
+      valueNote: 'Launched at $169.99 and now commonly around $130 — the street price has fallen roughly $40 since release.'
     }
   ];
 
@@ -1191,6 +1217,9 @@
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
     'razer-deathadder-v3': 'https://www.razer.com/gaming-mice/razer-deathadder-v3-pro',
     'razer-viper-v2': 'https://www.razer.com/gaming-mice/razer-viper-v2-pro',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'logi-gpro-x-60': 'https://www.logitechg.com/en-us/shop/p/pro-x-60-wireless-keyboard',
+    'hyperx-cloud-iii-wireless': 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
     'logi-g502x': 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-gaming-mouse.html',
     'steelseries-aerox-3': 'https://steelseries.com/products/aerox-3-wireless-2022',
     'hyperx-cloud-2': 'https://hyperx.com/products/hyperx-cloud-ii-gaming-headset',
