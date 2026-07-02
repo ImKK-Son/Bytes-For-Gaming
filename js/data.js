@@ -195,6 +195,15 @@
       tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'budget'],
       valueNote: 'Punches well above its price — a top budget mechanical pick.'
     },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 69.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'QMK/VIA-programmable TKL with hot-swap sockets and full Mac/Windows support.',
+      features: ['87-key TKL layout', 'QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'The most customizable wireless board at this price — deep remapping usually costs far more.'
+    },
 
     /* ---------------- MICE ---------------- */
     {
@@ -207,7 +216,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -244,6 +253,15 @@
       features: ['~67g honeycomb', 'BAMF sensor', 'G-Skates feet', 'RGB'],
       tags: ['wired', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
       valueNote: 'Excellent first ultralight without breaking the bank.'
+    },
+    {
+      id: 'steelseries-aerox-5-wireless', name: 'SteelSeries Aerox 5 Wireless', brand: 'SteelSeries', category: 'mouse',
+      price: 99.99, msrp: 139.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-mice/aerox-5',
+      highlight: 'Ultralight honeycomb mouse with 9 buttons and water-resistant AquaBarrier build.',
+      features: ['~74g honeycomb shell', '18K TrueMove Air sensor', '9 programmable buttons', 'Dual wireless + 180h battery'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'mmo', 'fps', 'highdpi', 'palmgrip'],
+      valueNote: 'A rare ultralight with extra side buttons — bridges FPS and MMO use without the weight.'
     },
 
     /* ---------------- HEADSETS ---------------- */
@@ -286,6 +304,15 @@
       features: ['Active noise cancellation', '360 Spatial Sound', '~32h battery', 'Soft synthetic-leather pads'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'playstation', 'premium'],
       valueNote: 'Often discounted hard — a strong deal when it drops near $150.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'Open-back, wired audiophile headset for streamers who want an honest, spacious soundstage.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz wide response', 'Detachable uni-directional mic', 'Lightweight suspension headband'],
+      tags: ['wired', 'hifi', 'comfortLongSession', 'openback', 'streaming', 'premium'],
+      valueNote: 'A genuine open-back at a gaming price — natural sound most closed headsets can’t match.'
     },
 
     /* ---------------- CHAIRS ---------------- */
