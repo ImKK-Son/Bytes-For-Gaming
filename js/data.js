@@ -463,6 +463,15 @@
       tags: ['mechanical', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
       valueNote: 'Tiny footprint for aimers; the missing arrow/function keys take adjustment.'
     },
+    {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 179.99, msrp: 219.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-gen-3?keyboardSize=tkl',
+      highlight: 'Hall-effect magnetic switches with per-key adjustable actuation and rapid trigger.',
+      features: ['OmniPoint 3.0 HyperMagnetic switches', 'Adjustable actuation + Rapid Trigger', 'Rapid Tap / SOCD support', 'OLED smart display, PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'hallEffect', 'rapidtrigger', 'premium'],
+      valueNote: 'Top-tier analog board for competitive FPS; currently selling well below MSRP.'
+    },
 
     /* ---------------- MICE (more) ---------------- */
     {
@@ -501,6 +510,15 @@
       tags: ['wireless', 'mmo', 'ergonomic', 'righthanded', 'palmgrip', 'highdpi', 'premium', 'customizable'],
       valueNote: 'Essential for serious right-handed MMO players; overkill (and pricey) for pure FPS.'
     },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The 54g esports benchmark — 8K polling, 35K sensor, and a battery that lasts weeks.',
+      features: ['Ultralight 54g symmetrical shape', '8000Hz true wireless polling', 'Focus Pro 35K optical sensor', '~95h battery, Gen-3 optical switches'],
+      tags: ['wireless', 'fps', 'ambidextrous', 'lightweight', 'highdpi', 'esports', 'premium', 'clawgrip'],
+      valueNote: 'The pro-tournament standard; frequently discounted below MSRP, so watch for sales.'
+    },
 
     /* ---------------- HEADSETS (more) ---------------- */
     {
@@ -528,6 +546,15 @@
       features: ['Dolby Atmos spatial audio', 'Broadcast omni mic', 'Floating-suspension headband', 'USB + Slipstream wireless'],
       tags: ['wireless', 'hifi', 'surround', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Excellent mic quality for the price; best on PC/PS5.'
+    },
+    {
+      id: 'corsair-virtuoso-max', name: 'Corsair Virtuoso Max Wireless', brand: 'Corsair', category: 'headset',
+      price: 279.99, msrp: 329.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011372-ww/virtuoso-max-wireless-gaming-headset-carbon-ca-9011372-ww',
+      highlight: 'A flagship with Dolby Atmos, active noise cancelling, and 50mm graphene drivers.',
+      features: ['Active noise cancelling', 'Dolby Atmos + Sonarworks SoundID', '50mm graphene drivers', 'Simultaneous 2.4GHz + Bluetooth, ~60h battery'],
+      tags: ['wireless', 'hifi', 'surround', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Premium sound and ANC, but heavy — try before buying if comfort matters most.'
     },
     {
       id: 'logi-g535', name: 'Logitech G535 Lightspeed', brand: 'Logitech G', category: 'headset',
