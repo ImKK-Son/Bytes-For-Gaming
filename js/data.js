@@ -148,6 +148,14 @@
 
     /* ---------------- KEYBOARDS ---------------- */
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.7,
+      highlight: 'QMK/VIA fully-programmable TKL that fixed the original K8 — gasket mount, hot-swap, and a screw-in stabilizer feel.',
+      features: ['QMK/VIA fully remappable', 'Hot-swap Gateron G Pro switches', 'Gasket-mounted aluminum frame', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'customizable'],
+      valueNote: 'Street price sits below its $99.99 MSRP — a lot of enthusiast board for the money, especially on sale.'
+    },
+    {
       id: 'keychron-k2', name: 'Keychron K2 (V2)', brand: 'Keychron', category: 'keyboard',
       price: 79.99, msrp: 89.99, rating: 4.6,
       highlight: 'The crowd-favorite 75% wireless board — Mac/Windows, hot-swap option, great typing.',
@@ -198,6 +206,14 @@
 
     /* ---------------- MICE ---------------- */
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 114.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current esports darling — 54g symmetrical shape, 8K polling, and a 35K sensor pros actually use.',
+      features: ['54g ultralight symmetrical', 'Focus Pro 35K optical sensor', '8000 Hz polling (with HyperPolling dongle)', 'Up to 95h battery, Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'Frequently discounted well under its $159.99 MSRP — a rare case where the pro-tier pick is also on sale.'
+    },
+    {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
       price: 129.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
@@ -247,6 +263,14 @@
     },
 
     /* ---------------- HEADSETS ---------------- */
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 199.99, msrp: 199.99, rating: 4.4,
+      highlight: 'Open-back wired headset tuned for streamers and audiophiles — a wide, natural soundstage with a broadcast-grade detachable mic.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz frequency response', 'Detachable uni-directional mic', 'Lightweight wired design (PC/console/mobile)'],
+      tags: ['wired', 'openback', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Holding firm at its $199.99 MSRP across major retailers — no real discount yet, so buy on a sale if you can wait.'
+    },
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
       price: 79.99, msrp: 99.99, rating: 4.7,
@@ -1189,6 +1213,9 @@
     'steelseries-apex-pro': 'https://steelseries.com/products/apex-pro-tkl',
     'hyperx-alloy-origins': 'https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard',
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'keychron-k8-pro': 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+    'corsair-virtuoso-pro': 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon',
     'razer-deathadder-v3': 'https://www.razer.com/gaming-mice/razer-deathadder-v3-pro',
     'razer-viper-v2': 'https://www.razer.com/gaming-mice/razer-viper-v2-pro',
     'logi-g502x': 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-gaming-mouse.html',
