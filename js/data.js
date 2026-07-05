@@ -188,6 +188,15 @@
       valueNote: 'For tinkerers who want to dial in their switches; premium price to match.'
     },
     {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 189.99, msrp: 239.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-gen-3',
+      highlight: 'OmniPoint 3.0 magnetic switches with per-key adjustable actuation and Rapid Tap.',
+      features: ['OmniPoint 3.0 HyperMagnetic switches', 'Per-key actuation + Rapid Trigger', 'OLED smart display', 'PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'premium', 'magnetic'],
+      valueNote: 'Street price has fallen well below the $239.99 MSRP — commonly ~$190 and has dipped to $179.99 on sale.'
+    },
+    {
       id: 'hyperx-alloy-origins', name: 'HyperX Alloy Origins Core', brand: 'HyperX', category: 'keyboard',
       price: 69.99, msrp: 89.99, rating: 4.6,
       highlight: 'Affordable, solid TKL with HyperX switches and a full aluminum body.',
@@ -220,6 +229,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: ~54g, 8K polling, and a 35K sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Launched at $159.99; the standard black/white has settled near $150 and dips to ~$120 on sale.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -915,6 +933,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The Cloud III comfort formula, now wireless with a 120-hour battery.',
+      features: ['Angled 53mm drivers', 'Up to 120h battery', '2.4GHz wireless + spatial audio', 'Detachable 10mm mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Sits below the $169.99 MSRP — commonly around $150 and dips toward $130 on deals.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
