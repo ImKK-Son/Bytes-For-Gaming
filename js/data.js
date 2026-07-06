@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS ---- */
+    {
+      id: 'razer-basilisk-v3-x-hyperspeed', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'An ergonomic wireless mouse with a monster battery and a budget-friendly price.',
+      features: ['18K optical sensor', 'HyperSpeed 2.4G + Bluetooth', '9 programmable controls', '~285hr battery life', 'Gen-2 mechanical mouse switches'],
+      tags: ['ergonomic', 'wireless', 'fps', 'mmo', 'palmgrip', 'budget', 'highdpi'],
+      valueNote: 'The Basilisk ergonomics and long battery without the flagship price — a strong value pick.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with QMK/VIA programmability and hot-swap switches.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Aluminum frame + RGB', 'Bluetooth 5.1 + wired', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Deep customization (QMK/VIA + hot-swap) at a mainstream price — rare for a wireless TKL.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back wired headset tuned for streamers who want natural, spacious sound.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz frequency response', 'Detachable uni-directional mic', 'Lightweight aluminum build'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'Audiophile-leaning open-back sound; frequently sells well under MSRP, sweetening the deal.'
     }
   ];
 
