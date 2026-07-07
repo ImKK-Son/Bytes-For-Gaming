@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The 54g esports flagship — 8K polling, 35K sensor, and a 95-hour battery.',
+      features: ['54g ultralight symmetrical shape', '35K DPI Focus Pro sensor', '8000Hz wireless polling', 'Up to 95-hour battery'],
+      tags: ['fps', 'wireless', 'lightweight', 'ambidextrous', 'esports', 'premium', '8k'],
+      valueNote: 'Now dipping below its $159.99 launch MSRP — a top-tier competitive mouse that has trended down since release.'
+    },
+    {
+      id: 'corsair-k65-plus-wireless', name: 'Corsair K65 Plus Wireless', brand: 'Corsair', category: 'keyboard',
+      price: 129.99, msrp: 159.99, rating: 4.6,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-91d441f-na/k65-plus-wireless-tactile-75-rgb-mechanical-gaming-keyboard-ch-91d441f-na',
+      highlight: 'A 75% hot-swappable board with pre-lubed switches and PBT keycaps at a real value price.',
+      features: ['75% layout with volume wheel', 'Hot-swappable pre-lubed MLX switches', 'PBT dye-sub keycaps', '2.4GHz, Bluetooth, and USB-C'],
+      tags: ['mechanical', 'wireless', 'hotswap', '75', 'rgb', 'gaming'],
+      valueNote: 'Frequently $30 under its $159.99 MSRP — one of the best-value pre-built enthusiast boards, and it has drifted down over time.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Dual-wireless multi-system headset with 100+ game audio presets and a 60-hour battery.',
+      features: ['2.4GHz + Bluetooth simultaneous', '100+ game-specific EQ presets', '60-hour battery, fast USB-C charge', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'bluetooth', 'multiplatform', 'streaming', 'longbattery', 'midrange'],
+      valueNote: 'Holding steady at its $129.99 MSRP — price has stayed flat since launch, with only occasional promo-code dips.'
     }
   ];
 
