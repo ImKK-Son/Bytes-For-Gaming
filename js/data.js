@@ -1048,6 +1048,33 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g esports flagship with an 8K polling wireless link and a 35K sensor.',
+      features: ['54g symmetrical shape', '8000Hz wireless polling', '35K DPI Focus Pro sensor', '95-hour battery life'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The pro pick for competitive FPS; frequently sells below MSRP, so wait for a dip.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 69.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA remapping, wired or Bluetooth.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C', 'PBT keycaps, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'A ton of enthusiast features for the money; goes on sale to ~$60 during big events.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Multi-system wireless with 100+ audio presets from a companion app.',
+      features: ['2.4GHz + Bluetooth', '60-hour battery', 'Neodymium magnetic drivers', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A well-rounded wireless headset for PC and PS5; commonly discounted below MSRP.'
     }
   ];
 
