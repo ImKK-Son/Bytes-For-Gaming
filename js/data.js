@@ -195,6 +195,14 @@
       tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'budget'],
       valueNote: 'Punches well above its price — a top budget mechanical pick.'
     },
+    {
+      id: 'glorious-gmmk-pro', name: 'Glorious GMMK Pro', brand: 'Glorious', category: 'keyboard',
+      price: 169.99, msrp: 169.99, rating: 4.4,
+      highlight: 'A 75% gasket-mounted enthusiast board that brought custom-keyboard feel to the mainstream.',
+      features: ['75% gasket-mount design', 'Hot-swap PCB (3/5-pin)', 'CNC aluminum case', 'Rotary knob + per-key RGB'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'Your gateway into the custom-keyboard hobby — buy the barebones and pick your own switches and keycaps.'
+    },
 
     /* ---------------- MICE ---------------- */
     {
@@ -220,6 +228,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current esports-flagship Viper — sub-55g with an 8000Hz-ready sensor.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K Optical sensor', 'Gen-2 optical switches', 'HyperPolling up to 8000Hz'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The reference ultralight for competitive FPS right now — pricey, but the one most pros benchmark against.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -254,6 +270,14 @@
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'Still one of the best value headsets you can buy, period.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 199.99, msrp: 199.99, rating: 4.4,
+      highlight: 'An open-back wired headset that trades noise isolation for a wide, natural soundstage.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable broadcast-grade mic', 'Lightweight fabric earpads', 'Analog 3.5mm + USB'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Great for quiet rooms and streamers chasing audiophile-leaning sound; skip it if you need to block out background noise.'
     },
     {
       id: 'razer-blackshark-v2-pro', name: 'Razer BlackShark V2 Pro', brand: 'Razer', category: 'headset',

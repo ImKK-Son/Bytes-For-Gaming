@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T19:48:35.025Z",
+  "generatedAt": "2026-07-09T00:00:00.000Z",
   "source": "affiliate-feeds",
   "products": {
     "razer-deathadder-v3": {
@@ -137,6 +137,75 @@
           "image": null,
           "inStock": true,
           "updatedAt": "2026-06-22T19:48:35.025Z"
+        }
+      ]
+    },
+    "razer-viper-v3-pro": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 159.99,
+          "salePrice": 149.99,
+          "url": "https://www.amazon.com/s?k=Razer+Viper+V3+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-07-09T00:00:00.000Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 159.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+Viper+V3+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-07-09T00:00:00.000Z"
+        }
+      ]
+    },
+    "glorious-gmmk-pro": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 169.99,
+          "salePrice": null,
+          "url": "https://www.amazon.com/s?k=Glorious+GMMK+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-07-09T00:00:00.000Z"
+        },
+        {
+          "name": "Newegg",
+          "price": 169.99,
+          "salePrice": 154.99,
+          "url": "https://www.newegg.com/p/pl?d=Glorious+GMMK+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-07-09T00:00:00.000Z"
+        }
+      ]
+    },
+    "corsair-virtuoso-pro": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Best Buy",
+          "price": 199.99,
+          "salePrice": 179.99,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Corsair+Virtuoso+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-07-09T00:00:00.000Z"
+        },
+        {
+          "name": "Amazon",
+          "price": 199.99,
+          "salePrice": null,
+          "url": "https://www.amazon.com/s?k=Corsair+Virtuoso+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-07-09T00:00:00.000Z"
         }
       ]
     }
