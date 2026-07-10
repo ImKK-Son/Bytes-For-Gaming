@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'razer-basilisk-v3-x', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 48.99, msrp: 69.99, rating: 4.6,
+      highlight: 'Wireless Basilisk features on a budget — 285-hour battery and a tilt-scroll wheel.',
+      features: ['18K DPI optical sensor', 'HyperSpeed 2.4G + Bluetooth', '9 programmable controls', 'Up to 285-hour battery'],
+      tags: ['pc', 'wireless', 'ergonomic', 'budget', 'rgb', 'comfortGrip'],
+      valueNote: 'Now clearing out around $49 (was $70 MSRP) and dipping under $40 on sale — a lot of mouse for the money.',
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 109.99, rating: 4.7,
+      highlight: 'Hot-swappable TKL with full QMK/VIA remapping and wireless — a tinkerer favorite.',
+      features: ['Hot-swappable switches', 'QMK/VIA fully programmable', 'Bluetooth 5.1 + wired USB-C', 'Double-shot PBT keycaps'],
+      tags: ['pc', 'mac', 'tkl', 'wireless', 'wired', 'mechanical', 'hotswap', 'customizable'],
+      valueNote: 'Street price has eased to about $95 from a $110 MSRP; deep customization for well under boutique-board money.',
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 199.99, msrp: 199.99, rating: 4.5,
+      highlight: 'Open-back, wired audiophile headset with a broadcast-grade detachable mic.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz frequency response', 'Detachable uni-directional mic', 'Lightweight all-day comfort'],
+      tags: ['pc', 'wired', 'openback', 'streaming', 'premium', 'audiophile'],
+      valueNote: 'Holding firm at its $199.99 MSRP — no discount yet, so wait for a sale if price matters more than the open-back sound.',
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na'
     }
   ];
 
