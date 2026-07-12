@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 69.99, msrp: 79.99, rating: 4.5,
+      highlight: 'Lightweight Lightspeed wireless with the flagship HERO 2 sensor at a mid-range price.',
+      features: ['~86g wireless', 'HERO 2 sensor (up to 44K DPI)', 'Lightspeed + Bluetooth', 'POWERPLAY compatible'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Brings Logitech’s top sensor and wireless to a friendlier price than the Superlight.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 99.99, rating: 4.6,
+      highlight: 'A TKL hot-swap board with QMK/VIA remapping and both wired and Bluetooth modes.',
+      features: ['87-key TKL layout', 'Hot-swappable switches', 'QMK/VIA fully remappable', 'Bluetooth + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'budget'],
+      valueNote: 'The go-to for people who want to tinker with mapping and switches without breaking the bank.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      highlight: 'Dual-wireless headset with a companion app that loads hundreds of game-specific audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Swappable dual-battery system', 'Retractable ClearCast mic', 'Nova companion app EQ presets'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'bluetooth', 'premium'],
+      valueNote: 'A lot of wireless flexibility and app-driven tuning for the money.'
     }
   ];
 
