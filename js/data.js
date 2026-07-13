@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ARRIVALS (prices checked Jul 2026) ---- */
+    {
+      id: 'logi-g502-hero', name: 'Logitech G502 HERO', brand: 'Logitech G', category: 'mouse',
+      price: 39.99, msrp: 79.99, rating: 4.7,
+      url: 'https://www.logitechg.com/en-us/shop/p/g502-hero-gaming-mouse',
+      highlight: 'The classic 11-button workhorse — HERO 25K sensor and tunable weights, now routinely half its launch price.',
+      features: ['HERO 25K sensor (25,600 DPI)', '11 programmable buttons', 'Adjustable weight system', 'Onboard memory + LIGHTSYNC RGB'],
+      tags: ['pc', 'wired', 'mmo', 'fps', 'customizable', 'budget', 'righthanded', 'palmgrip'],
+      valueNote: 'Price checked Jul 2026: street price has fallen to ~$40 from its $79.99 MSRP — near an all-time low and a standout value.'
+    },
+    {
+      id: 'corsair-k100-rgb-opx', name: 'Corsair K100 RGB (OPX)', brand: 'Corsair', category: 'keyboard',
+      price: 289.99, msrp: 229.99, rating: 4.6,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-912a01a-na/k100-rgb-optical-mechanical-gaming-keyboard-corsair-opx-switch-black-ch-912a01a-na',
+      highlight: 'Corsair’s flagship board: 4,000 Hz polling, OPX optical-mechanical switches, and an iCUE control wheel.',
+      features: ['OPX optical-mechanical switches', 'AXON 4,000 Hz hyper-processing', 'iCUE control wheel + 6 macro keys', 'PBT double-shot keycaps'],
+      tags: ['pc', 'wired', 'optical', 'linear', 'fullsize', 'premium', 'rgb'],
+      valueNote: 'Price checked Jul 2026: now around $290 direct — UP from its $229.99 launch MSRP, so wait for a sale rather than paying above list.'
+    },
+    {
+      id: 'razer-kraken-v3-x', name: 'Razer Kraken V3 X', brand: 'Razer', category: 'headset',
+      price: 39.99, msrp: 69.99, rating: 4.4,
+      url: 'https://www.razer.com/gaming-headsets/razer-kraken-v3-x',
+      highlight: 'A featherweight 7.1 surround USB headset — one of the best budget picks whenever it dips under $40.',
+      features: ['Triforce 40mm drivers', '7.1 surround sound (USB)', 'HyperClear bendable cardioid mic', 'Lightweight ~285g build'],
+      tags: ['pc', 'playstation', 'wired', 'surround', 'budget', 'lightweight'],
+      valueNote: 'Price checked Jul 2026: frequently ~$40, down from its $69.99 MSRP — a strong value at that street price.'
     }
   ];
 
