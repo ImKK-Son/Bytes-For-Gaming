@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEWEST ADDITIONS (prices checked 2026-07) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g esports flagship with an 8K polling dongle and 35K optical sensor.',
+      features: ['54g ultralight symmetrical shape', '8,000 Hz polling (HyperPolling dongle)', '35K DPI Focus Pro optical sensor', 'Gen-3 optical switches, ~95hr battery'],
+      tags: ['fps', 'wireless', 'lightweight', 'ambidextrous', 'esports', 'premium'],
+      valueNote: 'Street price has slipped from the $159.99 MSRP toward ~$130 (and lower on the white colorway) as a Viper V4 Pro is rumored — a good time to buy the V3 Pro below list.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A do-it-all wireless headset with 100+ app presets and 60-hour battery.',
+      features: ['2.4GHz + Bluetooth quick-switch', '60hr battery, 15-min fast charge', '100+ audio presets via the companion app', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'bluetooth', 'multiplatform', 'longbattery', 'streaming', 'midrange'],
+      valueNote: 'Launched at $129.99 and now settling nearer $119.99 at most stores — the sweet-spot Nova for players who want console + PC + phone on one dongle.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA remapping and wireless or wired use.',
+      features: ['TKL (80%) layout, hot-swappable', 'QMK/VIA fully programmable', 'Bluetooth 5.1 or USB-C wired', 'Double-shot PBT keycaps, Gateron G Pro switches'],
+      tags: ['mechanical', 'tkl', 'wireless', 'hotswap', 'programmable', 'mac', 'budget'],
+      valueNote: 'Barebone kits start near $84.99 and the assembled RGB/white-backlit builds hover just under the $99.99 list — one of the best value QMK/VIA boards you can buy.'
     }
   ];
 
