@@ -1048,6 +1048,34 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+    /* ---------------- NEWLY ADDED (2026-07 catalog refresh) ---------------- */
+    {
+      id: 'razer-deathadder-v4-pro', name: 'Razer DeathAdder V4 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 169.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v4-pro',
+      highlight: 'The flagship 57g ergonomic esports mouse — now $50 below launch MSRP.',
+      features: ['57g ultra-lightweight', '45K Focus Pro optical sensor', '8000Hz HyperPolling wireless', 'Up to 150 hr battery, USB-C'],
+      tags: ['fps', 'wireless', 'lightweight', 'rightHanded', 'ergonomic', 'pro', 'premium', 'highDpi'],
+      valueNote: 'Street price has DROPPED to ~$119.99 (down from the $169.99 MSRP) — its lowest yet, so it is a much better buy than at launch.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: '"Affordable luxury" wireless headset with 100+ EQ presets and a 60-hour battery.',
+      features: ['2.4GHz + Bluetooth', 'Neodymium magnetic drivers', '100+ audio presets via app', '60 hr battery, retractable mic'],
+      tags: ['wireless', 'multiplatform', 'pc', 'ps5', 'switch', 'bluetooth', 'longBattery', 'midrange'],
+      valueNote: 'Price has HELD STEADY at the $129.99 MSRP since launch — no discount yet, so wait for a sale if you want a deal.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'Mainstream full-size mechanical board with pre-lubed switches and a control dial.',
+      features: ['Pre-lubed MLX Red linear switches', 'Sound-dampening foam', 'Media control dial', 'Included wrist rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'budget'],
+      valueNote: 'Street price has FALLEN to ~$79.99 (down $20 from the $99.99 MSRP) — a solid discount on a value pick.'
     }
   ];
 
