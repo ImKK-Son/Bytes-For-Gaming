@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'A featherweight ergonomic wireless mouse with a fast optical sensor and long battery life.',
+      features: ['26,000 DPI optical sensor', '~60g lightweight shell', 'Up to 210h battery', 'BAMF 2.0 wireless'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'pc'],
+      valueNote: 'Frequently discounted below its $99.99 MSRP — great value for a sub-60g wireless mouse.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 169.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-ca-9011370-na',
+      highlight: 'An open-back, wired streaming headset with a detachable broadcast-grade microphone.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Lightweight aluminium frame', '3.5mm + USB'],
+      tags: ['wired', 'openback', 'streaming', 'premium', 'pc', 'comfortGrip'],
+      valueNote: 'Street price has dropped well under MSRP — a strong open-back pick for streamers.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 94.00, msrp: 99.00, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL hot-swappable board with QMK/VIA and both Bluetooth and wired modes.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C', 'Aluminium frame option'],
+      tags: ['tkl', 'wireless', 'wired', 'mechanical', 'hotswap', 'pc', 'mac'],
+      valueNote: 'Sits just under MSRP; Keychron rarely runs deep discounts, so this is close to the real floor.'
     }
   ];
 
