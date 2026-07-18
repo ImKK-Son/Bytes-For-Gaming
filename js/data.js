@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 69.99, msrp: 79.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless-mouse',
+      highlight: 'A ~66g ergonomic ultralight with a 26K sensor and up to 210h of battery.',
+      features: ['~66g ergonomic shell', '26K optical sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi'],
+      valueNote: 'Street price now sits about $10 under MSRP — an ergonomic ultralight for less than most rivals.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Simultaneous 2.4GHz + Bluetooth, 60h battery, and 100+ game audio presets.',
+      features: ['2.4GHz + Bluetooth', '~60h battery', '100+ audio presets via app', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Frequently discounted ~$30 below MSRP — the value pick in the Nova wireless line.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA programmability, wired or wireless.',
+      features: ['QMK/VIA programmable', 'Hot-swap switches', 'Bluetooth 5.1 or wired USB-C', 'PBT keycaps + RGB'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'Regularly sells about $15 under MSRP — a lot of custom-keyboard features for the money.'
     }
   ];
 
