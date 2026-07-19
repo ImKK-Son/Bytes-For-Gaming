@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 114.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'Featherweight 54g esports flagship with an 8K polling rate and 95-hour battery.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K sensor', '8,000Hz HyperPolling wireless', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Now discounted well below MSRP as the V4 Pro looms — a top-tier competitive mouse at a friendlier price.'
+    },
+    {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 173.99, msrp: 189.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-gen-3',
+      highlight: 'Hall-effect magnetic board with adjustable actuation, Rapid Trigger, and Rapid Tap.',
+      features: ['OmniPoint 3.0 magnetic switches', 'Adjustable 0.1-4.0mm actuation', 'Rapid Trigger + Rapid Tap (SOCD)', 'OLED display + PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'hallEffect', 'premium'],
+      valueNote: 'The analog gaming board to beat — sitting a touch under MSRP at most retailers.'
+    },
+    {
+      id: 'corsair-scimitar-elite-wireless-se', name: 'Corsair Scimitar Elite Wireless SE', brand: 'Corsair', category: 'mouse',
+      price: 99.99, msrp: 139.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-mouse/CH-9314014-WW/scimitar-elite-wireless-se-mmo-gaming-mouse-gun-metal-ch-9314014-ww',
+      highlight: 'A 16-button MMO powerhouse with an adjustable Key Slider and 150-hour battery.',
+      features: ['16 programmable side buttons', 'Adjustable Key Slider', 'MARKSMAN S 33K sensor', 'SLIPSTREAM wireless + Stream Deck integration'],
+      tags: ['wireless', 'mmo', 'ergonomic', 'righthanded', 'palmgrip', 'highdpi', 'premium', 'customizable'],
+      valueNote: 'Frequently on sale far below its $139.99 list — the go-to MMO/MOBA mouse right now.'
     }
   ];
 
