@@ -148,6 +148,14 @@
 
     /* ---------------- KEYBOARDS ---------------- */
     {
+      id: 'keychron-v1', name: 'Keychron V1', brand: 'Keychron', category: 'keyboard',
+      price: 44.99, msrp: 64.99, rating: 4.6,
+      highlight: 'A fully assembled 75% custom board with a gasket mount and hot-swap sockets for the price of a prebuilt.',
+      features: ['75% layout (knob option)', 'Hot-swappable switches', 'Gasket-mounted soft typing feel', 'QMK/VIA fully remappable'],
+      tags: ['mechanical', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'customizable', 'budget'],
+      valueNote: 'Custom-keyboard features at a mainstream price — an easy first step into the hobby.'
+    },
+    {
       id: 'keychron-k2', name: 'Keychron K2 (V2)', brand: 'Keychron', category: 'keyboard',
       price: 79.99, msrp: 89.99, rating: 4.6,
       highlight: 'The crowd-favorite 75% wireless board — Mac/Windows, hot-swap option, great typing.',
@@ -198,6 +206,14 @@
 
     /* ---------------- MICE ---------------- */
     {
+      id: 'razer-basilisk-v3', name: 'Razer Basilisk V3', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.7,
+      highlight: 'A do-everything ergonomic mouse with 11 programmable buttons and a free-spinning tilt scroll wheel.',
+      features: ['26K DPI optical sensor', '11 programmable buttons', 'HyperScroll tilt wheel', 'Chroma RGB with underglow'],
+      tags: ['wired', 'ergonomic', 'righthanded', 'palmgrip', 'rgb', 'highdpi', 'customizable', 'budget'],
+      valueNote: 'Frequently sells below MSRP; one of the best value ergonomic mice around.'
+    },
+    {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
       price: 129.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
@@ -247,6 +263,14 @@
     },
 
     /* ---------------- HEADSETS ---------------- */
+    {
+      id: 'hyperx-cloud-alpha', name: 'HyperX Cloud Alpha', brand: 'HyperX', category: 'headset',
+      price: 79.99, msrp: 99.99, rating: 4.7,
+      highlight: 'The long-reigning wired value champ — dual-chamber drivers and all-day comfort at a low price.',
+      features: ['Dual-chamber 50mm drivers', 'Detachable noise-cancelling mic', 'Aluminum frame + memory foam', 'Multi-platform 3.5mm'],
+      tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Still the go-to budget recommendation years after launch, and often on sale near $66.'
+    },
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
       price: 79.99, msrp: 99.99, rating: 4.7,
@@ -1184,16 +1208,19 @@
     'sony-dualsense': 'https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/',
     'razer-wolverine-v2': 'https://www.razer.com/console-controllers/razer-wolverine-v2-chroma',
     'keychron-k2': 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
+    'keychron-v1': 'https://www.keychron.com/products/keychron-v1-qmk-via-custom-mechanical-keyboard',
     'logi-g915-tkl': 'https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless-keyboard.html',
     'razer-huntsman-mini': 'https://www.razer.com/gaming-keyboards/razer-huntsman-mini',
     'steelseries-apex-pro': 'https://steelseries.com/products/apex-pro-tkl',
     'hyperx-alloy-origins': 'https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard',
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
     'razer-deathadder-v3': 'https://www.razer.com/gaming-mice/razer-deathadder-v3-pro',
+    'razer-basilisk-v3': 'https://www.razer.com/gaming-mice/razer-basilisk-v3',
     'razer-viper-v2': 'https://www.razer.com/gaming-mice/razer-viper-v2-pro',
     'logi-g502x': 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-gaming-mouse.html',
     'steelseries-aerox-3': 'https://steelseries.com/products/aerox-3-wireless-2022',
     'hyperx-cloud-2': 'https://hyperx.com/products/hyperx-cloud-ii-gaming-headset',
+    'hyperx-cloud-alpha': 'https://hyperx.com/products/hyperx-cloud-alpha',
     'razer-blackshark-v2-pro': 'https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro',
     'steelseries-arctis-nova-pro': 'https://steelseries.com/products/arctis-nova-pro-wireless',
     'logi-pro-x-2': 'https://www.logitechg.com/en-us/products/gaming-audio/pro-x-2-lightspeed-headset.html',
