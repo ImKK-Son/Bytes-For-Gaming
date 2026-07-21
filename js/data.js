@@ -222,6 +222,15 @@
       valueNote: 'Frequently discounted to a great price for its tier.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-title ultralight — 54g, 8K polling, and a class-leading sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K Gen-2 sensor', '8000 Hz HyperPolling wireless', '95-hour battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium'],
+      valueNote: 'Recently discounted well below MSRP as the Viper V4 Pro looms — a strong time to buy the reigning pro pick.'
+    },
+    {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
@@ -445,6 +454,15 @@
       features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
       tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'keychron-q1-pro', name: 'Keychron Q1 Pro (QMK/VIA Wireless)', brand: 'Keychron', category: 'keyboard',
+      price: 199.99, msrp: 199.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'The beloved Q1 goes wireless — a full-metal, gasket-mounted 75% board with Bluetooth and QMK/VIA.',
+      features: ['CNC aluminum gasket mount', 'Bluetooth 5.1 + wired', 'Hot-swap + QMK/VIA', 'Double-gasket, screw-in stabilizers'],
+      tags: ['mechanical', 'compact60', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'Holds firm near its $199 launch price; occasional sales dip toward $180, but no lasting drop yet.'
     },
     {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
@@ -915,6 +933,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort legend cuts the cord — 120-hour battery and clean 2.4GHz wireless.',
+      features: ['Angled 53mm drivers', '120-hour battery life', '2.4GHz wireless (USB-C dongle)', 'Detachable 10mm mic + memory foam'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'longBattery', 'premium'],
+      valueNote: 'Now settling around $135-150 street, comfortably under its $169.99 launch price — the wireless step up from the wired Cloud III.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
