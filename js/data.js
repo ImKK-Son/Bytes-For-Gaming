@@ -156,6 +156,15 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A QMK/VIA hot-swap TKL that goes fully wireless — endlessly remappable without extra software.',
+      features: ['TKL (87-key) layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C wired'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'budget'],
+      valueNote: 'The tinkerer\'s pick — open firmware and hot-swap sockets at a mid-range price.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -493,6 +502,15 @@
       valueNote: 'Great mid-price ultralight that undercuts the big esports brands.'
     },
     {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'The ergonomic sibling of the Model O — a right-hand-shaped ultralight for medium-to-large hands.',
+      features: ['~66g ergonomic shell', 'BAMF 2.0 26K sensor', 'Up to 210h battery', '6 programmable buttons'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'Pick this over the Model O 2 if you want an ergonomic, right-handed shape.'
+    },
+    {
       id: 'razer-naga-v2-pro', name: 'Razer Naga V2 Pro', brand: 'Razer', category: 'mouse',
       price: 149.99, msrp: 179.99, rating: 4.5,
       url: 'https://www.razer.com/gaming-mice/razer-naga-v2-pro',
@@ -528,6 +546,15 @@
       features: ['Dolby Atmos spatial audio', 'Broadcast omni mic', 'Floating-suspension headband', 'USB + Slipstream wireless'],
       tags: ['wireless', 'hifi', 'surround', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Excellent mic quality for the price; best on PC/PS5.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 169.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back, audiophile-leaning wired headset with 50mm graphene drivers and a broadcast mic.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz frequency response', 'Detachable uni-directional mic', 'Wired 3.5mm — works on everything'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'For music-first listeners who want a wide soundstage; wired-only, so no wireless convenience.'
     },
     {
       id: 'logi-g535', name: 'Logitech G535 Lightspeed', brand: 'Logitech G', category: 'headset',
