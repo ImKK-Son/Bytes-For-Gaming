@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff7300' }
   };
 
   /* ---------------------------------------------------------
@@ -199,7 +200,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 119.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1049,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: 54g symmetrical shape with an 8K polling sensor.',
+      features: ['~54g ultralight ambidextrous', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'MSRP is $159.99 but it street-prices around $129.99 and dips lower on sale — a real discount versus list.'
+    },
+    {
+      id: 'wooting-60he-plus', name: 'Wooting 60HE+', brand: 'Wooting', category: 'keyboard',
+      price: 174.99, msrp: 174.99, rating: 4.8,
+      url: 'https://wooting.io/wooting-60he',
+      highlight: 'The analog Hall-effect 60% board that made rapid trigger mainstream for competitive FPS.',
+      features: ['Lekker analog Hall-effect switches', 'Adjustable actuation + rapid trigger', 'Per-key analog input', 'Gasket-mounted 60% layout'],
+      tags: ['analog', 'compact60', 'wired', 'rgb', 'linear', 'premium', 'hallEffect', 'customizable'],
+      valueNote: 'Sold direct at a steady $174.99 — rarely discounted, so buy when you need it rather than waiting for a sale.'
+    },
+    {
+      id: 'hyperx-cloud-3s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 169.99, msrp: 179.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The follow-up to the Cloud III Wireless: huge battery life and optional 24-bit spatial audio.',
+      features: ['Up to 120h (2.4GHz) / 200h (Bluetooth)', 'Simultaneous 2.4GHz + Bluetooth', 'Angled 53mm drivers', 'Detachable 10mm mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Replaces the now-discontinued Cloud III Wireless; street price ($169.99) already sits just under the $179.99 list.'
     }
   ];
 
