@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS (2026-07 price check) ---------------- */
+    {
+      id: 'steelseries-arctis-nova-pro-wireless', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 299.99, msrp: 349.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-pro-wireless',
+      highlight: 'Flagship wireless headset with active noise cancelling and a dual-battery base station.',
+      features: ['Active noise cancellation', 'Hot-swap dual-battery base station', 'Simultaneous 2.4GHz + Bluetooth', 'Multi-system (PC, PS, Switch)'],
+      tags: ['wireless', 'hifi', 'noiseCancel', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Street price now sits around $300 — well below the $350 launch MSRP, so the price has trended DOWN.'
+    },
+    {
+      id: 'corsair-k65-plus-wireless', name: 'Corsair K65 Plus Wireless', brand: 'Corsair', category: 'keyboard',
+      price: 129.99, msrp: 159.99, rating: 4.6,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-91d401l-na/k65-plus-wireless-75-percent-rgb-mechanical-gaming-keyboard-ch-91d401l-na',
+      highlight: 'A 75% hot-swap wireless board with pre-lubed MLX switches and dense sound-dampening.',
+      features: ['75% layout with volume wheel', 'Pre-lubricated MLX linear switches', 'Hot-swap PCB', '2.4GHz + Bluetooth + USB-C'],
+      tags: ['mechanical', 'tkl', 'compact60', 'wireless', 'wired', 'rgb', 'hotswap', 'linear', 'budget'],
+      valueNote: 'Frequently discounted to ~$130 vs the $159.99 launch price (Corsair now lists the standard model at $179.99, so the official MSRP has crept UP even as street deals go DOWN).'
+    },
+    {
+      id: 'logi-g502x-plus', name: 'Logitech G502 X Plus', brand: 'Logitech G', category: 'mouse',
+      price: 139.99, msrp: 159.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/shop/p/g502-x-plus-wireless-lightforce',
+      highlight: 'The wireless, RGB flagship of the G502 X line with LIGHTFORCE hybrid switches.',
+      features: ['13 programmable controls', 'LIGHTFORCE hybrid optical-mechanical switches', 'HERO 25K sensor', 'LIGHTSPEED wireless + LIGHTSYNC RGB'],
+      tags: ['wireless', 'ergonomic', 'righthanded', 'mmo', 'palmgrip', 'highdpi', 'rgb', 'premium', 'customizable'],
+      valueNote: 'Widely available around $138-$146, below the $159.99 MSRP — price has drifted DOWN.'
     }
   ];
 
