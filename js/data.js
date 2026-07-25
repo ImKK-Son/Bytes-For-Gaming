@@ -272,6 +272,15 @@
       valueNote: 'A luxury pick — only worth it if you want ANC and do-everything connectivity.'
     },
     {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Mid-range multi-system wireless with 60h battery and 100+ in-app game audio presets.',
+      features: ['2.4GHz + Bluetooth quick-switch', '60+ hour battery', '100+ Companion App audio presets', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'A lot of headset for the money; MSRP $129.99 but it regularly street-prices closer to $100.'
+    },
+    {
       id: 'logi-pro-x-2', name: 'Logitech G Pro X 2 Lightspeed', brand: 'Logitech G', category: 'headset',
       price: 199.99, msrp: 249.99, rating: 4.4,
       highlight: 'Graphene-driver wireless headset tuned with input from pro players.',
@@ -388,6 +397,15 @@
       features: ['Four polar patterns', 'Onboard gain + mute', 'Plug-and-play USB', 'Sturdy desktop stand'],
       tags: ['usb', 'cardioid', 'streaming', 'podcast', 'plugplay', 'gain', 'budget'],
       valueNote: 'Frequently on sale; a versatile workhorse for streams and calls.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The pro-esports benchmark: ~54g symmetrical shape with 8K wireless polling.',
+      features: ['~54g ultralight', 'Focus Pro 35K optical sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The current tournament favorite; a real step up in weight and polling over the Viper V2 Pro. MSRP holds at $159.99; often discounted near $129.'
     },
 
     /* ---------------- CONTROLLERS (more) ---------------- */
@@ -749,6 +767,15 @@
       features: ['Audio presets on the controller', 'Pro-Aim trigger lock', 'Mappable buttons', 'Wired low latency'],
       tags: ['xbox', 'pc', 'wired', 'budget', 'pro', 'comfortGrip'],
       valueNote: 'Great budget pad for headset users who tweak audio mid-game.'
+    },
+    {
+      id: '8bitdo-ultimate-2c', name: '8BitDo Ultimate 2C Wireless', brand: '8BitDo', category: 'controller',
+      price: 24.99, msrp: 29.99, rating: 4.6,
+      url: 'https://www.8bitdo.com/ultimate-2c-wireless-controller/',
+      highlight: 'Hall-effect sticks and triggers on a sub-$30 pad — the budget drift-proof pick.',
+      features: ['Hall-effect joysticks + triggers (drift-proof)', '1000Hz polling rate', 'Remappable L4/R4 bumpers', '2.4G wireless + USB-C for PC/Android'],
+      tags: ['pc', 'mobile', 'wireless', 'budget', 'hallEffect', 'customizable', 'comfortGrip'],
+      valueNote: 'Astonishing value — Hall-effect sticks at this price are rare. MSRP $29.99, frequently on sale near $25.'
     },
 
     /* ---- KEYBOARDS ---- */
