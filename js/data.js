@@ -199,11 +199,20 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 119.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
       valueNote: 'Used by a huge share of pros; expensive but the gold standard.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The 54g esports weapon — true 8000Hz wireless and a 35K sensor for pro-level aim.',
+      features: ['~54g ultralight', '35K Focus Pro sensor', 'True 8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The current pro-tour favorite; a clear step up from the V2 Pro if 8K polling matters to you.'
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
@@ -447,6 +456,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swap TKL with QMK/VIA and wireless — enthusiast features at a mainstream price.',
+      features: ['TKL (87-key) layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 + wired USB-C', 'Gateron G Pro switches, PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'One of the cheapest ways into fully programmable QMK/VIA with wireless — excellent value.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -467,7 +485,7 @@
     /* ---------------- MICE (more) ---------------- */
     {
       id: 'razer-basilisk-v3', name: 'Razer Basilisk V3', brand: 'Razer', category: 'mouse',
-      price: 49.99, msrp: 69.99, rating: 4.7,
+      price: 34.99, msrp: 69.99, rating: 4.7,
       url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3',
       highlight: 'Feature-packed ergonomic mouse with a tilt-scroll smart wheel — superb value.',
       features: ['11 programmable buttons', 'Smart-reel free-spin wheel', 'Focus+ 26K sensor', 'Underglow RGB'],
@@ -520,6 +538,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A companion-app powerhouse — 100+ game audio presets and 60-hour battery for less.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', '100+ game audio presets via app', '~60h battery', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Nearly Nova 7 versatility with a bigger battery at a lower price — a great mid-range wireless pick.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
