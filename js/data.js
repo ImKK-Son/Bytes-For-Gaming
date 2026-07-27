@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 119.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -447,6 +447,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and hot-swap sockets at a mainstream price.',
+      features: ['80% TKL layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 or wired USB-C', 'PBT double-shot keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'mac'],
+      valueNote: 'Wireless, hot-swappable, and fully programmable for well under the cost of most custom boards.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -493,6 +502,15 @@
       valueNote: 'Great mid-price ultralight that undercuts the big esports brands.'
     },
     {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless-mouse',
+      highlight: 'The ergonomic sibling of the Model O 2 — a ~66g right-handed shape for medium-to-large hands.',
+      features: ['~66g ergonomic shell', '26K BAMF 2.0 sensor', 'Up to 210h battery', '6 programmable buttons'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'A drift-free ergo ultralight that undercuts the flagship esports mice by a wide margin.'
+    },
+    {
       id: 'razer-naga-v2-pro', name: 'Razer Naga V2 Pro', brand: 'Razer', category: 'mouse',
       price: 149.99, msrp: 179.99, rating: 4.5,
       url: 'https://www.razer.com/gaming-mice/razer-naga-v2-pro',
@@ -511,6 +529,15 @@
       features: ['Dual-chamber drivers', 'Detachable mic', 'Memory-foam + leatherette', 'Durable aluminum frame'],
       tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'If you want wired sound quality on a budget, this is the one.'
+    },
+    {
+      id: 'hyperx-cloud-3-s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 159.99, msrp: 179.99, rating: 4.5,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The wireless flagship of the Cloud line, adding a hardware spatial-audio dial and long battery life.',
+      features: ['2.4GHz wireless + Bluetooth', 'Hardware spatial-audio switch', 'Up to 120h battery', 'Angled 53mm drivers'],
+      tags: ['wireless', 'bluetooth', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A comfort-first wireless headset that replaces the discontinued Cloud III Wireless with better audio.'
     },
     {
       id: 'steelseries-arctis-nova-7', name: 'SteelSeries Arctis Nova 7 Wireless', brand: 'SteelSeries', category: 'headset',
