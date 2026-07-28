@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS (2026 refresh) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The esports-standard ultralight — 54g, 8000Hz wireless, and a 35K sensor.',
+      features: ['54g symmetrical shape', 'Focus Pro 35K optical sensor', 'Gen-3 optical switches', 'HyperPolling 8000Hz wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'Currently discounted well below its $159.99 launch price as the V4 looms — a top-tier competitive mouse near an all-time low.'
+    },
+    {
+      id: 'asus-rog-strix-scope-ii-96', name: 'ASUS ROG Strix Scope II 96 Wireless', brand: 'ASUS ROG', category: 'keyboard',
+      price: 129.99, msrp: 209.99, rating: 4.6,
+      highlight: 'A 96% tri-mode board with pre-lubed hot-swap switches and marathon battery life.',
+      features: ['96% full-size compact layout', 'Tri-mode: 2.4GHz, Bluetooth, USB-C', 'Hot-swap pre-lubed ROG NX Snow linears', 'PBT keycaps + sound-dampening foam'],
+      tags: ['mechanical', 'fullsize', 'wireless', 'rgb', 'hotswap', 'linear', 'premium'],
+      valueNote: 'Regularly street-priced around $129.99 — roughly 38% under its $209.99 MSRP, making a premium board a genuine value.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.5,
+      highlight: 'Multi-system wireless with a companion app packing 100+ game audio presets.',
+      features: ['2.4GHz + Bluetooth (mix both)', '100+ tuned audio presets via app', '60-hour battery life', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'bluetooth', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Holds near its $129.99 MSRP most of the year but dips to record lows during sales events — worth waiting for a discount.'
     }
   ];
 
