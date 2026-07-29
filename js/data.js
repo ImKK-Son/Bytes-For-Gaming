@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS (2026-07) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports darling: ~54g, 8000Hz polling, and a razor-sharp sensor.',
+      features: ['~54g ultralight', 'Focus Pro 35K sensor', 'Gen-3 optical switches', 'True 8000Hz wireless polling'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'A top pick among competitive FPS pros; frequently on sale below MSRP.'
+    },
+    {
+      id: 'steelseries-arctis-nova-pro-wireless', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 249.99, msrp: 349.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-pro-wireless',
+      highlight: 'Flagship wireless with a swappable dual-battery system and active noise cancelling.',
+      features: ['Hot-swap dual batteries (never plug in to charge)', 'Active noise cancelling', 'GameDAC Gen 2 with OLED', 'Simultaneous 2.4G + Bluetooth'],
+      tags: ['wireless', 'anc', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Premium price, but the swappable-battery design and ANC are best-in-class.'
+    },
+    {
+      id: 'keychron-q1-pro', name: 'Keychron Q1 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 149.99, msrp: 199.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A gasket-mounted 75% custom board with wireless, full QMK/VIA remapping, and a premium typing feel.',
+      features: ['Full aluminum gasket-mounted body', 'QMK/VIA fully remappable', 'Bluetooth 5.1 + wired', 'Hot-swap switches + double-shot PBT'],
+      tags: ['mechanical', 'compact', 'wireless', 'wired', 'rgb', 'linear', 'hotswap', 'premium'],
+      valueNote: 'Enthusiast-grade build and sound for well under boutique-keyboard prices.'
     }
   ];
 
