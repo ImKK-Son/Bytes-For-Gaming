@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -265,7 +265,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 299.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -430,7 +430,7 @@
     /* ---------------- KEYBOARDS (more) ---------------- */
     {
       id: 'razer-blackwidow-v4-pro', name: 'Razer BlackWidow V4 Pro', brand: 'Razer', category: 'keyboard',
-      price: 199.99, msrp: 229.99, rating: 4.5,
+      price: 229.99, msrp: 229.99, rating: 4.5,
       url: 'https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-pro',
       highlight: 'Loaded full-size board with a command dial, macro keys, and plush wrist rest.',
       features: ['Full-size + command dial', 'Razer mechanical switches', '8 macro keys', 'Magnetic wrist rest'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- 2026-07 ADDITIONS ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g symmetric esports mouse with a 35K sensor and 8000Hz wireless.',
+      features: ['~54g ultralight symmetric shell', 'Focus Pro 35K optical sensor', 'Gen-3 optical switches', 'Up to 8000Hz HyperPolling'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'premium', 'highdpi'],
+      valueNote: 'A tournament staple; often discounted well under its $159.99 MSRP.'
+    },
+    {
+      id: 'hyperx-cloud-3-s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The Cloud comfort you know, now wireless with virtual 7.1 and huge battery life.',
+      features: ['Angled 53mm drivers', 'Up to 120h (2.4GHz) / 200h (Bluetooth)', 'Simultaneous 2.4GHz + Bluetooth', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Replaces the discontinued Cloud III Wireless; superb comfort-to-price for a wireless set.'
+    },
+    {
+      id: 'asus-rog-strix-scope-ii-96', name: 'ASUS ROG Strix Scope II 96 Wireless', brand: 'ASUS ROG', category: 'keyboard',
+      price: 149.99, msrp: 209.99, rating: 4.5,
+      url: 'https://rog.asus.com/keyboards/keyboards/compact/rog-strix-scope-ii-96-wireless/',
+      highlight: 'A 96% tri-mode board with hot-swap ROG NX switches and marathon battery life.',
+      features: ['96% compact full-size layout', 'Tri-mode (2.4GHz / Bluetooth / USB)', 'Hot-swap pre-lubed ROG NX linear switches', 'PBT keycaps + sound-dampening foam'],
+      tags: ['mechanical', 'fullsize', 'wireless', 'rgb', 'hotswap', 'linear', 'premium'],
+      valueNote: 'Frequently on sale far below its $209.99 MSRP — strong value for a hot-swap wireless board.'
     }
   ];
 
