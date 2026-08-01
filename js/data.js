@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 109.00, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and hot-swap switches.',
+      features: ['QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'rgb'],
+      valueNote: 'Rare mix of wireless, QMK/VIA, and hot-swap at a mid-tier price.'
+    },
+    {
+      id: 'asus-rog-harpe-ace', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 99.99, msrp: 149.99, rating: 4.6,
+      url: 'https://rog.asus.com/mice-mouse-pads/mice/gaming-mice/rog-harpe-ace-aim-lab-edition/',
+      highlight: 'A 54g esports mouse co-tuned with Aim Lab and a 36K optical sensor.',
+      features: ['~54g ultralight', 'AimPoint 36K optical sensor', 'Tri-mode (2.4G / BT / wired)', 'ROG SpeedNova wireless'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'highdpi', 'premium'],
+      valueNote: 'A pro-grade lightweight that now sits well under its launch MSRP.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back, wired streaming headset with a broadcast-grade detachable mic.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable broadcast mic', 'Lightweight aluminum frame', 'Wired 3.5mm + USB'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Studio-style open-back sound for streamers; usually found below MSRP.'
     }
   ];
 
