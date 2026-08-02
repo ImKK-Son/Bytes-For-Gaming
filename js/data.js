@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ARRIVALS (added 2026-08-02) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g symmetric esports flagship with an 8000Hz sensor built with pro FPS players.',
+      features: ['~54g symmetric shell', 'Focus Pro 35K optical sensor', 'Up to 8000Hz polling (with HyperPolling dongle)', '~95h battery'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'premium', 'highdpi'],
+      valueNote: 'The current benchmark ultralight for competitive FPS; symmetric shape suits either hand.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.00, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless mechanical board with full QMK/VIA programmability at a bargain price.',
+      features: ['TKL 87-key layout', 'Tri-mode: Bluetooth / 2.4G / wired', 'QMK/VIA programmable', 'Hot-swap, gasket mount'],
+      tags: ['mechanical', 'tkl', 'wireless', 'rgb', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'One of the best value wireless customizable boards for Mac and Windows.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-ca-9011370-na',
+      highlight: 'An open-back wired streaming headset with a broadcast-grade detachable mic.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable omnidirectional mic', 'Lightweight breathable design', 'Multi-platform 3.5mm / USB'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A natural, spacious open-back sound for streamers who want studio-style clarity.'
     }
   ];
 
