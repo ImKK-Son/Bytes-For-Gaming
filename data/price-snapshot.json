@@ -1,0 +1,561 @@
+{
+  "generatedAt": "2026-08-03T00:00:00.000Z",
+  "count": 111,
+  "products": {
+    "8bitdo-ultimate-bt": {
+      "name": "8BitDo Ultimate Bluetooth Controller",
+      "price": 49.99,
+      "msrp": 69.99
+    },
+    "8bitdo-pro2": {
+      "name": "8BitDo Pro 2",
+      "price": 49.99,
+      "msrp": 49.99
+    },
+    "xbox-core": {
+      "name": "Xbox Wireless Controller",
+      "price": 54.99,
+      "msrp": 64.99
+    },
+    "xbox-elite-2": {
+      "name": "Xbox Elite Wireless Controller Series 2",
+      "price": 149.99,
+      "msrp": 179.99
+    },
+    "sony-dualsense": {
+      "name": "Sony DualSense Wireless Controller",
+      "price": 69.99,
+      "msrp": 74.99
+    },
+    "razer-wolverine-v2": {
+      "name": "Razer Wolverine V2 Chroma",
+      "price": 99.99,
+      "msrp": 149.99
+    },
+    "keychron-k2": {
+      "name": "Keychron K2 (V2)",
+      "price": 79.99,
+      "msrp": 89.99
+    },
+    "logi-g915-tkl": {
+      "name": "Logitech G915 TKL Lightspeed",
+      "price": 169.99,
+      "msrp": 229.99
+    },
+    "razer-huntsman-mini": {
+      "name": "Razer Huntsman Mini",
+      "price": 99.99,
+      "msrp": 119.99
+    },
+    "corsair-k70": {
+      "name": "Corsair K70 RGB PRO",
+      "price": 139.99,
+      "msrp": 169.99
+    },
+    "steelseries-apex-pro": {
+      "name": "SteelSeries Apex Pro TKL",
+      "price": 189.99,
+      "msrp": 219.99
+    },
+    "hyperx-alloy-origins": {
+      "name": "HyperX Alloy Origins Core",
+      "price": 69.99,
+      "msrp": 89.99
+    },
+    "logi-superlight-2": {
+      "name": "Logitech G Pro X Superlight 2",
+      "price": 129.99,
+      "msrp": 159.99
+    },
+    "razer-deathadder-v3": {
+      "name": "Razer DeathAdder V3 Pro",
+      "price": 119.99,
+      "msrp": 149.99
+    },
+    "razer-viper-v2": {
+      "name": "Razer Viper V2 Pro",
+      "price": 99.99,
+      "msrp": 149.99
+    },
+    "logi-g502x": {
+      "name": "Logitech G502 X",
+      "price": 59.99,
+      "msrp": 79.99
+    },
+    "steelseries-aerox-3": {
+      "name": "SteelSeries Aerox 3 Wireless",
+      "price": 69.99,
+      "msrp": 99.99
+    },
+    "glorious-model-o": {
+      "name": "Glorious Model O",
+      "price": 49.99,
+      "msrp": 59.99
+    },
+    "hyperx-cloud-2": {
+      "name": "HyperX Cloud II",
+      "price": 79.99,
+      "msrp": 99.99
+    },
+    "razer-blackshark-v2-pro": {
+      "name": "Razer BlackShark V2 Pro",
+      "price": 149.99,
+      "msrp": 199.99
+    },
+    "steelseries-arctis-nova-pro": {
+      "name": "SteelSeries Arctis Nova Pro Wireless",
+      "price": 279.99,
+      "msrp": 349.99
+    },
+    "logi-pro-x-2": {
+      "name": "Logitech G Pro X 2 Lightspeed",
+      "price": 199.99,
+      "msrp": 249.99
+    },
+    "sony-inzone-h9": {
+      "name": "Sony INZONE H9",
+      "price": 199.99,
+      "msrp": 299.99
+    },
+    "secretlab-titan-evo": {
+      "name": "Secretlab TITAN Evo",
+      "price": 549,
+      "msrp": 619
+    },
+    "razer-iskur": {
+      "name": "Razer Iskur",
+      "price": 499,
+      "msrp": 599
+    },
+    "corsair-tc100": {
+      "name": "Corsair TC100 Relaxed",
+      "price": 199.99,
+      "msrp": 249.99
+    },
+    "herman-miller-embody": {
+      "name": "Herman Miller x Logitech G Embody",
+      "price": 1495,
+      "msrp": 1695
+    },
+    "steelseries-qck-xxl": {
+      "name": "SteelSeries QcK XXL",
+      "price": 29.99,
+      "msrp": 34.99
+    },
+    "logi-g840": {
+      "name": "Logitech G840 XL",
+      "price": 39.99,
+      "msrp": 49.99
+    },
+    "razer-strider": {
+      "name": "Razer Strider Hybrid",
+      "price": 39.99,
+      "msrp": 59.99
+    },
+    "glorious-3xl": {
+      "name": "Glorious 3XL Extended",
+      "price": 39.99,
+      "msrp": 44.99
+    },
+    "hyperx-quadcast-s": {
+      "name": "HyperX QuadCast S",
+      "price": 129.99,
+      "msrp": 159.99
+    },
+    "elgato-wave3": {
+      "name": "Elgato Wave:3",
+      "price": 129.99,
+      "msrp": 149.99
+    },
+    "razer-seiren-mini": {
+      "name": "Razer Seiren Mini",
+      "price": 49.99,
+      "msrp": 59.99
+    },
+    "blue-yeti": {
+      "name": "Logitech for Creators Blue Yeti",
+      "price": 99.99,
+      "msrp": 129.99
+    },
+    "sony-dualsense-edge": {
+      "name": "Sony DualSense Edge Wireless Controller",
+      "price": 199.99,
+      "msrp": 199.99
+    },
+    "xbox-elite-2-core": {
+      "name": "Xbox Elite Wireless Controller Series 2 Core",
+      "price": 129.99,
+      "msrp": 139.99
+    },
+    "razer-kishi-v2": {
+      "name": "Razer Kishi V2 Mobile Controller",
+      "price": 99.99,
+      "msrp": 99.99
+    },
+    "8bitdo-sn30-pro": {
+      "name": "8BitDo SN30 Pro Bluetooth Controller",
+      "price": 44.99,
+      "msrp": 49.99
+    },
+    "razer-blackwidow-v4-pro": {
+      "name": "Razer BlackWidow V4 Pro",
+      "price": 199.99,
+      "msrp": 229.99
+    },
+    "keychron-q1": {
+      "name": "Keychron Q1 (QMK/VIA)",
+      "price": 169.99,
+      "msrp": 199.99
+    },
+    "logi-g515-tkl": {
+      "name": "Logitech G515 Lightspeed TKL",
+      "price": 139.99,
+      "msrp": 139.99
+    },
+    "corsair-k65-mini": {
+      "name": "Corsair K65 RGB Mini",
+      "price": 99.99,
+      "msrp": 109.99
+    },
+    "razer-basilisk-v3": {
+      "name": "Razer Basilisk V3",
+      "price": 49.99,
+      "msrp": 69.99
+    },
+    "logi-g305": {
+      "name": "Logitech G305 Lightspeed",
+      "price": 39.99,
+      "msrp": 49.99
+    },
+    "glorious-model-o2-wireless": {
+      "name": "Glorious Model O 2 Wireless",
+      "price": 79.99,
+      "msrp": 99.99
+    },
+    "razer-naga-v2-pro": {
+      "name": "Razer Naga V2 Pro",
+      "price": 149.99,
+      "msrp": 179.99
+    },
+    "hyperx-cloud-alpha": {
+      "name": "HyperX Cloud Alpha",
+      "price": 79.99,
+      "msrp": 99.99
+    },
+    "steelseries-arctis-nova-7": {
+      "name": "SteelSeries Arctis Nova 7 Wireless",
+      "price": 149.99,
+      "msrp": 179.99
+    },
+    "corsair-hs80-rgb": {
+      "name": "Corsair HS80 RGB Wireless",
+      "price": 129.99,
+      "msrp": 149.99
+    },
+    "logi-g535": {
+      "name": "Logitech G535 Lightspeed",
+      "price": 99.99,
+      "msrp": 119.99
+    },
+    "razer-enki": {
+      "name": "Razer Enki",
+      "price": 299.99,
+      "msrp": 379.99
+    },
+    "corsair-tc200": {
+      "name": "Corsair TC200",
+      "price": 369.99,
+      "msrp": 399.99
+    },
+    "herman-miller-vantum": {
+      "name": "Herman Miller Vantum Gaming Chair",
+      "price": 995,
+      "msrp": 1095
+    },
+    "razer-goliathus-chroma": {
+      "name": "Razer Goliathus Extended Chroma",
+      "price": 49.99,
+      "msrp": 59.99
+    },
+    "corsair-mm700-rgb": {
+      "name": "Corsair MM700 RGB Extended",
+      "price": 49.99,
+      "msrp": 59.99
+    },
+    "hyperx-pulsefire-mat-xl": {
+      "name": "HyperX Pulsefire Mat XL",
+      "price": 24.99,
+      "msrp": 29.99
+    },
+    "hyperx-solocast": {
+      "name": "HyperX SoloCast",
+      "price": 49.99,
+      "msrp": 59.99
+    },
+    "razer-seiren-v3-mini": {
+      "name": "Razer Seiren V3 Mini",
+      "price": 44.99,
+      "msrp": 49.99
+    },
+    "logi-yeti-gx": {
+      "name": "Logitech for Creators Yeti GX",
+      "price": 149.99,
+      "msrp": 169.99
+    },
+    "logi-c920": {
+      "name": "Logitech C920 HD Pro Webcam",
+      "price": 59.99,
+      "msrp": 79.99
+    },
+    "razer-kiyo": {
+      "name": "Razer Kiyo",
+      "price": 69.99,
+      "msrp": 99.99
+    },
+    "logi-brio-500": {
+      "name": "Logitech Brio 500",
+      "price": 99.99,
+      "msrp": 129.99
+    },
+    "logi-streamcam": {
+      "name": "Logitech StreamCam",
+      "price": 129.99,
+      "msrp": 169.99
+    },
+    "elgato-facecam": {
+      "name": "Elgato Facecam",
+      "price": 149.99,
+      "msrp": 199.99
+    },
+    "razer-kiyo-pro": {
+      "name": "Razer Kiyo Pro",
+      "price": 99.99,
+      "msrp": 199.99
+    },
+    "logi-brio-4k": {
+      "name": "Logitech Brio 4K Pro Webcam",
+      "price": 169.99,
+      "msrp": 199.99
+    },
+    "razer-kiyo-pro-ultra": {
+      "name": "Razer Kiyo Pro Ultra",
+      "price": 249.99,
+      "msrp": 299.99
+    },
+    "turtle-beach-stealth-ultra": {
+      "name": "Turtle Beach Stealth Ultra",
+      "price": 159.99,
+      "msrp": 199.99
+    },
+    "8bitdo-ultimate-2-wireless": {
+      "name": "8BitDo Ultimate 2 Wireless",
+      "price": 59.99,
+      "msrp": 59.99
+    },
+    "razer-wolverine-v3-pro": {
+      "name": "Razer Wolverine V3 Pro",
+      "price": 199.99,
+      "msrp": 199.99
+    },
+    "logi-f710": {
+      "name": "Logitech G F710 Wireless Gamepad",
+      "price": 39.99,
+      "msrp": 59.99
+    },
+    "8bitdo-arcade-stick": {
+      "name": "8BitDo Arcade Stick",
+      "price": 89.99,
+      "msrp": 99.99
+    },
+    "turtle-beach-recon-controller": {
+      "name": "Turtle Beach Recon Controller",
+      "price": 59.99,
+      "msrp": 59.99
+    },
+    "asus-rog-azoth": {
+      "name": "ASUS ROG Azoth",
+      "price": 249.99,
+      "msrp": 279.99
+    },
+    "razer-huntsman-v3-pro-tkl": {
+      "name": "Razer Huntsman V3 Pro TKL",
+      "price": 199.99,
+      "msrp": 199.99
+    },
+    "logi-pro-x-tkl-rapid": {
+      "name": "Logitech G Pro X TKL Rapid",
+      "price": 179.99,
+      "msrp": 199.99
+    },
+    "keychron-v6": {
+      "name": "Keychron V6 (QMK/VIA)",
+      "price": 79.99,
+      "msrp": 89.99
+    },
+    "steelseries-apex-9-tkl": {
+      "name": "SteelSeries Apex 9 TKL",
+      "price": 119.99,
+      "msrp": 139.99
+    },
+    "coolermaster-ck721": {
+      "name": "Cooler Master CK721",
+      "price": 99.99,
+      "msrp": 119.99
+    },
+    "keychron-k8-pro": {
+      "name": "Keychron K8 Pro (QMK/VIA)",
+      "price": 89.99,
+      "msrp": 99.99
+    },
+    "razer-deathadder-lefthand": {
+      "name": "Razer DeathAdder V2 Left-Handed Edition",
+      "price": 69.99,
+      "msrp": 79.99
+    },
+    "logi-g903": {
+      "name": "Logitech G903 LIGHTSPEED",
+      "price": 99.99,
+      "msrp": 149.99
+    },
+    "razer-cobra": {
+      "name": "Razer Cobra",
+      "price": 39.99,
+      "msrp": 39.99
+    },
+    "pulsar-x2v3": {
+      "name": "Pulsar X2 V3",
+      "price": 89.99,
+      "msrp": 99.99
+    },
+    "endgame-xm2we": {
+      "name": "Endgame Gear XM2we",
+      "price": 89.99,
+      "msrp": 99.99
+    },
+    "coolermaster-mm712": {
+      "name": "Cooler Master MM712",
+      "price": 59.99,
+      "msrp": 79.99
+    },
+    "razer-basilisk-v3-pro": {
+      "name": "Razer Basilisk V3 Pro",
+      "price": 139.99,
+      "msrp": 159.99
+    },
+    "logi-g502x-plus": {
+      "name": "Logitech G502 X PLUS",
+      "price": 129.99,
+      "msrp": 159.99
+    },
+    "steelseries-prime": {
+      "name": "SteelSeries Prime",
+      "price": 39.99,
+      "msrp": 49.99
+    },
+    "roccat-kone-xp-air": {
+      "name": "Roccat Kone XP Air",
+      "price": 129.99,
+      "msrp": 169.99
+    },
+    "corsair-scimitar-elite": {
+      "name": "Corsair Scimitar RGB Elite",
+      "price": 59.99,
+      "msrp": 79.99
+    },
+    "turtle-beach-stealth-700": {
+      "name": "Turtle Beach Stealth 700 Gen 3",
+      "price": 149.99,
+      "msrp": 199.99
+    },
+    "astro-a50-x": {
+      "name": "Logitech G ASTRO A50 X",
+      "price": 379.99,
+      "msrp": 379.99
+    },
+    "hyperx-cloud-3": {
+      "name": "HyperX Cloud III",
+      "price": 99.99,
+      "msrp": 99.99
+    },
+    "razer-kraken-v4": {
+      "name": "Razer Kraken V4",
+      "price": 129.99,
+      "msrp": 159.99
+    },
+    "steelseries-arctis-nova-1": {
+      "name": "SteelSeries Arctis Nova 1",
+      "price": 59.99,
+      "msrp": 59.99
+    },
+    "audeze-maxwell": {
+      "name": "Audeze Maxwell",
+      "price": 299.99,
+      "msrp": 329.99
+    },
+    "steelseries-arctis-nova-5": {
+      "name": "SteelSeries Arctis Nova 5 Wireless",
+      "price": 119.99,
+      "msrp": 129.99
+    },
+    "andaseat-kaiser-3": {
+      "name": "AndaSeat Kaiser 3",
+      "price": 549.99,
+      "msrp": 599.99
+    },
+    "asus-rog-destrier-ergo": {
+      "name": "ASUS ROG Destrier Ergo",
+      "price": 1299.99,
+      "msrp": 1499.99
+    },
+    "razer-fujin-pro": {
+      "name": "Razer Fujin Pro",
+      "price": 1049.99,
+      "msrp": 1049.99
+    },
+    "andaseat-phantom-3": {
+      "name": "AndaSeat Phantom 3",
+      "price": 399.99,
+      "msrp": 469.99
+    },
+    "razer-gigantus-v2-3xl": {
+      "name": "Razer Gigantus V2 3XL",
+      "price": 39.99,
+      "msrp": 49.99
+    },
+    "coolermaster-mp510-xl": {
+      "name": "Cooler Master MP510 XL",
+      "price": 24.99,
+      "msrp": 29.99
+    },
+    "logi-g740": {
+      "name": "Logitech G740",
+      "price": 29.99,
+      "msrp": 39.99
+    },
+    "elgato-wave-dx": {
+      "name": "Elgato Wave DX",
+      "price": 99.99,
+      "msrp": 99.99
+    },
+    "roccat-torch": {
+      "name": "Roccat Torch",
+      "price": 89.99,
+      "msrp": 99.99
+    },
+    "razer-kiyo-x": {
+      "name": "Razer Kiyo X",
+      "price": 49.99,
+      "msrp": 69.99
+    },
+    "logi-mx-brio": {
+      "name": "Logitech MX Brio",
+      "price": 199.99,
+      "msrp": 229.99
+    },
+    "elgato-facecam-mk2": {
+      "name": "Elgato Facecam MK.2",
+      "price": 149.99,
+      "msrp": 149.99
+    }
+  }
+}

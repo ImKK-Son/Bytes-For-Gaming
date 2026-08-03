@@ -802,6 +802,14 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and hot-swap switches.',
+      features: ['87-key TKL layout', 'Bluetooth + USB-C', 'Hot-swap PCB', 'QMK/VIA programmable'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'Enthusiast-grade programmability at a mainstream price.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +897,14 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'corsair-scimitar-elite', name: 'Corsair Scimitar RGB Elite', brand: 'Corsair', category: 'mouse',
+      price: 59.99, msrp: 79.99, rating: 4.5,
+      highlight: 'The MMO/MOBA specialist — 17 programmable buttons with a sliding 12-button side panel.',
+      features: ['17 programmable buttons', 'Adjustable Key Slider panel', '18K optical sensor', 'Wired low-latency'],
+      tags: ['righthanded', 'ergonomic', 'mmo', 'wired', 'rgb', 'highdpi', 'budget'],
+      valueNote: 'Unmatched button count for MMO and MOBA players who bind everything.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +956,14 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      highlight: 'A dual-wireless multiplatform headset with a companion app of 100+ audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Nova Companion app EQ presets', 'Retractable ClearCast mic', '~60h battery'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'App-driven game presets make it easy to dial in per-title audio.'
     },
 
     /* ---- CHAIRS ---- */
