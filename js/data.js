@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS (2026-08-04 price check) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'An esports-tuned 54g wireless mouse with the flagship Focus Pro 35K sensor.',
+      features: ['54g ultralight', 'Focus Pro 35K optical sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'esports', '8000hz', 'premium'],
+      valueNote: 'Now ~$10 under MSRP — a real competitive-play mouse at a small discount.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and hot-swap switches.',
+      features: ['TKL layout', 'QMK/VIA programmable', 'Hot-swappable switches', 'Bluetooth 5.1 or wired'],
+      tags: ['mechanical', 'tkl', 'wireless', 'hotswap', 'qmk', 'mac', 'windows', 'budget'],
+      valueNote: 'Frequently discounted below its $99.99 list — strong value for a customizable TKL.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-carbon',
+      highlight: 'An open-back wired headset with a broadcast-grade detachable mic for competitive audio.',
+      features: ['Open-back 50mm drivers', 'Detachable uni-directional mic', 'Wide soundstage for positional audio', 'Wired 3.5mm / USB'],
+      tags: ['open-back', 'wired', 'detachable-mic', 'streaming', 'competitive', 'premium'],
+      valueNote: 'Sitting ~$20 below MSRP — audiophile-leaning open-back sound for esports and streaming.'
     }
   ];
 
