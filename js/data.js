@@ -172,6 +172,15 @@
       valueNote: 'Frees up huge desk space for low-sens FPS players.'
     },
     {
+      id: 'logi-pro-x-60', name: 'Logitech G Pro X 60 Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 119.99, msrp: 179.99, rating: 4.4,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-60-wireless-gaming-keyboard.html',
+      highlight: 'A 60% wireless comp board with KEYCONTROL software and swappable GX optical switches.',
+      features: ['60% compact form factor', 'Lightspeed wireless + Bluetooth', 'Hot-swap GX optical switches', 'KEYCONTROL secondary layer'],
+      tags: ['optical', 'compact60', 'wireless', 'rgb', 'linear', 'premium'],
+      valueNote: 'Street price now runs well under MSRP — a strong deal for a wireless 60% at $120 or less.'
+    },
+    {
       id: 'corsair-k70', name: 'Corsair K70 RGB PRO', brand: 'Corsair', category: 'keyboard',
       price: 139.99, msrp: 169.99, rating: 4.6,
       highlight: 'Full-size mainstay with Cherry MX switches and a sturdy aluminum frame.',
@@ -212,6 +221,15 @@
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
       valueNote: 'The most comfortable ultralight for larger hands and palm-grippers. (Right-handed; lefties — see the DeathAdder Left-Handed Edition or an ambidextrous pick.)'
+    },
+    {
+      id: 'glorious-model-d-2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'A 66g ergonomic wireless mouse with a 26K sensor and huge battery life for the money.',
+      features: ['~66g ergonomic shell', 'BAMF 2.0 26K sensor', '2.4GHz wireless', 'Up to 210h battery'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi'],
+      valueNote: 'Regularly discounted below MSRP — often the best-value ergonomic wireless around $80.'
     },
     {
       id: 'razer-viper-v2', name: 'Razer Viper V2 Pro', brand: 'Razer', category: 'mouse',
@@ -270,6 +288,15 @@
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'A luxury pick — only worth it if you want ANC and do-everything connectivity.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 124.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/nova-5',
+      highlight: 'A mid-range 2.4GHz + Bluetooth headset with a companion app packing 100+ audio presets.',
+      features: ['2.4GHz wireless + Bluetooth', 'Neodymium magnetic drivers', '100+ game audio presets via app', 'Up to 60h battery + retractable mic'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'Holds close to MSRP; the app presets are the real draw at this price.'
     },
     {
       id: 'logi-pro-x-2', name: 'Logitech G Pro X 2 Lightspeed', brand: 'Logitech G', category: 'headset',
