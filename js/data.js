@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff7a00' }
   };
 
   /* ---------------------------------------------------------
@@ -220,6 +221,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — 54g symmetrical shape with an 8000Hz-ready sensor.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', 'HyperPolling up to 8000Hz'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The most-used mouse on the pro FPS circuit right now; often drops to ~$129 from its $159.99 MSRP.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -770,6 +780,15 @@
       valueNote: 'A top competitive board if you want adjustable, rapid-fire keys.'
     },
     {
+      id: 'wooting-60he-v2', name: 'Wooting 60HE v2', brand: 'Wooting', category: 'keyboard',
+      price: 199.99, msrp: 199.99, rating: 4.8,
+      url: 'https://wooting.io/wooting-60he-v2',
+      highlight: 'The analog rapid-trigger cult favorite — magnetic Hall-effect switches with per-key adjustable actuation.',
+      features: ['Lekker magnetic (Hall-effect) switches', 'Adjustable actuation + rapid trigger', 'Analog input (joystick-like)', '60% layout, sold direct'],
+      tags: ['analog', 'compact60', 'wired', 'rgb', 'linear', 'hotswap', 'premium'],
+      valueNote: 'Sold direct only, so no retailer bidding war — but widely considered the benchmark for competitive rapid-trigger boards.'
+    },
+    {
       id: 'logi-pro-x-tkl-rapid', name: 'Logitech G Pro X TKL Rapid', brand: 'Logitech G', category: 'keyboard',
       price: 179.99, msrp: 199.99, rating: 4.4,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-rapid-gaming-keyboard.html',
@@ -915,6 +934,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort legend goes cord-free — up to 120h battery with the same refined 53mm sound.',
+      features: ['Up to 120h battery life', '2.4GHz wireless', 'Angled 53mm drivers + spatial audio', 'Detachable 10mm mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and Cloud comfort; frequently discounted to ~$129 from its $169.99 MSRP.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
