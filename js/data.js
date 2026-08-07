@@ -195,6 +195,14 @@
       tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'budget'],
       valueNote: 'Punches well above its price — a top budget mechanical pick.'
     },
+    {
+      id: 'razer-blackwidow-v4-75', name: 'Razer BlackWidow V4 75%', brand: 'Razer', category: 'keyboard',
+      price: 169.99, msrp: 189.99, rating: 4.5,
+      highlight: 'Compact 75% board with hot-swap switches, a gasket mount, and a command dial.',
+      features: ['75% layout with dedicated arrows', 'Hot-swappable Razer switches', 'Gasket-mounted, sound-dampened', 'Programmable command dial + media roller'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'tactile', 'premium', 'hotswap'],
+      valueNote: 'A rare pre-built enthusiast board — gasket feel and hot-swap without going custom. Usually discounted below its $189.99 launch price.'
+    },
 
     /* ---------------- MICE ---------------- */
     {
@@ -236,6 +244,14 @@
       features: ['~68g honeycomb shell', 'AquaBarrier water resistance', 'Quantum 2.0 wireless', 'USB-C fast charge'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
       valueNote: 'A solid mid-budget ultralight that often drops in price.'
+    },
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 69.99, msrp: 79.99, rating: 4.5,
+      highlight: 'A light, no-nonsense wireless mouse with a flagship sensor at a mainstream price.',
+      features: ['~86g symmetrical shape', 'HERO 2 sensor (32K DPI)', 'Lightspeed + Bluetooth', 'POWERPLAY wireless-charging ready'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Brings pro-grade sensor tech to a sub-$70 street price; frequently dips below MSRP.'
     },
     {
       id: 'glorious-model-o', name: 'Glorious Model O', brand: 'Glorious', category: 'mouse',
@@ -520,6 +536,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'App-driven wireless headset with hundreds of game audio presets and long battery.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Companion app with per-game EQ presets', '~60h battery', 'Retractable ClearComms mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Undercuts the Nova 7 while keeping dual wireless; a strong mid-budget pick that dips below its $129.99 MSRP.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
@@ -1186,6 +1211,8 @@
     'keychron-k2': 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
     'logi-g915-tkl': 'https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless-keyboard.html',
     'razer-huntsman-mini': 'https://www.razer.com/gaming-keyboards/razer-huntsman-mini',
+    'razer-blackwidow-v4-75': 'https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75',
+    'logi-g309': 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
     'steelseries-apex-pro': 'https://steelseries.com/products/apex-pro-tkl',
     'hyperx-alloy-origins': 'https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard',
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
