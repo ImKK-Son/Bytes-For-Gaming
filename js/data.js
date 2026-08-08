@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ARRIVALS — latest gear + price watch ============ */
+    {
+      id: 'razer-deathadder-v4-pro', name: 'Razer DeathAdder V4 Pro', brand: 'Razer', category: 'mouse',
+      price: 169.99, msrp: 169.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v4-pro',
+      highlight: 'The next-gen esports flagship: lighter, faster HyperPolling wireless, and the iconic DeathAdder shape.',
+      features: ['56g ultralight body', 'Focus Pro 45K optical sensor', 'HyperPolling up to 8000Hz wireless', 'Optical mouse switches Gen-4'],
+      tags: ['pc', 'wireless', 'premium', 'pro', 'fps', 'rightHanded', 'comfortGrip'],
+      valueNote: 'A premium competitive mouse — currently discounted below its launch price, so a strong time to buy.'
+    },
+    {
+      id: 'corsair-virtuoso-max', name: 'Corsair Virtuoso Max Wireless', brand: 'Corsair', category: 'headset',
+      price: 299.99, msrp: 329.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011283-na/virtuoso-max-wireless-gaming-headset',
+      highlight: 'A premium wireless headset with Dolby Atmos, dual-mic broadcast quality, and Bluetooth + Slipstream.',
+      features: ['Dolby Atmos spatial audio', 'Detachable broadcast + boom mics', 'Bluetooth + Slipstream simultaneous', 'Memory-foam comfort for long sessions'],
+      tags: ['pc', 'wireless', 'premium', 'surround', 'streaming', 'comfortGrip'],
+      valueNote: 'Top-tier audio and comfort; prices have crept up recently, so watch for a sale before buying.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping, hot-swap switches, and Mac/Windows layouts.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Wireless + wired (USB-C)', 'Mac and Windows keycaps included'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'rgb', 'hotswap', 'mac', 'budget'],
+      valueNote: 'Enthusiast features at a mainstream price; sitting right at its usual street price.'
     }
   ];
 

@@ -1,7 +1,76 @@
 {
-  "generatedAt": "2026-06-22T19:48:35.025Z",
+  "generatedAt": "2026-08-08T00:00:00.000Z",
   "source": "affiliate-feeds",
   "products": {
+    "razer-deathadder-v4-pro": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 169.99,
+          "salePrice": 149.99,
+          "url": "https://www.amazon.com/s?k=Razer+DeathAdder+V4+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-08-08T00:00:00.000Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 159.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+DeathAdder+V4+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-08-08T00:00:00.000Z"
+        }
+      ]
+    },
+    "corsair-virtuoso-max": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 329.99,
+          "salePrice": null,
+          "url": "https://www.amazon.com/s?k=Corsair+Virtuoso+Max+Wireless",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-08-08T00:00:00.000Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 319.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Corsair+Virtuoso+Max+Wireless",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-08-08T00:00:00.000Z"
+        }
+      ]
+    },
+    "keychron-k8-pro": {
+      "image": null,
+      "offers": [
+        {
+          "name": "Amazon",
+          "price": 94.99,
+          "salePrice": null,
+          "url": "https://www.amazon.com/s?k=Keychron+K8+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-08-08T00:00:00.000Z"
+        },
+        {
+          "name": "Best Buy",
+          "price": 94.99,
+          "salePrice": null,
+          "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Keychron+K8+Pro",
+          "image": null,
+          "inStock": true,
+          "updatedAt": "2026-08-08T00:00:00.000Z"
+        }
+      ]
+    },
     "razer-deathadder-v3": {
       "image": null,
       "offers": [
