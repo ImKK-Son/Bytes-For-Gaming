@@ -148,6 +148,15 @@
 
     /* ---------------- KEYBOARDS ---------------- */
     {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      highlight: 'A full-size revival of the K70 with pre-lubed MLX Red switches and sound dampening.',
+      features: ['Full-size + media control dial', 'Pre-lubed MLX Red linear switches', 'Two layers of sound dampening', 'Included soft-touch palm rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'quiet', 'budget'],
+      valueNote: 'Delivers most of the K70 experience for well under $100; a smooth, quiet linear board that rarely strays far from its $99.99 list price.',
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na'
+    },
+    {
       id: 'keychron-k2', name: 'Keychron K2 (V2)', brand: 'Keychron', category: 'keyboard',
       price: 79.99, msrp: 89.99, rating: 4.6,
       highlight: 'The crowd-favorite 75% wireless board — Mac/Windows, hot-swap option, great typing.',
@@ -198,6 +207,15 @@
 
     /* ---------------- MICE ---------------- */
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current esports darling: ~54g, 8000Hz polling, and a flawless 35K sensor.',
+      features: ['~54g symmetrical shell', 'Focus Pro 35K optical sensor', 'HyperPolling wireless (up to 8000Hz)', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'Widely used on pro FPS rosters and now regularly discounted well below its $159.99 MSRP — a strong buy when it dips near $120 or less.',
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro'
+    },
+    {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
       price: 129.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
@@ -247,6 +265,15 @@
     },
 
     /* ---------------- HEADSETS ---------------- */
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      highlight: 'Multi-system wireless with a companion app of 100+ game audio presets and 60h battery.',
+      features: ['2.4GHz + Bluetooth (mix both)', '100+ tuned game presets via app', '60-hour battery', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'bluetooth', 'pc', 'playstation', 'switch', 'comfortable', 'midrange'],
+      valueNote: 'A lot of the Nova Pro feature set for far less; frequently sees promo pricing near $99 that makes it the value pick of the Nova line.',
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5'
+    },
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
       price: 79.99, msrp: 99.99, rating: 4.7,
