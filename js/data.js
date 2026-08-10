@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ADDITIONS (2026-08 refresh) ============ */
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Dual-wireless headset with a companion app that swaps 100+ game audio presets on the fly.',
+      features: ['2.4GHz + Bluetooth', 'Nova Companion app EQ presets', 'Retractable ClearComms mic', '~60h battery + fast charge'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Great-value do-everything wireless headset; the app presets are the standout feature.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE', brand: 'Corsair', category: 'keyboard',
+      price: 99.99, msrp: 109.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/keyboards/k70-core-mechanical-gaming-keyboard',
+      highlight: 'Pre-lubed linear switches, sound-dampening foam, and a volume roller at a mid-range price.',
+      features: ['Pre-lubed MLX linear switches', 'Dual-layer sound dampening', 'Media roller + button', 'Detachable magnetic wrist rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'quiet', 'budget'],
+      valueNote: 'A quiet, smooth-typing full-size board that undercuts the pricier K70 RGB PRO.'
+    },
+    {
+      id: 'glorious-model-d-2', name: 'Glorious Model D 2', brand: 'Glorious', category: 'mouse',
+      price: 49.99, msrp: 59.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2',
+      highlight: 'An ergonomic ~59g mouse that gives palm-grippers a lightweight, drift-free option.',
+      features: ['~59g ergonomic shell (no honeycomb)', 'BAMF 2.0 26K sensor', 'Glorious optical switches', 'PTFE feet + paracord cable'],
+      tags: ['wired', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'A rare ultralight ergonomic shape at a budget price — ideal for larger, palm-grip hands.'
     }
   ];
 
