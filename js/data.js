@@ -447,6 +447,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with hot-swap sockets and full QMK/VIA remapping at a friendly price.',
+      features: ['87-key TKL layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 or wired USB-C', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'A lot of enthusiast features — hot-swap, wireless, QMK — for under $100.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -848,6 +857,15 @@
       valueNote: 'A comfy ambidextrous shape that fits left- and right-handers alike.'
     },
     {
+      id: 'asus-rog-harpe-ace', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 99.99, msrp: 149.99, rating: 4.6,
+      url: 'https://rog.asus.com/us/mice-mouse-pads/mice/wireless/rog-harpe-ace-aim-lab-edition-model/',
+      highlight: 'A 54g esports flyweight tuned with Aim Lab, with tri-mode wireless and a 36K sensor.',
+      features: ['~54g symmetric shell', 'AimPoint 36K optical sensor', 'Tri-mode: 2.4G / Bluetooth / USB-C', 'ROG SpeedNova wireless, ~90h battery'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'pro', 'premium', 'highdpi'],
+      valueNote: 'Pro-tested esports flyweight; frequently discounted well below its $149.99 launch price.'
+    },
+    {
       id: 'coolermaster-mm712', name: 'Cooler Master MM712', brand: 'Cooler Master', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.5,
       highlight: 'A 59g ambidextrous wireless mouse — symmetric and friendly for either hand.',
@@ -898,6 +916,15 @@
       features: ['2.4GHz + Bluetooth at once', 'Flip-to-mute mic', '~80h battery', 'Cooling-gel earpads'],
       tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Great battery life and comfort across Xbox, PlayStation, and PC.'
+    },
+    {
+      id: 'turtle-beach-stealth-500', name: 'Turtle Beach Stealth 500', brand: 'Turtle Beach', category: 'headset',
+      price: 59.99, msrp: 79.99, rating: 4.4,
+      url: 'https://www.turtlebeach.com/products/stealth-500-headset',
+      highlight: 'A lightweight multi-platform wireless headset with a 40-hour battery at a budget price.',
+      features: ['2.4GHz wireless + Bluetooth', '40mm drivers', '~40h battery life', 'Flip-to-mute mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Strong value multi-platform headset; often drops to ~$59 from its $79.99 MSRP.'
     },
     {
       id: 'astro-a50-x', name: 'Logitech G ASTRO A50 X', brand: 'Logitech G', category: 'headset',
