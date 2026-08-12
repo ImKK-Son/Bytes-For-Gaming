@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS ---- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL wireless board with full QMK/VIA programming at a bargain price.',
+      features: ['Tenkeyless (TKL) layout', 'Tri-mode wireless + USB-C', 'Hot-swap Gateron switches', 'QMK/VIA programmable'],
+      tags: ['mechanical', 'tkl', 'wireless', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'One of the best value custom-ready wireless TKLs; often discounted below its $79.99 MSRP.'
+    },
+    {
+      id: 'razer-basilisk-v3-x', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'A comfy ergonomic wireless mouse with a tilt-scroll wheel and marathon battery life.',
+      features: ['5G 18K optical sensor', '9 programmable controls', 'HyperSpeed 2.4G + Bluetooth', 'Up to 285h battery'],
+      tags: ['ergonomic', 'fps', 'palmgrip', 'wireless', 'rgb', 'highdpi', 'budget'],
+      valueNote: 'Frequently on sale well under its $69.99 MSRP — excellent value for a full-featured wireless mouse.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5x', name: 'SteelSeries Arctis Nova 5X', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A multi-system wireless headset with a companion app of 100+ audio presets.',
+      features: ['Neodymium magnetic drivers', '100+ game audio presets via app', '60h battery, 2.4G or Bluetooth', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Holding steady at its $129.99 MSRP; the app presets are the standout feature at this price.'
     }
   ];
 
