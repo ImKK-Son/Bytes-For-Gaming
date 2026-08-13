@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- Added 2026-08-13: 3 new products (prices checked vs MSRP) ---- */
+    {
+      id: 'razer-blackwidow-v4-75', name: 'Razer BlackWidow V4 75%', brand: 'Razer', category: 'keyboard',
+      price: 129.99, msrp: 189.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75',
+      highlight: 'A compact 75% hot-swap board with silent tactile switches and a sound-dampened build.',
+      features: ['75% layout + command dial', 'Hot-swap Razer switches', 'Gasket-mount, foam-dampened', 'Doubleshot ABS keycaps'],
+      tags: ['mechanical', 'tkl', 'compact60', 'wired', 'rgb', 'tactile', 'hotswap', 'premium'],
+      valueNote: 'Currently well below MSRP — an enthusiast-grade 75% board at a mid-range price when discounted.'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless',
+      highlight: 'A 66g ergonomic wireless mouse with a 26K sensor and marathon 210-hour battery.',
+      features: ['66g ergonomic shape', 'BAMF 2.0 26K sensor', 'Up to 210 hr battery', '6 programmable buttons'],
+      tags: ['wireless', 'lightweight', 'ergo', 'fps', 'palm', 'rightHanded', 'midrange'],
+      valueNote: 'Regularly sells under its $99.99 MSRP, making a drift-free ergo flagship easy to justify.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/nova-5',
+      highlight: 'Multi-system wireless with 100+ audio presets in a companion app and a 60-hour battery.',
+      features: ['2.4GHz + Bluetooth', '100+ game audio presets', '60 hr battery life', 'ClearCast Gen2.X mic'],
+      tags: ['wireless', 'bluetooth', 'multiplatform', 'pc', 'ps5', 'streaming', 'midrange'],
+      valueNote: 'Sits just under MSRP most days and dips near $100 on sale — strong value for a multi-system headset.'
     }
   ];
 
