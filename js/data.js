@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff7a00' }
   };
 
   /* ---------------------------------------------------------
@@ -1048,6 +1049,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- 2026 ADDITIONS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — 54g symmetrical shape with an 8K polling rate.',
+      features: ['~54g ultralight ambidextrous shell', 'Focus Pro 35K Gen-2 sensor', 'Gen-3 optical switches', 'Up to 8000Hz wireless polling'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Regularly discounted well below its $159.99 MSRP; a top pick for competitive FPS.'
+    },
+    {
+      id: 'wooting-60he-plus', name: 'Wooting 60HE+', brand: 'Wooting', category: 'keyboard',
+      price: 189.00, msrp: 189.00, rating: 4.9,
+      url: 'https://wooting.io/wooting-60he',
+      highlight: 'The 60% analog board that made rapid trigger mainstream for competitive play.',
+      features: ['Lekker magnetic (Hall-effect) switches', 'Adjustable actuation + rapid trigger', 'Analog input (controller-like)', 'Hot-swap PCB, sold factory-direct'],
+      tags: ['optical', 'compact60', 'wired', 'rgb', 'hotswap', 'linear', 'premium'],
+      valueNote: 'Sold direct at a fixed price, so watch official restocks rather than retailer sales.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 109.99, msrp: 199.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless',
+      highlight: 'The 300-hour battery marathon headset — comfort-legend tuning, no wires.',
+      features: ['~300-hour battery life', 'Dual chamber 50mm drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Street price has fallen far below the $199.99 MSRP — frequently near $109.'
     }
   ];
 
