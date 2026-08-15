@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS ---- */
+    {
+      id: 'razer-blackwidow-v4-75', name: 'Razer BlackWidow V4 75%', brand: 'Razer', category: 'keyboard',
+      price: 169.99, msrp: 189.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75',
+      highlight: 'A hot-swappable 75% board with gasket mounting and pre-lubed switches for a soft, muted typing feel.',
+      features: ['75% compact layout + volume roller', 'Hot-swappable switches', 'Gasket-mounted, sound-dampened', 'Doubleshot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'compact60', 'wired', 'rgb', 'hotswap', 'tactile', 'premium'],
+      valueNote: 'A rare pre-built enthusiast board — gasket mount and hot-swap usually mean a DIY kit.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-ca-9011370-na',
+      highlight: 'An open-back wired headset with a wide, natural soundstage tuned for competitive audio cues.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable broadcast-grade mic', 'Lightweight steel-and-fabric build', 'Wired 3.5mm + USB'],
+      tags: ['wired', 'openback', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Open-back imaging that punches toward audiophile territory for the money.'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 99.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless',
+      highlight: 'An ergonomic ~64g wireless mouse with a flagship sensor and BAMF 2.0 tracking.',
+      features: ['~64g ergonomic shape', 'BAMF 2.0 sensor (26K DPI)', '2.4G wireless + Bluetooth', 'Up to 210h battery'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'Ergonomic ultralight wireless at a price that undercuts most flagship rivals.'
     }
   ];
 
