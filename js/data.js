@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.7,
+      highlight: 'Hot-swappable TKL with full QMK/VIA remapping and triple-mode wireless.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1, 2.4G, and USB-C', 'PBT keycaps, double-gasket mount'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'customizable', 'mac', 'windows', 'linux'],
+      valueNote: 'A tinkerer favorite: hot-swap sockets and open firmware make it endlessly customizable for the price.',
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard'
+    },
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 59.99, msrp: 79.99, rating: 4.5,
+      highlight: 'A 68g Lightspeed wireless mouse with the HERO 25K sensor at a rare budget price.',
+      features: ['HERO 25K sensor', 'LIGHTFORCE hybrid optical-mechanical switches', 'POWERPLAY wireless charging ready', '300+ hour battery life'],
+      tags: ['wireless', 'lightweight', 'fps', 'budget', 'rightHanded', 'ambidextrous'],
+      valueNote: 'Flagship Lightspeed internals in a genuinely affordable body — one of the best value wireless mice right now.',
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      highlight: 'Multi-system 2.4G + Bluetooth headset with a companion app packing 100+ audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Neodymium magnetic drivers', '100+ game audio presets via app', '60-hour battery, retractable ClearCast mic'],
+      tags: ['wireless', 'bluetooth', 'pc', 'playstation', 'switch', 'comfortable'],
+      valueNote: 'The app-driven EQ presets tune audio per game — strong feature set for a mid-priced wireless headset.',
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5'
     }
   ];
 
