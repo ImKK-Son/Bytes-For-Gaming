@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ LATEST ADDITIONS ============ */
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Multi-system wireless headset with a companion app of 100+ game-tuned audio presets.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Sonar app with 100+ audio presets', '~60h battery', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A lot of the Nova 7 experience for less; the preset library is the standout.'
+    },
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 59.99, msrp: 79.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A light 86g wireless mouse with optional POWERPLAY charging at a friendly price.',
+      features: ['HERO 25K sensor', 'LIGHTFORCE hybrid switches', 'Lightspeed + optional POWERPLAY', '~300h on one AA'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'budget'],
+      valueNote: 'Frequently discounted well under MSRP — a strong value wireless pick.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A sound-dampened full-size board with pre-lubed linear switches and a media dial.',
+      features: ['Pre-lubed MLX Red linear switches', 'Sound-dampening foam', 'Media control dial', 'ABS double-shot keycaps'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'quiet', 'budget'],
+      valueNote: 'A quiet, comfortable full-size board that regularly drops to $80.'
     }
   ];
 
