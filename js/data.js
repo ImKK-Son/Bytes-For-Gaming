@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ 2026 REFRESH — new flagship gear, priced to current street ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: 54g symmetrical shape, 35K sensor, and 8000Hz wireless.',
+      features: ['~54g ultralight ambidextrous', 'Focus Pro 35K sensor', 'Gen-3 optical switches', '8000Hz HyperPolling wireless, ~95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Street price has settled ~19% below its $159.99 launch MSRP and dips near $90 on sale — the pro standard, now cheaper than at release.'
+    },
+    {
+      id: 'hyperx-cloud-iii-s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 179.99, msrp: 179.99, rating: 4.5,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The Cloud III comfort formula, now with simultaneous 2.4GHz + Bluetooth and a marathon battery.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Up to 120h (2.4GHz) / 200h (BT) battery', '53mm angled drivers + spatial audio', 'Detachable 10mm mic'],
+      tags: ['wireless', 'hifi', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Newly launched replacement for the (now-discontinued) Cloud III Wireless; holding at its $179.99 MSRP so far, no discount yet.'
+    },
+    {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 173.99, msrp: 199.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-gen-3',
+      highlight: 'OmniPoint 3.0 Hall-effect switches with Rapid Trigger and Rapid Tap for the fastest possible inputs.',
+      features: ['OmniPoint 3.0 adjustable magnetic switches', 'Rapid Trigger + Rapid Tap / SOCD', 'OLED smart display', 'PBT keycaps + USB-C'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'premium', 'hotswap'],
+      valueNote: 'Now selling ~13% under its $199.99 MSRP (around $174) — a real drop from launch pricing as the wired Gen 3 becomes widely stocked.'
     }
   ];
 
