@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-tuned flagship: ~54g, 8000Hz polling, and a next-gen 35K sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K optical sensor', 'HyperPolling 8000Hz wireless', 'Optical Gen-3 switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'The competitive benchmark right now — down $10 from launch MSRP.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Dual-wireless comfort with a companion app that loads hundreds of game audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Nova Acoustic System drivers', 'Companion app EQ presets', '~60h battery'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'A cheaper on-ramp to the Nova line — currently $10 under MSRP.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A tenkeyless hot-swap board with full QMK/VIA remapping and Mac + Windows layouts.',
+      features: ['Tenkeyless (87-key) layout', 'Hot-swappable switches', 'QMK/VIA remapping', 'Bluetooth + USB-C'],
+      tags: ['mechanical', 'wireless', 'wired', 'hotswap', 'tenkeyless', 'mac', 'customizable', 'budget'],
+      valueNote: 'Holding at MSRP — no discount yet, but a lot of board for $100.'
     }
   ];
 
