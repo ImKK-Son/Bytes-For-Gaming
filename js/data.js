@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- ADDED 2026-08-20 (prices verified against current street pricing) ---- */
+    {
+      id: 'corsair-scimitar-rgb-elite', name: 'Corsair Scimitar RGB Elite', brand: 'Corsair', category: 'mouse',
+      price: 49.99, msrp: 79.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-mouse/ch-9304211-na/scimitar-rgb-elite-optical-moba-mmo-gaming-mouse',
+      highlight: 'The MMO/MOBA weapon: 17 programmable buttons and a slide-adjustable 12-key side panel.',
+      features: ['12-button optical side panel', 'Adjustable Key Slider (±8mm)', '18,000 DPI optical sensor', 'iCUE macros + per-key RGB'],
+      tags: ['mmo', 'wired', 'palmgrip', 'customizable', 'highdpi', 'budget'],
+      valueNote: 'Price has dropped: launched at an $79.99 MSRP but now sits near an all-time-low ~$50 street price — a strong value for MMO players.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA remapping over Bluetooth or USB-C.',
+      features: ['QMK/VIA programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + wired USB-C', 'Gasket-mounted, PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'customizable', 'mac', 'rgb'],
+      valueNote: 'Trending down: RGB aluminum config carries a ~$99.99 MSRP but street pricing now runs ~$59-90 depending on config.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Dual-wireless multi-system headset with a companion app and 100+ audio presets.',
+      features: ['2.4GHz + Bluetooth 5.3', 'Neodymium magnetic drivers', 'Sonar app EQ presets', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'bluetooth', 'multisystem', 'ps5', 'pc', 'closedback', 'mic'],
+      valueNote: 'Down from launch: $129.99 MSRP, but frequently ~$99-110 street since release — good multi-platform value on sale.'
     }
   ];
 
