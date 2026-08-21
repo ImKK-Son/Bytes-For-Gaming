@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 79.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ARRIVALS — added 2026-08-21 ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The 54g esports flagship — 35K sensor, Gen-3 optical switches, and an 8000Hz polling rate.',
+      features: ['Ultralight 54g symmetrical shape', 'Focus Pro 35K optical sensor', 'Gen-3 optical switches', '8000Hz HyperPolling wireless'],
+      tags: ['pc', 'wireless', 'premium', 'pro', 'lightweight', 'ambidextrous'],
+      valueNote: 'A top pick for competitive FPS players who want the lightest, fastest wireless mouse.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA programmability and hot-swap switches.',
+      features: ['QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C wired', 'Aluminum frame + PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'rgb', 'hotswap', 'customizable'],
+      valueNote: 'Enthusiast-grade customization and build quality at a mainstream price.'
+    },
+    {
+      id: 'sony-pulse-elite', name: 'Sony PULSE Elite Wireless Headset', brand: 'Sony', category: 'headset',
+      price: 149.99, msrp: 149.99, rating: 4.4,
+      url: 'https://direct.playstation.com/en-us/buy-accessories/pulse-elite-wireless-headset-ps5',
+      highlight: 'Planar-magnetic PS5 headset with PlayStation Link low-latency wireless and a retractable mic.',
+      features: ['Planar magnetic drivers', 'PlayStation Link + Bluetooth', 'Retractable boom mic', 'Charging hanger included'],
+      tags: ['ps5', 'pc', 'wireless', 'premium', 'comfortGrip'],
+      valueNote: 'Rich, detailed audio for PS5 players who want a premium first-party headset.'
     }
   ];
 
