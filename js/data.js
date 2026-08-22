@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 119.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +220,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — a 54g symmetrical shape with an 8000Hz sensor.',
+      features: ['~54g ultralight', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Gen-3 optical switches, ~95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'The pro pick — regularly discounted below its $159.99 launch price, so watch for sub-$130 deals.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -447,6 +456,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-q3-max', name: 'Keychron Q3 Max (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 189.99, msrp: 209.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A full-metal TKL that finally goes wireless — QMK/VIA with a 1000Hz 2.4GHz link.',
+      features: ['CNC aluminum gasket mount', '2.4GHz + Bluetooth + wired', 'Hot-swap + QMK/VIA', 'Double-gasket dampening + knob'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'rgb', 'premium'],
+      valueNote: 'The wireless upgrade to the Q3 — often on sale near $189.99 or lower during Keychron promos.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -528,6 +546,15 @@
       features: ['Dolby Atmos spatial audio', 'Broadcast omni mic', 'Floating-suspension headband', 'USB + Slipstream wireless'],
       tags: ['wireless', 'hifi', 'surround', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Excellent mic quality for the price; best on PC/PS5.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 199.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back, wired studio-style headset for streamers who want natural, airy sound.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', '20Hz–40kHz range', 'Wired 3.5mm — universal compatibility'],
+      tags: ['wired', 'hifi', 'openback', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Holding steady at its $199.99 launch price; open-back means great soundstage but audible leakage.'
     },
     {
       id: 'logi-g535', name: 'Logitech G535 Lightspeed', brand: 'Logitech G', category: 'headset',
@@ -909,7 +936,7 @@
     },
     {
       id: 'hyperx-cloud-3', name: 'HyperX Cloud III', brand: 'HyperX', category: 'headset',
-      price: 99.99, msrp: 99.99, rating: 4.6,
+      price: 79.99, msrp: 99.99, rating: 4.6,
       url: 'https://hyperx.com/products/hyperx-cloud-iii-gaming-headset',
       highlight: 'The comfort legend, refined — superb wired sound and mic for the money.',
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
