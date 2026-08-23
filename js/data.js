@@ -180,6 +180,14 @@
       valueNote: 'A long-lasting do-everything board for work and play.'
     },
     {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 99.99, msrp: 109.99, rating: 4.5,
+      highlight: 'Full-size board with pre-lubed linear switches, a media dial, and a comfy palm rest for the money.',
+      features: ['Pre-lubed MLX Red linear switches', 'Two-layer sound dampening', 'Media control dial', 'Magnetic palm rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear'],
+      valueNote: 'Launched at $109.99 and now settles around $99.99 — a lot of keyboard for the price.'
+    },
+    {
       id: 'steelseries-apex-pro', name: 'SteelSeries Apex Pro TKL', brand: 'SteelSeries', category: 'keyboard',
       price: 189.99, msrp: 219.99, rating: 4.5,
       highlight: 'Adjustable per-key actuation lets you tune feel and speed precisely.',
@@ -220,6 +228,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'asus-rog-harpe-ace-aimlab', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 79.99, msrp: 149.99, rating: 4.6,
+      highlight: 'Aim Lab–tuned 54g esports mouse co-designed for pixel-precise flicks.',
+      features: ['~54g ambidextrous shape', 'ROG AimPoint 36K sensor', 'ROG SpeedNova wireless', 'Tri-mode: wireless / Bluetooth / USB'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'A flagship that now sells for roughly half its launch price — huge value on sale.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -286,6 +302,14 @@
       features: ['Active noise cancellation', '360 Spatial Sound', '~32h battery', 'Soft synthetic-leather pads'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'playstation', 'premium'],
       valueNote: 'Often discounted hard — a strong deal when it drops near $150.'
+    },
+    {
+      id: 'sony-pulse-elite', name: 'Sony PULSE Elite Wireless Headset', brand: 'Sony', category: 'headset',
+      price: 149.99, msrp: 149.99, rating: 4.4,
+      highlight: 'Planar-magnetic PS5 headset with lossless PlayStation Link audio and a tidy charging hanger.',
+      features: ['Planar magnetic drivers', 'Retractable AI-noise-rejecting mic', 'PlayStation Link + Bluetooth', '~30h battery + charging hanger'],
+      tags: ['wireless', 'hifi', 'comfortLongSession', 'playstation', 'premium'],
+      valueNote: 'Holds its $149.99 price most of the year; dips to about $109 during PlayStation Days of Play.'
     },
 
     /* ---------------- CHAIRS ---------------- */
@@ -1205,7 +1229,10 @@
     'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
     'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
     'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
-    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html',
+    'corsair-k70-core': 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+    'asus-rog-harpe-ace-aimlab': 'https://rog.asus.com/mice-mouse-pads/mice/ambidextrous/rog-harpe-ace-aim-lab-edition-model/',
+    'sony-pulse-elite': 'https://www.playstation.com/en-us/accessories/pulse-elite-wireless-headset/'
   };
 
   // attach computed pricing to every product once
