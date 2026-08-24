@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff7a00' }
   };
 
   /* ---------------------------------------------------------
@@ -220,6 +221,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: 54g, 8000 Hz polling, and a flawless 35K sensor.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', '8000 Hz HyperSpeed wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'The pro-tournament default. Regularly falls to ~$120 from its $159.99 MSRP — buy on the dip.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -445,6 +455,15 @@
       features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
       tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'wooting-60he-plus', name: 'Wooting 60HE+', brand: 'Wooting', category: 'keyboard',
+      price: 154.99, msrp: 154.99, rating: 4.8,
+      url: 'https://wooting.io/wooting-60he',
+      highlight: 'The analog Hall-effect 60% that pros swear by — adjustable actuation and rapid trigger.',
+      features: ['Analog Lekker Hall-effect switches', 'Per-key adjustable actuation', 'Rapid Trigger + SOCD', 'Compact 60% layout'],
+      tags: ['mechanical', 'compact60', 'analog', 'hallEffect', 'wired', 'linear', 'customizable', 'premium', 'pro'],
+      valueNote: 'Sold direct-only at a flat $154.99, so it rarely discounts — but nothing else matches its analog input for competitive FPS.'
     },
     {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
@@ -940,6 +959,15 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'sony-pulse-elite', name: 'Sony PULSE Elite Wireless Headset', brand: 'Sony', category: 'headset',
+      price: 149.99, msrp: 149.99, rating: 4.4,
+      url: 'https://www.playstation.com/en-us/accessories/pulse-elite-wireless-headset/',
+      highlight: 'PS5-tuned lossless wireless with a retractable boom mic and a charging hanger.',
+      features: ['PlayStation Link lossless audio', 'Planar magnetic drivers', 'Retractable boom mic', 'Charging hanger included'],
+      tags: ['wireless', 'playstation', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'The best-value first-party PS5 headset. Holds $149.99 but drops to ~$109 during PlayStation sale events.'
     },
 
     /* ---- CHAIRS ---- */
