@@ -156,6 +156,15 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and hot-swap sockets.',
+      features: ['87-key TKL layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'budget'],
+      valueNote: 'A power-user favorite — deep customization for well under $100.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -865,6 +874,15 @@
       valueNote: 'The do-it-all right-handed ergonomic flagship.'
     },
     {
+      id: 'razer-basilisk-v3-x-hyperspeed', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'A budget wireless take on the Basilisk shape with huge battery life.',
+      features: ['18K optical sensor', '9 programmable controls', 'HyperSpeed 2.4G + Bluetooth', 'Up to 285h battery'],
+      tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'palmgrip', 'budget'],
+      valueNote: 'Often discounted well under MSRP — the value pick in the Basilisk line.'
+    },
+    {
       id: 'logi-g502x-plus', name: 'Logitech G502 X PLUS', brand: 'Logitech G', category: 'mouse',
       price: 129.99, msrp: 159.99, rating: 4.6,
       url: 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-plus-wireless-gaming-mouse.html',
@@ -932,6 +950,15 @@
       features: ['Nova acoustic drivers', 'Retractable ClearCast mic', 'Lightweight build', '3.5mm multi-platform'],
       tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A great-value entry into the Arctis Nova lineup.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A multi-system wireless headset with a companion app of 100+ audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Neodymium magnetic drivers', 'Retractable ClearCast Gen2.X mic', '~60h battery'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A flexible mid-range wireless option across PC, PlayStation, and Switch.'
     },
     {
       id: 'audeze-maxwell', name: 'Audeze Maxwell', brand: 'Audeze', category: 'headset',
