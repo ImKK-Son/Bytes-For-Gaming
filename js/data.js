@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 139.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +220,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: 54g, 8000Hz wireless, and a 35K sensor.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The V3 Pro supersedes the V2 Pro — lighter, faster polling, and dominant on pro rosters. Watch for regular drops from the $159.99 MSRP.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -462,6 +471,15 @@
       features: ['60% compact layout', 'Cherry MX switches', 'PBT keycaps', 'Detachable USB-C'],
       tags: ['mechanical', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
       valueNote: 'Tiny footprint for aimers; the missing arrow/function keys take adjustment.'
+    },
+    {
+      id: 'logi-pro-x-60', name: 'Logitech G Pro X 60 Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 129.99, msrp: 179.99, rating: 4.4,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-60-gaming-keyboard.html',
+      highlight: 'A pro-tuned 60% wireless board with GX optical switches and KEYCONTROL layers.',
+      features: ['Ultra-compact 60% layout', 'GX optical switches', 'Lightspeed wireless + Bluetooth', 'Dual-shot PBT keycaps'],
+      tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'linear', 'quiet', 'premium'],
+      valueNote: 'Wireless 60% built for esports desks; KEYCONTROL adds arrow/function layers the compact size drops.'
     },
 
     /* ---------------- MICE (more) ---------------- */
@@ -915,6 +933,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort legend goes wireless — 120h battery and the same superb pads.',
+      features: ['Up to 120h battery life', '2.4GHz wireless', 'Angled 53mm drivers', 'Memory foam + suede-like pads'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and Cloud comfort; the wireless tax over the wired III is worth it for cable-free desks.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
