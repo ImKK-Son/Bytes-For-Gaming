@@ -1048,6 +1048,33 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA programmability, wireless, and a gasket-mounted feel.',
+      features: ['TKL 87-key layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C wired', 'PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'programmable', 'tactile', 'budget'],
+      valueNote: 'A do-it-all, custom-adjacent board that regularly dips well under MSRP.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Dual 2.4GHz + Bluetooth wireless with a companion app of 100+ audio presets.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Neodymium magnetic drivers', '100+ in-app audio presets', '~60h battery', 'ClearCast Gen2.X mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'A feature-packed mid-range wireless headset that holds close to MSRP.'
+    },
+    {
+      id: 'logi-g309-lightspeed', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 49.99, msrp: 89.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A lightweight Lightspeed mouse with the HERO 25K sensor and optional POWERPLAY charging.',
+      features: ['~86g wireless', 'HERO 25K sensor', 'LIGHTFORCE hybrid switches', 'Lightspeed + Bluetooth', 'POWERPLAY compatible'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'fps', 'palmgrip', 'clawgrip', 'highdpi', 'budget'],
+      valueNote: 'MSRP crept up to $90, but frequent deals put it near $50 — buy on sale.'
     }
   ];
 
