@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ARRIVALS ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      highlight: 'A 54g esports flagship with an 8000Hz wireless polling rate and the Focus Pro 35K sensor.',
+      features: ['54g ultralight body', 'HyperPolling 8000Hz wireless', 'Focus Pro 35K optical sensor', 'Optical Gen-3 switches'],
+      tags: ['pc', 'wireless', 'fps', 'lightweight', 'esports', 'ambidextrous', 'premium'],
+      valueNote: 'The competitive-FPS benchmark mouse; street price now sits just under MSRP.'
+    },
+    {
+      id: 'steelseries-apex-pro-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 219.99, msrp: 249.99, rating: 4.6,
+      highlight: 'Adjustable magnetic Hall-effect switches with rapid trigger and per-key actuation.',
+      features: ['OmniPoint 3.0 Hall-effect switches', 'Rapid Trigger + 0.1mm actuation', 'Per-key RGB + OLED smart display', 'Detachable USB-C wrist rest'],
+      tags: ['pc', 'wired', 'hallEffect', 'rapidTrigger', 'customizable', 'rgb', 'premium'],
+      valueNote: 'One of the most feature-complete analog boards; regularly discounted below its $249.99 MSRP.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      highlight: 'Up to 120 hours of battery with 2.4GHz wireless and DTS spatial audio.',
+      features: ['120-hour battery life', '2.4GHz low-latency wireless', 'Angled 53mm drivers + DTS:X', 'Memory-foam signature comfort'],
+      tags: ['pc', 'ps5', 'wireless', 'longBattery', 'spatial', 'comfort', 'premium'],
+      valueNote: 'Excellent battery and comfort for the price; typically found below MSRP.'
     }
   ];
 
