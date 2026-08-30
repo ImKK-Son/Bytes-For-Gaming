@@ -1048,6 +1048,38 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ CATALOG REFRESH (2026-08-30) — 3 new products ============
+       Street prices below reflect current market checks vs. MSRP. See the
+       run notes: Viper V3 Pro and Cloud Alpha Wireless are both selling
+       WELL BELOW MSRP right now; the Keychron Q3 Max holds at list. */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: ~54g symmetrical shape, 35K sensor, and 8000Hz wireless.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', 'Up to 8000Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Widely used by pros and frequently discounted ~$40 under MSRP — a strong buy when it dips near $120.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 109.99, msrp: 199.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless',
+      highlight: 'The 300-hour-battery legend: charge it once a month and forget the cable.',
+      features: ['~300h battery life', 'Dual-chamber drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancel mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Regularly falls to ~$110 (nearly half its $200 MSRP) — outstanding value when on sale.'
+    },
+    {
+      id: 'keychron-q3-max', name: 'Keychron Q3 Max (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 189.99, msrp: 189.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A gasket-mounted, tri-mode wireless TKL enthusiast board with a full aluminum body.',
+      features: ['CNC aluminum gasket mount', 'Tri-mode wireless (2.4GHz/BT/wired)', 'Hot-swap + QMK/VIA', 'Optional knob version'],
+      tags: ['mechanical', 'tkl', 'wireless', 'rgb', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'Holds firmly at list price — Keychron rarely discounts the Q Max line, so no rush to wait for a sale.'
     }
   ];
 
