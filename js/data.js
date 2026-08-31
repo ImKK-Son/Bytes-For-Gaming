@@ -195,6 +195,14 @@
       tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'budget'],
       valueNote: 'Punches well above its price — a top budget mechanical pick.'
     },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 109.99, msrp: 114.99, rating: 4.6,
+      highlight: 'Wireless TKL with QMK/VIA remapping, hot-swap switches, and an aluminum frame.',
+      features: ['80% TKL layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile'],
+      valueNote: 'Rare combo of wireless + open-source QMK/VIA firmware at this price; holds near MSRP, so buy on a dip.'
+    },
 
     /* ---------------- MICE ---------------- */
     {
@@ -245,6 +253,14 @@
       tags: ['wired', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
       valueNote: 'Excellent first ultralight without breaking the bank.'
     },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      highlight: 'Ergonomic 66g ultralight with a 26K sensor and up to 210h of battery.',
+      features: ['~66g ergonomic shell', '26K optical sensor', 'Up to 210h battery', '2.4GHz + USB-C'],
+      tags: ['wireless', 'lightweight', 'ergo', 'fps', 'palmgrip', 'clawgrip'],
+      valueNote: 'Street price has slid well below the $99 MSRP — regularly $79 and dips near $50 on sale, so never pay full.'
+    },
 
     /* ---------------- HEADSETS ---------------- */
     {
@@ -286,6 +302,14 @@
       features: ['Active noise cancellation', '360 Spatial Sound', '~32h battery', 'Soft synthetic-leather pads'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'playstation', 'premium'],
       valueNote: 'Often discounted hard — a strong deal when it drops near $150.'
+    },
+    {
+      id: 'steelseries-nova-5-wireless', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      highlight: 'Multi-system wireless headset with 100+ audio presets, 60h battery, and a companion app.',
+      features: ['2.4GHz + Bluetooth', '60h battery life', '100+ EQ presets via app', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'comfortLongSession', 'playstation', 'pc', 'switch', 'midrange'],
+      valueNote: 'Launched at $129.99 but now commonly $99 — a genuine price drop, not a fake discount.'
     },
 
     /* ---------------- CHAIRS ---------------- */
