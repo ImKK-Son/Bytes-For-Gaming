@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDS (Sep 2026 price check) ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable, QMK/VIA 80% board with wireless — currently running below its launch price.',
+      features: ['80% TKL layout', 'Hot-swappable switches', 'QMK/VIA fully programmable', 'Bluetooth 5.1 + USB-C wired'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'customizable', 'mac', 'windows', 'budget'],
+      valueNote: 'Price has come DOWN from a $99.99 MSRP to about $79.99 street (dips to ~$59.99 on sale) — a genuine deal for a hot-swap QMK board.'
+    },
+    {
+      id: 'razer-deathadder-v3-hyperspeed', name: 'Razer DeathAdder V3 HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 84.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v3-hyperspeed',
+      highlight: 'The 55g wireless DeathAdder shape with 100-hour battery — trending under MSRP.',
+      features: ['55g ultralight', 'Up to 100 hr battery', '26K Focus Pro optical sensor', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'pro', 'fps'],
+      valueNote: 'Price has gone DOWN vs the $99.99 MSRP, now about $84.99 at major stores (as low as $64.99 on promo).'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Multi-system 2.4GHz + Bluetooth headset with 100+ audio presets — now under $100.',
+      features: ['2.4GHz + Bluetooth', '60 hr battery', 'Neodymium magnetic drivers', '100+ game audio presets via app'],
+      tags: ['wireless', 'bluetooth', 'multiplatform', 'pc', 'playstation', 'switch', 'comfort'],
+      valueNote: 'Price has DROPPED from a $129.99 MSRP to $99.99 — the first time it has fallen under $100.'
     }
   ];
 
