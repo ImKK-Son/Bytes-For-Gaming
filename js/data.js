@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS (Sep 2026) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The 54g esports flagship: 8,000 Hz wireless and a 35K optical sensor.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', '8,000 Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The current pro-tour standard — regularly on sale near $120, well below its $159.99 MSRP.'
+    },
+    {
+      id: 'corsair-k70-max', name: 'Corsair K70 MAX RGB', brand: 'Corsair', category: 'keyboard',
+      price: 199.99, msrp: 249.99, rating: 4.5,
+      highlight: 'Magnetic MGX switches with adjustable actuation, rapid trigger, and SOCD.',
+      features: ['Adjustable 0.4-3.6mm MGX switches', 'Rapid trigger + SOCD', '8,000 Hz AXON hyper-polling', 'PBT double-shot keycaps + aluminum frame'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'hallEffect', 'premium'],
+      valueNote: 'A top analog board for competitive FPS; frequently discounted to ~$200 from its $249.99 MSRP.'
+    },
+    {
+      id: 'turtle-beach-stealth-600-g3', name: 'Turtle Beach Stealth 600 (Gen 3)', brand: 'Turtle Beach', category: 'headset',
+      price: 99.99, msrp: 109.99, rating: 4.4,
+      highlight: 'Multiplatform wireless with an 80-hour battery and Bluetooth on top of 2.4G.',
+      features: ['80-hour battery + quick charge', '2.4G wireless + Bluetooth 5.2', 'AI noise-cancelling flip mic', 'Works on Xbox/PS5/PC/Switch/mobile'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'One of the best value do-everything wireless headsets — its marathon battery is class-leading at $100.'
     }
   ];
 
@@ -1205,7 +1231,10 @@
     'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
     'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
     'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
-    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'corsair-k70-max': 'https://www.corsair.com/us/en/p/keyboards/ch-910961g-na/k70-max-rgb-magnetic-mechanical-gaming-keyboard',
+    'turtle-beach-stealth-600-g3': 'https://www.turtlebeach.com/products/stealth-600-gen-3'
   };
 
   // attach computed pricing to every product once
