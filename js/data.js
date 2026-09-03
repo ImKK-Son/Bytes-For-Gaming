@@ -222,6 +222,15 @@
       valueNote: 'Frequently discounted to a great price for its tier.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g esports flagship with an 8000Hz link — the pro-scene favorite, now well under MSRP.',
+      features: ['~54g symmetrical shell', 'Focus Pro 35K optical sensor', 'Gen-3 optical switches', '8000Hz wireless + 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Price is DOWN: launched at $159.99, now commonly $129.99 (~19% off MSRP).'
+    },
+    {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
@@ -770,6 +779,15 @@
       valueNote: 'A top competitive board if you want adjustable, rapid-fire keys.'
     },
     {
+      id: 'logi-pro-x-60', name: 'Logitech G Pro X 60 Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 129.99, msrp: 179.99, rating: 4.4,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-60-gaming-keyboard.html',
+      highlight: 'A 60% wireless esports board with GX optical switches — regularly discounted well below launch price.',
+      features: ['60% ultra-compact layout', 'GX optical switches', 'Lightspeed wireless + Bluetooth', 'KEYCONTROL dual-shot PBT caps'],
+      tags: ['optical', 'compact60', 'wireless', 'rgb', 'linear', 'premium'],
+      valueNote: 'Price is DOWN: MSRP $179.99, street settled near $129.99 since launch.'
+    },
+    {
       id: 'logi-pro-x-tkl-rapid', name: 'Logitech G Pro X TKL Rapid', brand: 'Logitech G', category: 'keyboard',
       price: 179.99, msrp: 199.99, rating: 4.4,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-rapid-gaming-keyboard.html',
@@ -915,6 +933,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-3s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 169.99, msrp: 179.99, rating: 4.5,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The successor to the Cloud III Wireless — DTS 7.1 surround and a ~120-hour battery.',
+      features: ['Angled 53mm drivers', 'DTS Headphone:X 7.1 spatial audio', '~120h wireless battery', 'Detachable 10mm mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Price edging DOWN: launched at $179.99 in 2025, now dips toward $169.99.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
