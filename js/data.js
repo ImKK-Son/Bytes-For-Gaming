@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'endgame-op1-8k', name: 'Endgame Gear OP1 8K', brand: 'Endgame Gear', category: 'mouse',
+      price: 54.99, msrp: 64.99, rating: 4.7,
+      url: 'https://www.endgamegear.com/gaming-mice/op1-8k',
+      highlight: 'A wired 51g ambidextrous shape with an 8000 Hz polling rate for the price of a budget mouse.',
+      features: ['~51g ultralight', '8000 Hz polling', 'PAW3395 sensor (26K DPI)', 'Ambidextrous safe shape'],
+      tags: ['wired', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Flagship specs at a mid-budget price — one of the best value FPS mice available.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with QMK/VIA remapping and a hot-swap PCB for tinkerers on a budget.',
+      features: ['Tenkeyless (TKL) layout', 'QMK/VIA fully remappable', 'Hot-swap PCB', 'Bluetooth 5.1 + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'QMK/VIA plus hot-swap at this price is rare — a great first "real" custom-capable board.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon',
+      highlight: 'An open-back wired headset with a wide, natural soundstage and a detachable broadcast mic.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Lightweight fabric build', '3.5mm + USB analog'],
+      tags: ['wired', 'hifi', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Open-back staging is excellent for competitive footstep cues — a niche audiophile pick.'
     }
   ];
 
