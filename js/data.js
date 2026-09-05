@@ -291,7 +291,7 @@
     /* ---------------- CHAIRS ---------------- */
     {
       id: 'secretlab-titan-evo', name: 'Secretlab TITAN Evo', brand: 'Secretlab', category: 'chair',
-      price: 549.00, msrp: 619.00, rating: 4.7,
+      price: 519.00, msrp: 579.00, rating: 4.7,
       highlight: 'The gold-standard gaming chair: integrated lumbar, magnetic memory-foam pillow.',
       features: ['4-way L-ADAPT lumbar support', 'Magnetic head pillow', 'NEO Hybrid Leatherette or fabric', 'Three sizes (S/R/XL)'],
       tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium', 'bigtall', 'compact'],
@@ -802,6 +802,15 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'keychron-v1-max', name: 'Keychron V1 Max', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 114.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A 75% hot-swap board with tri-mode wireless and full QMK/VIA — the new budget enthusiast king.',
+      features: ['75% layout with knob', 'Tri-mode: 2.4GHz, BT, wired', 'QMK/VIA fully programmable', 'Gateron Jupiter hot-swap switches'],
+      tags: ['mechanical', 'tkl', 'wireless', 'rgb', 'tactile', 'customizable', 'budget'],
+      valueNote: 'Wireless, gasket-mounted, and QMK-programmable for under $100 — hard to beat at the price.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +898,15 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g ambidextrous esports mouse with an 8000Hz polling rate — a pro-tournament staple.',
+      features: ['54g ultralight symmetrical shape', 'Focus Pro 35K optical sensor', 'Gen-3 optical switches', '8000Hz HyperPolling, ~95h battery'],
+      tags: ['ambidextrous', 'fps', 'lightweight', 'wireless', 'highdpi', 'premium', 'pro'],
+      valueNote: 'The mouse you see under pros at every major — featherweight, fast, and flawless tracking.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +958,14 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.4,
+      highlight: 'A multi-system wireless headset with 100+ audio presets via a companion app and 60h battery.',
+      features: ['Neodymium magnetic drivers', '100+ game audio presets (app)', '2.4GHz + Bluetooth', '~60h battery, ClearCast Gen 2.X mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'App-tuned presets per game and long battery make it a strong mid-range wireless pick.'
     },
 
     /* ---- CHAIRS ---- */
