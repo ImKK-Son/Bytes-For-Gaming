@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEWLY ADDED ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The featherweight esports flagship — a 54g ambidextrous mouse built for pro-level aim.',
+      features: ['54g ultralight shape', 'Focus Pro 35K optical sensor', '8000Hz HyperPolling wireless', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The competitive benchmark for wireless FPS mice; usually sits a touch under MSRP at major retailers.'
+    },
+    {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 219.99, msrp: 249.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-tkl-gen-3',
+      highlight: 'Adjustable magnetic switches with rapid trigger and a fast per-key actuation you can tune.',
+      features: ['OmniPoint 3.0 magnetic switches', 'Rapid Trigger + rapid tap', 'OLED smart display', 'Aluminum top plate'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'premium', 'hotswap'],
+      valueNote: 'One of the most feature-complete analog boards; often discounted below its MSRP in sales.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 169.99, msrp: 199.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless-gaming-headset',
+      highlight: 'The comfort-first wireless headset famous for a marathon ~300-hour battery life.',
+      features: ['Up to ~300h battery life', 'Dual-chamber drivers', 'Detachable noise-cancelling mic', 'Memory-foam comfort'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Battery life no rival comes close to; frequently drops under MSRP at Amazon and Best Buy.'
     }
   ];
 
