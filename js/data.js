@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 64.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 119.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -467,7 +467,7 @@
     /* ---------------- MICE (more) ---------------- */
     {
       id: 'razer-basilisk-v3', name: 'Razer Basilisk V3', brand: 'Razer', category: 'mouse',
-      price: 49.99, msrp: 69.99, rating: 4.7,
+      price: 44.99, msrp: 69.99, rating: 4.7,
       url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3',
       highlight: 'Feature-packed ergonomic mouse with a tilt-scroll smart wheel — superb value.',
       features: ['11 programmable buttons', 'Smart-reel free-spin wheel', 'Focus+ 26K sensor', 'Underglow RGB'],
@@ -802,6 +802,15 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 114.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL board with full QMK/VIA remapping and tri-mode wireless.',
+      features: ['80% TKL layout', 'QMK/VIA fully programmable', 'Hot-swap switches', 'Bluetooth + wired, Mac/Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'rgb', 'customizable', 'hotswap', 'budget'],
+      valueNote: 'Enthusiast-grade customization at a mainstream price — reprogram every key without software running.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +898,15 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'glorious-model-d-2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless',
+      highlight: 'A 66g ergonomic wireless mouse with a 26K sensor and up to 210h battery.',
+      features: ['66g ultralight ergonomic shell', 'BAMF 2.0 26K sensor', 'Up to 210h battery', '2.4GHz + wired'],
+      tags: ['righthanded', 'ergonomic', 'lightweight', 'wireless', 'wired', 'fps', 'highdpi'],
+      valueNote: 'An ergonomic answer to the Model O 2 — light, long-lasting, and often discounted below MSRP.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +958,15 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'hyperx-cloud-iii-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfy Cloud formula, now wireless with a huge ~120h battery.',
+      features: ['~120h battery on 2.4GHz', 'Angled 53mm drivers', 'DTS spatial audio', 'Memory-foam comfort'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and signature Cloud comfort; frequently drops toward $129 on sale.'
     },
 
     /* ---- CHAIRS ---- */
