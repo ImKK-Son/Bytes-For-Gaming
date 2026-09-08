@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEWLY ADDED (Sep 2026) — priced against current street vs MSRP ---- */
+    {
+      id: '8bitdo-ultimate-2c', name: '8BitDo Ultimate 2C Wireless', brand: '8BitDo', category: 'controller',
+      price: 27.99, msrp: 29.99, rating: 4.7,
+      url: 'https://www.8bitdo.com/ultimate-2c-wireless-controller/',
+      highlight: 'Absurd value: drift-proof Hall-effect sticks and a 1000Hz polling rate for under $30.',
+      features: ['Hall-effect joysticks + triggers (drift-proof)', '1000Hz polling rate', 'Remappable L4/R4 bumpers', '2.4G wireless + USB-C wired'],
+      tags: ['pc', 'mobile', 'wireless', 'wired', 'budget', 'hallEffect', 'customizable', 'comfortGrip'],
+      valueNote: 'The cheapest Hall-effect controller worth owning — routinely dips to ~$25 on sale, well under its $29.99 MSRP.'
+    },
+    {
+      id: 'razer-huntsman-v2-analog', name: 'Razer Huntsman V2 Analog', brand: 'Razer', category: 'keyboard',
+      price: 149.99, msrp: 249.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-keyboards/razer-huntsman-v2-analog',
+      highlight: 'Full-size analog optical board where every key reads like a joystick — pressure-sensitive movement.',
+      features: ['Analog optical switches (adjustable actuation)', 'Dual-step actuation per key', 'Doubleshot PBT keycaps', 'Magnetic plush wrist rest'],
+      tags: ['mechanical', 'optical', 'wired', 'rgb', 'premium'],
+      valueNote: 'A $249.99-MSRP flagship that now sells around $150 (and has bottomed out near $119) — one of the biggest sustained price drops in the catalog.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'Open-back, high-fidelity wired headset tuned for streamers who want an audiophile soundstage.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz frequency response', 'Detachable uni-directional mic', 'Lightweight all-day build'],
+      tags: ['wired', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'Now $149.99 direct from Corsair, down from a $199.99 MSRP — an open-back pick that has dropped ~25% since launch.'
     }
   ];
 
