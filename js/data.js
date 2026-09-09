@@ -802,6 +802,15 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL hot-swap board with full QMK/VIA remapping and tri-mode wireless.',
+      features: ['87-key TKL layout', 'Hot-swappable switches', 'QMK/VIA fully programmable', 'Bluetooth + wired, Mac/Win'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'rgb', 'tactile', 'customizable', 'budget'],
+      valueNote: 'An enthusiast-grade programmable TKL that stays friendly on the wallet.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +898,15 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'glorious-model-d-2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 84.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless',
+      highlight: 'A 66g ergonomic right-handed ultralight with a fast 26K BAMF sensor.',
+      features: ['~66g ergonomic shell', 'BAMF 2.0 / 26K sensor', 'Up to 210h battery', '6 programmable buttons'],
+      tags: ['righthanded', 'ergonomic', 'lightweight', 'wireless', 'fps', 'palmgrip', 'premium', 'highdpi'],
+      valueNote: 'The ergonomic counterpart to the Model O 2 — light, comfy, and well priced.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +958,15 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back wired headset with audiophile-leaning sound and a detachable mic.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz response', 'Detachable uni-directional mic', 'Wired, multi-platform'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A rare open-back gaming pick for players who prioritize soundstage.'
     },
 
     /* ---- CHAIRS ---- */
