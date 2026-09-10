@@ -156,6 +156,15 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL QMK/VIA board with hot-swap sockets and full firmware control at a great price.',
+      features: ['TKL (87-key) layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'budget'],
+      valueNote: 'One of the cheapest ways into a fully programmable QMK/VIA wireless board.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -493,6 +502,15 @@
       valueNote: 'Great mid-price ultralight that undercuts the big esports brands.'
     },
     {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless-mouse',
+      highlight: 'The ergonomic sibling of the Model O 2 — a ~66g right-handed ultralight with a top sensor.',
+      features: ['~66g ergonomic shape', 'BAMF 2.0 26K sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'Ideal for right-handers who want an ultralight without the ambidextrous Model O shape.'
+    },
+    {
       id: 'razer-naga-v2-pro', name: 'Razer Naga V2 Pro', brand: 'Razer', category: 'mouse',
       price: 149.99, msrp: 179.99, rating: 4.5,
       url: 'https://www.razer.com/gaming-mice/razer-naga-v2-pro',
@@ -520,6 +538,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Dual 2.4GHz + Bluetooth wireless with a companion app and 100+ game audio presets.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', '100+ game audio presets via app', '~60h battery, USB-C fast charge', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Brings the Nova 7 dual-wireless trick to a lower price with app-based tuning.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
