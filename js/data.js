@@ -148,6 +148,14 @@
 
     /* ---------------- KEYBOARDS ---------------- */
     {
+      id: 'corsair-k100', name: 'Corsair K100 RGB', brand: 'Corsair', category: 'keyboard',
+      price: 189.99, msrp: 229.99, rating: 4.6,
+      highlight: 'Corsair’s full-size flagship: OPX optical switches, a control wheel, and a magnetic wrist rest.',
+      features: ['OPX optical-mechanical switches (fast)', 'iCUE control wheel + 6 macro keys', '44-zone RGB LightEdge', 'Detachable soft-touch wrist rest'],
+      tags: ['optical', 'fullsize', 'wired', 'rgb', 'linear', 'premium', 'customizable'],
+      valueNote: 'A premium full-size board with dedicated macro/media controls — overkill for pure FPS, ideal for MMO and creator setups.'
+    },
+    {
       id: 'keychron-k2', name: 'Keychron K2 (V2)', brand: 'Keychron', category: 'keyboard',
       price: 79.99, msrp: 89.99, rating: 4.6,
       highlight: 'The crowd-favorite 75% wireless board — Mac/Windows, hot-swap option, great typing.',
@@ -198,6 +206,14 @@
 
     /* ---------------- MICE ---------------- */
     {
+      id: 'glorious-model-d-2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      highlight: 'Ergonomic 66g wireless mouse with a 26K BAMF 2.0 sensor and up to 210h of battery.',
+      features: ['66g ergonomic shell', 'BAMF 2.0 26K optical sensor', '2.4GHz wireless + USB-C', 'Up to 210h battery life'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'fps', 'palmgrip', 'clawgrip', 'highdpi'],
+      valueNote: 'A comfortable right-handed ergo shape for medium-to-large hands — great value against pricier flagship ergos.'
+    },
+    {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
       price: 129.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
@@ -247,6 +263,14 @@
     },
 
     /* ---------------- HEADSETS ---------------- */
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 169.99, rating: 4.6,
+      highlight: 'The comfort-king Cloud line goes wireless with 120h battery and angled 53mm drivers.',
+      features: ['Up to 120h battery life', 'Angled 53mm drivers + DTS spatial', 'Detachable 10mm noise-cancel mic', '2.4GHz wireless (PC/PS5)'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Long battery and legendary Cloud comfort at a price well under most premium wireless rivals.'
+    },
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
       price: 79.99, msrp: 99.99, rating: 4.7,
@@ -1177,6 +1201,9 @@
   // the brand charges). New products above set `url` inline. Anything without
   // a URL falls back to the brand homepage and is labeled an estimate.
   var PRODUCT_URLS = {
+    'corsair-k100': 'https://www.corsair.com/us/en/p/keyboards/ch-912a014-na/k100-rgb-mechanical-gaming-keyboard-cherry-mx-speed-black-ch-912a014-na',
+    'glorious-model-d-2-wireless': 'https://www.gloriousgaming.com/products/model-d-2-wireless-mouse',
+    'hyperx-cloud-3-wireless': 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
     '8bitdo-ultimate-bt': 'https://www.8bitdo.com/ultimate-bluetooth-controller/',
     '8bitdo-pro2': 'https://www.8bitdo.com/pro2/',
     'xbox-core': 'https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller',
