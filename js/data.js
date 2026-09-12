@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 139.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS ---- */
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 69.99, msrp: 89.99, rating: 4.4,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A light ~86g wireless mouse with the HERO 25K sensor and POWERPLAY charging support.',
+      features: ['~86g wireless', 'LIGHTFORCE hybrid switches', 'HERO 25K sensor', 'POWERPLAY wireless charging ready'],
+      tags: ['pc', 'wireless', 'lightweight', 'fps', 'palmgrip', 'clawgrip'],
+      valueNote: 'MSRP crept up to ~$90 after its ~$80 launch, but it routinely sells well below that — wait for a dip.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910991e-na/k70-core-rgb-mechanical-gaming-keyboard',
+      highlight: 'A full-size prebuilt with pre-lubed MLX Red linear switches, sound dampening, and a media dial.',
+      features: ['Full-size layout + palm rest', 'Pre-lubed MLX Red linear switches', 'Two-layer sound dampening', 'Media control dial'],
+      tags: ['mechanical', 'fullsize', 'wired', 'linear', 'rgb', 'budget'],
+      valueNote: 'A quiet, ready-to-go full-size board that regularly drops to $80 or below.'
+    },
+    {
+      id: 'hyperx-cloud-3s-wireless', name: 'HyperX Cloud III S Wireless', brand: 'HyperX', category: 'headset',
+      price: 169.99, msrp: 169.99, rating: 4.5,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-s-wireless-gaming-headset',
+      highlight: 'The wireless Cloud upgrade — spatial audio, ~120hr battery, and plush comfort for long sessions.',
+      features: ['Up to 120hr battery', 'Angled 53mm drivers + spatial audio', 'Detachable 10mm mic', '2.4GHz + Bluetooth'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Replaces the discontinued Cloud III Wireless; strong battery life and comfort for the price.'
     }
   ];
 
