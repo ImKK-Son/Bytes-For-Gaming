@@ -214,6 +214,15 @@
       valueNote: 'The most comfortable ultralight for larger hands and palm-grippers. (Right-handed; lefties — see the DeathAdder Left-Handed Edition or an ambidextrous pick.)'
     },
     {
+      id: 'razer-deathadder-v4-pro', name: 'Razer DeathAdder V4 Pro', brand: 'Razer', category: 'mouse',
+      price: 169.99, msrp: 169.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v4-pro',
+      highlight: 'The next-gen ergonomic flagship — lighter still, with an 8000Hz wireless link built in.',
+      features: ['~56g ergonomic shape', 'Focus Pro 45K sensor', 'HyperSpeed wireless + HyperPolling 8000Hz', 'Optical Gen-4 switches'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'A newer, lighter DeathAdder — launched at MSRP, so no discount yet; the V3 Pro is the value buy until this one drops.'
+    },
+    {
       id: 'razer-viper-v2', name: 'Razer Viper V2 Pro', brand: 'Razer', category: 'mouse',
       price: 99.99, msrp: 149.99, rating: 4.6,
       highlight: 'Symmetrical ultralight built for raw competitive speed.',
@@ -522,6 +531,15 @@
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
     },
     {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/products/arctis-nova-5-wireless',
+      highlight: 'A companion-app headset with hundreds of game audio presets and dual wireless.',
+      features: ['2.4GHz + Bluetooth', 'Companion-app audio presets', 'Retractable ClearCast Gen 2 mic', '~60h battery, fast charge'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A softer-priced sibling to the Nova 7 — currently sitting below MSRP, which makes it the better-value pick right now.'
+    },
+    {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
       price: 129.99, msrp: 149.99, rating: 4.4,
       highlight: 'Spatial-audio wireless headset with a broadcast-grade omni mic and floating headband.',
@@ -759,6 +777,15 @@
       features: ['Gasket-mounted build', 'Tri-mode wireless', 'OLED display + control knob', 'Hot-swap, pre-lubed switches'],
       tags: ['mechanical', 'tkl', 'compact60', 'wireless', 'rgb', 'hotswap', 'linear', 'premium'],
       valueNote: 'A premium out-of-box enthusiast feel without building one yourself.'
+    },
+    {
+      id: 'asus-rog-strix-scope-ii-96', name: 'ASUS ROG Strix Scope II 96 Wireless', brand: 'ASUS ROG', category: 'keyboard',
+      price: 149.99, msrp: 179.99, rating: 4.5,
+      url: 'https://rog.asus.com/keyboards/gaming-keyboards/rog-strix-scope-ii-96-wireless/',
+      highlight: 'A 96% wireless board that keeps a numpad while staying compact, with sound-dampening foam.',
+      features: ['96% layout with numpad', 'Tri-mode wireless (RF + BT + USB)', 'Pre-lubed ROG NX switches', 'Dual dampening foam + silicone'],
+      tags: ['mechanical', 'wireless', 'rgb', 'linear', 'quiet', 'premium'],
+      valueNote: 'Rare full-featured 96% wireless option; now discounted below MSRP, making it a strong value in its class.'
     },
     {
       id: 'razer-huntsman-v3-pro-tkl', name: 'Razer Huntsman V3 Pro TKL', brand: 'Razer', category: 'keyboard',
