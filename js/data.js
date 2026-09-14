@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff4c1e' }
   };
 
   /* ---------------------------------------------------------
@@ -1048,6 +1049,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- 2026 ADDITIONS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The 54g esports benchmark: true 8K wireless, Focus Pro 35K sensor, zero compromise.',
+      features: ['54g ultralight symmetrical shell', '8000Hz HyperPolling wireless', 'Focus Pro 35K optical sensor', 'Gen-3 optical switches, ~95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Now $30 below MSRP as a Viper V4 Pro is rumored — the best price this flagship has seen.'
+    },
+    {
+      id: 'wooting-60he-plus', name: 'Wooting 60HE+', brand: 'Wooting', category: 'keyboard',
+      price: 174.99, msrp: 184.99, rating: 4.8,
+      highlight: 'The rapid-trigger 60% that redefined competitive keyboards with analog Hall-effect switches.',
+      features: ['Adjustable actuation + Rapid Trigger', 'Analog Hall-effect Lekker switches', 'Gasket-mounted 60% layout', 'Wootility tuning, no drivers needed'],
+      tags: ['optical', 'compact60', 'wired', 'rgb', 'linear', 'hotswap', 'premium'],
+      valueNote: 'Sold direct and rarely discounted; edging down slightly now that the 60HE v2 has launched.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 199.99, msrp: 199.99, rating: 4.4,
+      highlight: 'Open-back, audiophile-tuned sound for streamers who want a wide, natural soundstage.',
+      features: ['Open-back 50mm graphene drivers', '20Hz–40kHz frequency response', 'Detachable uni-directional mic', 'Lightweight wired multiplatform design'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Holding steady at MSRP — an open-back pick that trades noise isolation for spacious, honest audio.'
     }
   ];
 
@@ -1205,7 +1232,10 @@
     'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
     'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
     'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
-    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'wooting-60he-plus': 'https://wooting.io/wooting-60he',
+    'corsair-virtuoso-pro': 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na'
   };
 
   // attach computed pricing to every product once
