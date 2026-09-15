@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 139.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -463,6 +463,15 @@
       tags: ['mechanical', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
       valueNote: 'Tiny footprint for aimers; the missing arrow/function keys take adjustment.'
     },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 114.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'The out-of-the-box QMK/VIA wireless TKL — hot-swap, aluminum frame, Mac & Windows.',
+      features: ['80% TKL layout', 'QMK/VIA programmable', 'Hot-swappable + Bluetooth/wired', 'Double-gasket build, PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'linear', 'premium'],
+      valueNote: 'A rare wireless board with true QMK/VIA remapping — the value pick for tinkerers who also want Bluetooth.'
+    },
 
     /* ---------------- MICE (more) ---------------- */
     {
@@ -500,6 +509,24 @@
       features: ['Swappable side plates', 'Up to 19 programmable buttons', 'Focus Pro 30K sensor', 'HyperScroll wheel'],
       tags: ['wireless', 'mmo', 'ergonomic', 'righthanded', 'palmgrip', 'highdpi', 'premium', 'customizable'],
       valueNote: 'Essential for serious right-handed MMO players; overkill (and pricey) for pure FPS.'
+    },
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 69.99, msrp: 89.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'Lightweight Lightspeed wireless with HERO 25K and optional POWERPLAY charging — big value.',
+      features: ['~86g lightweight', 'HERO 25K sensor', 'Lightspeed + Bluetooth', 'LIGHTFORCE hybrid switches, POWERPLAY-ready'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Frequently discounted well below MSRP — one of the best-value wireless mice Logitech makes.'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless-mouse',
+      highlight: 'An ergonomic ~66g wireless ultralight with a 26K sensor and huge battery life.',
+      features: ['~66g ergonomic shell', 'BAMF 2.0 26K sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The ergonomic counterpart to the Model O 2 — great for palm-grippers who want ultralight wireless.'
     },
 
     /* ---------------- HEADSETS (more) ---------------- */
