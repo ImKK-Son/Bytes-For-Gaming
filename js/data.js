@@ -180,6 +180,14 @@
       valueNote: 'A long-lasting do-everything board for work and play.'
     },
     {
+      id: 'corsair-k70-max', name: 'Corsair K70 MAX RGB', brand: 'Corsair', category: 'keyboard',
+      price: 179.99, msrp: 229.99, rating: 4.5,
+      highlight: 'Magnetic MGX switches with adjustable actuation and rapid trigger for faster inputs.',
+      features: ['Adjustable-actuation MGX magnetic switches', 'Rapid trigger + SOCD', 'PBT double-shot keycaps', '8000Hz polling'],
+      tags: ['mechanical', 'magnetic', 'fullsize', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'Street pricing sits well below the recently raised MSRP — analog control without a boutique price.'
+    },
+    {
       id: 'steelseries-apex-pro', name: 'SteelSeries Apex Pro TKL', brand: 'SteelSeries', category: 'keyboard',
       price: 189.99, msrp: 219.99, rating: 4.5,
       highlight: 'Adjustable per-key actuation lets you tune feel and speed precisely.',
@@ -220,6 +228,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The 54g esports flagship with an 8000Hz sensor pros actually compete on.',
+      features: ['~54g ultralight shell', 'Focus Pro 35K sensor', 'Gen-3 optical switches', 'Up to 8000Hz HyperPolling'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'Now often well under MSRP as a V4 successor is rumored — a strong buy at current pricing.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -898,6 +915,15 @@
       features: ['2.4GHz + Bluetooth at once', 'Flip-to-mute mic', '~80h battery', 'Cooling-gel earpads'],
       tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Great battery life and comfort across Xbox, PlayStation, and PC.'
+    },
+    {
+      id: 'turtle-beach-stealth-600-g3', name: 'Turtle Beach Stealth 600 Gen 3', brand: 'Turtle Beach', category: 'headset',
+      price: 99.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.turtlebeach.com/products/stealth-600-headset',
+      highlight: 'Big, warm sound and an 80-hour battery at a genuinely budget wireless price.',
+      features: ['2.4GHz wireless + Bluetooth', '~80h battery with quick charge', 'Flip-to-mute mic', 'Multiplatform (Xbox/PS/PC/Switch)'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Holding steady at its $99.99 launch price — the value pick of the Stealth line.'
     },
     {
       id: 'astro-a50-x', name: 'Logitech G ASTRO A50 X', brand: 'Logitech G', category: 'headset',
