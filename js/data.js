@@ -195,6 +195,15 @@
       tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'budget'],
       valueNote: 'Punches well above its price — a top budget mechanical pick.'
     },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      highlight: 'Pre-lubed linear switches and built-in sound dampening make this a smooth, quiet full-size.',
+      features: ['Pre-lubed MLX Red linear switches', 'Two layers of sound dampening', 'Media control dial', 'Included soft-touch palm rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'quiet', 'budget'],
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      valueNote: 'Price check (Sep 2026): street ~$89.99 vs $99.99 MSRP — down ~$10, and dips to ~$70 on sale. A lot of quiet, dampened board for the money.'
+    },
 
     /* ---------------- MICE ---------------- */
     {
@@ -245,6 +254,15 @@
       tags: ['wired', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
       valueNote: 'Excellent first ultralight without breaking the bank.'
     },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current esports benchmark: ~54g, 8000Hz polling, and a razor-fast sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K Gen-2 sensor', 'HyperPolling 8000Hz wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      valueNote: 'Price check (Sep 2026): street ~$129.99 vs $159.99 MSRP — down ~$30 (~19% off) as the V4 Pro looms, so it is a strong buy right now.'
+    },
 
     /* ---------------- HEADSETS ---------------- */
     {
@@ -286,6 +304,15 @@
       features: ['Active noise cancellation', '360 Spatial Sound', '~32h battery', 'Soft synthetic-leather pads'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'playstation', 'premium'],
       valueNote: 'Often discounted hard — a strong deal when it drops near $150.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      highlight: 'Multi-system 2.4GHz + Bluetooth wireless with a companion app of 100+ audio presets.',
+      features: ['2.4GHz + Bluetooth wireless', 'Neodymium magnetic drivers', '60-hour battery', 'Retractable ClearCast Gen2.X mic'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'budget'],
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      valueNote: 'Price check (Sep 2026): street ~$119.99 vs $129.99 MSRP — down ~$10 (and has hit $79.99 on deep sales). A well-rounded mid-tier multi-platform wireless pick.'
     },
 
     /* ---------------- CHAIRS ---------------- */
