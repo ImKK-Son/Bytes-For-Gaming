@@ -156,6 +156,15 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'The TKL crowd-favorite with QMK/VIA remapping, hot-swap switches, and wireless.',
+      features: ['TKL (80%) layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C', 'PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'Launched around a $99 MSRP but now regularly $79.99 (sales dip to ~$60), so pricing has come down for buyers.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -212,6 +221,15 @@
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
       valueNote: 'The most comfortable ultralight for larger hands and palm-grippers. (Right-handed; lefties — see the DeathAdder Left-Handed Edition or an ambidextrous pick.)'
+    },
+    {
+      id: 'razer-deathadder-v4-pro', name: 'Razer DeathAdder V4 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 169.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v4-pro',
+      highlight: 'The ergonomic flagship goes 8K wireless and even lighter for serious FPS.',
+      features: ['Ergonomic right-handed shape', '~56g', 'Focus Pro 45K Gen-2 sensor', '8KHz HyperSpeed wireless Gen-2', 'Up to 150h battery'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The newest DeathAdder — launched at a $169.99 MSRP but already settling to ~$150 street (sales seen near $120), so it is trending down from list.'
     },
     {
       id: 'razer-viper-v2', name: 'Razer Viper V2 Pro', brand: 'Razer', category: 'mouse',
@@ -520,6 +538,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A value multi-platform wireless headset with a companion app and 100+ audio presets.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast Gen2.X mic', '100+ game audio presets via app', '~60h battery'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Sits just under the Nova 7 — a $129.99 MSRP but commonly $119.99 or lower, so its street price has edged down.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
