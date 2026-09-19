@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS (2026-09-19) ---------------- */
+    {
+      id: 'keychron-q1-pro', name: 'Keychron Q1 Pro (QMK/VIA Wireless)', brand: 'Keychron', category: 'keyboard',
+      price: 199.99, msrp: 199.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A gasket-mounted, fully aluminum 75% board with QMK/VIA and wireless — enthusiast feel, out of the box.',
+      features: ['Full aluminum gasket-mount body', 'QMK/VIA fully remappable', 'Bluetooth 5.1 + wired', 'Double-gasket + sound-dampening foam'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'premium', 'rgb', 'customizable'],
+      valueNote: 'Street price sits right at the $199.99 MSRP — essentially flat since launch, so wait for a sale rather than paying a markup.'
+    },
+    {
+      id: 'hyperx-pulsefire-haste-2-wireless', name: 'HyperX Pulsefire Haste 2 Wireless', brand: 'HyperX', category: 'mouse',
+      price: 49.99, msrp: 59.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse',
+      highlight: 'A 61g featherweight with 100-hour battery and dual wireless — one of the best value lightweight mice.',
+      features: ['Ultra-light 61g shell', '100-hour battery life', '2.4GHz + Bluetooth', 'HyperX 26K sensor'],
+      tags: ['wireless', 'lightweight', 'fps', 'ambidextrous', 'righthanded', 'budget', 'rgb'],
+      valueNote: 'Down ~$10 from the $59.99 MSRP and frequently discounted to $30-40 — a genuine price drop, buy on a dip.'
+    },
+    {
+      id: 'corsair-virtuoso-max-wireless', name: 'Corsair Virtuoso Max Wireless', brand: 'Corsair', category: 'headset',
+      price: 249.99, msrp: 299.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011372-ww/virtuoso-max-wireless-gaming-headset-carbon-ca-9011372-ww',
+      highlight: 'A flagship ANC headset with Dolby Atmos, a broadcast-grade mic, and simultaneous 2.4GHz + Bluetooth.',
+      features: ['Active noise cancellation', 'Up to 60-hour battery', 'Simultaneous 2.4GHz + Bluetooth', 'Detachable broadcast mic'],
+      tags: ['wireless', 'anc', 'premium', 'streaming', 'surround', 'bluetooth', 'rgb'],
+      valueNote: 'Down $50 from the $299.99 MSRP to $249.99 — a real price cut, though still premium; compare against the Arctis Nova Pro.'
     }
   ];
 
