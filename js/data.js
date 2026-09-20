@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'asus-rog-harpe-ace', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 99.99, msrp: 149.99, rating: 4.5,
+      url: 'https://rog.asus.com/mice-mouse-pads/mice/gaming-mice/rog-harpe-ace-aim-lab-edition/',
+      highlight: 'An esports-tuned 54g wireless mouse co-developed with Aim Lab pros.',
+      features: ['54g lightweight shape', 'ROG AimPoint 36K optical sensor', 'Tri-mode: 2.4G, Bluetooth, wired', 'ROG Micro Switches (100M clicks)'],
+      tags: ['righthanded', 'fps', 'wireless', 'highdpi', 'premium'],
+      valueNote: 'Now routinely well under its $149.99 launch price — a genuine featherweight FPS bargain when discounted.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-carbon',
+      highlight: 'An open-back streaming headset with a broadcast-grade detachable mic.',
+      features: ['Open-back 50mm graphene drivers', 'Broadcast-grade omnidirectional mic', 'Lightweight aluminium build', 'Wired 3.5mm + USB multi-platform'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Open-back soundstage plus a studio-quality mic; the pick for streamers who care about voice clarity.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL hot-swap board with full QMK/VIA and wireless, at a mainstream price.',
+      features: ['TKL 87-key layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + wired USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear'],
+      valueNote: 'Enthusiast features (QMK, hot-swap, wireless) without the enthusiast price — hovering right at MSRP.'
     }
   ];
 
