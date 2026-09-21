@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL board with full QMK/VIA remapping, wireless or wired.',
+      features: ['80% TKL layout', 'QMK/VIA programmable', 'Bluetooth 5.1 + USB-C', 'Hot-swappable, gasket-mounted'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Deep customization at a mid-tier price — often discounted below its $99 list.'
+    },
+    {
+      id: 'glorious-model-d-2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 84.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless-mouse',
+      highlight: 'An ergonomic ~66g wireless ultralight with a 26K sensor and huge battery life.',
+      features: ['~66g ergonomic shell', '26K optical sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The ergonomic counterpart to the Model O 2 — great for medium-to-large hands.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 109.99, msrp: 199.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless',
+      highlight: 'The legendary 300-hour battery wireless headset — no other cans last this long.',
+      features: ['~300h battery life', 'Dual-chamber drivers', 'DTS Headphone:X spatial audio', 'Noise-canceling detachable mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Now routinely half its $200 launch price — the best value in wireless right now.'
     }
   ];
 
