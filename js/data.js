@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS ---------------- */
+    {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 219.99, msrp: 249.99, rating: 4.6,
+      highlight: 'OmniPoint 3.0 magnetic switches with Rapid Trigger and per-key actuation for the fastest inputs.',
+      features: ['Adjustable magnetic (Hall-effect) switches', 'Rapid Trigger + per-key actuation', 'OLED smart display', 'Magnetic wrist rest'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'premium', 'hallEffect'],
+      valueNote: 'The competitive-play Hall-effect board to beat; premium price, but rarely far below street.'
+    },
+    {
+      id: 'asus-rog-harpe-ace-aimlab', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 99.99, msrp: 149.99, rating: 4.6,
+      highlight: 'A ~54g esports mouse co-developed with Aim Lab and tuned by pro FPS players.',
+      features: ['~54g symmetric shell', 'ROG AimPoint 36K sensor', 'ROG Micro Switches', 'Tri-mode (2.4G / BT / USB)'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'A former flagship now often near $100 — excellent value for a top-tier ultralight.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.4,
+      highlight: 'Open-back wired headset with a wide, natural soundstage for immersive audio.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable broadcast-grade mic', 'Lightweight steel-frame build', 'Plush memory-foam pads'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'streaming', 'premium'],
+      valueNote: 'For those who want an open, airy stage over bass — best in quiet rooms.'
     }
   ];
 
