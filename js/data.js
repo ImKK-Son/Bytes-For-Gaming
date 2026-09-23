@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ARRIVALS (added 2026-09-23) ---- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 109.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable, QMK/VIA tenkeyless board that works wired or wireless on Mac and PC.',
+      features: ['QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'mac', 'pc', 'rgb'],
+      valueNote: 'One of the cheapest ways into QMK/VIA customization with a wireless, hot-swap board.'
+    },
+    {
+      id: 'razer-basilisk-v3-x', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 59.99, msrp: 69.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'A wireless Basilisk with the tilt-scroll wheel and 9 programmable buttons, on AA power.',
+      features: ['HyperSpeed Wireless + Bluetooth', '18K DPI optical sensor', '9 programmable controls', 'Up to 535-hour battery (1 AA)'],
+      tags: ['wireless', 'ergonomic', 'righthanded', 'palmgrip', 'customizable', 'budget', 'pc'],
+      valueNote: 'Brings the flagship Basilisk shape and buttons to a budget wireless price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/products/arctis-nova-5-wireless',
+      highlight: 'Dual-wireless headset with a companion app that swaps hundreds of game audio presets.',
+      features: ['2.4GHz + Bluetooth simultaneous', '360° Spatial Audio', 'Nova 5 companion app presets', 'Up to 60-hour battery'],
+      tags: ['wireless', 'bluetooth', 'multiplatform', 'pc', 'playstation', 'comfort', 'mic'],
+      valueNote: 'App-driven per-game audio tuning that usually lives on pricier flagship headsets.'
     }
   ];
 
