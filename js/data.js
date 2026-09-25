@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- Added 2026-09-25 (daily catalog refresh) ---- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.99, rating: 4.6,
+      highlight: 'A TKL wireless board with hot-swap switches and full QMK/VIA remapping.',
+      features: ['Hot-swappable switches', 'QMK/VIA programmable', 'Bluetooth 5.1 + wired USB-C', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'programmable', 'rgb', 'budget'],
+      valueNote: 'A tinkerer-friendly TKL: hot-swap and VIA support at a mid-range price.'
+    },
+    {
+      id: 'glorious-model-i-2', name: 'Glorious Model I 2', brand: 'Glorious', category: 'mouse',
+      price: 89.99, msrp: 99.99, rating: 4.4,
+      highlight: 'A lightweight ergonomic mouse with extra side buttons for MMO-lite control.',
+      features: ['~66g ergonomic shape', 'Up to 9 programmable buttons', 'BAMF 2.0 sensor (26K DPI)', '2.4G wireless + Bluetooth'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'mmo', 'palmgrip', 'highdpi'],
+      valueNote: 'A rare lightweight ergo with extra buttons — good for players who want a few macros without a full MMO grid.'
+    },
+    {
+      id: 'corsair-scimitar-elite-se', name: 'Corsair Scimitar RGB Elite SE', brand: 'Corsair', category: 'mouse',
+      price: 69.99, msrp: 89.99, rating: 4.5,
+      highlight: 'The MMO/MOBA workhorse with a 12-button, key-slider side panel for endless macros.',
+      features: ['12 mechanical side buttons', '8mm adjustable side panel', 'Marksman 26K optical sensor', 'Per-key RGB + onboard profiles'],
+      tags: ['wired', 'ergonomic', 'righthanded', 'mmo', 'palmgrip', 'highdpi', 'customizable'],
+      valueNote: 'Still the benchmark for MMO players who live on their side buttons.'
     }
   ];
 
@@ -1205,7 +1231,10 @@
     'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
     'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
     'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
-    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html',
+    'keychron-k8-pro': 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+    'glorious-model-i-2': 'https://www.gloriousgaming.com/products/glorious-model-i-2-wireless',
+    'corsair-scimitar-elite-se': 'https://www.corsair.com/us/en/p/gaming-mouse/ch-9304311-na/scimitar-rgb-elite-se-optical-moba-mmo-gaming-mouse'
   };
 
   // attach computed pricing to every product once
