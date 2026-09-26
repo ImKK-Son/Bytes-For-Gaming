@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS (added 2026-09-26) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — ~54g symmetrical shape with an 8K wireless sensor.',
+      features: ['~54g ultralight', 'Focus Pro 35K Optical Sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Widely adopted by pros; regularly discounted from its $159.99 MSRP to around $130.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 69.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A full-size board that brings pre-lubed switches, sound dampening, and a control dial in at a budget price.',
+      features: ['Pre-lubed MLX Red linear switches', 'Sound-dampening foam', 'Media control dial', 'Included palm rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'quiet', 'budget'],
+      valueNote: 'Genuinely quiet out of the box; frequently drops to ~$70 from its $99.99 MSRP.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A dual-wireless multi-platform headset with a companion app packing 100+ audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Neodymium magnetic drivers', '60h battery life', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Punches above its price; often seen near $99 or lower during sales.'
     }
   ];
 
