@@ -1048,6 +1048,33 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW (2026-09-27) ---------------- */
+    {
+      id: 'steelseries-apex-pro-mini-wireless', name: 'SteelSeries Apex Pro Mini Wireless', brand: 'SteelSeries', category: 'keyboard',
+      price: 219.99, msrp: 239.99, rating: 4.5,
+      url: 'https://steelseries.com/products/apex-pro-mini-wireless',
+      highlight: 'A 60% wireless board with per-key adjustable actuation and Rapid Trigger for the fastest inputs.',
+      features: ['OmniPoint 2.0 adjustable switches', 'Rapid Trigger + per-key actuation', 'Bluetooth 5.0 + 2.4GHz Quantum wireless', 'Aircraft-grade aluminum frame'],
+      tags: ['pc', 'wireless', 'wired', 'compact', 'mechanical', 'rgb', 'customizable', 'premium', 'competitive'],
+      valueNote: 'Adjustable actuation and Rapid Trigger in a 60% wireless shell — a top pick for competitive FPS.'
+    },
+    {
+      id: 'corsair-m75-air-wireless', name: 'Corsair M75 Air Wireless', brand: 'Corsair', category: 'mouse',
+      price: 129.99, msrp: 149.99, rating: 4.3,
+      highlight: 'An ultra-light 60g wireless mouse tuned for symmetrical comfort and long battery life.',
+      features: ['~60g ultra-light body', '26,000 DPI Marksman sensor', 'Up to 100h battery (2.4GHz)', 'PTFE glides + swappable side buttons'],
+      tags: ['pc', 'wireless', 'lightweight', 'ambidextrous', 'fps', 'premium'],
+      valueNote: 'One of Corsair’s lightest wireless mice, with battery life that outlasts most featherweights.'
+    },
+    {
+      id: 'turtle-beach-stealth-600-gen3', name: 'Turtle Beach Stealth 600 Gen 3', brand: 'Turtle Beach', category: 'headset',
+      price: 99.99, msrp: 99.99, rating: 4.4,
+      highlight: 'A budget-friendly wireless headset with 80-hour battery and multiplatform support.',
+      features: ['Up to 80h battery life', '50mm Nanoclear drivers', 'Flip-to-mute mic', 'PC/console variants (Xbox, PS, Switch)'],
+      tags: ['pc', 'console', 'wireless', 'longBattery', 'comfort', 'budget'],
+      valueNote: 'Huge battery life and solid audio at the $100 mark make it a standout value.'
     }
   ];
 
