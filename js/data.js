@@ -156,6 +156,15 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 59.99, msrp: 79.99, rating: 4.7,
+      highlight: 'The TKL workhorse: full QMK/VIA remapping, hot-swap, and a gasket-mounted feel.',
+      features: ['87-key TKL layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'One of the best value programmable boards — deep customization for well under $100.',
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -199,7 +208,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +216,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +229,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The reigning esports flagship: ~54g, 8K polling, and a top-tier sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Gen-4 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'The pick if you want the exact mouse most pros use — pricey, but the standard for competitive FPS.',
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -265,11 +283,20 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 249.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'A luxury pick — only worth it if you want ANC and do-everything connectivity.'
+    },
+    {
+      id: 'asus-rog-delta-s-wireless', name: 'ASUS ROG Delta S Wireless', brand: 'ASUS ROG', category: 'headset',
+      price: 199.99, msrp: 229.99, rating: 4.4,
+      highlight: 'Dual-mode wireless with AI noise-cancelling mic and lightweight all-day comfort.',
+      features: ['2.4GHz + Bluetooth dual wireless', 'AI beamforming noise-cancel mic', '50mm ASUS Essence drivers', 'Up to ~110hr battery, USB-C'],
+      tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A strong do-it-all wireless headset — great mic and battery life, and it undercuts the flagship ANC sets.',
+      url: 'https://rog.asus.com/headsets-audio/headsets/wireless-headsets/rog-delta-s-wireless-model/'
     },
     {
       id: 'logi-pro-x-2', name: 'Logitech G Pro X 2 Lightspeed', brand: 'Logitech G', category: 'headset',
