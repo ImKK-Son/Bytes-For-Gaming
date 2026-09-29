@@ -99,7 +99,7 @@
     /* ---------------- CONTROLLERS ---------------- */
     {
       id: '8bitdo-ultimate-bt', name: '8BitDo Ultimate Bluetooth Controller', brand: '8BitDo', category: 'controller',
-      price: 49.99, msrp: 69.99, rating: 4.7,
+      price: 51.99, msrp: 69.99, rating: 4.7,
       highlight: 'Pro-level features at a budget price, with Hall-effect sticks that never drift.',
       features: ['Hall-effect joysticks (drift-proof)', 'Charging dock included', 'Back buttons + custom profiles', 'Bluetooth, 2.4G, and USB-C'],
       tags: ['pc', 'switch', 'mobile', 'wireless', 'budget', 'pro', 'hallEffect', 'customizable', 'comfortGrip'],
@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -265,7 +265,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 249.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ DAILY ADDITIONS — 2026-09-29 ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: ~54g symmetrical shape, 8K wireless, and a flawless sensor.',
+      features: ['~54g ultralight symmetric shell', 'Focus Pro 35K optical sensor', 'HyperSpeed wireless (8000Hz ready)', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'One of the most-used mice in pro FPS; premium, but frequently drops toward $110-120 on sale.'
+    },
+    {
+      id: 'sony-pulse-elite', name: 'Sony PULSE Elite Wireless Headset', brand: 'Sony', category: 'headset',
+      price: 149.99, msrp: 149.99, rating: 4.4,
+      url: 'https://www.playstation.com/en-us/accessories/pulse-elite-wireless-headset/',
+      highlight: 'A planar-driver wireless headset built for PS5, with a retractable boom mic and a charging hanger.',
+      features: ['Planar magnetic drivers', 'PlayStation Link + Bluetooth', 'Retractable noise-rejecting mic', 'Wall/desk charging hanger included'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'playstation', 'multiplatform', 'premium'],
+      valueNote: 'Great low-latency PS5 audio that also pairs to PC and phones; often dips near $109 during sales.'
+    },
+    {
+      id: 'asus-rog-falchion-ace', name: 'ASUS ROG Falchion Ace', brand: 'ASUS ROG', category: 'keyboard',
+      price: 99.99, msrp: 119.99, rating: 4.5,
+      url: 'https://rog.asus.com/us/keyboards/keyboards/compact/rog-falchion-ace-model/',
+      highlight: 'A 65% wired board with pre-lubed switches, sound-dampening foam, and doubleshot PBT keycaps.',
+      features: ['65% compact layout', 'Pre-lubed ROG NX mechanical switches', 'Two-layer sound dampening', 'Interactive touch panel + PBT keycaps'],
+      tags: ['mechanical', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'A quiet, enthusiast typing feel out of the box; the touch-panel controls are a nice extra.'
     }
   ];
 
