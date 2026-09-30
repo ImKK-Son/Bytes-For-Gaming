@@ -195,6 +195,14 @@
       tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'budget'],
       valueNote: 'Punches well above its price — a top budget mechanical pick.'
     },
+    {
+      id: 'corsair-k65-plus-wireless', name: 'Corsair K65 Plus Wireless', brand: 'Corsair', category: 'keyboard',
+      price: 129.99, msrp: 159.99, rating: 4.6,
+      highlight: 'A 75% wireless board with a gasket mount and pre-lubed switches out of the box.',
+      features: ['75% layout with volume wheel', 'Gasket-mounted, sound-dampened', 'Pre-lubed MLX Red switches', 'Wireless (2.4G + Bluetooth) + USB-C'],
+      tags: ['mechanical', 'compact', 'wireless', 'wired', 'rgb', 'linear', 'hotswap'],
+      valueNote: 'One of the best-value pre-built 75% boards — enthusiast feel without a group buy.'
+    },
 
     /* ---------------- MICE ---------------- */
     {
@@ -207,7 +215,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -245,6 +253,14 @@
       tags: ['wired', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'budget'],
       valueNote: 'Excellent first ultralight without breaking the bank.'
     },
+    {
+      id: 'razer-basilisk-v3-x-hyperspeed', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.6,
+      highlight: 'The affordable wireless Basilisk: 9 controls, a tilt wheel, and huge battery life.',
+      features: ['9 programmable controls', 'Tactile + free-spin scroll wheel', '18K optical sensor', 'HyperSpeed 2.4G + Bluetooth, up to 535h'],
+      tags: ['wireless', 'ergonomic', 'righthanded', 'mmo', 'palmgrip', 'budget', 'customizable'],
+      valueNote: 'The best-value way into the Basilisk shape — frequently drops under $45.'
+    },
 
     /* ---------------- HEADSETS ---------------- */
     {
@@ -265,11 +281,19 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 279.99, msrp: 379.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'A luxury pick — only worth it if you want ANC and do-everything connectivity.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5x', name: 'SteelSeries Arctis Nova 5X', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.4,
+      highlight: 'Low-latency wireless with a companion app full of game-specific audio presets.',
+      features: ['2.4GHz wireless + Bluetooth', 'Arctis Nova app with 100+ presets', 'Retractable ClearCast mic', 'Up to 60h battery'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'xbox', 'playstation'],
+      valueNote: 'A lot of headset for the money — the app presets are the standout feature at this price.'
     },
     {
       id: 'logi-pro-x-2', name: 'Logitech G Pro X 2 Lightspeed', brand: 'Logitech G', category: 'headset',
@@ -1190,6 +1214,8 @@
     'hyperx-alloy-origins': 'https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard',
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
     'razer-deathadder-v3': 'https://www.razer.com/gaming-mice/razer-deathadder-v3-pro',
+    'razer-basilisk-v3-x-hyperspeed': 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+    'steelseries-arctis-nova-5x': 'https://steelseries.com/gaming-headsets/arctis-nova-5',
     'razer-viper-v2': 'https://www.razer.com/gaming-mice/razer-viper-v2-pro',
     'logi-g502x': 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-gaming-mouse.html',
     'steelseries-aerox-3': 'https://steelseries.com/products/aerox-3-wireless-2022',
