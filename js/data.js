@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS (2026-10-01) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The 54g esports flagship with an 8000Hz polling dongle and the Focus Pro 35K sensor.',
+      features: ['~54g ultralight symmetrical shell', 'Focus Pro 35K optical sensor', 'Optical switches Gen-3', 'HyperPolling 8000Hz wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'esports', 'premium'],
+      valueNote: 'The current comp-FPS benchmark; the price only dips a little, so grab it on any sale.',
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      highlight: 'An open-back streaming headset with a natural soundstage and a broadcast-grade detachable mic.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Lightweight memory-foam build', 'Wired 3.5mm multi-platform'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Open-back means a wide, airy stage for immersion — not for noisy rooms.',
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na'
+    },
+    {
+      id: 'keychron-q1-pro', name: 'Keychron Q1 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 199.00, msrp: 199.00, rating: 4.7,
+      highlight: 'The wireless, gasket-mounted aluminum 75% board with full QMK/VIA remapping.',
+      features: ['CNC aluminum gasket-mount body', 'Bluetooth 5.1 + USB-C', 'Hot-swap + QMK/VIA', 'Double-gasket sound dampening'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'premium'],
+      valueNote: 'A premium enthusiast board out of the box; it rarely discounts, so MSRP is the norm.',
+      url: 'https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard'
     }
   ];
 
