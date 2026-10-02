@@ -148,6 +148,15 @@
 
     /* ---------------- KEYBOARDS ---------------- */
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 74.99, msrp: 99.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and hot-swap switches.',
+      features: ['87-key TKL layout', 'QMK/VIA fully programmable', 'Hot-swappable Gateron switches', 'Bluetooth 5.1 + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'customizable', 'budget'],
+      valueNote: 'Full QMK/VIA customization at an entry price — often on sale well under its $99.99 MSRP.'
+    },
+    {
       id: 'keychron-k2', name: 'Keychron K2 (V2)', brand: 'Keychron', category: 'keyboard',
       price: 79.99, msrp: 89.99, rating: 4.6,
       highlight: 'The crowd-favorite 75% wireless board — Mac/Windows, hot-swap option, great typing.',
@@ -805,6 +814,15 @@
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
+      id: 'asus-rog-harpe-ace', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 79.99, msrp: 149.99, rating: 4.6,
+      url: 'https://rog.asus.com/us/mice-mouse-pads/mice/wireless/rog-harpe-ace-aim-lab-edition-model/',
+      highlight: 'An ultralight 54g esports mouse co-tuned with Aim Lab — 36K sensor and tri-mode wireless.',
+      features: ['54g ultralight shell', '36,000 DPI ROG AimPoint sensor', 'SpeedNova tri-mode wireless', 'ROG Micro Switches'],
+      tags: ['fps', 'lightweight', 'wireless', 'wired', 'ambidextrous', 'highdpi', 'premium', 'pro'],
+      valueNote: 'A flagship 54g esports mouse now routinely near half its $149.99 launch MSRP — a standout value.'
+    },
+    {
       id: 'razer-deathadder-lefthand', name: 'Razer DeathAdder V2 Left-Handed Edition', brand: 'Razer', category: 'mouse',
       price: 69.99, msrp: 79.99, rating: 4.6,
       url: 'https://www.razer.com/gaming-mice/razer-deathadder-v2-left-handed-edition',
@@ -891,6 +909,15 @@
     },
 
     /* ---- HEADSETS ---- */
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Multi-system wireless headset with 100+ in-app audio presets and ~60h battery.',
+      features: ['2.4GHz + Bluetooth 5.3', '100+ game audio presets in-app', '~60h battery life', 'ClearCast Gen2.X retractable mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Nova-series comfort and app audio presets a tier below the Nova 7 — frequently discounted under MSRP.'
+    },
     {
       id: 'turtle-beach-stealth-700', name: 'Turtle Beach Stealth 700 Gen 3', brand: 'Turtle Beach', category: 'headset',
       price: 149.99, msrp: 199.99, rating: 4.4,
