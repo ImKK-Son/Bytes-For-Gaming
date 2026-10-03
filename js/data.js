@@ -123,7 +123,7 @@
     },
     {
       id: 'xbox-elite-2', name: 'Xbox Elite Wireless Controller Series 2', brand: 'Xbox', category: 'controller',
-      price: 149.99, msrp: 179.99, rating: 4.5,
+      price: 179.99, msrp: 199.99, rating: 4.5,
       highlight: 'The premium pro-pad: swappable sticks, paddles, and adjustable triggers.',
       features: ['Interchangeable thumbsticks + paddles', 'Adjustable-tension sticks', 'Hair-trigger locks', 'Built-in rechargeable battery'],
       tags: ['pc', 'xbox', 'wireless', 'premium', 'pro', 'customizable', 'comfortGrip'],
@@ -154,6 +154,14 @@
       features: ['75% compact layout', 'Bluetooth + USB-C', 'Hot-swap version available', 'Mac & Windows keycaps'],
       tags: ['mechanical', 'compact60', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 99.99, rating: 4.6,
+      highlight: 'A fully QMK/VIA-programmable TKL with hot-swap sockets and wireless — a tinkerer favorite.',
+      features: ['Tenkeyless (87-key) layout', 'QMK/VIA remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'All the programmability of pricier customs at an entry price; one of the best value hot-swap boards around.'
     },
     {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
@@ -199,7 +207,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +215,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +228,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The pro-tour favorite: ~54g, true 8000Hz wireless, and a refined symmetrical shape.',
+      features: ['~54g ultralight', 'Focus Pro 35K optical sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The most-used mouse on competitive FPS circuits; worth it if you chase every millisecond, otherwise the Viper V2 Pro saves money.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -249,11 +265,19 @@
     /* ---------------- HEADSETS ---------------- */
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
-      price: 79.99, msrp: 99.99, rating: 4.7,
+      price: 59.99, msrp: 79.99, rating: 4.7,
       highlight: 'The legendary comfort-king headset that has topped budget lists for years.',
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'Still one of the best value headsets you can buy, period.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 119.99, msrp: 199.99, rating: 4.7,
+      highlight: 'The marathon champion — up to 300 hours of battery on a single charge.',
+      features: ['Up to 300h battery life', 'Dual Chamber drivers', 'DTS Headphone:X spatial audio', 'Noise-cancelling detachable mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'Battery life nothing else comes close to; frequently drops near $110, a steal for the sound quality.'
     },
     {
       id: 'razer-blackshark-v2-pro', name: 'Razer BlackShark V2 Pro', brand: 'Razer', category: 'headset',
@@ -291,7 +315,7 @@
     /* ---------------- CHAIRS ---------------- */
     {
       id: 'secretlab-titan-evo', name: 'Secretlab TITAN Evo', brand: 'Secretlab', category: 'chair',
-      price: 549.00, msrp: 619.00, rating: 4.7,
+      price: 549.00, msrp: 729.00, rating: 4.7,
       highlight: 'The gold-standard gaming chair: integrated lumbar, magnetic memory-foam pillow.',
       features: ['4-way L-ADAPT lumbar support', 'Magnetic head pillow', 'NEO Hybrid Leatherette or fabric', 'Three sizes (S/R/XL)'],
       tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium', 'bigtall', 'compact'],
@@ -393,7 +417,7 @@
     /* ---------------- CONTROLLERS (more) ---------------- */
     {
       id: 'sony-dualsense-edge', name: 'Sony DualSense Edge Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 199.99, msrp: 199.99, rating: 4.3,
+      price: 219.99, msrp: 219.99, rating: 4.3,
       url: 'https://www.playstation.com/en-us/accessories/dualsense-edge-wireless-controller/',
       highlight: 'The pro PS5 pad: swappable sticks, back buttons, and on-the-fly tuning.',
       features: ['Replaceable stick modules', 'Mappable back buttons', 'Adjustable triggers', 'Carry case + braided cable'],
