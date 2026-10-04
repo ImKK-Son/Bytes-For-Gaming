@@ -222,6 +222,15 @@
       valueNote: 'Frequently discounted to a great price for its tier.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports benchmark: ~54g, 8,000Hz polling, and pro-tuned for raw aim.',
+      features: ['~54g symmetrical shell', 'Focus Pro 35K sensor', '8,000Hz HyperPolling wireless', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'Routinely sells below its $159.99 MSRP (often ~$120-130) — a genuine price drop, not a fake list price.'
+    },
+    {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
@@ -447,6 +456,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-q3-max', name: 'Keychron Q3 Max (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 214.00, msrp: 229.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A full-aluminum TKL enthusiast board, now wireless with QMK/VIA and a 1,000Hz 2.4GHz link.',
+      features: ['CNC aluminum gasket mount', '2.4GHz + Bluetooth + wired', 'Hot-swap + QMK/VIA', 'Up to 1,000Hz wireless polling'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'The wireless TKL sibling of the Q1 — a premium custom board without sourcing parts yourself.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -520,6 +538,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Multi-system wireless with a companion app and 100+ game-tuned audio presets.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Neodymium magnetic drivers', '100+ audio presets via app', '~60h battery, retractable mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'Holding firm at its $129.99 MSRP — a newer model that has not yet settled into steady discounts.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
