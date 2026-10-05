@@ -180,6 +180,15 @@
       valueNote: 'A long-lasting do-everything board for work and play.'
     },
     {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A sub-$100 full-size that punches up: sound-dampened, pre-lubed linear switches.',
+      features: ['Pre-lubed MLX Red linear switches', 'Two layers of sound dampening', 'Full-size + volume roller', 'Hot-swap sockets + per-key RGB'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'hotswap', 'budget'],
+      valueNote: 'One of the best typing experiences you can get around $100; often on sale below its $99.99 MSRP.'
+    },
+    {
       id: 'steelseries-apex-pro', name: 'SteelSeries Apex Pro TKL', brand: 'SteelSeries', category: 'keyboard',
       price: 189.99, msrp: 219.99, rating: 4.5,
       highlight: 'Adjustable per-key actuation lets you tune feel and speed precisely.',
@@ -220,6 +229,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-proven flagship: ~54g, Focus Pro 35K sensor, and true 8K wireless.',
+      features: ['~54g ultralight symmetrical shape', 'Focus Pro 35K Gen-2 sensor', 'Optical Gen-3 switches', 'HyperPolling 8000 Hz wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'The top pick for competitive FPS players; now regularly discounted below its $159.99 launch MSRP.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -511,6 +529,15 @@
       features: ['Dual-chamber drivers', 'Detachable mic', 'Memory-foam + leatherette', 'Durable aluminum frame'],
       tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'If you want wired sound quality on a budget, this is the one.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 139.99, msrp: 199.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless',
+      highlight: 'The famous Cloud Alpha sound with a record-setting 300-hour battery life.',
+      features: ['Up to 300-hour battery life', 'Dual-chamber drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'pc', 'budget'],
+      valueNote: 'Unmatched battery life for the money; frequently falls well below its $199.99 MSRP.'
     },
     {
       id: 'steelseries-arctis-nova-7', name: 'SteelSeries Arctis Nova 7 Wireless', brand: 'SteelSeries', category: 'headset',
