@@ -206,6 +206,15 @@
       valueNote: 'Used by a huge share of pros; expensive but the gold standard.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g esports flagship with the Focus Pro 35K sensor and optional 8,000Hz wireless.',
+      features: ['~54g ultralight', 'Focus Pro 35K optical sensor', 'HyperPolling 8,000Hz wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'Pro-tier specs that rival the Superlight 2; frequently discounted well under its $159.99 MSRP.'
+    },
+    {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
       price: 119.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
@@ -270,6 +279,14 @@
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'A luxury pick — only worth it if you want ANC and do-everything connectivity.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.4,
+      highlight: 'A do-everything wireless headset with a companion app full of game-specific audio presets.',
+      features: ['2.4GHz + Bluetooth', 'Nova Acoustic System drivers', 'Arctis app EQ presets', 'Up to 60h battery', 'Retractable ClearCast mic'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'A strong mid-tier all-rounder; street price typically sits below the $149.99 MSRP.'
     },
     {
       id: 'logi-pro-x-2', name: 'Logitech G Pro X 2 Lightspeed', brand: 'Logitech G', category: 'headset',
@@ -445,6 +462,15 @@
       features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
       tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 74.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping and a hot-swap, gasket-mounted feel.',
+      features: ['87-key TKL layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 + USB-C wired', 'Double-gasket dampening'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'Enthusiast features — hot-swap, wireless, QMK — at a mainstream price; often on sale near $75.'
     },
     {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
