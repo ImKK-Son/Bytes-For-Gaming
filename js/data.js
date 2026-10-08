@@ -1048,6 +1048,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- 2026-10-08 additions ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.7,
+      highlight: 'An ultralight 54g ambidextrous flagship with 8,000Hz polling for serious FPS play.',
+      features: ['54g ambidextrous shape', 'Focus Pro 35K Gen-2 sensor', '8,000Hz HyperPolling wireless', '~95h battery, USB-C'],
+      tags: ['ambidextrous', 'wireless', 'fps', 'lightweight', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'Street price has slipped below the $159.99 MSRP, with sales dipping near $110 — the esports pick when discounted.'
+    },
+    {
+      id: 'steelseries-arctis-nova-7-gen2', name: 'SteelSeries Arctis Nova 7 Wireless (Gen 2)', brand: 'SteelSeries', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.6,
+      highlight: 'A do-it-all wireless headset: simultaneous 2.4GHz + Bluetooth, so game and phone audio mix seamlessly.',
+      features: ['Dual 2.4GHz + Bluetooth audio', 'Retractable ClearCast Gen 2 mic', '~38h battery, fast USB-C charge', 'Multi-platform (PC/PS/Switch/mobile)'],
+      tags: ['wireless', 'multiplatform', 'detachableMic', 'comfortLongSession', 'surround', 'premium'],
+      valueNote: 'Holding at or just above its $199.99 MSRP at most retailers — the mid-tier Arctis sweet spot.'
+    },
+    {
+      id: 'keychron-q1-max', name: 'Keychron Q1 Max (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 209.99, msrp: 219.99, rating: 4.7,
+      highlight: 'A fully-assembled 75% gasket-mount board with tri-mode wireless and deep QMK/VIA remapping.',
+      features: ['CNC aluminium gasket-mount body', 'Tri-mode: 2.4GHz / Bluetooth / wired', 'Hot-swappable, QMK/VIA programmable', 'Double-gasket + sound-damping foam'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'customizable', 'rgb', 'premium'],
+      valueNote: 'Priced right around its MSRP in the US; frequent EU/sale discounts nudge it a little lower.'
     }
   ];
 
