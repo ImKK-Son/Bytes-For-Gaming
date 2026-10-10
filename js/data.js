@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- ADDED 2026-10-10 ---------------- */
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.4,
+      highlight: 'Corsair’s most affordable full-size mechanical board — pre-lubed switches and a sound-dampening layer.',
+      features: ['Pre-lubed CORSAIR MLX Red linear switches', 'Dual-layer sound dampening', 'Media dial + dedicated controls', 'Magnetic soft-touch wrist rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'linear', 'budget', 'rgb'],
+      valueNote: 'Street price has settled around $80, a steady $20 under its $99.99 launch MSRP — the value pick in Corsair’s K70 line.',
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.5,
+      highlight: 'Ergonomic right-handed shape with the BAMF 2.0 sensor and a featherweight 64g wireless build.',
+      features: ['64g ergonomic right-handed shell', 'BAMF 2.0 26K sensor', 'Up to 210h battery', '2.4GHz, Bluetooth, and USB-C'],
+      tags: ['wireless', 'wired', 'lightweight', 'ergo', 'rightHanded', 'premium'],
+      valueNote: 'Lands around $80 vs the $99.99 MSRP — a lightweight ergo wireless mouse for well under $100.',
+      url: 'https://www.gloriousgaming.com/products/model-d-2-wireless'
+    },
+    {
+      id: 'logi-g733', name: 'Logitech G733 Lightspeed', brand: 'Logitech G', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.4,
+      highlight: 'Colorful, ultra-light wireless headset with a suspension headband and dual-zone LIGHTSYNC RGB.',
+      features: ['29h LIGHTSPEED wireless battery', 'Suspension headband (278g)', 'Blue VO!CE detachable mic', 'PRO-G 40mm drivers + LIGHTSYNC RGB'],
+      tags: ['wireless', 'pc', 'playstation', 'lightweight', 'rgb', 'premium'],
+      valueNote: 'Routinely found near $130, below the $149.99 launch price, and dips under $100 on sale — watch for deals.',
+      url: 'https://www.logitechg.com/en-us/products/gaming-audio/g733-rgb-wireless-gaming-headset.html'
     }
   ];
 
