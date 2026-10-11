@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS (Oct 2026) ---------------- */
+    {
+      id: 'steelseries-apex-pro-tkl-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 199.99, msrp: 219.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-tkl-gen-3',
+      highlight: 'Magnetic OmniPoint 3.0 switches with Rapid Trigger for the fastest resets available.',
+      features: ['OmniPoint 3.0 adjustable actuation', 'Rapid Trigger + per-key tuning', 'OLED smart display', 'Aircraft-grade aluminum frame'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'Street price has eased below its $219.99 MSRP; the sharpest competitive board SteelSeries makes.'
+    },
+    {
+      id: 'razer-deathadder-v3-hyperspeed', name: 'Razer DeathAdder V3 HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v3-hyperspeed',
+      highlight: 'The ergonomic DeathAdder shape goes ultralight wireless at a mainstream price.',
+      features: ['Ergonomic right-handed shape', '~55g lightweight', 'Focus X 26K optical sensor', 'HyperSpeed wireless + up to 110h battery'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Now dipping under its $99.99 launch MSRP — the cheapest way into a true DeathAdder ultralight.'
+    },
+    {
+      id: 'corsair-virtuoso-max', name: 'Corsair Virtuoso Max Wireless', brand: 'Corsair', category: 'headset',
+      price: 269.99, msrp: 329.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011371-na/virtuoso-max-wireless-gaming-headset',
+      highlight: 'Flagship Dolby Atmos headset with ANC and simultaneous 2.4GHz + Bluetooth.',
+      features: ['Active noise cancellation', 'Dolby Atmos spatial audio', 'Simultaneous 2.4GHz + Bluetooth', 'Detachable broadcast-grade mic'],
+      tags: ['wireless', 'hifi', 'noiseCancel', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Discounted well below its $329.99 MSRP; a do-everything luxury headset when it dips near $250.'
     }
   ];
 
