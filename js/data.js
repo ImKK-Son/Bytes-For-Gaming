@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +220,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current esports flagship: ~54g, 8K wireless polling, pro-proven.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K Gen-2 sensor', 'Optical Gen-3 switches', '8000Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The most-used mouse at recent FPS majors; lighter and faster than the V2 Pro, and often found below list.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -254,6 +262,14 @@
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'Still one of the best value headsets you can buy, period.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      highlight: 'The comfort king goes wireless, with a monster 120-hour battery.',
+      features: ['Up to 120h battery', 'Angled 53mm drivers + DTS spatial', 'Detachable 10mm noise-cancel mic', '2.4GHz wireless (PC/PS5)'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'Near-legendary Cloud comfort with class-leading battery life; a strong value against pricier wireless flagships.'
     },
     {
       id: 'razer-blackshark-v2-pro', name: 'Razer BlackShark V2 Pro', brand: 'Razer', category: 'headset',
@@ -291,7 +307,7 @@
     /* ---------------- CHAIRS ---------------- */
     {
       id: 'secretlab-titan-evo', name: 'Secretlab TITAN Evo', brand: 'Secretlab', category: 'chair',
-      price: 549.00, msrp: 619.00, rating: 4.7,
+      price: 599.00, msrp: 649.00, rating: 4.7,
       highlight: 'The gold-standard gaming chair: integrated lumbar, magnetic memory-foam pillow.',
       features: ['4-way L-ADAPT lumbar support', 'Magnetic head pillow', 'NEO Hybrid Leatherette or fabric', 'Three sizes (S/R/XL)'],
       tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium', 'bigtall', 'compact'],
@@ -445,6 +461,15 @@
       features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
       tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 109.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable, fully programmable TKL that goes wireless or wired for well under $100.',
+      features: ['TKL (80%) layout', 'Hot-swap + QMK/VIA', 'Bluetooth + USB-C wired', 'Gasket-mounted, double-shot keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'linear', 'budget'],
+      valueNote: 'Rare combo of hot-swap, wireless, and QMK/VIA at a mid-budget price; the value pick for tinkerers.'
     },
     {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
@@ -1186,6 +1211,8 @@
     'keychron-k2': 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
     'logi-g915-tkl': 'https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless-keyboard.html',
     'razer-huntsman-mini': 'https://www.razer.com/gaming-keyboards/razer-huntsman-mini',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'hyperx-cloud-3-wireless': 'https://hyperx.com/products/hyperx-cloud-iii-wireless',
     'steelseries-apex-pro': 'https://steelseries.com/products/apex-pro-tkl',
     'hyperx-alloy-origins': 'https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard',
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
