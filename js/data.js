@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS (2024-25) ---------------- */
+    {
+      id: 'logi-g309-lightspeed', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 49.99, msrp: 89.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A light 85g wireless mouse with the HERO 2 sensor and hybrid Lightforce switches at a wallet-friendly price.',
+      features: ['85g lightweight shell', 'HERO 2 sensor (up to 44K DPI)', 'Lightforce hybrid optical-mechanical switches', 'Lightspeed wireless + POWERPLAY compatible'],
+      tags: ['wireless', 'lightweight', 'righthanded', 'fps', 'budget'],
+      valueNote: 'Flagship sensor and switches for roughly half the price of the Superlight — often discounted to ~$50.'
+    },
+    {
+      id: 'corsair-k70-core-rgb', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A pre-lubed, sound-dampened full-size board that brings the K70 feel to a budget price.',
+      features: ['Full-size + volume roller', 'Pre-lubed Corsair MLX Red linear switches', 'Two layers of sound dampening', 'Per-key RGB + media controls'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'budget'],
+      valueNote: 'A genuinely quiet, smooth typing feel for the money; frequently sells around $80.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 109.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/products/arctis-nova-5-wireless',
+      highlight: 'A do-everything wireless headset with a companion app packing 100+ game audio presets.',
+      features: ['2.4GHz + Bluetooth wireless', 'Retractable ClearCast mic', 'Arctis app with 100+ EQ presets', 'Up to 60h battery with fast charge'],
+      tags: ['wireless', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A critical favorite that dips under $100 on sale — a lot of headset for the price.'
     }
   ];
 
