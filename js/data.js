@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -291,7 +291,7 @@
     /* ---------------- CHAIRS ---------------- */
     {
       id: 'secretlab-titan-evo', name: 'Secretlab TITAN Evo', brand: 'Secretlab', category: 'chair',
-      price: 549.00, msrp: 619.00, rating: 4.7,
+      price: 549.00, msrp: 649.00, rating: 4.7,
       highlight: 'The gold-standard gaming chair: integrated lumbar, magnetic memory-foam pillow.',
       features: ['4-way L-ADAPT lumbar support', 'Magnetic head pillow', 'NEO Hybrid Leatherette or fabric', 'Three sizes (S/R/XL)'],
       tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium', 'bigtall', 'compact'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- 2026-10 ADDITIONS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 139.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports flagship: ~54g ambidextrous shell with an 8,000Hz-capable sensor pros actually win with.',
+      features: ['~54g ultralight ambidextrous shell', 'Focus Pro 35K optical sensor', '8,000Hz HyperPolling (dongle)', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'Street price often dips toward $120-$130 — watch for a sale before paying full list.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 104.99, msrp: 114.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL do-everything board with hot-swap sockets and full QMK/VIA remapping for the money.',
+      features: ['TKL (87-key) layout', 'Bluetooth 5.1 + USB-C wired', 'Hot-swap + QMK/VIA', 'Gateron G Pro switches'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'Rare combo of wireless, hot-swap, and open firmware at a mid-range price.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 179.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset',
+      highlight: 'An open-back, wired audiophile headset for streamers who want detail over battery life.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable broadcast mic', 'Lightweight suspension headband', 'Wired USB + 3.5mm'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Open-back soundstage rivals studio cans; skip it if you need noise isolation.'
     }
   ];
 
