@@ -1048,6 +1048,34 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ARRIVALS (price-checked Oct 2026) ---- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A fully QMK/VIA-programmable TKL wireless board with hot-swap sockets and a gasket mount.',
+      features: ['TKL (87-key) layout', 'QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'Street price has slipped below its $99.99 launch (often ~$80, on sale from $59.99) — a lot of custom-keyboard features for the money.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.6,
+      highlight: 'A do-everything wireless headset with a companion app full of game-specific audio presets.',
+      features: ['2.4GHz + Bluetooth dual wireless', '60+ game audio presets via app', 'Retractable ClearCast mic', 'Multi-system (PC/PS/Switch)'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Launched at $129.99 but now routinely drops below $100 (record lows near $80) — one of the best mid-range wireless deals right now.'
+    },
+    {
+      id: 'razer-deathadder-v3-hyperspeed', name: 'Razer DeathAdder V3 HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v3-hyperspeed',
+      highlight: 'The iconic ergonomic shape goes wireless at a friendlier price than the Pro.',
+      features: ['Ergonomic right-handed shape', '~55g lightweight', 'Focus X 26K sensor', 'HyperSpeed wireless + AA option'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Prices have eased from the $99.99 launch MSRP toward ~$80–$90 — the cheapest way into the DeathAdder V3 wireless shape.'
     }
   ];
 
