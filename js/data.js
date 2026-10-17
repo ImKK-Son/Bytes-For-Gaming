@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 99.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping, hot-swap switches, and a gasket mount.',
+      features: ['87-key TKL layout', 'QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C', 'Gasket-mounted plate'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Rare mix of wireless, hot-swap, and open QMK/VIA firmware at a mid-range price.'
+    },
+    {
+      id: 'razer-cobra-pro', name: 'Razer Cobra Pro', brand: 'Razer', category: 'mouse',
+      price: 99.99, msrp: 129.99, rating: 4.3,
+      url: 'https://www.razer.com/gaming-mice/razer-cobra-pro',
+      highlight: 'A compact 77g ambidextrous mouse with HyperSpeed wireless and full Chroma RGB.',
+      features: ['~77g ambidextrous shape', 'Focus Pro 30K sensor', 'HyperSpeed wireless + Bluetooth', '11-zone Chroma RGB', 'Optical mouse switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'rgb', 'highdpi', 'premium'],
+      valueNote: 'A lighter, RGB-loaded alternative to the Viper for players who want wireless and lighting.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back wired headset with 50mm graphene drivers tuned for a wide, detailed soundstage.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', '20Hz–40kHz response', 'Lightweight steel frame', '3.5mm wired'],
+      tags: ['wired', 'openback', 'streaming', 'detachableMic', 'comfort', 'premium'],
+      valueNote: 'Audiophile-leaning open-back sound for streamers who value audio quality over wireless convenience.'
     }
   ];
 
