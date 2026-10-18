@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ 2026 ADDITIONS — newest flagships, priced to current street ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports standard — a sub-55g symmetrical shape with true 8000Hz wireless.',
+      features: ['~54g ambidextrous shell', 'Focus Pro 35K Gen-2 sensor', 'HyperPolling up to 8000Hz', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The pro-tour favorite mouse; the newest flagship but already dipping below MSRP on sale.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'App-driven game audio presets plus dual wireless in a comfy, affordable Nova package.',
+      features: ['Companion app with 100+ game presets', 'Retractable ClearCast Gen 2 mic', '2.4GHz + Bluetooth', '~60h battery with hot-swap'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'One of the best-reviewed value wireless headsets; frequently drops near $100 on sale.'
+    },
+    {
+      id: 'keychron-v1-max', name: 'Keychron V1 Max (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 104.99, msrp: 114.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A wireless QMK/VIA 75% board with a pre-tuned, gasket-mounted typing feel for under $120.',
+      features: ['75% layout + control knob', 'Tri-mode: 2.4GHz + Bluetooth + USB-C', 'Hot-swap + QMK/VIA', 'Gateron Jupiter switches, OSA PBT caps'],
+      tags: ['mechanical', 'tkl', 'compact60', 'wireless', 'rgb', 'hotswap', 'linear', 'budget'],
+      valueNote: 'Exceptional value — full wireless QMK customization at a fraction of enthusiast-board prices.'
     }
   ];
 
