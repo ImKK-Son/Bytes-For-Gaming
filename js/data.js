@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ DAILY ADDITIONS — 2026-10-19 ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports darling — ~54g symmetrical ultralight with an 8K sensor.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K Optical Sensor Gen-2', 'Up to 8000Hz polling (HyperPolling dongle)', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'A pro-tour favorite that dethroned the Viper V2 Pro; frequently seen below MSRP at major retailers.'
+    },
+    {
+      id: 'keychron-v1-max', name: 'Keychron V1 Max (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.00, msrp: 104.00, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A 75% wireless QMK/VIA board with gasket mount and a knob — enthusiast feel at a bargain.',
+      features: ['75% compact layout + knob', 'Tri-mode (2.4GHz / BT / wired)', 'Gasket-mounted, pre-lubed switches', 'Hot-swap + QMK/VIA'],
+      tags: ['mechanical', 'tkl', 'compact60', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'rgb', 'budget'],
+      valueNote: 'One of the best value wireless custom boards — enthusiast features for under $100.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort-king Cloud III, cut loose — ~120h battery and signature plush pads.',
+      features: ['Up to 120h battery', 'Angled 53mm drivers', 'Detachable noise-cancelling mic', '2.4GHz wireless (PC/PS)'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and legendary comfort; often dips toward $130 on sale.'
     }
   ];
 
