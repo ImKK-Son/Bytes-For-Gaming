@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS (2026-10-20) ---- */
+    {
+      id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3', brand: 'Razer', category: 'mouse',
+      price: 44.99, msrp: 69.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-deathadder-v3',
+      highlight: 'The wired esports DeathAdder — 59g, a 30K sensor, and the famously comfy shape for a fraction of the Pro price.',
+      features: ['Focus Pro 30K optical sensor', '59g lightweight shell', 'Gen-3 optical switches', 'Wired — no battery, no latency'],
+      tags: ['wired', 'fps', 'lightweight', 'ergonomic', 'rightHanded', 'esports', 'budget'],
+      valueNote: 'Street price has fallen well under its $69.99 launch MSRP — the cheapest way into the DeathAdder V3 shape and sensor.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 94.00, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL 87-key board with full QMK/VIA remapping, hot-swap switches, and Bluetooth or wired.',
+      features: ['QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C wired', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'qmk', 'rgb', 'mac', 'windows'],
+      valueNote: 'Holding near its MSRP — a dependable enthusiast TKL that rarely needs a discount to be worth it.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'A multi-system 2.4GHz wireless headset with a companion app full of per-game audio presets.',
+      features: ['2.4GHz low-latency wireless', 'Arctis Nova App audio presets', 'Retractable ClearCast mic', '60h battery + fast charge'],
+      tags: ['wireless', 'pc', 'ps5', 'switch', 'noiseCancelMic', 'comfort', 'longBattery'],
+      valueNote: 'Frequently discounted below its $129.99 MSRP to around $100 — a strong price for the feature set.'
     }
   ];
 
