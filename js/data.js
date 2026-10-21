@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 144.99, msrp: 179.99, rating: 4.7, // price check 2026-10-21: street UP (~$130 -> ~$145); list now $179.99
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7, // price check 2026-10-21: street DOWN (~$120 -> ~$90)
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -265,7 +265,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 329.99, msrp: 349.99, rating: 4.5, // price check 2026-10-21: street UP (~$280 -> ~$330)
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ DAILY ADDITIONS (2026-10-21) ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — ~54g, 8K polling, and a flawless 35K sensor.',
+      features: ['~54g symmetric ultralight', 'Focus Pro 35K optical sensor', 'HyperPolling up to 8000Hz', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The most-used mouse on pro FPS circuits right now; premium-priced but the shape-to-beat.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.5,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort-king Cloud, cut loose — up to 120h battery and clean 2.4GHz audio.',
+      features: ['Angled 53mm drivers', 'Up to 120h battery', 'DTS Headphone:X spatial audio', 'Detachable 10mm mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'A long-battery wireless take on the beloved Cloud line; frequently drops under $150.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A smooth, pre-lubed full-size board with a media roller at a friendly price.',
+      features: ['Full-size + volume roller', 'Pre-lubed MLX Red linear switches', 'Sound-dampening foam', 'Per-key RGB'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'budget'],
+      valueNote: 'One of the best-value full-size boards — a quiet, smooth typing feel straight out of the box.'
     }
   ];
 
