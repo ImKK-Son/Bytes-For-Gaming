@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 99.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -265,7 +265,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 299.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- ADDED 2026-10-22 (daily refresh) ---------------- */
+    {
+      id: 'asus-rog-harpe-ace', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 89.99, msrp: 149.99, rating: 4.6,
+      url: 'https://rog.asus.com/us/mice-mouse-pads/mice/wireless/rog-harpe-ace-aim-lab-edition-model/',
+      highlight: 'A 54g esports mouse co-designed with Aim Lab — tri-mode wireless and a 36K sensor.',
+      features: ['54g ultralight shell', '36,000 DPI ROG AimPoint sensor', 'Tri-mode: 2.4G / Bluetooth / USB-C', 'ROG Micro Switches (70M clicks)'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Pro-grade weight and sensor; a strong buy now that ASUS routinely discounts it well under MSRP.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.7,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Low-latency 2.4GHz wireless with a companion app full of game-specific audio presets.',
+      features: ['2.4GHz low-latency wireless', 'Nova Companion app EQ presets', 'Retractable ClearCast Gen 2 mic', '60h battery + fast charge'],
+      tags: ['wireless', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Punches above its price — frequently drops to ~$100, making it a standout mid-range headset.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 109.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping, hot-swap switches, and a gasket mount.',
+      features: ['TKL (80%) layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C, Mac/Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'One of the best-value programmable wireless boards — enthusiast features without a custom-build price.'
     }
   ];
 
