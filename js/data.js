@@ -156,6 +156,14 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 114.99, rating: 4.6,
+      highlight: 'TKL wireless board with QMK/VIA remapping, hot-swap switches, and a gasket mount.',
+      features: ['87-key TKL layout', 'QMK/VIA fully remappable', 'Hot-swappable + gasket mount', 'Bluetooth 5.1 + USB-C'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'A big step up in customization from the K-series at a still-reasonable price.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -199,7 +207,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +215,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 99.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +228,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The esports gold standard — ~54g, 8K wireless, and a faster-flicking shape.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K Gen-2 sensor', 'Gen-3 optical switches', '8000Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Pricey, but the most-used mouse in pro Counter-Strike and Valorant for a reason.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -264,8 +280,16 @@
       valueNote: 'Top-tier comp audio; watch for frequent sales under $150.'
     },
     {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      highlight: 'Open-back, wired audiophile headset tuned for competitive positional audio.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Lightweight suspension headband', 'Wired 3.5mm — no battery'],
+      tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Street price has fallen to about $150 from its $199.99 launch — strong value for open-back comp audio.'
+    },
+    {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 329.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -1184,6 +1208,7 @@
     'sony-dualsense': 'https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/',
     'razer-wolverine-v2': 'https://www.razer.com/console-controllers/razer-wolverine-v2-chroma',
     'keychron-k2': 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
+    'keychron-k8-pro': 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
     'logi-g915-tkl': 'https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless-keyboard.html',
     'razer-huntsman-mini': 'https://www.razer.com/gaming-keyboards/razer-huntsman-mini',
     'steelseries-apex-pro': 'https://steelseries.com/products/apex-pro-tkl',
@@ -1191,10 +1216,12 @@
     'logi-superlight-2': 'https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2.html',
     'razer-deathadder-v3': 'https://www.razer.com/gaming-mice/razer-deathadder-v3-pro',
     'razer-viper-v2': 'https://www.razer.com/gaming-mice/razer-viper-v2-pro',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
     'logi-g502x': 'https://www.logitechg.com/en-us/products/gaming-mice/g502-x-gaming-mouse.html',
     'steelseries-aerox-3': 'https://steelseries.com/products/aerox-3-wireless-2022',
     'hyperx-cloud-2': 'https://hyperx.com/products/hyperx-cloud-ii-gaming-headset',
     'razer-blackshark-v2-pro': 'https://www.razer.com/gaming-headsets/razer-blackshark-v2-pro',
+    'corsair-virtuoso-pro': 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
     'steelseries-arctis-nova-pro': 'https://steelseries.com/products/arctis-nova-pro-wireless',
     'logi-pro-x-2': 'https://www.logitechg.com/en-us/products/gaming-audio/pro-x-2-lightspeed-headset.html',
     'secretlab-titan-evo': 'https://secretlab.co/products/titan-evo-2022-series',
