@@ -802,6 +802,15 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'keychron-v1', name: 'Keychron V1 (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 69.99, msrp: 94.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-v1-qmk-via-custom-mechanical-keyboard',
+      highlight: 'A fully assembled 75% custom board with gasket mount and QMK/VIA — remarkable value.',
+      features: ['75% layout with knob option', 'Gasket-mounted, hot-swap', 'Double-shot PBT keycaps', 'QMK/VIA fully programmable'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'tactile', 'linear', 'hotswap', 'customizable', 'budget'],
+      valueNote: 'Enthusiast features — gasket mount, hot-swap, QMK — for well under $100.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +898,15 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — ultra-light symmetrical shape with a flagship sensor and 8K polling.',
+      features: ['Focus Pro 35K optical sensor', '54g ultra-lightweight', 'Up to 8000Hz HyperPolling (dongle)', '~95h battery'],
+      tags: ['ambidextrous', 'fps', 'lightweight', 'wireless', 'premium', 'highdpi', 'esports'],
+      valueNote: 'Overkill for casual play, but the top pick for competitive FPS aimers.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +958,15 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort legend goes cordless — huge battery life and the same signature sound.',
+      features: ['Angled 53mm drivers', 'Up to ~120h battery', 'Detachable 10mm mic', '2.4GHz wireless, multi-platform'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and proven comfort make it an easy wireless recommendation.'
     },
 
     /* ---- CHAIRS ---- */
