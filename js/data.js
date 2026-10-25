@@ -123,7 +123,7 @@
     },
     {
       id: 'xbox-elite-2', name: 'Xbox Elite Wireless Controller Series 2', brand: 'Xbox', category: 'controller',
-      price: 149.99, msrp: 179.99, rating: 4.5,
+      price: 139.99, msrp: 179.99, rating: 4.5,
       highlight: 'The premium pro-pad: swappable sticks, paddles, and adjustable triggers.',
       features: ['Interchangeable thumbsticks + paddles', 'Adjustable-tension sticks', 'Hair-trigger locks', 'Built-in rechargeable battery'],
       tags: ['pc', 'xbox', 'wireless', 'premium', 'pro', 'customizable', 'comfortGrip'],
@@ -199,11 +199,20 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
       valueNote: 'Used by a huge share of pros; expensive but the gold standard.'
+    },
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 69.99, msrp: 89.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A budget-friendly Lightspeed mouse with the HERO 2 sensor and POWERPLAY support.',
+      features: ['HERO 2 sensor (up to 44K DPI)', 'Lightspeed + Bluetooth', '~86g with AA, lighter on POWERPLAY', 'Up to 300h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'righthanded', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'budget'],
+      valueNote: 'Brings flagship Lightspeed wireless and the HERO 2 sensor down to a mainstream price; often discounted to ~$50.'
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
@@ -445,6 +454,15 @@
       features: ['CNC aluminum gasket mount', 'Hot-swap + QMK/VIA', 'Double-gasket dampening', 'Knob version available'],
       tags: ['mechanical', 'compact60', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
+    },
+    {
+      id: 'keychron-q1-pro', name: 'Keychron Q1 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 179.99, msrp: 199.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'The Q1 formula goes wireless: the same gasket-mounted feel with Bluetooth and QMK/VIA.',
+      features: ['CNC aluminum gasket mount', 'Bluetooth 5.1 + wired', 'Hot-swap + QMK/VIA', 'Up to 300h battery'],
+      tags: ['mechanical', 'compact60', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'Worth the premium over the wired Q1 only if you need Bluetooth; often sells near $150 on sale.'
     },
     {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
@@ -915,6 +933,15 @@
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'A near-default recommendation for wired value.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless-gaming-headset',
+      highlight: 'The comfort legend cut loose — with a headline ~300-hour battery life.',
+      features: ['Up to 300h battery', 'Dual-chamber 50mm drivers', 'Detachable noise-cancelling mic', 'DTS Headphone:X spatial audio'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'Best-in-class battery life and the familiar Cloud Alpha comfort; regularly drops to ~$120 on sale.'
     },
     {
       id: 'razer-kraken-v4', name: 'Razer Kraken V4', brand: 'Razer', category: 'headset',
