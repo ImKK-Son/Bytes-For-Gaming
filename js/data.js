@@ -287,6 +287,14 @@
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'playstation', 'premium'],
       valueNote: 'Often discounted hard — a strong deal when it drops near $150.'
     },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.4,
+      highlight: 'Multi-system wireless headset with a companion app packing 100+ game-tuned audio presets.',
+      features: ['Neodymium magnetic drivers', '100+ audio presets via app', '~60h battery', '2.4GHz + Bluetooth, retractable mic'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A strong mid-price all-rounder — the app presets are the real draw for the money.'
+    },
 
     /* ---------------- CHAIRS ---------------- */
     {
@@ -447,6 +455,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA remapping over both Bluetooth and USB-C.',
+      features: ['Tenkeyless (87-key) layout', 'Bluetooth + USB-C wired', 'Hot-swap + QMK/VIA', 'Gateron switches, RGB backlight'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'linear', 'budget'],
+      valueNote: 'The best-value way into QMK/VIA customization if you want a standard TKL layout.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -491,6 +508,15 @@
       features: ['~68g, no honeycomb', 'BAMF 2.0 sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Great mid-price ultralight that undercuts the big esports brands.'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 69.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'The ergonomic sibling of the Model O 2 — a comfy ~67g wireless ultralight for palm grippers.',
+      features: ['~67g ergonomic right-handed shape', 'BAMF 2.0 sensor (26K DPI)', 'Up to 210h battery', 'Smooth PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'clawgrip', 'highdpi', 'budget'],
+      valueNote: 'A rare lightweight ergonomic wireless pick at a fair price — often found well under MSRP.'
     },
     {
       id: 'razer-naga-v2-pro', name: 'Razer Naga V2 Pro', brand: 'Razer', category: 'mouse',
