@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -514,7 +514,7 @@
     },
     {
       id: 'steelseries-arctis-nova-7', name: 'SteelSeries Arctis Nova 7 Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 149.99, msrp: 179.99, rating: 4.6,
+      price: 169.99, msrp: 199.99, rating: 4.6,
       url: 'https://steelseries.com/gaming-headsets/arctis-nova-7-wireless',
       highlight: 'The do-everything wireless headset: 2.4GHz + Bluetooth at once, great comfort.',
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
@@ -802,6 +802,15 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'keychron-v1-max', name: 'Keychron V1 Max', brand: 'Keychron', category: 'keyboard',
+      price: 104.00, msrp: 114.00, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'A 75% hot-swap board with QMK/VIA, tri-mode wireless, and a 1000Hz polling rate.',
+      features: ['75% layout + knob', 'QMK/VIA fully programmable', '2.4GHz + Bluetooth + USB-C', 'Gasket mount + hot-swap'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'tactile', 'customizable', 'budget'],
+      valueNote: 'Enthusiast features — gasket mount, QMK, hot-swap, wireless — for about a hundred bucks.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +898,15 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'logi-g309-lightspeed', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 49.99, msrp: 89.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html',
+      highlight: 'A lightweight Lightspeed wireless mouse with the HERO 2 sensor at a budget price.',
+      features: ['HERO 2 sensor (up to 32K DPI)', 'Lightspeed + Bluetooth', 'POWERPLAY-compatible', '~86g, hybrid switches'],
+      tags: ['righthanded', 'ambidextrous', 'wireless', 'lightweight', 'fps', 'budget', 'highdpi'],
+      valueNote: 'Flagship-grade sensor and Lightspeed wireless for well under a hundred — a standout value.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +958,14 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.6,
+      highlight: 'A multi-platform wireless headset with a companion app and 300+ game audio presets.',
+      features: ['2.4GHz wireless (PC/PS)', 'Nova Companion app + EQ presets', 'Retractable ClearCast mic', '~60h battery + fast charge'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Our top-value wireless pick — app-driven tuning and long battery for around $100.'
     },
 
     /* ---- CHAIRS ---- */
