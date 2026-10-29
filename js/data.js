@@ -249,7 +249,7 @@
     /* ---------------- HEADSETS ---------------- */
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
-      price: 79.99, msrp: 99.99, rating: 4.7,
+      price: 59.99, msrp: 99.99, rating: 4.7,
       highlight: 'The legendary comfort-king headset that has topped budget lists for years.',
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ADDITIONS (Oct 2026) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-favorite ultralight, now regularly under MSRP since the V4 Pro arrived.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K Gen-2 sensor', 'Optical Gen-3 switches', '8000 Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'Street price has fallen toward ~$120 as the Viper V4 Pro launched — a strong time to buy the proven V3.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back, studio-leaning headset that trades RGB for genuinely great sound.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Analog 3.5mm — works everywhere', 'Lightweight, comfortable fit'],
+      tags: ['wired', 'hifi', 'streaming', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Routinely discounted from its $199.99 list to ~$140-150; a rare open-back pick in the gaming space.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL hot-swap board with full QMK/VIA remapping and Bluetooth — a lot of keyboard for the money.',
+      features: ['Tenkeyless (87-key) layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 + wired USB-C', 'Double-shot PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'Frequently on sale around $75; the easiest entry into the QMK/VIA ecosystem.'
     }
   ];
 
