@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 59.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- RECENT ADDITIONS (prices verified Oct 2026) ---- */
+    {
+      id: 'razer-basilisk-v3-x-hyperspeed', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 49.99, msrp: 69.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'A wireless ergonomic all-rounder with a tilt-scroll wheel and 9 controls for the price of a wired mouse.',
+      features: ['HyperSpeed wireless + Bluetooth', '18,000 DPI optical sensor', '9 programmable controls', 'Up to 535h battery (BT)'],
+      tags: ['wireless', 'ergonomic', 'righthanded', 'mmo', 'fps', 'palmgrip', 'budget', 'rgb'],
+      valueNote: 'Frequently sells near $50 — a lot of Basilisk feature-set for an entry-level wireless price.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro', brand: 'Keychron', category: 'keyboard',
+      price: 89.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA remapping, hot-swap switches, and a gasket-mounted typing feel.',
+      features: ['TKL (80%) layout', 'QMK/VIA fully programmable', 'Hot-swappable switches', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'rgb', 'budget'],
+      valueNote: 'One of the cheapest ways into a genuinely customizable QMK/VIA wireless board.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.6,
+      url: 'https://steelseries.com/products/arctis-nova-5-wireless',
+      highlight: 'A crowd-favorite multi-system wireless headset with a companion app full of game-specific audio presets.',
+      features: ['2.4GHz wireless + Bluetooth mix', 'Companion app with 100+ audio presets', 'Retractable ClearCast mic', 'PC / PS5 / PS4 / Switch / mobile'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Regularly discounted toward $100 or below — strong value for a feature-rich wireless set.'
     }
   ];
 
