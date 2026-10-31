@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff6b00' }
   };
 
   /* ---------------------------------------------------------
@@ -220,6 +221,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The esports flagship: ~54g symmetrical shape with true 8000Hz wireless polling.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K Gen-2 sensor', '8000Hz HyperPolling wireless', 'Gen-3 optical switches, ~95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Now routinely discounted well below its $159.99 MSRP since the Viper V4 Pro arrived — a top-tier FPS mouse for less.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -522,6 +531,14 @@
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
     },
     {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.6,
+      highlight: 'Dual-wireless value headset with a 100+ preset companion app and a light, comfy fit.',
+      features: ['2.4GHz + Bluetooth wireless', 'Retractable ClearCast Gen 2 mic', 'Arctis Companion app EQ presets', '~60h battery, USB-C quick charge'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Launched at $129.99 but frequently drops to $79.99–$99.99 on sale, making it one of the best wireless headset deals around.'
+    },
+    {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
       price: 129.99, msrp: 149.99, rating: 4.4,
       highlight: 'Spatial-audio wireless headset with a broadcast-grade omni mic and floating headband.',
@@ -768,6 +785,14 @@
       features: ['Analog optical switches', 'Rapid trigger', 'Adjustable actuation point', 'Doubleshot PBT keycaps'],
       tags: ['optical', 'tkl', 'wired', 'rgb', 'linear', 'premium'],
       valueNote: 'A top competitive board if you want adjustable, rapid-fire keys.'
+    },
+    {
+      id: 'wooting-60he-v2', name: 'Wooting 60HE V2', brand: 'Wooting', category: 'keyboard',
+      price: 189.99, msrp: 189.99, rating: 4.8,
+      highlight: 'The analog Hall-effect 60% board that set the rapid-trigger standard for competitive play.',
+      features: ['Lekker magnetic analog switches', 'Rapid trigger + adjustable actuation', '8kHz polling', 'Gasket-mounted 60% layout'],
+      tags: ['hallEffect', 'linear', 'compact60', 'wired', 'rgb', 'customizable', 'pc', 'premium'],
+      valueNote: 'Sells direct around $190 and often stays near MSRP — still the reference analog board, though demand keeps third-party resellers marked up.'
     },
     {
       id: 'logi-pro-x-tkl-rapid', name: 'Logitech G Pro X TKL Rapid', brand: 'Logitech G', category: 'keyboard',
@@ -1205,7 +1230,10 @@
     'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
     'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
     'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
-    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'steelseries-arctis-nova-5': 'https://steelseries.com/products/arctis-nova-5-wireless',
+    'wooting-60he-v2': 'https://wooting.io/wooting-60he'
   };
 
   // attach computed pricing to every product once
