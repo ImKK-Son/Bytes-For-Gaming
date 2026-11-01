@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ 2026-11 ADDITIONS — price-checked vs MSRP ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-standard ultralight: ~54g, 8K wireless polling, flawless sensor.',
+      features: ['~54g symmetric shape', 'Focus Pro 35K optical sensor', '8000 Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Price has come DOWN: launched at $159.99 MSRP, now commonly ~$129.99 (and dipping lower) since the Viper V4 Pro arrived. A great buy for the tier.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 74.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable, fully programmable TKL wireless board at a bargain price.',
+      features: ['TKL (87-key) layout', 'Bluetooth + USB-C wired', 'Hot-swap + QMK/VIA', 'Gateron switches, PBT keycaps'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'Price has come DOWN: regularly $99.99, frequently on sale near $74.99 — excellent value for a QMK/VIA hot-swap board.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back, audiophile-leaning wired headset built for streamers.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Lightweight aluminium frame', '3.5mm wired, multi-platform'],
+      tags: ['wired', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Price has come DOWN: launched at $199.99 MSRP, now widely ~$149.99 (lows near $139.99). The open-back soundstage is the standout.'
     }
   ];
 
