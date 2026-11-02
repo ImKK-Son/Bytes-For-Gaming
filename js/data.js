@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -215,7 +215,7 @@
     },
     {
       id: 'razer-viper-v2', name: 'Razer Viper V2 Pro', brand: 'Razer', category: 'mouse',
-      price: 99.99, msrp: 149.99, rating: 4.6,
+      price: 79.99, msrp: 149.99, rating: 4.6,
       highlight: 'Symmetrical ultralight built for raw competitive speed.',
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
@@ -291,7 +291,7 @@
     /* ---------------- CHAIRS ---------------- */
     {
       id: 'secretlab-titan-evo', name: 'Secretlab TITAN Evo', brand: 'Secretlab', category: 'chair',
-      price: 549.00, msrp: 619.00, rating: 4.7,
+      price: 549.00, msrp: 649.00, rating: 4.7,
       highlight: 'The gold-standard gaming chair: integrated lumbar, magnetic memory-foam pillow.',
       features: ['4-way L-ADAPT lumbar support', 'Magnetic head pillow', 'NEO Hybrid Leatherette or fabric', 'Three sizes (S/R/XL)'],
       tags: ['ergonomic', 'lumbar', 'leather', 'fabric', 'recline', 'premium', 'bigtall', 'compact'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ARRIVALS (added 2026-11) ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark: ~54g symmetrical shape with true 8K wireless polling.',
+      features: ['~54g ultralight', 'Focus Pro 35K sensor', '8000Hz HyperPolling wireless', 'Optical Gen-3 switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The pro-tour favorite that replaced the Viper V2 Pro; frequently discounted near $120.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless',
+      highlight: 'Marathon 120-hour battery and the signature Cloud comfort, now fully wireless.',
+      features: ['Up to 120h battery life', 'Angled 53mm drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancel mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Class-leading battery life and comfort; regularly drops to around $115-130.'
+    },
+    {
+      id: 'logi-g-pro-x-tkl', name: 'Logitech G Pro X TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 159.99, msrp: 199.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-lightspeed-wireless-gaming-keyboard.html',
+      highlight: 'A compact, tournament-ready TKL with triple-connect wireless and a premium case.',
+      features: ['Lightspeed + Bluetooth + USB-C', 'Swappable GX switches', 'Compact TKL layout', 'Media controls + volume roller'],
+      tags: ['mechanical', 'tkl', 'wireless', 'rgb', 'tactile', 'linear', 'premium'],
+      valueNote: 'A pro-grade wireless TKL that frequently sells near $160, below its $200 launch price.'
     }
   ];
 
