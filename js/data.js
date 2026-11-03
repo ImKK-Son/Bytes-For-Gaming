@@ -188,6 +188,15 @@
       valueNote: 'For tinkerers who want to dial in their switches; premium price to match.'
     },
     {
+      id: 'steelseries-apex-pro-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 189.99, msrp: 219.99, rating: 4.6,
+      highlight: 'Hall-effect magnetic switches with per-key adjustable actuation and rapid trigger.',
+      features: ['OmniPoint 3.0 HyperMagnetic switches', 'Adjustable actuation + rapid trigger', 'OLED smart display', 'Aluminum top plate'],
+      tags: ['magnetic', 'tkl', 'wired', 'rgb', 'linear', 'premium', 'fps'],
+      url: 'https://steelseries.com/gaming-keyboards/apex-pro-tkl-gen-3',
+      valueNote: 'A top Hall-effect board for FPS; frequently drops to ~$170-180 on sale.'
+    },
+    {
       id: 'hyperx-alloy-origins', name: 'HyperX Alloy Origins Core', brand: 'HyperX', category: 'keyboard',
       price: 69.99, msrp: 89.99, rating: 4.6,
       highlight: 'Affordable, solid TKL with HyperX switches and a full aluminum body.',
@@ -199,7 +208,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 119.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +216,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 89.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +229,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The current pro-choice symmetrical flagship — 54g with true 8K wireless polling.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', '8000Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      valueNote: 'The most popular esports mouse right now; since the V4 Pro launched it is seeing steady discounts well under MSRP.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -511,6 +529,15 @@
       features: ['Dual-chamber drivers', 'Detachable mic', 'Memory-foam + leatherette', 'Durable aluminum frame'],
       tags: ['wired', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
       valueNote: 'If you want wired sound quality on a budget, this is the one.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 169.99, msrp: 199.99, rating: 4.7,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless',
+      highlight: 'The wireless Cloud Alpha with a class-leading 300-hour battery life.',
+      features: ['Up to 300h battery life', 'Dual-chamber drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Unbeatable battery life for the price; regularly discounted to ~$140 or below.'
     },
     {
       id: 'steelseries-arctis-nova-7', name: 'SteelSeries Arctis Nova 7 Wireless', brand: 'SteelSeries', category: 'headset',
