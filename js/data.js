@@ -123,7 +123,7 @@
     },
     {
       id: 'xbox-elite-2', name: 'Xbox Elite Wireless Controller Series 2', brand: 'Xbox', category: 'controller',
-      price: 149.99, msrp: 179.99, rating: 4.5,
+      price: 144.99, msrp: 199.99, rating: 4.5,
       highlight: 'The premium pro-pad: swappable sticks, paddles, and adjustable triggers.',
       features: ['Interchangeable thumbsticks + paddles', 'Adjustable-tension sticks', 'Hair-trigger locks', 'Built-in rechargeable battery'],
       tags: ['pc', 'xbox', 'wireless', 'premium', 'pro', 'customizable', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +220,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports flagship: ~54g, true 8000Hz wireless, and a top-tier 35K sensor.',
+      features: ['~54g symmetrical shell', 'Focus Pro 35K Gen-2 sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'The pro-circuit standard. Prices have been sliding as a V4 looms, so it is an increasingly good buy.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -265,7 +274,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 299.99, msrp: 379.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -447,6 +456,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 94.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL hot-swap board with full QMK/VIA remapping and wired-or-wireless flexibility.',
+      features: ['87-key TKL layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 + USB-C', 'Gateron G Pro switches, RGB'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'A rare mix of wireless, hot-swap, and QMK remapping at a mainstream price.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -528,6 +546,15 @@
       features: ['Dolby Atmos spatial audio', 'Broadcast omni mic', 'Floating-suspension headband', 'USB + Slipstream wireless'],
       tags: ['wireless', 'hifi', 'surround', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Excellent mic quality for the price; best on PC/PS5.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back, wired audiophile headset with a detachable broadcast mic for streamers.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable uni-directional mic', 'Wired 3.5mm / USB', 'Lightweight metal build'],
+      tags: ['wired', 'hifi', 'openback', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Open-back soundstage rivals dedicated headphones; regularly discounted well under its $199 launch price.'
     },
     {
       id: 'logi-g535', name: 'Logitech G535 Lightspeed', brand: 'Logitech G', category: 'headset',
