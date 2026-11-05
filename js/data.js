@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW ARRIVALS (added 2026-11-05) ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'A 54g symmetrical esports flagship with an 8K polling rate and ~95-hour battery.',
+      features: ['~54g ultralight ambidextrous shell', 'Focus Pro 35K Gen-2 optical sensor', 'Optical Gen-3 switches', '8000Hz HyperPolling wireless'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Now that the V4 has launched, the V3 Pro regularly drops toward $100 — superb value at that price.'
+    },
+    {
+      id: 'corsair-virtuoso-pro', name: 'Corsair Virtuoso Pro', brand: 'Corsair', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011370-na/virtuoso-pro-open-back-streaming-gaming-headset-carbon-ca-9011370-na',
+      highlight: 'An open-back wired headset with a wide, natural soundstage for audio purists and streamers.',
+      features: ['Open-back 50mm graphene drivers', 'Detachable broadcast-grade mic', 'Lightweight metal headband', 'Plug-and-play 3.5mm / USB'],
+      tags: ['wired', 'detachableMic', 'comfortLongSession', 'hifi', 'multiplatform', 'premium'],
+      valueNote: 'Street price sits well under its $199.99 list — strong for an open-back at ~$140-$150.'
+    },
+    {
+      id: 'keychron-v1', name: 'Keychron V1 (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 94.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-v1-qmk-via-custom-mechanical-keyboard',
+      highlight: 'A 75% hot-swappable board with QMK/VIA and a gasket mount at an entry-level price.',
+      features: ['75% layout (optional knob)', 'Hot-swap + QMK/VIA remapping', 'Double-gasket mounted', 'Pre-lubed stabilizers'],
+      tags: ['mechanical', 'tkl', 'wired', 'hotswap', 'tactile', 'linear', 'rgb', 'budget'],
+      valueNote: 'The easiest and cheapest way into the custom mechanical-keyboard hobby.'
     }
   ];
 
