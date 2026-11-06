@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff6a13' }
   };
 
   /* ---------------------------------------------------------
@@ -1048,6 +1049,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ADDITIONS — Nov 2026 catalog refresh ============ */
+    {
+      id: 'wooting-60he-v2', name: 'Wooting 60HE V2', brand: 'Wooting', category: 'keyboard',
+      price: 189.99, msrp: 199.99, rating: 4.8,
+      url: 'https://wooting.io/wooting-60he',
+      highlight: 'The analog magnetic 60% board pros swear by — adjustable actuation with true rapid trigger.',
+      features: ['Lekker magnetic (Hall-effect) switches', 'Adjustable actuation + rapid trigger', '8 kHz polling', 'Analog, controller-like input'],
+      tags: ['mechanical', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'The benchmark analog board for competitive FPS — premium-priced, but the rapid trigger is hard to beat.'
+    },
+    {
+      id: 'glorious-model-d-2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 79.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'A 66g ergonomic wireless mouse with the BAMF 2.0 sensor — comfortable for palm grippers.',
+      features: ['~66g ergonomic shell', 'BAMF 2.0 sensor (26K DPI)', '2.4GHz wireless + USB-C', 'Up to 210h battery'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'budget'],
+      valueNote: 'Street price has slid well below its $99.99 launch — strong value for an ergonomic ultralight.'
+    },
+    {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 199.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless',
+      highlight: 'A legendary 300-hour-battery wireless headset with comfy dual-chamber drivers and clear comms.',
+      features: ['Up to 300h battery life', 'Dual-chamber drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'premium'],
+      valueNote: 'Routinely discounted well under its $199.99 MSRP, with class-leading battery life.'
     }
   ];
 
