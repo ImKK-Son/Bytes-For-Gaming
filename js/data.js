@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 124.99, msrp: 139.99, rating: 4.6,
+      highlight: 'A hot-swappable 80% wireless board with full QMK/VIA remapping and double-gasket dampening.',
+      features: ['QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + wired USB-C', 'Mac & Windows keycaps included'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'One of the best-value QMK/VIA wireless boards — enthusiast tinkering without the custom-keeb price. Street price has drifted below MSRP.',
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard'
+    },
+    {
+      id: 'logi-g309-lightspeed', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 49.99, msrp: 89.99, rating: 4.5,
+      highlight: 'Flagship HERO 2 sensor and Lightspeed wireless in a light shell that routinely sells for half its list price.',
+      features: ['HERO 2 sensor', 'Lightspeed wireless + Bluetooth', 'POWERPLAY wireless-charging compatible', 'Lightweight ~86g shell'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'clawgrip', 'palmgrip', 'budget'],
+      valueNote: 'Flagship-grade internals at a mid-range price; a standout whenever it dips toward $50 — well under its $89.99 MSRP.',
+      url: 'https://www.logitechg.com/en-us/products/gaming-mice/g309-lightspeed-wireless-gaming-mouse.html'
+    },
+    {
+      id: 'steelseries-arctis-nova-5x', name: 'SteelSeries Arctis Nova 5X Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 139.99, msrp: 149.99, rating: 4.5,
+      highlight: 'A do-everything Xbox/PC wireless headset with simultaneous 2.4GHz + Bluetooth and an app full of game presets.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Arctis companion app EQ + game presets', 'Retractable ClearCast Gen 2 mic', '~60h battery with quick charge'],
+      tags: ['wireless', 'detachableMic', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'Multi-platform flexibility and app-driven game presets at a sensible mid-tier price, usually a touch under MSRP.',
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5x-wireless'
     }
   ];
 
