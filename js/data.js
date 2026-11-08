@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff6600' }
   };
 
   /* ---------------------------------------------------------
@@ -220,6 +221,14 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The esports-proven flagship: ~54g, a 35K sensor, and true 8,000Hz wireless polling.',
+      features: ['~54g ultralight symmetrical shape', 'Focus Pro 35K optical sensor', 'HyperPolling 8,000Hz wireless', 'Up to 95h battery life'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'highdpi', 'pro', 'premium'],
+      valueNote: 'Street price has slid well under MSRP since the Viper V4 Pro launched — one of the best value flagship FPS mice right now.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -513,6 +522,15 @@
       valueNote: 'If you want wired sound quality on a budget, this is the one.'
     },
     {
+      id: 'hyperx-cloud-alpha-wireless', name: 'HyperX Cloud Alpha Wireless', brand: 'HyperX', category: 'headset',
+      price: 119.99, msrp: 199.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-alpha-wireless-gaming-headset',
+      highlight: 'The legendary 300-hour battery headset — comfy, clean-sounding 2.4GHz wireless.',
+      features: ['Up to 300-hour battery life', '2.4GHz low-latency wireless', 'Dual-chamber drivers', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'longBattery', 'comfortLongSession', 'detachableMic', 'multiplatform', 'premium'],
+      valueNote: 'Battery life nothing else comes close to, and it now sells far below its $199 launch price.'
+    },
+    {
       id: 'steelseries-arctis-nova-7', name: 'SteelSeries Arctis Nova 7 Wireless', brand: 'SteelSeries', category: 'headset',
       price: 149.99, msrp: 179.99, rating: 4.6,
       url: 'https://steelseries.com/gaming-headsets/arctis-nova-7-wireless',
@@ -759,6 +777,14 @@
       features: ['Gasket-mounted build', 'Tri-mode wireless', 'OLED display + control knob', 'Hot-swap, pre-lubed switches'],
       tags: ['mechanical', 'tkl', 'compact60', 'wireless', 'rgb', 'hotswap', 'linear', 'premium'],
       valueNote: 'A premium out-of-box enthusiast feel without building one yourself.'
+    },
+    {
+      id: 'wooting-60he-plus', name: 'Wooting 60HE+', brand: 'Wooting', category: 'keyboard',
+      price: 189.99, msrp: 199.99, rating: 4.8,
+      highlight: 'The analog Hall-effect 60% board that popularized adjustable actuation and Rapid Trigger.',
+      features: ['Lekker magnetic Hall-effect switches', 'Per-key adjustable actuation (0.1-4.0mm)', 'Rapid Trigger + analog input', 'Gasket feel, hot-swappable'],
+      tags: ['mechanical', 'compact60', 'hallEffect', 'rapidTrigger', 'analog', 'hotswap', 'wired', 'premium'],
+      valueNote: 'The benchmark for competitive Hall-effect boards; sold direct from Wooting with periodic restock drops.'
     },
     {
       id: 'razer-huntsman-v3-pro-tkl', name: 'Razer Huntsman V3 Pro TKL', brand: 'Razer', category: 'keyboard',
