@@ -1048,6 +1048,33 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ADDITIONS (priced Nov 2026) ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The 8K-polling esports flagship: ~54g, Focus Pro 35K sensor, pro-proven shape.',
+      features: ['~54g ultralight', 'Focus Pro 35K optical sensor', 'HyperPolling 8000Hz wireless', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The most-used mouse in pro CS/Valorant lineups; now selling below its $159.99 launch price as a refresh looms.'
+    },
+    {
+      id: 'steelseries-apex-pro-gen3', name: 'SteelSeries Apex Pro TKL Gen 3', brand: 'SteelSeries', category: 'keyboard',
+      price: 199.99, msrp: 239.99, rating: 4.6,
+      highlight: 'Hall-effect flagship with adjustable actuation, rapid trigger, and an OLED smart display.',
+      features: ['OmniPoint 3.0 Hall-effect switches', 'Adjustable actuation + rapid trigger', 'OLED smart display', 'Aircraft-grade aluminum top plate'],
+      tags: ['mechanical', 'tkl', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'One of the best Hall-effect boards for competitive play; regularly discounted $40-70 under its $239.99 list.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.5,
+      highlight: 'Signature HyperX comfort with a marathon ~120h battery and detachable mic.',
+      features: ['Up to 120h battery', '2.4GHz wireless (USB-C dongle)', '53mm angled drivers + DTS', 'Detachable noise-cancelling mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Huge battery life and all-day comfort for the price; often dips toward $110 on sale.'
     }
   ];
 
