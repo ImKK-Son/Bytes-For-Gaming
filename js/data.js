@@ -156,6 +156,15 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 99.99, rating: 4.7,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A fully QMK/VIA-programmable TKL wireless board with hot-swap and a gasket-mounted feel.',
+      features: ['TKL 87-key layout', 'QMK/VIA fully remappable', 'Hot-swap sockets', 'Bluetooth 5.1 + USB-C', 'Gasket-mounted plate'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Enthusiast customization (QMK/VIA + hot-swap) at a mainstream price.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -199,7 +208,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 139.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +216,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 109.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +229,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-pro symmetrical flagship: featherlight with true 8000Hz wireless.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K Gen-2 sensor', '8000Hz HyperPolling wireless', 'Optical switches Gen-3'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'Tournament-dominant shape; list price $159.99 but routinely found around $119-$130.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -520,6 +538,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/products/arctis-nova-5-wireless',
+      highlight: 'App-driven wireless headset with 100+ game audio presets and dual 2.4GHz + Bluetooth.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Arctis companion app (100+ EQ presets)', '~60h battery', 'Retractable ClearCast mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'The app-tuning and dual-wireless of pricier models for well under $130; often on sale near $110.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
