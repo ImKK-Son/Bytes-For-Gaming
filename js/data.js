@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 99.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- 2026-11 ADDITIONS ---- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'Ultralight ~54g esports flagship with an 8000Hz-capable sensor and ~95-hour battery.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K Gen-2 sensor', 'Optical Gen-3 switches', '8000Hz HyperPolling (dongle)'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The current competitive benchmark; street prices have softened well below MSRP as a successor is rumored.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 74.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'An 87-key wireless TKL with hot-swap sockets and full QMK/VIA remapping at a budget price.',
+      features: ['87-key TKL layout', 'Hot-swap + QMK/VIA', 'Bluetooth + USB-C', 'Gasket-mounted typing feel'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'Routinely discounted toward $75 on Keychron direct — a lot of enthusiast features for the money.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Budget-friendly 2.4GHz + Bluetooth wireless with a companion app and ~60-hour battery.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast Gen 2 mic', '~60h battery', 'Arctis app audio presets'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Nova 7 features trickled down to a lower price; frequently dips under $100 at retail.'
     }
   ];
 
