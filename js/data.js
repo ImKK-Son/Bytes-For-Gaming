@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff6a00' }
   };
 
   /* ---------------------------------------------------------
@@ -149,7 +150,7 @@
     /* ---------------- KEYBOARDS ---------------- */
     {
       id: 'keychron-k2', name: 'Keychron K2 (V2)', brand: 'Keychron', category: 'keyboard',
-      price: 79.99, msrp: 89.99, rating: 4.6,
+      price: 74.99, msrp: 84.99, rating: 4.6,
       highlight: 'The crowd-favorite 75% wireless board — Mac/Windows, hot-swap option, great typing.',
       features: ['75% compact layout', 'Bluetooth + USB-C', 'Hot-swap version available', 'Mac & Windows keycaps'],
       tags: ['mechanical', 'compact60', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
@@ -199,7 +200,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 149.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -909,7 +910,7 @@
     },
     {
       id: 'hyperx-cloud-3', name: 'HyperX Cloud III', brand: 'HyperX', category: 'headset',
-      price: 99.99, msrp: 99.99, rating: 4.6,
+      price: 79.99, msrp: 99.99, rating: 4.6,
       url: 'https://hyperx.com/products/hyperx-cloud-iii-gaming-headset',
       highlight: 'The comfort legend, refined — superb wired sound and mic for the money.',
       features: ['Angled 53mm drivers', 'Detachable 10mm mic', 'Memory foam + suede-like pads', 'Multi-platform'],
@@ -1048,6 +1049,32 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW: added 2026-11 ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The esports weapon of the moment — ~54g, 35K sensor, true 8K wireless.',
+      features: ['~54g ultralight symmetrical shell', 'Focus Pro 35K optical sensor', '8000Hz HyperPolling wireless', 'Gen-3 optical switches, up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'Dominant on pro FPS rosters; pricey, and the 8K dongle is sold separately.'
+    },
+    {
+      id: 'asus-rog-harpe-ace', name: 'ASUS ROG Harpe Ace Aim Lab Edition', brand: 'ASUS ROG', category: 'mouse',
+      price: 129.99, msrp: 149.99, rating: 4.6,
+      highlight: '54g tri-mode ultralight co-tuned with Aim Lab for precise, fatigue-free aim.',
+      features: ['54g ultralight build', 'ROG AimPoint 36K sensor', 'Tri-mode: 2.4GHz / Bluetooth / wired', 'ROG Micro Switches + Aim Lab tuning'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'A top all-rounder that frequently drops well below MSRP on sale.'
+    },
+    {
+      id: 'wooting-60he-plus', name: 'Wooting 60HE+', brand: 'Wooting', category: 'keyboard',
+      price: 174.99, msrp: 174.99, rating: 4.8,
+      highlight: 'The 60% analog Hall-effect board pros swear by — adjustable actuation + Rapid Trigger.',
+      features: ['Lekker analog Hall-effect switches', 'Per-key actuation 0.1–4.0mm', 'Rapid Trigger for instant resets', 'Analog input + Mod Tap profiles'],
+      tags: ['mechanical', 'hallEffect', 'compact60', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'Game-changing for FPS counter-strafing; its list price was cut when the v2 launched.'
     }
   ];
 
@@ -1205,7 +1232,10 @@
     'hyperx-quadcast-s': 'https://hyperx.com/products/hyperx-quadcast-s-usb-microphone',
     'elgato-wave3': 'https://www.elgato.com/us/en/p/wave-3',
     'razer-seiren-mini': 'https://www.razer.com/streaming-microphones/razer-seiren-mini',
-    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html'
+    'blue-yeti': 'https://www.logitech.com/en-us/products/microphones/yeti.html',
+    'razer-viper-v3-pro': 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+    'asus-rog-harpe-ace': 'https://rog.asus.com/us/mice-mouse-pads/mice/wireless/rog-harpe-ace-aim-lab-edition-model/',
+    'wooting-60he-plus': 'https://wooting.io/wooting-60he'
   };
 
   // attach computed pricing to every product once
