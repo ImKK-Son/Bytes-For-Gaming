@@ -1048,6 +1048,34 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+    /* ---------------- NEW (2026-11) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 109.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports champion: 54g symmetrical shape with an 8K-polling wireless sensor.',
+      features: ['~54g ultralight ambidextrous', 'Focus Pro 35K sensor', 'HyperPolling 8000Hz wireless', 'Gen-3 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'fingertip', 'highdpi', 'premium'],
+      valueNote: 'The pro-tour favorite. With the Viper V4 Pro now out, the V3 Pro is regularly discounted well under its $159.99 list — a strong-value buy at the lower price.'
+    },
+    {
+      id: 'logi-pro-x-60', name: 'Logitech G Pro X 60 Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 119.99, msrp: 179.99, rating: 4.3,
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-60-wireless-keyboard.html',
+      highlight: 'A tournament-ready 60% wireless board with swappable KEYCONTROL layers.',
+      features: ['Compact 60% layout', 'GX optical switches', 'Lightspeed + Bluetooth + USB-C', 'KEYCONTROL dual-function keys'],
+      tags: ['wireless', 'optical', 'compact', '60percent', 'fps', 'rgb', 'premium'],
+      valueNote: 'Pricey at its $179.99 list, but it frequently sells near $120 — much better value on the dip than at full price.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 139.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort legend goes wireless — ~120h battery and the same beloved fit.',
+      features: ['Up to 120h battery', 'Angled 53mm drivers', 'Detachable 10mm mic', '2.4GHz wireless, multi-platform'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and the Cloud comfort everyone knows. Street prices typically run below the $169.99 list.'
     }
   ];
 
