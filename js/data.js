@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -249,7 +249,7 @@
     /* ---------------- HEADSETS ---------------- */
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
-      price: 79.99, msrp: 99.99, rating: 4.7,
+      price: 59.99, msrp: 99.99, rating: 4.7,
       highlight: 'The legendary comfort-king headset that has topped budget lists for years.',
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ADDITIONS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 149.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports flagship: ~54g, an 8K HyperPolling link, and Razer’s Focus Pro 35K sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K optical sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['fps', 'wireless', 'lightweight', 'ambidextrous', 'esports', 'pro', 'premium', 'highDpi'],
+      valueNote: 'The mouse the pros actually use. Pricey, but the 8K wireless and ultralight body justify it for competitive FPS.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swappable TKL with full QMK/VIA remapping and Bluetooth or wired use.',
+      features: ['TKL (87-key) layout', 'Hot-swappable switches', 'QMK/VIA fully remappable', 'Bluetooth 5.1 + USB-C wired'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'mac', 'customizable', 'rgb'],
+      valueNote: 'One of the easiest ways into QMK/VIA customization and Mac/Windows switching without paying custom-board prices.'
+    },
+    {
+      id: 'sony-inzone-h5', name: 'Sony INZONE H5 Wireless', brand: 'Sony', category: 'headset',
+      price: 128.00, msrp: 149.99, rating: 4.4,
+      url: 'https://electronics.sony.com/audio/headphones/gaming-headsets/p/whg500-w',
+      highlight: 'A lightweight 2.4GHz wireless headset with 360 Spatial Sound and a ~28h battery.',
+      features: ['2.4GHz low-latency wireless', '360 Spatial Sound for PC/PS5', 'Boom mic with wide pickup', '~28h battery, USB-C quick charge'],
+      tags: ['wireless', 'pc', 'ps5', 'spatial', 'lightweight', 'comfort', 'mic'],
+      valueNote: 'A comfortable, well-priced PS5/PC wireless pick that often streets below its $149.99 list.'
     }
   ];
 
