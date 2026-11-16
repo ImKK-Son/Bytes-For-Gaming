@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 129.99, msrp: 179.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +220,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports champion: ~54g symmetrical shape with true 8K wireless polling.',
+      features: ['~54g ultralight ambidextrous', 'Focus Pro 35K Gen-2 sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'The most-used mouse on pro FPS circuits; regularly dips to ~$120 on sale from its $159.99 MSRP.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -447,6 +456,15 @@
       valueNote: 'The gateway into the custom-keyboard hobby without sourcing parts yourself.'
     },
     {
+      id: 'keychron-q1-pro', name: 'Keychron Q1 Pro (QMK/VIA Wireless)', brand: 'Keychron', category: 'keyboard',
+      price: 169.99, msrp: 199.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard',
+      highlight: 'The wireless sibling of the Q1: full aluminum gasket mount, now with Bluetooth 5.1.',
+      features: ['CNC aluminum gasket mount', 'Bluetooth 5.1 + wired', 'Hot-swap + QMK/VIA', '~300h battery, 4000mAh'],
+      tags: ['mechanical', 'compact75', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'premium'],
+      valueNote: 'Adds wireless to the enthusiast Q1 formula; frequently on sale near $150 from its ~$199 assembled price.'
+    },
+    {
       id: 'logi-g515-tkl', name: 'Logitech G515 Lightspeed TKL', brand: 'Logitech G', category: 'keyboard',
       price: 139.99, msrp: 139.99, rating: 4.5,
       url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/g515-lightspeed-tkl-wireless-gaming-keyboard.html',
@@ -520,6 +538,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Affordable dual-wireless with 100+ game-specific EQ presets via the Nova companion app.',
+      features: ['Simultaneous 2.4GHz + Bluetooth', 'Nova companion app EQ presets', '~60h battery', 'Retractable ClearCast Gen 2 mic'],
+      tags: ['wireless', 'budget', 'detachableMic', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'Brings the Nova 7 feature set to a lower price; often drops under $100 from its $129.99 MSRP.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
