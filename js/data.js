@@ -156,6 +156,14 @@
       valueNote: 'Outstanding entry into mechanical keyboards without overpaying.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 99.99, msrp: 109.99, rating: 4.6,
+      highlight: 'A TKL hot-swap board with full QMK/VIA remapping and triple-mode wireless.',
+      features: ['87-key TKL layout', 'QMK/VIA fully remappable', 'Hot-swappable switches', 'Bluetooth 5.1 + USB-C wired'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'rgb', 'tactile', 'budget'],
+      valueNote: 'Rare combo of hot-swap, open-source firmware, and wireless at a mid-budget price.'
+    },
+    {
       id: 'logi-g915-tkl', name: 'Logitech G915 TKL Lightspeed', brand: 'Logitech G', category: 'keyboard',
       price: 169.99, msrp: 229.99, rating: 4.6,
       highlight: 'Ultra-slim low-profile wireless board with a premium aluminum deck.',
@@ -222,6 +230,14 @@
       valueNote: 'Frequently discounted to a great price for its tier.'
     },
     {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      highlight: 'The esports benchmark: 54g symmetrical shape with true 8K wireless polling.',
+      features: ['~54g ultralight ambidextrous shell', 'Focus Pro 35K optical sensor', '8,000 Hz HyperPolling wireless', 'Up to 95-hour battery life'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'The current competitive-FPS favorite; worth it if 8K polling and lightest-in-class weight matter to you.'
+    },
+    {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
       price: 59.99, msrp: 79.99, rating: 4.6,
       highlight: 'The legendary feature-loaded mouse with 13 controls and a tuned weight.',
@@ -253,7 +269,15 @@
       highlight: 'The legendary comfort-king headset that has topped budget lists for years.',
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
-      valueNote: 'Still one of the best value headsets you can buy, period.'
+      valueNote: 'The safe budget default — endlessly recommended for comfort and value.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 149.99, rating: 4.6,
+      highlight: 'Cloud comfort gone cord-free, with a huge 120-hour battery for marathon sessions.',
+      features: ['2.4 GHz low-latency wireless', 'Up to 120-hour battery life', 'Angled 53mm drivers + DTS', 'Detachable noise-cancel mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'The Cloud comfort and sound you know, now wireless with class-leading battery life.'
     },
     {
       id: 'razer-blackshark-v2-pro', name: 'Razer BlackShark V2 Pro', brand: 'Razer', category: 'headset',
@@ -265,7 +289,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 249.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
