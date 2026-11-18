@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ LATEST ADDITIONS ============ */
+    {
+      id: 'logi-g309', name: 'Logitech G309 Lightspeed', brand: 'Logitech G', category: 'mouse',
+      price: 59.99, msrp: 89.99, rating: 4.5,
+      url: 'https://www.logitechg.com/en-us/shop/p/g309-lightspeed-gaming-mouse',
+      highlight: 'A genuinely affordable Lightspeed wireless mouse with a flagship HERO 2 sensor.',
+      features: ['HERO 2 sensor (up to 44K DPI)', 'Lightspeed wireless + Bluetooth', 'POWERPLAY wireless-charging ready', 'Runs on one AA (~300h) or rechargeable'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'budget'],
+      valueNote: 'Brings Logitech’s top sensor to a budget wireless mouse — superb value for competitive play.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 69.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A full-size board with sound-dampening foam and a handy media dial at a friendly price.',
+      features: ['Pre-lubed MLX Red linear switches', 'Dual-layer sound dampening', 'Media dial + volume roller', 'Magnetic soft-touch wrist rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'quiet', 'budget'],
+      valueNote: 'One of the best value full-size boards — quiet, comfy, and feature-complete under $100.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 99.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'Simultaneous 2.4GHz + Bluetooth and a companion-app EQ library for a wallet-friendly price.',
+      features: ['2.4GHz + Bluetooth at once', 'Nova Companion app with 100+ game EQ presets', 'Retractable ClearComms mic', '~60h battery (with Bluetooth)'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'Inherits the Nova 7’s best tricks for less — a standout mid-budget wireless headset.'
     }
   ];
 
