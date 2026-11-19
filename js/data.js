@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 149.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -249,7 +249,7 @@
     /* ---------------- HEADSETS ---------------- */
     {
       id: 'hyperx-cloud-2', name: 'HyperX Cloud II', brand: 'HyperX', category: 'headset',
-      price: 79.99, msrp: 99.99, rating: 4.7,
+      price: 59.99, msrp: 99.99, rating: 4.7,
       highlight: 'The legendary comfort-king headset that has topped budget lists for years.',
       features: ['Memory-foam ear cushions', 'Virtual 7.1 surround', 'Detachable noise-cancel mic', 'Multi-platform'],
       tags: ['wired', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ NEW ADDITIONS (2026-11) — current-gen flagships ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 109.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The current esports benchmark — ~54g symmetrical shape with true 8K wireless polling.',
+      features: ['~54g ultralight symmetrical shell', 'Focus Pro 35K Gen-2 sensor', 'True 8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'A pro-tour favorite that now frequently dips near $110 — great value as the next Viper nears launch.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA programming, hot-swap sockets, and Mac/Windows keycaps.',
+      features: ['TKL (80%) layout', 'QMK/VIA programmable', 'Hot-swappable switches', 'Bluetooth + USB-C, Mac & Windows'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'A fully customizable TKL that often sells under $85 — one of the best value QMK boards you can buy.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 119.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'A value-packed wireless headset with a companion app full of game-specific audio presets.',
+      features: ['Nova Acoustic System drivers', 'Retractable ClearCast Gen 2 mic', 'Companion app with 100+ audio presets', '2.4GHz + Bluetooth, ~60h battery'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Superb bang-for-buck wireless; frequent dips under $100 make it a standout mid-range pick.'
     }
   ];
 
