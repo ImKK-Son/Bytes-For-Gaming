@@ -131,7 +131,7 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 59.99, msrp: 79.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
@@ -467,7 +467,7 @@
     /* ---------------- MICE (more) ---------------- */
     {
       id: 'razer-basilisk-v3', name: 'Razer Basilisk V3', brand: 'Razer', category: 'mouse',
-      price: 49.99, msrp: 69.99, rating: 4.7,
+      price: 39.99, msrp: 69.99, rating: 4.7,
       url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3',
       highlight: 'Feature-packed ergonomic mouse with a tilt-scroll smart wheel — superb value.',
       features: ['11 programmable buttons', 'Smart-reel free-spin wheel', 'Focus+ 26K sensor', 'Underglow RGB'],
@@ -491,6 +491,15 @@
       features: ['~68g, no honeycomb', 'BAMF 2.0 sensor', 'Up to 210h battery', 'Smooth PTFE feet'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Great mid-price ultralight that undercuts the big esports brands.'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 69.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'The ergonomic sibling to the Model O 2 — a ~67g right-handed shape with the same strong sensor.',
+      features: ['~67g ergonomic shell', 'BAMF 2.0 26K sensor', 'Up to 210h battery', 'Glorious PTFE feet'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'A rare ultralight built for palm/claw right-handers; frequently discounted well under MSRP.'
     },
     {
       id: 'razer-naga-v2-pro', name: 'Razer Naga V2 Pro', brand: 'Razer', category: 'mouse',
@@ -520,6 +529,15 @@
       features: ['Simultaneous 2.4GHz + Bluetooth', 'Retractable ClearCast mic', '~38h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The best all-rounder wireless headset for most people at this price.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 109.99, msrp: 129.99, rating: 4.3,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'A lighter, cheaper Nova with a companion app of 100+ game audio presets and dual wireless.',
+      features: ['2.4GHz + Bluetooth', 'Companion app EQ presets', '~60h battery (BT)', 'Retractable mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'The value pick in the Nova line — most of the Nova 7 experience for noticeably less.'
     },
     {
       id: 'corsair-hs80-rgb', name: 'Corsair HS80 RGB Wireless', brand: 'Corsair', category: 'headset',
@@ -785,6 +803,15 @@
       features: ['Full-size + optional knob', 'Hot-swap', 'QMK/VIA programmable', 'Gasket mount'],
       tags: ['mechanical', 'fullsize', 'wired', 'hotswap', 'tactile', 'budget'],
       valueNote: 'Outstanding value for a full-size, custom-ready keyboard.'
+    },
+    {
+      id: 'keychron-v1', name: 'Keychron V1 (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 69.99, msrp: 94.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-v1-qmk-via-custom-mechanical-keyboard',
+      highlight: 'A 75% custom-ready board with hot-swap sockets and QMK/VIA — a lot of keyboard for the money.',
+      features: ['75% compact layout + knob', 'Hot-swap PCB', 'QMK/VIA programmable', 'Gasket-mount, pre-lubed switches'],
+      tags: ['mechanical', 'tkl', 'compact', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'One of the cheapest ways into a genuinely customizable, gasket-mounted 75% board.'
     },
     {
       id: 'steelseries-apex-9-tkl', name: 'SteelSeries Apex 9 TKL', brand: 'SteelSeries', category: 'keyboard',
