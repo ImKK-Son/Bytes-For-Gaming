@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 99.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- 2026-11 ADDITIONS ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 109.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports-proven ultralight: ~54g, 8K wireless, and a flawless sensor.',
+      features: ['~54g symmetrical shape', 'Focus Pro 35K sensor', 'HyperPolling 8000Hz wireless', 'Gen-4 optical switches'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'pro', 'premium'],
+      valueNote: 'The current competitive-FPS benchmark. List price is $159.99, but it routinely streets closer to $110.'
+    },
+    {
+      id: 'corsair-k70-core', name: 'Corsair K70 CORE RGB', brand: 'Corsair', category: 'keyboard',
+      price: 79.99, msrp: 99.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/keyboards/ch-910971e-na/k70-core-rgb-mechanical-gaming-keyboard-black-ch-910971e-na',
+      highlight: 'A pre-lubed, sound-dampened full-size board that punches above its price.',
+      features: ['Full-size + volume roller', 'Pre-lubed linear switches', 'Sound-dampening foam', 'Per-key RGB + included wrist rest'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'budget'],
+      valueNote: 'Factory-lubed switches and dampening foam under $100 make it a standout mainstream value.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 109.99, msrp: 129.99, rating: 4.4,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5-wireless',
+      highlight: 'App-driven wireless headset with 100+ game audio presets and long battery life.',
+      features: ['2.4GHz low-latency wireless', 'Companion app with 100+ presets', 'Retractable ClearComms mic', '~60h battery with fast charge'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform'],
+      valueNote: 'A lot of wireless headset for the money, with phone-app tuning usually reserved for pricier models.'
     }
   ];
 
