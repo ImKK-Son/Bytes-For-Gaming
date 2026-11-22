@@ -802,6 +802,15 @@
       tags: ['mechanical', 'compact60', 'wireless', 'rgb', 'tactile', 'budget'],
       valueNote: 'Compact wireless with enthusiast touches at a fair price.'
     },
+    {
+      id: 'corsair-k70-max', name: 'Corsair K70 MAX RGB', brand: 'Corsair', category: 'keyboard',
+      price: 189.99, msrp: 229.99, rating: 4.4,
+      url: 'https://www.corsair.com/us/en/p/ch-910961g-na',
+      highlight: 'Magnetic MGX switches with adjustable actuation and rapid trigger for fast, tunable keys.',
+      features: ['Adjustable actuation (0.4–3.6mm)', 'Rapid Trigger for faster inputs', 'Magnetic Hall-effect MGX switches', 'Sound-dampening + media dial'],
+      tags: ['mechanical', 'fullsize', 'wired', 'rgb', 'linear', 'hallEffect', 'customizable', 'premium'],
+      valueNote: 'Among the best analog/Hall-effect boards; worth it if you want per-key actuation tuning. Street price has eased well below its $230 launch.'
+    },
 
     /* ---- MICE — including LEFT-HANDED and ambidextrous options ---- */
     {
@@ -889,6 +898,15 @@
       tags: ['righthanded', 'ergonomic', 'mmo', 'wireless', 'premium', 'highdpi'],
       valueNote: 'For right-handers who want lots of buttons and plenty of RGB.'
     },
+    {
+      id: 'razer-basilisk-v3-x-hyperspeed', name: 'Razer Basilisk V3 X HyperSpeed', brand: 'Razer', category: 'mouse',
+      price: 54.99, msrp: 69.99, rating: 4.6,
+      url: 'https://www.razer.com/gaming-mice/razer-basilisk-v3-x-hyperspeed',
+      highlight: 'The budget-friendly Basilisk: ergonomic shape, 9 controls, and long AA battery life.',
+      features: ['18K optical sensor', '9 programmable controls', 'HyperSpeed Wireless + Bluetooth', 'Up to 535h on one AA'],
+      tags: ['righthanded', 'ergonomic', 'wireless', 'comfortGrip', 'palmgrip', 'customizable', 'budget'],
+      valueNote: 'A lot of Basilisk for the money; frequently sells near $55, below its $70 MSRP.'
+    },
 
     /* ---- HEADSETS ---- */
     {
@@ -940,6 +958,15 @@
       features: ['90mm planar drivers', 'Broadcast-quality boom mic', '~80h battery', 'Multi-platform'],
       tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'The pick for audiophiles who also game; heavier, but stunning sound.'
+    },
+    {
+      id: 'steelseries-arctis-nova-5', name: 'SteelSeries Arctis Nova 5 Wireless', brand: 'SteelSeries', category: 'headset',
+      price: 109.99, msrp: 129.99, rating: 4.5,
+      url: 'https://steelseries.com/gaming-headsets/arctis-nova-5',
+      highlight: 'Affordable-luxury wireless with a phone companion app and 100+ game audio presets.',
+      features: ['2.4GHz wireless + Bluetooth', 'Nova Companion app EQ presets', 'Retractable ClearCast mic', '~60h battery with fast charge'],
+      tags: ['wireless', 'multiplatform', 'comfortLongSession', 'playstation', 'budget'],
+      valueNote: 'Strong value in wireless; lists at $130 but regularly dips under $100 on sale.'
     },
 
     /* ---- CHAIRS ---- */
