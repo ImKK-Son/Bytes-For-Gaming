@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 84.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -220,6 +220,15 @@
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
       valueNote: 'Frequently discounted to a great price for its tier.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports champion — a ~54g symmetrical wireless mouse with flawless tracking.',
+      features: ['~54g ambidextrous shape', 'Focus Pro 35K sensor', 'Gen-3 optical switches', 'HyperPolling 8K dongle included'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium', 'pro'],
+      valueNote: 'A pro-tier favorite; the bundled 8K HyperPolling dongle softens the premium price.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -787,6 +796,15 @@
       valueNote: 'Outstanding value for a full-size, custom-ready keyboard.'
     },
     {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A TKL wireless board with full QMK/VIA programmability and hot-swap switches.',
+      features: ['87-key TKL layout', 'Bluetooth + USB-C', 'QMK/VIA programmable', 'Hot-swap + gasket mount'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'budget'],
+      valueNote: 'A hugely customizable TKL for Mac and Windows without overpaying.'
+    },
+    {
       id: 'steelseries-apex-9-tkl', name: 'SteelSeries Apex 9 TKL', brand: 'SteelSeries', category: 'keyboard',
       price: 119.99, msrp: 139.99, rating: 4.4,
       highlight: 'A hot-swappable optical TKL with fast, durable switches.',
@@ -898,6 +916,14 @@
       features: ['2.4GHz + Bluetooth at once', 'Flip-to-mute mic', '~80h battery', 'Cooling-gel earpads'],
       tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
       valueNote: 'Great battery life and comfort across Xbox, PlayStation, and PC.'
+    },
+    {
+      id: 'turtle-beach-stealth-600-gen3', name: 'Turtle Beach Stealth 600 Gen 3', brand: 'Turtle Beach', category: 'headset',
+      price: 89.99, msrp: 99.99, rating: 4.4,
+      highlight: 'A budget multi-platform wireless headset with big, comfortable sound.',
+      features: ['2.4GHz low-latency wireless', 'Flip-to-mute mic', '~80h battery', 'Memory-foam earpads'],
+      tags: ['wireless', 'surround', 'comfortLongSession', 'multiplatform', 'budget'],
+      valueNote: 'A jack-of-all-trades wireless headset at a hard-to-beat price.'
     },
     {
       id: 'astro-a50-x', name: 'Logitech G ASTRO A50 X', brand: 'Logitech G', category: 'headset',
