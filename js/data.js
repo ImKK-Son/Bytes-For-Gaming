@@ -131,11 +131,11 @@
     },
     {
       id: 'sony-dualsense', name: 'Sony DualSense Wireless Controller', brand: 'Sony', category: 'controller',
-      price: 69.99, msrp: 74.99, rating: 4.7,
+      price: 74.99, msrp: 74.99, rating: 4.7,
       highlight: 'Haptic feedback and adaptive triggers make PS5 games feel alive.',
       features: ['Haptic feedback', 'Adaptive triggers', 'Built-in mic', 'USB-C rechargeable'],
       tags: ['playstation', 'pc', 'wireless', 'premium', 'comfortGrip'],
-      valueNote: 'Best-in-class immersion on PS5; also a great PC pad over USB.'
+      valueNote: 'Best-in-class immersion on PS5; also a great PC pad over USB. Note: Sony raised the standard price to $74.99 — watch for sales nearer $55-60.'
     },
     {
       id: 'razer-wolverine-v2', name: 'Razer Wolverine V2 Chroma', brand: 'Razer', category: 'controller',
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ============ LATEST ADDITIONS (price-checked Nov 2026) ============ */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.7,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports weapon of choice — a ~54g symmetrical shape with an 8K HyperPolling sensor.',
+      features: ['~54g ultralight', 'Focus Pro 35K Gen-2 sensor', '8000Hz HyperPolling wireless', 'Up to 95h battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'Now frequently under $130 since the V4 Pro arrived — top-tier performance at well below its $159.99 launch price.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 129.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort-king Cloud, cut loose — marathon ~120h battery and signature plush memory foam.',
+      features: ['Up to 120h battery', 'Angled 53mm drivers', 'DTS Headphone:X spatial audio', 'Detachable noise-cancel mic'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'All-day comfort and huge battery life; regularly drops near $100 on sale.'
+    },
+    {
+      id: 'keychron-k8-pro', name: 'Keychron K8 Pro (QMK/VIA)', brand: 'Keychron', category: 'keyboard',
+      price: 84.99, msrp: 99.99, rating: 4.6,
+      url: 'https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard',
+      highlight: 'A hot-swap TKL with full QMK/VIA remapping and wireless — enthusiast features for a budget price.',
+      features: ['TKL (87-key) layout', 'Hot-swap + QMK/VIA', 'Bluetooth 5.1 + USB-C', 'Gateron G Pro switches'],
+      tags: ['mechanical', 'tkl', 'wireless', 'wired', 'hotswap', 'tactile', 'linear', 'budget'],
+      valueNote: 'A fully programmable wireless TKL that undercuts most hot-swap boards.'
     }
   ];
 
