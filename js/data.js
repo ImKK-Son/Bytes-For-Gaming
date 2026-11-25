@@ -199,7 +199,7 @@
     /* ---------------- MICE ---------------- */
     {
       id: 'logi-superlight-2', name: 'Logitech G Pro X Superlight 2', brand: 'Logitech G', category: 'mouse',
-      price: 129.99, msrp: 159.99, rating: 4.7,
+      price: 139.99, msrp: 159.99, rating: 4.7,
       highlight: 'The esports standard: ~60g, flawless sensor, multi-day battery.',
       features: ['~60g ultralight', 'HERO 2 sensor (32K DPI)', 'Lightspeed wireless', 'Up to 95h battery'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'palmgrip', 'highdpi', 'premium'],
@@ -207,7 +207,7 @@
     },
     {
       id: 'razer-deathadder-v3', name: 'Razer DeathAdder V3 Pro', brand: 'Razer', category: 'mouse',
-      price: 119.99, msrp: 149.99, rating: 4.7,
+      price: 129.99, msrp: 149.99, rating: 4.7,
       highlight: 'The ergonomic icon, reborn ultralight for serious FPS players.',
       features: ['Ergonomic right-handed shape', '~63g', 'Focus Pro 30K sensor', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ergonomic', 'righthanded', 'fps', 'palmgrip', 'highdpi', 'premium'],
@@ -265,7 +265,7 @@
     },
     {
       id: 'steelseries-arctis-nova-pro', name: 'SteelSeries Arctis Nova Pro Wireless', brand: 'SteelSeries', category: 'headset',
-      price: 279.99, msrp: 349.99, rating: 4.5,
+      price: 274.99, msrp: 349.99, rating: 4.5,
       highlight: 'Flagship audio with active noise cancellation and a hot-swap dual-battery base.',
       features: ['Active noise cancellation', 'Dual-battery hot-swap base', 'Hi-fi drivers', 'Multi-system switching'],
       tags: ['wireless', 'hifi', 'noiseCancel', 'comfortLongSession', 'multiplatform', 'premium'],
@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEW ARRIVALS (added 2026-11-25) ---------------- */
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 129.99, msrp: 159.99, rating: 4.7,
+      highlight: 'A 54g esports flagship with an 8K-polling wireless sensor built for pure speed.',
+      features: ['54g ultra-light shell', 'Focus Pro 35K optical sensor', 'HyperPolling up to 8000Hz wireless', 'Gen-3 optical switches, ~95hr battery'],
+      tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
+      valueNote: 'With the Viper V4 Pro now out, the V3 Pro sells well under its $159.99 launch price — a top-tier FPS mouse at a real discount.',
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro'
+    },
+    {
+      id: 'logi-pro-x-60', name: 'Logitech G Pro X 60 Lightspeed', brand: 'Logitech G', category: 'keyboard',
+      price: 129.99, msrp: 179.99, rating: 4.3,
+      highlight: 'Logitech’s first wireless 60% board, with GX optical switches and KEYCONTROL layering.',
+      features: ['Compact 60% wireless layout', 'GX optical switches', 'KEYCONTROL remapping software', 'Lightspeed + Bluetooth, USB-C'],
+      tags: ['optical', 'compact60', 'wireless', 'rgb', 'linear', 'premium'],
+      valueNote: 'Steep at full MSRP, but it regularly drops toward $130 — a tournament-ready 60% for Logitech loyalists.',
+      url: 'https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-60-wireless-keyboard.html'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      highlight: 'The beloved Cloud comfort with a 120-hour battery and lag-free 2.4GHz wireless.',
+      features: ['Up to 120-hour battery life', '2.4GHz wireless, 20m range', 'Angled 53mm drivers', 'Detachable 10mm mic'],
+      tags: ['wireless', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Marathon battery life and signature Cloud comfort; one of the best-value wireless headsets when it dips below MSRP.',
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset'
     }
   ];
 
