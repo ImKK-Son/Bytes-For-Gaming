@@ -71,7 +71,8 @@
     'Endgame Gear': { site: 'https://www.endgamegear.com/',                 color: '#e10600' },
     'Roccat':       { site: 'https://www.roccat.com/',                      color: '#00b3e3' },
     'AndaSeat':     { site: 'https://www.andaseat.com/',                    color: '#d4a23a' },
-    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' }
+    'Audeze':       { site: 'https://www.audeze.com/',                      color: '#a8862f' },
+    'Wooting':      { site: 'https://wooting.io/',                          color: '#ff4d1c' }
   };
 
   /* ---------------------------------------------------------
@@ -215,11 +216,11 @@
     },
     {
       id: 'razer-viper-v2', name: 'Razer Viper V2 Pro', brand: 'Razer', category: 'mouse',
-      price: 99.99, msrp: 149.99, rating: 4.6,
+      price: 79.99, msrp: 149.99, rating: 4.6,
       highlight: 'Symmetrical ultralight built for raw competitive speed.',
       features: ['~58g ambidextrous shape', 'Focus Pro 30K sensor', 'Optical switches', 'HyperSpeed wireless'],
       tags: ['wireless', 'lightweight', 'ambidextrous', 'fps', 'clawgrip', 'highdpi', 'premium'],
-      valueNote: 'Frequently discounted to a great price for its tier.'
+      valueNote: 'Superseded by the V3 Pro, so it is now clearing out well below MSRP — a bargain while stock lasts.'
     },
     {
       id: 'logi-g502x', name: 'Logitech G502 X', brand: 'Logitech G', category: 'mouse',
@@ -1048,6 +1049,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---- NEW: 2026 FLAGSHIPS ---- */
+    {
+      id: 'wooting-80he', name: 'Wooting 80HE', brand: 'Wooting', category: 'keyboard',
+      price: 199.99, msrp: 199.99, rating: 4.8,
+      url: 'https://wooting.io/wooting-80he',
+      highlight: 'The Hall-effect darling: analog rapid trigger and per-key actuation that outclass normal switches.',
+      features: ['Lekker Hall-effect switches', 'Adjustable actuation + rapid trigger', '8 kHz polling, analog input', '80% gasket-mounted build'],
+      tags: ['mechanical', 'tkl', 'compact60', 'hallEffect', 'rapidTrigger', 'analog', 'wired', 'rgb', 'premium'],
+      valueNote: 'Holds its $199.99 MSRP — rarely discounted because demand outstrips supply.'
+    },
+    {
+      id: 'razer-viper-v3-pro', name: 'Razer Viper V3 Pro', brand: 'Razer', category: 'mouse',
+      price: 119.99, msrp: 159.99, rating: 4.8,
+      url: 'https://www.razer.com/gaming-mice/razer-viper-v3-pro',
+      highlight: 'The esports standard: ~54g symmetrical shell, 8 kHz HyperPolling, and a flawless 35K sensor.',
+      features: ['~54g ultralight ambidextrous shell', '8 kHz HyperPolling wireless', 'Focus Pro 35K optical sensor', '~95h battery life'],
+      tags: ['ambidextrous', 'lightweight', 'wireless', 'fps', 'esports', 'highdpi', 'premium'],
+      valueNote: 'Now ~$40 under MSRP as the V4 Pro arrives — the best it has ever been priced.'
+    },
+    {
+      id: 'corsair-virtuoso-max', name: 'Corsair Virtuoso Max Wireless', brand: 'Corsair', category: 'headset',
+      price: 279.99, msrp: 329.99, rating: 4.5,
+      url: 'https://www.corsair.com/us/en/p/gaming-headsets/ca-9011372-ww/virtuoso-max-wireless-gaming-headset-carbon-ca-9011372-ww',
+      highlight: 'A flagship wireless headset with Dolby Atmos, ANC, and a detachable broadcast-grade mic.',
+      features: ['Active noise cancellation', 'Dolby Atmos spatial audio', 'Bluetooth + SlipstreamWireless', 'Detachable omni-directional mic'],
+      tags: ['wireless', 'anc', 'hifi', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Street price sits ~$50 under its $329.99 MSRP, with frequent dips toward $249.'
     }
   ];
 
