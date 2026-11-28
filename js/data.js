@@ -1048,6 +1048,35 @@
       features: ['1080p/60 video', 'Sony STARVIS sensor', 'Manual Camera Hub controls', 'Onboard memory'],
       tags: ['1080p', 'autofocus', 'lowlight', 'streaming', 'wired', 'premium'],
       valueNote: 'Excellent 1080p streaming image with pro software control.'
+    },
+
+    /* ---------------- NEWLY ADDED ---------------- */
+    {
+      id: 'razer-huntsman-v3-pro', name: 'Razer Huntsman V3 Pro', brand: 'Razer', category: 'keyboard',
+      price: 179.99, msrp: 249.99, rating: 4.5,
+      url: 'https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro',
+      highlight: 'The full-size analog optical flagship — adjustable actuation, rapid trigger, and Snap Tap for FPS.',
+      features: ['Analog optical switches', 'Rapid Trigger + Snap Tap', 'Adjustable actuation (0.1–4.0mm)', 'Doubleshot PBT keycaps + wrist rest'],
+      tags: ['optical', 'fullsize', 'wired', 'rgb', 'linear', 'premium'],
+      valueNote: 'The TKL’s bigger sibling with a numpad; regularly discounted well below its $249.99 MSRP, so wait for a sale.'
+    },
+    {
+      id: 'glorious-model-d2-wireless', name: 'Glorious Model D 2 Wireless', brand: 'Glorious', category: 'mouse',
+      price: 69.99, msrp: 99.99, rating: 4.5,
+      url: 'https://www.gloriousgaming.com/products/glorious-model-d-2-wireless',
+      highlight: 'An ergonomic ~67g wireless ultralight for palm-grippers who want the Model O’s sensor in a right-handed shape.',
+      features: ['~67g ergonomic shell (no honeycomb)', 'BAMF 2.0 sensor (26K DPI)', 'Up to 200h battery', '2.4GHz, Bluetooth, and USB-C'],
+      tags: ['wireless', 'lightweight', 'ergonomic', 'fps', 'palmgrip', 'highdpi', 'premium'],
+      valueNote: 'The ergonomic answer to the Model O 2 Wireless; frequently drops to around $70 from its $99.99 list.'
+    },
+    {
+      id: 'hyperx-cloud-3-wireless', name: 'HyperX Cloud III Wireless', brand: 'HyperX', category: 'headset',
+      price: 149.99, msrp: 169.99, rating: 4.6,
+      url: 'https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset',
+      highlight: 'The comfort legend goes cord-free — 120h battery, angled 53mm drivers, and a clean 2.4GHz link.',
+      features: ['Up to 120h battery life', 'Angled 53mm drivers', 'Detachable 10mm mic', '2.4GHz wireless (PC/PS5)'],
+      tags: ['wireless', 'surround', 'detachableMic', 'comfortLongSession', 'multiplatform', 'premium'],
+      valueNote: 'Class-leading battery and comfort; sales often bring it near the wired Cloud III, so watch the price.'
     }
   ];
 
